@@ -83,9 +83,9 @@ class employee_grade(osv.osv):
         for employee_grade in self.browse(cr, uid, ids):
             year_min = datetime.datetime.strptime(employee_grade.date_start, '%Y-%m-%d').year
             year_max = employee_grade.date_end and datetime.datetime.strptime(employee_grade.date_end, '%Y-%m-%d').year
-            conds = [('year','>=',year_min)]
+            conds = [('employee_id','=',employee_grade.employee_id.id), ('year','>=',year_min)]
             if year_max:
-                conds += ('year','<=',year_max)
+                conds.append(('year','<=',year_max))
             eval_ids = self.pool.get('hr.evaluation').search(cr, uid, conds)
             evals = self.pool.get('hr.evaluation').browse(cr, uid, eval_ids)
             sum_ = sum([eval_.sum for eval_ in evals])
