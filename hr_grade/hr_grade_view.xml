@@ -15,6 +15,7 @@
             <field name="arch" type="xml">
                 <tree string="Employee Grades">
                     <field name="grade_id"/>
+                    <field name="echelon"/>
                     <field name="date_start"/>
                     <field name="date_end"/>
                 </tree>
