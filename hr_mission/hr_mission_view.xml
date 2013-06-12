@@ -2,6 +2,20 @@
 <openerp>
     <data>
         
+        <record id="hr_mission_view_search" model="ir.ui.view">
+            <field name="name">hr.mission.view.search</field>
+            <field name="model">hr.mission</field>
+            <field name="arch" type="xml">
+                <search string="Mission">
+                    <field name="employee_id"/>
+                    <group string="State">
+                        <filter name="Draft" domain="[('state','=','draft')]"/>
+                        <filter name="Validated" domain="[('state','=','validate')]"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
         <record id="hr_mission_view_form" model="ir.ui.view">
             <field name="name">hr.mission.view.form</field>
             <field name="model">hr.mission</field>

@@ -7,6 +7,7 @@
 <body>
     %for emp in objects :
     <!-- % setLang(inv.partner_id.lang) % -->
+    <% setLang('ar_SY') %>
     <h1 style="text-align:center">
 شهادة العمل<br/>
 ATTESTATION DE TRAVAIL 
@@ -56,8 +57,6 @@ Le Président de l'Université Hassan 1er de Settat atteste que Mr/Mme:
          <td align="right">تاريخ ولوج الوظيفة العمومية</td>
       </tr>
     </table>
-
-    -- name: ${emp.name}
 
     <p style="page-break-after:always"></p>
     %endfor
