@@ -97,9 +97,9 @@ class employee_grade(osv.osv):
         res = {}
         for employee_grade in self.browse(cr, uid, ids):
             avg = employee_grade.evaluation_avg
-            if avg > 16:
+            if avg >= 16:
                 pace = 'F'
-            elif avg > 12:
+            elif avg >= 10:
                 pace = 'M'
             else:
                 pace = 'S'
