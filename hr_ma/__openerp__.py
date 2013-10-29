@@ -45,7 +45,7 @@ HR Localization
     'test': [
     ],
     'installable': True,
-    'active': True,
+    'active': False,
     'application': False,
     'auto_install': False,
     'css': [],
