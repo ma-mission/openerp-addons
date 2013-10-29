@@ -139,7 +139,7 @@ class salary_import(osv.osv_memory):
                 'name': employee.employee_name.rstrip(),
                 'gender': employee.gender == 'F' and 'female' or 'male',
                 #'country_id': employee.nationality,
-                'birthday': (len(employee.birth_date) == 4) and datetime.strptime(employee.birth_date, '%Y')
+                'birthday': (employee.birth_date[0:4] == '0000') and datetime.strptime(employee.birth_date, '0000%Y')
                              or datetime.strptime(employee.birth_date, '%d%m%Y'),
                 'public_employment_date': datetime.strptime(employee.employment_date, '%d/%m/%Y'),
             }
@@ -147,9 +147,9 @@ class salary_import(osv.osv_memory):
                 employee_id = employee_ids[0]
                 self.pool.get('hr.employee').write(cr, uid, employee_id, val),
                 _logger.info('updated user .. %s' % repr(val))
-            else: # create
-                employee_id = self.pool.get('hr.employee').create(cr, uid, val),
-                _logger.info('created user .. %s' % repr(employee_id))
+            #else: # create
+                #employee_id = self.pool.get('hr.employee').create(cr, uid, val),
+                #_logger.info('created user .. %s' % repr(employee_id))
             # import grade info
             current_grade_ids = self.pool.get('hr.employee.grade').search(cr, uid, [('employee_id', '=', employee_id),
                                                                                     #('date_end', '<', employee.wizard_id.date),
@@ -174,7 +174,7 @@ class salary_import(osv.osv_memory):
                     'index': employee.index,
                 }
                 _logger.info('create employee grade val .. %s' % repr(val))
-                grade = self.pool.get('hr.employee.grade').create(cr, uid, val)
+                #grade = self.pool.get('hr.employee.grade').create(cr, uid, val)
 
             payslip_id = self.pool.get('hr.payslip').search(cr, uid, [('date_start', '=', date_start),
                                                                   ('date_end', '=', info_date_end),
@@ -237,7 +237,7 @@ class salary_import(osv.osv_memory):
         #data = [ row.split('|') for row in base64.decodestring(this.data).split('\n')]
         #_logger.info('importing.. %s' % repr(data))
         data = this.employee_data
-        data = data and [row.split('|')+[me] for row in base64.decodestring(data).split('\n') if row != ''] or []
+        data = data and [(row+me).split('|') for row in base64.decodestring(data).split('\n') if row != ''] or []
         _logger.info('importing.. %s' % repr(data))
         fields = [
             'employee_id',
