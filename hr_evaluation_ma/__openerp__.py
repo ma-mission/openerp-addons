@@ -37,6 +37,7 @@ Evaluation
     'data': [
         'security/ir.model.access.csv',
         'hr_evaluation_view.xml',
+        'hr_evaluation_report.xml',
     ],
     'demo': [],
     'test': [],

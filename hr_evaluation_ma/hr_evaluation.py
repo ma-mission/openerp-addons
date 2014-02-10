@@ -21,10 +21,13 @@
 import datetime
 
 from osv import fields, osv
+import logging
 
 class evaluation(osv.osv):
     _name = "hr.evaluation"
     _description = ""
+
+    __logger = logging.getLogger('hr_evaluation')
 
     def _get_sum(self, cr, uid, ids, field_name, arg, context=None):
         res = {}
@@ -33,6 +36,44 @@ class evaluation(osv.osv):
                     eval_.organization_eval + eval_.conduct_eval +
                     eval_.innovation_eval)
             res[eval_.id] = sum_
+        return res
+        
+    def _get_grade_id(self, cr, uid, ids, field_name, arg, context=None):
+        res = {}
+        for eval_ in self.browse(cr, uid, ids):
+            res[eval_.id] = eval_.employee_id.current_grade_id.id
+        return res
+        
+    def _get_grade_start(self, cr, uid, ids, field_name, arg, context=None):
+        res = {}
+        for eval_ in self.browse(cr, uid, ids):
+            employee = eval_.employee_id.id
+            self.__logger.info('grade id: %s' % eval_.grade_id.id)
+            #self.__logger.info('grade name: %s' % eval_.grade_id.grade_id.name)
+            grade = eval_.grade_id.grade_id.id
+            grade_ids = self.pool.get('hr.employee.grade').search(
+                cr, uid, [('employee_id', '=', employee),
+                          ('grade_id', '=', grade)],
+                order='echelon')
+            grade_start = self.pool.get('hr.employee.grade').browse(cr, uid, grade_ids[0]).date_start
+            res[eval_.id] = grade_start
+        return res
+        
+    def _get_mark(self, cr, uid, ids, field_name, arg, context=None):
+        res = {}
+        for evaluation in self.browse(cr, uid, ids):
+            ev = evaluation.sum
+            if ev >= 18:
+                mark = 'E'
+            elif avg >= 16:
+                mark = 'V'
+            elif avg >= 14:
+                mark = 'G'
+            elif avg >= 10:
+                mark = 'A'
+            else:
+                mark = 'W'
+            res[evaluation.id] = mark
         return res
         
     _columns = {
@@ -44,6 +85,17 @@ class evaluation(osv.osv):
         'conduct_eval': fields.integer('Conduct evaluation'),
         'innovation_eval': fields.integer('Innovation evaluation'),
         'sum': fields.function(_get_sum, string='Sum', type='integer', readOnly=True, store=True),
+        #'grade_id': fields.related('employee_id', 'current_grade_id', string='Grade',
+        'grade_id': fields.function(_get_grade_id, string='Grade',
+                                    type='many2one', relation='hr.employee.grade', readOnly=True, store=True),
+        'grade_start': fields.function(_get_grade_start, string='Grade start', type='date', readOnly=True),  #, store=True),
+        'mark': fields.function(_get_mark, string='Mark', type='selection',
+                                selection=[('E', 'Excellent'),
+                                           ('V', 'Very good'),
+                                           ('G', 'Good'),
+                                           ('A', 'Average'),
+                                           ('W', 'Weak'),], 
+                                readOnly=True),
     }
 
     _defaults = {
@@ -106,12 +158,16 @@ class employee_grade(osv.osv):
             res[employee_grade.id] = pace
         return res
         
+    def _search_by_pace(self, cr, uid, obj, name, args, context):
+        pass
+
     _columns = {
         'evaluation_avg': fields.function(_get_avg, string='Evaluation average', type='float'),
         'advancement_pace': fields.function(_get_pace, string='Advancement pace', type='selection',
                                 selection=[('F', 'Fast'),
                                            ('M', 'Medium'),
                                            ('S', 'Slow'),], 
+                                store=True,  # for search
                                 readOnly=True),
     }
 
