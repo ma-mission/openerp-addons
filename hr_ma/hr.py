@@ -55,6 +55,9 @@ class employee(osv.osv):
         'surname_latin': fields.char('Surname Lat', size=40),
         'employee_id': fields.integer('Employee ID', required=True),
         'public_employment_date': fields.date('Employment Date'),
-        'work_start_date': fields.date('Work Start Date'),
+        #'work_start_date': fields.date('Work Start Date'),
+        'job_start_date': fields.date('Job Start Date'),
+        'birthplace': fields.char('Birth place', size=32),
+        'children': fields.integer('Children'),
     }
 employee()

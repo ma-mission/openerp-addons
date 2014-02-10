@@ -52,8 +52,8 @@ Le Président de l'Université Hassan 1er de Settat atteste que Mr/Mme:
          <td align="right">مقر العمل</td>
       </tr>
       <tr>
-         <td>Date d'affection dans l'administration publique</td>
-         <td colspan="2" align="center">${emp.public_employment_date}</td>
+         <td colspan="2">Date d'affection dans l'administration publique</td>
+         <td align="center">${emp.public_employment_date}</td>
          <td align="right">تاريخ ولوج الوظيفة العمومية</td>
       </tr>
     </table>

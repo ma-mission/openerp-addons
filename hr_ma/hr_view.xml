@@ -31,10 +31,16 @@
                             <group string="Basic Info">
                                 <field name="employee_id"/>
                                 <field name="public_employment_date"/>
-                                <field name="work_start_date"/>
+                                <field name="job_start_date"/>
                             </group>
                         </page>
                     </page>
+		    <field name="birthday" position="after">
+                        <field name="birthplace"/>
+		    </field>
+		    <field name="marital" position="after">
+                        <field name="children"/>
+		    </field>
                 </data>
             </field>
         </record>
