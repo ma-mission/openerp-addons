@@ -147,20 +147,21 @@ class salary_import(osv.osv_memory):
                 employee_id = employee_ids[0]
                 self.pool.get('hr.employee').write(cr, uid, employee_id, val),
                 _logger.info('updated user .. %s' % repr(val))
-            #else: # create
-                #employee_id = self.pool.get('hr.employee').create(cr, uid, val),
-                #_logger.info('created user .. %s' % repr(employee_id))
+            else: # next
+                continue
             # import grade info
-            current_grade_ids = self.pool.get('hr.employee.grade').search(cr, uid, [('employee_id', '=', employee_id),
-                                                                                    #('date_end', '<', employee.wizard_id.date),
-                                                                                    ('date_end', '=', info_date_end)],
-                                                                          limit=1, order='date_start desc')
-            _logger.info('create - current grade .. %s' % repr(current_grade_ids))
-            cgrade = self.pool.get('hr.employee.grade').browse(cr, uid, current_grade_ids)
-            cgrade = cgrade and cgrade[0]
-            # if new close old
-            if cgrade and ((cgrade.grade_id.id, cgrade.echelon, cgrade.index) !=
-                          (employee.grade_id.id, employee.echelon, employee.index)):
+            #current_grade_ids = self.pool.get('hr.employee.grade').search(cr, uid, [('employee_id', '=', employee_id),
+            #                                                                        #('date_end', '<', employee.wizard_id.date),
+            #                                                                        ('date_end', '=', info_date_end)],
+            #                                                              limit=1, order='date_start desc')
+            #_logger.info('create - current grade .. %s' % repr(current_grade_ids))
+            #cgrade = self.pool.get('hr.employee.grade').browse(cr, uid, current_grade_ids)
+            #cgrade = cgrade and cgrade[0]
+            cgrade = self.pool.get('hr.employee').browse(cr,uid, employee_id).current_grade_id
+            # extend old
+            if (cgrade and ((cgrade.grade_id.id, cgrade.echelon, cgrade.index) !=
+                          (employee.grade_id.id, employee.echelon, employee.index))
+                and cgrade.date_end < employee.date_end):
                 self.pool.get('hr.employee.grade').write(cr, uid, cgrade.id, {'date_end': date_end})
             # create new
             if not(cgrade and (cgrade.grade_id.id, cgrade.echelon, cgrade.index) ==
@@ -174,14 +175,16 @@ class salary_import(osv.osv_memory):
                     'index': employee.index,
                 }
                 _logger.info('create employee grade val .. %s' % repr(val))
-                #grade = self.pool.get('hr.employee.grade').create(cr, uid, val)
+                grade = self.pool.get('hr.employee.grade').create(cr, uid, val)
 
             payslip_id = self.pool.get('hr.payslip').search(cr, uid, [('date_start', '=', date_start),
-                                                                  ('date_end', '=', info_date_end),
+                                                                  #('date_end', '=', info_date_end),
                                                                   ('employee_id', '=', employee_id)])
             _logger.info('create - cheking .. %s' % repr(payslip_id))
             if payslip_id:
-                self.pool.get('hr.payslip').write(cr, uid, payslip_id, {'date_end': date_end})
+                payslip = self.pool.get('hr.payslip').browse(cr, uid, payslip_id)
+                if payslip.date_end < date_end:  # extend
+                    self.pool.get('hr.payslip').write(cr, uid, payslip_id, {'date_end': date_end})
             else:
                 # create payslip
                 val = {
