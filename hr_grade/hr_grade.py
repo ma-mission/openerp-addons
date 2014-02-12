@@ -59,9 +59,14 @@ class employee_grade(osv.osv):
         'index': fields.integer('Index'),
         'date_start': fields.date('Start date'),
         'date_end': fields.date('End date'),
+        'state': fields.selection([('draft', 'Draft'),
+                                   ('proposal', 'Proposal'),
+                                   ('current', 'Current'),
+                                   ('old', 'Old')], 'State'),
     }
 
     _defaults = {
+        'state': 'draft',
         'date_start': lambda *a: time.strftime("%Y-%m-01"), # first day of month
     }
 

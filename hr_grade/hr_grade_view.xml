@@ -13,11 +13,13 @@
             <field name="name">hr.employee.grade.tree</field>
             <field name="model">hr.employee.grade</field>
             <field name="arch" type="xml">
-                <tree string="Employee Grades">
+		    <tree string="Employee Grades"
+		      colors="blue:state=='draft';green:state=='proposal';gray:state=='old'">
                     <field name="grade_id"/>
                     <field name="echelon"/>
                     <field name="date_start"/>
                     <field name="date_end"/>
+		    <field name="state" invisible="True"/>
                 </tree>
             </field>
         </record>
