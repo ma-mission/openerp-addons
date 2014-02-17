@@ -80,9 +80,16 @@ class advancementWizard(osv.osv_memory):
                 proposal_id = (proposal_ids and proposal_ids[0] or
                                proposal_pool.create(cr, uid, {'year': year, 'grade_id': rule.grade_id.id}))
                 # add employee proposal
-                for employee_grade_id in employee_grade_ids:
-                    employee_advancement_pool.create(cr, uid, {'proposal_id': proposal_id,
-                                                               'employee_grade_id': employee_grade_id})
+                employee_grades = self.pool.get('hr.employee.grade').browse(cr, uid, employee_grade_ids)
+                for employee_grade in employee_grades:
+                    employee_advancement_proposal = {
+                        'proposal_id': proposal_id,
+                        'employee_id': employee_grade.employee_id.id,
+                        'grade_id': employee_grade.grade_id.id,
+                        'echelon': employee_grade.echelon + 1,
+                        'state': 'proposal',
+                    }
+                    employee_advancement_pool.create(cr, uid, employee_advancement_proposal)
 
         action={
             'string': 'Advancement proposals',
