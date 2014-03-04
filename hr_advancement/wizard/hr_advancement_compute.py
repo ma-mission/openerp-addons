@@ -26,12 +26,6 @@ import logging
 
 _logger = logging.getLogger('adv_wiz')
 
-def _add_months(date_, months):
-    date_ = datetime.strptime(date_, '%Y-%m-%d')
-    month_abs = date_.year * 12 + date_.month + months - 1
-    date_ret = date(month_abs // 12, month_abs % 12 + 1, date_.day) 
-    return date_ret
-
 
 class advancementWizard(osv.osv_memory):
     _name = 'hr.advancement.wizard'
@@ -45,6 +39,12 @@ class advancementWizard(osv.osv_memory):
         'year': 2013,  # lambda a: date.today().year
     }
 
+
+    def _add_months(self, date_, months):
+        date_ = datetime.strptime(date_, '%Y-%m-%d')
+        month_abs = date_.year * 12 + date_.month + months - 1
+        date_ret = date(month_abs // 12, month_abs % 12 + 1, date_.day) 
+        return date_ret
 
     def compute(self, cr, uid, ids, context=None):
         #year = 2014
@@ -72,7 +72,7 @@ class advancementWizard(osv.osv_memory):
                 months = rule.months_medium
             else:
                 months = rule.months
-            advancement_date = _add_months(employee_grade.date_start, months)
+            advancement_date = self._add_months(employee_grade.date_start, months)
             if advancement_date.year < target_year:
                 # Get or create advancement proposal
                 proposal_ids = proposal_pool.search(cr, uid, [('year', '=', year), ('grade_id', '=', rule.grade_id.id)])
