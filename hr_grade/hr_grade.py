@@ -17,6 +17,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
+
 import time
 
 from osv import fields, osv
@@ -45,6 +46,7 @@ class grade(osv.osv):
 
 grade()
 
+
 class employee_grade(osv.osv):
     _name = "hr.employee.grade"
     _description = ""
@@ -71,6 +73,7 @@ class employee_grade(osv.osv):
 
 employee_grade()
 
+
 class employee(osv.osv):
     _inherit = "hr.employee"
     _name = "hr.employee"
@@ -94,6 +97,5 @@ class employee(osv.osv):
     }
 
 employee()
-
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
