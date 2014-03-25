@@ -102,6 +102,8 @@ Etat du salaire du ${ps.date_start} au ${ps.date_end}
   </tr>
 </table>
 
+<p>Settat, le ${'%d/%m/%Y' | time.strftime}</p>
+
 <p style="page-break-after:always">&nbsp;</p>
 %endfor
 </body>
