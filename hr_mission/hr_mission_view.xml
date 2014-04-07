@@ -29,13 +29,16 @@
                 <sheet>
                     <group>
                         <group>
-                            <field name="employee_id"/>
                             <field name="object"/>
-                            <field name="city"/>
+                            <field name="employee_id"/>
                         </group>
                         <group>
                             <field name="date_start"/>
                             <field name="date_end"/>
+                            <field name="city_from"/>
+                            <field name="city_to"/>
+                            <field name="transport"/>
+			    <field name="driver_id" attrs="{'invisible':[('transport','&lt;&gt;','car')]}"/>
                         </group>
                     </group>
                 </sheet>
@@ -49,8 +52,8 @@
             <field name="arch" type="xml">
                 <tree string="Contracts">
                     <field name="employee_id"/>
+                    <field name="object"/>
                     <field name="date_start"/>
-                    <field name="date_end"/>
                 </tree>
             </field>
         </record>

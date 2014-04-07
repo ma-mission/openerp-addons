@@ -21,19 +21,19 @@
 
 
 {
-    'name': 'MA Mission',
+    'name': 'Mission',
     'version': '1.0',
     'category': '',
     'description': """
-Ordres de missions
-======================================
+Missions
+========
 
-    * item
+    * Ordres de missions
 
     """,
     'author': 'UH1',
     'website': 'http://www.uh1.ac.ma',
-    'depends': ['hr'],
+    'depends': ['hr', 'l10n_ma_base'],
     'data': [
         'security/ir.model.access.csv',
         'hr_mission_view.xml',
