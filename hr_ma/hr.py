@@ -60,3 +60,13 @@ class employee(osv.osv):
         'children': fields.integer('Children'),
     }
 employee()
+
+
+class hr_job(osv.osv):
+    _inherit = 'hr.job'
+
+    _columns = {
+        'name': fields.char('Job Name', size=128, required=True, select=True, translate=True),
+    }
+hr_job()
+
