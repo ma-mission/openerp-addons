@@ -45,5 +45,31 @@
             </field>
         </record>
 
+        <record id="view_employee_tree" model="ir.ui.view">
+            <field name="name">hr.employee.tree_ma</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_tree"/>
+            <field name="arch" type="xml">
+                <data>
+                    <field name="name" position="after">
+                        <field name="gender" invisible="1"/>
+                    </field>
+                </data>
+            </field>
+        </record>
+
+        <record id="view_employee_filter" model="ir.ui.view">
+            <field name="name">hr.employee.filter_ma</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_filter"/>
+            <field name="arch" type="xml">
+                <data>
+                    <group string="Group By..." position="inside">
+                        <filter string="Gender" domain="[]" context="{'group_by':'gender'}"/>
+                    </group>
+                </data>
+            </field>
+        </record>
+
     </data>
 </openerp>
