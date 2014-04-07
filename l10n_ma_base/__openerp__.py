@@ -20,17 +20,19 @@
 ##############################################################################
 
 {
-    'name' : 'Maroc Université',
+    'name' : 'Maroc',
     'version' : '1.0',
-    'author' : 'zakaria',
+    'author' : 'UH1',
     'category' : 'Localization',
     'description': """
-Localization Module - Université Maroc
-=================================================================
+Localization Module - Maroc
+===========================
 """,
     'website': 'http://www.uh1.ac.ma',
     'depends' : ['base'],
     'data' : [
+        'data/res.country.state.csv',
+        'data/res.city.csv',
     ],
     'demo' : [],
     'auto_install': False,
