@@ -38,7 +38,8 @@ HR Localization
     'depends': ['hr', 'report_webkit'],
     'data': [
         'hr_report.xml',
-        'hr_view.xml'
+        'hr_view.xml',
+        'data/hr.job.csv',
     ],
     'demo': [],
     'test': [
