@@ -81,9 +81,11 @@ class employee(osv.osv):
     def _get_cur_grade_id(self, cr, uid, ids, field_name, arg, context):
         res = {}
         for id in ids:
-            cur_grade_id = self.pool.get('hr.employee.grade').search(cr, uid, [('employee_id', '=', id)],
-              limit=1, order='date_start desc')
-        res[id] = cur_grade_id
+            cur_grade_ids = self.pool.get('hr.employee.grade').search(
+                    cr, uid, [('employee_id', '=', id),
+                              ('state', '=', 'current')],
+                    limit=1, order='date_start desc')
+            res[id] = cur_grade_ids and cur_grade_ids[0] or None
         return res
 
     _columns = {
@@ -93,7 +95,10 @@ class employee(osv.osv):
             type='many2one',
             obj="hr.employee.grade",
             method=True,
-            string='Grade'),
+            readonly=True,
+            string='Employee Grade'),
+        'grade_id': fields.related('current_grade_id', 'grade_id', type='many2one',
+                                    relation='hr.grade', string='Grade', readonly=True, store=True),
     }
 
 employee()

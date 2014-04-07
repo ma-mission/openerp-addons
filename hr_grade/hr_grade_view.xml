@@ -67,6 +67,33 @@
             </field>
         </record>
 
+        <record id="view_employee_tree" model="ir.ui.view">
+            <field name="name">hr.employee.tree_grade</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_tree"/>
+            <field name="arch" type="xml">
+                <data>
+                    <field name="name" position="after">
+                        <field name="grade_id"/>
+                        <!--field name="grade_id" invisible="1"/-->
+                    </field>
+                </data>
+            </field>
+        </record>
+
+        <record id="view_employee_filter" model="ir.ui.view">
+            <field name="name">hr.employee.filter_grade</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_filter"/>
+            <field name="arch" type="xml">
+                <data>
+                    <group string="Group By..." position="inside">
+                        <filter string="Grade" domain="[]" context="{'group_by':'grade_id'}"/>
+                    </group>
+                </data>
+            </field>
+        </record>
+
 
         <menuitem action="action_hr_grade" id="hr_menu_grade" name="Grades" parent="hr.menu_hr_configuration" groups="base.group_no_one"/>
 
