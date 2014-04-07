@@ -5,6 +5,7 @@ table{width:100%;max-width:100%;border-collapse:collapse;font-family:arial;font-
 tr{min-height:1cm;height:auto;}
 th, td{border:1px solid #000;text-align:center;}
 th{height:1cm;}
+table.borderless td{border:0}
 ${css}
 </style>
 </head>
@@ -56,8 +57,17 @@ Etat du salaire du ${ps.date_start} au ${ps.date_end}
     <td></td>
     <td>${ps.employee_id.current_grade_id.echelon}</td>
     <td>${ps.employee_id.current_grade_id.index}</td>
-    <td>${ps.employee_id.gender}</td>
-    <td>${ps.employee_id.country_id.name}</td>
+    <%
+    def genderCode(g):
+        if g=='male':
+            return 'M'
+        elif g=='female':
+            return 'F'
+        else:
+            return ''
+    %>
+    <td>${ps.employee_id.gender | genderCode}</td>
+    <td>${ps.employee_id.country_id.code}</td>
     <td>${ps.marital_status}</td>
     <td>${ps.children_number}</td>
     <td>${ps.deduction_rate}</td>
@@ -70,19 +80,37 @@ Etat du salaire du ${ps.date_start} au ${ps.date_end}
     <th>RETENUES ANNUELLES</th>
   </tr>
   <tr>
-    <td>
+    <td style="vertical-align:top;">
+      <table class="borderless">
       %for line in ps.line_ids:
         %if line.salary_rule_id.positive:
-          ${line.salary_rule_id.name} - ${line.amount}<br/>
+	  <tr>
+	    <td style="text-align:left;">
+            ${line.salary_rule_id.name}
+	    </td>
+	    <td style="text-align:right;">
+            ${line.amount}
+	    </td>
+	  </tr>
         %endif
       %endfor
+      </table>
     </td>
-    <td>
+    <td style="vertical-align:top;">
+      <table class="borderless">
       %for line in ps.line_ids:
         %if not line.salary_rule_id.positive:
-          ${line.salary_rule_id.name} - ${line.amount}<br/>
+	  <tr>
+	    <td style="text-align:left;">
+            ${line.salary_rule_id.name}
+	    </td>
+	    <td style="text-align:right;">
+            ${line.amount}
+	    </td>
+	  </tr>
         %endif
       %endfor
+      </table>
     </td>
   </tr>
 </table>
