@@ -72,6 +72,17 @@ class EmployeeAdvancementProposal(osv.osv):
         'proposal_id': fields.many2one('hr.advancement.proposal', 'Advancement Proposal'),
     }
 
+    def unlink(self, cr, uid, ids, context=None):
+        employee_grade_ids = []
+        for advancement_proposal in self.browse(cr, uid, ids, context=context):
+            if advancement_proposal.employee_grade_id.status == 'proposal':
+                employee_grade_ids.append(advancement_proposal.employee_grade_id.id)
+        employee_grade_ids = [
+                proposal.employee_grade_id.id
+                for proposal in self.browse(cr, uid, ids, context=context)
+                if proposal.employee_grade_id.status == 'proposal']
+        return self.pool.get('hr.employee.grade').unlink(cr, uid, employee_grade_ids, context=context)
+
 EmployeeAdvancementProposal()
 
 
