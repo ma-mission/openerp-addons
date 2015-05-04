@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <report auto="False" id="report_hr_payslip" model="hr.payslip" name="report.hr.payslip" file="hr_payroll_ma/report/payslip.mako" string="Payslip" report_type="webkit"/>
+
+    </data>
+</openerp>

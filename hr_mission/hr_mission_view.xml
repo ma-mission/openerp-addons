@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <record id="hr_mission_view_search" model="ir.ui.view">
+            <field name="name">hr.mission.view.search</field>
+            <field name="model">hr.mission</field>
+            <field name="arch" type="xml">
+                <search string="Mission">
+                    <field name="employee_id"/>
+                    <group string="State">
+                        <filter name="Draft" domain="[('state','=','draft')]"/>
+                        <filter name="Validated" domain="[('state','=','validate')]"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record id="hr_mission_view_form" model="ir.ui.view">
+            <field name="name">hr.mission.view.form</field>
+            <field name="model">hr.mission</field>
+            <field name="arch" type="xml">
+                <form string="Mission" version="7.0">
+                <header>
+                    <button string="Validate" name="validate" states="draft" type="workflow" groups="base.group_hr_manager" class="oe_highlight"/>
+                    <button string="Refuse" name="refuse" states="draft,validate" type="workflow" groups="base.group_hr_manager"/>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,validate" statusbar_colors='{"validate":"blue","refuse":"red"}'/>
+                </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="object"/>
+                            <field name="employee_id"/>
+                        </group>
+                        <group>
+                            <field name="date_start"/>
+                            <field name="date_end"/>
+                            <field name="city_from"/>
+                            <field name="city_to"/>
+                            <field name="transport"/>
+			    <field name="driver_id" attrs="{'invisible':[('transport','&lt;&gt;','car')]}"/>
+                        </group>
+                    </group>
+                </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="hr_mission_view_tree" model="ir.ui.view">
+            <field name="name">hr.mission.view.tree</field>
+            <field name="model">hr.mission</field>
+            <field name="arch" type="xml">
+                <tree string="Contracts">
+                    <field name="employee_id"/>
+                    <field name="object"/>
+                    <field name="date_start"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_hr_mission" model="ir.actions.act_window">
+            <field name="name">Missions</field>
+            <field name="res_model">hr.mission</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem action="action_hr_mission" id="hr_menu_mission" parent="hr.menu_hr_main" name="Missions" groups="base.group_hr_manager"/>
+
+    </data>
+</openerp>

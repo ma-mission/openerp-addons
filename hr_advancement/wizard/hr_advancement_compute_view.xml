@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_hr_advancement_wizard" model="ir.ui.view">
+            <field name="name">Advancement wizard</field>
+            <field name="model">hr.advancement.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Advancement wizard" version="7.0">
+                    <group col="4" colspan="6">
+                        <field name="year"/>
+                    </group>
+                    <footer>
+                        <button string="Compute" name="compute" type="object" />
+                        or
+                        <button string="Cancel" class="oe_link" special="cancel" />
+                    </footer>
+
+                </form>
+            </field>
+        </record>
+
+
+        <record id="action_hr_salary_advancement_wizard" model="ir.actions.act_window">
+            <field name="name">Advancement wizard</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">hr.advancement.wizard</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+
+        <menuitem action="action_hr_salary_advancement_wizard" id="hr_menu_advancement_wizard" parent="hr.menu_hr_configuration" groups="base.group_no_one"/>
+
+    </data>
+</openerp>

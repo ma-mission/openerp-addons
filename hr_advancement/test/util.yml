@@ -1,0 +1,7 @@
+-
+  Test _add_months in hr.advancement.wizard
+- 
+  !python {model: hr.advancement.wizard}: |
+      from datetime import date
+      assert self._add_months('2013-05-02', 6) == date(2013,11,2), "Date computing wrong!"
+      assert self._add_months('2013-08-02', 6) == date(2014,2,2), "Date computing wrong!"

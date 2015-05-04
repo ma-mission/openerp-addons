@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_hr_salary_import" model="ir.ui.view">
+            <field name="name">Import Wizard</field>
+            <field name="model">hr.salary.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Salary Import" version="7.0">
+                    <group col="4" colspan="6">
+                        <field name="date"/>
+                        <newline/>
+                        <field name="employee_data"/>
+                        <newline/>
+                        <field name="salary_data"/>
+                    </group>
+                    <footer>
+                        <button string="Import" name="import_salaries" type="object" />
+                        or
+                        <button string="Cancel" class="oe_link" special="cancel" />
+                    </footer>
+
+                </form>
+            </field>
+        </record>
+
+
+        <record id="action_hr_salary_import_wizard" model="ir.actions.act_window">
+            <field name="name">Import Payslips</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">hr.salary.wizard</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+
+        <menuitem action="action_hr_salary_import_wizard" id="hr_menu_import" parent="hr.menu_hr_configuration" groups="base.group_no_one"/>
+
+    </data>
+</openerp>

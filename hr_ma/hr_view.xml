@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <!--Employee form view -->
+        <record id="view_employee_form" model="ir.ui.view">
+            <field name="name">hr.employee.form_ma_uni</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <data>
+                    <field name="name" position="replace">
+                        <field name="name"/>
+                    </field>
+                    <notebook position="before">
+                        <group>
+                            <group>
+                                <!--label for="givenname" string="Prénom Ar" class="oe_edit_only"/-->
+                                <field name="givenname" on_change="compute_name(givenname, surname)"/>
+                                <!--label for="surname" string="Nom Ar" class="oe_edit_only"/-->
+                                <field name="surname" on_change="compute_name(givenname, surname)"/>
+                            </group>
+                            <group>
+                                <field name="givenname_latin"/>
+                                <field name="surname_latin"/>
+                            </group>
+                        </group>
+                    </notebook>
+                    <page string="Public Information" position="before">
+                        <page string="Basic Information">
+                            <group string="Basic Info">
+                                <field name="employee_id"/>
+                                <field name="public_employment_date"/>
+                                <field name="job_start_date"/>
+                            </group>
+                        </page>
+                    </page>
+		    <field name="birthday" position="after">
+                        <field name="birthplace"/>
+		    </field>
+		    <field name="marital" position="after">
+                        <field name="children"/>
+		    </field>
+                </data>
+            </field>
+        </record>
+
+        <record id="view_employee_tree" model="ir.ui.view">
+            <field name="name">hr.employee.tree_ma</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_tree"/>
+            <field name="arch" type="xml">
+                <data>
+                    <field name="name" position="after">
+                        <field name="gender" invisible="1"/>
+                    </field>
+                </data>
+            </field>
+        </record>
+
+        <record id="view_employee_filter" model="ir.ui.view">
+            <field name="name">hr.employee.filter_ma</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_filter"/>
+            <field name="arch" type="xml">
+                <data>
+                    <group string="Group By..." position="inside">
+                        <filter string="Gender" domain="[]" context="{'group_by':'gender'}"/>
+                    </group>
+                </data>
+            </field>
+        </record>
+
+    </data>
+</openerp>

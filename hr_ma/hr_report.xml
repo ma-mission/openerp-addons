@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <report auto="False" id="report_hr_at" model="hr.employee" name="report.hr.at" file="hr_ma/report/at.mako" string="Employee Info" report_type="webkit"/>
+
+    </data>
+</openerp>
