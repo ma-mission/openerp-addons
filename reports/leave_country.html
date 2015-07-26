@@ -1,0 +1,79 @@
+<html>
+<head>
+    <style type="text/css">
+        ${css}
+    </style>
+</head>
+<body >
+	<%import datetime%>
+	 
+    %for emp in objects :
+	<h3 style="text-align:right">Réf: ${data['form']['doc_ref'] or ''}</h3>
+    </br></br></br></br></br>
+    <h1 style="text-align:center">
+	AUTORISATION DE QUITTER<br/>
+	LE TERRITOIRE NATIONAL
+    </h1>
+	</br></br></br><br/><br/><br/>
+	<div style="text-align:right;font-size:20px;bold;"><u>S.O.M: ${emp.doti or ''}</u></</div>
+	<div style="text-align:right;font-size:20px;bold;"><u>C.I.N: ${emp.cin or ''}</u></div>
+	<table width="100%" border="0">
+      <tr>
+         <td>PRENOM</td>
+         <td style="text-align:left;font-size:20px;bold;">: ${emp.lastname or ''}</td>
+      </tr>
+     <tr>
+         <td>NOM</td>
+         <td style="text-align:left;font-size:20px;bold;">: ${emp.name or ''}</td>
+      </tr>
+     <tr>
+         <td>GRADE</td>
+         <td style="text-align:left;font-size:20px;bold;">: ${emp.poste or ''} ${emp.category or ''}</td>
+      </tr>
+     <tr>
+         <td>ADRESSE PERSONNELLE</td>
+         <td style="text-align:left;font-size:20px;bold;">: ${data['form']['adress'] or emp.adress or ''}, ${emp.city or ''}</td>
+      </tr>
+	  <tr>
+         <td>AFFECTATION</td>
+         <td style="text-align:left;font-size:20px;bold;">: ${company.partner_id.name or ''}</td>
+      </tr>
+     
+     </table>
+	 <%def date_conv(d):return datetime.datetime.strptime(d,"%Y-%m-%d").strftime("%d/%m/%Y")%>
+	 <p style="font-size:18px;"> A   l’honneur de solliciter une autorisation  d’absence  du  ${date_conv(data['form']['start_date']) or ''}   au  ${date_conv(data['form']['end_date']) or ''}.</p>
+
+<p style="font-size:18px;">MOTIF : ${data['form']['reason'] or ''}.</p>
+<p style="font-size:18px;">Et demande l’autorisation de quitter le Territoire National pour la Période Précitée.   </p>
+<br/><br/><br/>
+
+<table width="100%" border="0">
+	<tr>
+		<td><p style="font-size:18px;">Avis du Chef de l’Etablissement:</p></td>
+		<td><input type="checkbox"/> Favorable</td>
+		<td><input type="checkbox"/> Défavorable</td>
+	</tr>
+	<tr>
+		<td><br/><br/><br/><br/><br/><br/><br/>
+		<%def get_day():return time.strftime("%d/%m/%Y")%>
+			
+			<div style="text-align:center;font-size:18px;"><i> A ${company.partner_id.city or ''|entity}, le ${ get_day() }</i></div>
+			<p style="font-size:18px;text-align:center;">signature et cachet du chef d'établlissement:</p>
+		</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+        <td colspan="2">
+			<div style="text-align:center;font-size:18px;"><i> A ${company.partner_id.city or ''|entity}, le ${ get_day() }</i></div>
+			<p style="font-size:18px;text-align:center;">Signature du demandeur</p>
+		</td>
+      </tr>
+     </table>
+
+
+<p style="page-break-after:always"></p>
+    %endfor
+</body>
+</html>

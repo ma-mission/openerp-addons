@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data noupdate="1">
+    <!-- Sequ--> 
+        <record id="seq_type_employee_request" model="ir.sequence.type">
+            <field name="name">Request</field>
+            <field name="code">rh.employee.request</field>
+        </record>
+        <record id="seq_employee_request" model="ir.sequence">
+            <field name="name">Request</field>
+            <field name="code">rh.employee.request</field>
+            <field name="prefix">DA</field>
+            <field name="padding">5</field>
+            <field name="company_id" eval="False"/>
+        </record>
+    </data>
+	<data>
+		<record model="ir.ui.view" id="act_employee_request_calendar">
+			<field name="name">rh.employee.request.calendar</field>
+			<field name="model">rh.employee.request</field>
+			<field name="type">calendar</field>
+			<field name="arch" type="xml">
+				<calendar string="Requests" date_start="date" color="request">
+					<field name="applicant_id" widget="selection"/>
+				</calendar>
+			</field>
+		</record>
+		
+	
+		<record model="ir.ui.view" id="act_employee_request_form">
+			<field name="name">rh.employee.request.form</field>
+			<field name="model">rh.employee.request</field>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+				<form string="Requests" version="7.0">
+					<sheet>
+						<label for="doc_ref"/><field name="doc_ref" readonly="1"/>
+						<label for="applicant_id"/><field name="applicant_id"/>
+						<label for="request"/><field name="request"/>
+						<label for="date"/><field name="date" />
+						<label for="start_date"/><field name="start_date"/>
+						<label for="end_date"/><field name="end_date"/>
+						<label for="reason"/><field name="reason"/>
+						<label for="adress"/><field name="adress"/>
+						<label for="state"/><field name="state"/>
+						<footer>
+							<button name="print_report" string="Print" type="object" icon="gtk-print"/>
+						</footer>
+					</sheet>
+				</form>
+			</field>
+		</record>
+	<record model="ir.ui.view" id="act_employee_request_tree">
+			<field name="name">rh.employee.request.tree</field>
+			<field name="model">rh.employee.request</field>
+			<field name="type">tree</field>
+			<field name="arch" type="xml">
+				<tree string="Employees Requests" editable="bottom"  colors="blue:state==True" toolbar="1">
+					<field name="doc_ref" readonly="1"/>
+					<field name="applicant_id" widget="selection"/>
+					<field name="request"/>
+					<field name="date"/>
+					<field name="start_date"/>
+					<field name="end_date"/>
+					<field name="reason"/>
+					<field name="adress"/>
+					<field name="state"/>
+					<button name="print_report" string="Print" type="object" icon="gtk-print"/>
+				</tree>
+			</field>
+		</record>
+		<record model="ir.actions.act_window" id="act_employee_request_view">
+			<field name="name">Requests</field>
+			<field name="res_model">rh.employee.request</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,calendar,form</field>
+			<field name="domain">[('state','=',True)]</field>
+			
+			<field name="usage">menu</field>
+			
+			
+		</record>
+			
+		<menuitem name="Requests" id="menu_requests"  parent="menu_human_resources" action="act_employee_request_view" />
+				
+	</data>
+</openerp>

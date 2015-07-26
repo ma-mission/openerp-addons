@@ -1,0 +1,52 @@
+<html>
+<head>
+    <style type="text/css">
+        ${css}
+    </style>
+</head>
+<body >
+	<%import datetime%>
+    %for emp in objects :
+    <h3 style="text-align:right">Réf: ${data['form']['doc_ref'] or ''}</h3>
+   </br></br></br></br></br>
+    <h1 style="text-align:center">
+ATTESTATION ADMINISTRATIVE
+    </h1>
+	</br></br></br><br/><br/><br/>
+<p style="font-size:18px;">Le Président de l'Université Sultan Moulay Slimane de Béni Mellal atteste que :</p>
+    <table width="100%" border="0">
+	<%def name="check(obj)">
+		<%
+			if obj.gender == 'male':
+				return 'Monsieur'
+			else:
+				if obj.marital == 'single':
+					return 'Mademoiselle'
+				else:
+					return 'Madame'	  
+		%>
+	</%def>
+	  <tr>
+         <td style="text-align:left;font-size:20px;bold;">${check(emp)}:</td>
+         <td style="text-align:left;font-size:20px;bold;">${emp.complete_name or ''}</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;font-size:20px;bold;">S.O.M</td>
+		<td style="text-align:left;font-size:20px;bold;">${emp.doti or ''}</td>
+      </tr>
+      <tr>
+         <td style="text-align:left;font-size:20px;bold;">C.I.N</td>
+         <td colspan="2" style="text-align:left;font-size:20px;bold;">${emp.cin}</td>
+      </tr>
+	</table>
+<p style="font-size:18px;">Exerce dans l'établissement:  ${emp.establishment_id1.name} <br/>
+en qualité de :${emp.poste} ${emp.category}</p>
+<p style="font-size:18px;">Depuis le : ${emp.recruitment_date}</p>
+<p style="font-size:18px;">La présente attestation est délivrée à la demande de l'intéressé pour servir et valoir ce que de droit.
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<%def get_day():return time.strftime("%d/%m/%Y")%>
+<div style="text-align:right;font-size:18px;">  ${company.partner_id.city or ''|entity}, le ${ get_day() }</div>
+    <p style="page-break-after:always"></p>
+    %endfor
+</body>
+</html>

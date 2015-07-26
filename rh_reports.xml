@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openerp>
+    <data>
+	<!-- webkit -->
+	<report 
+		auto="False" 
+		id="administrative_certification_webkit" 
+		model="rh.employee" 
+		name="rh.employee.administrative_certification_webkit" 
+		file="rh/reports/administrative_certification.html"
+		menu="False"
+		string="Aministrative Certification webkit" 
+		report_type="webkit"/> 
+	<report 
+		auto="False" 
+		id="leave_country_webkit" 
+		model="rh.employee" 
+		name="rh.employee.leave_country_webkit" 
+		file="rh/reports/leave_country.html" 
+		menu="False"
+		string="Leave Country Certification webkit" 
+		report_type="webkit"/> 
+	<report 
+		auto="False" 
+		id="admin_list_webkit" 
+		model="rh.employee" 
+		name="rh.employee.admin_list_webkit" 
+		file="rh/reports/admin_list.html" 
+		string="Administrator List webkit"
+		report_type="webkit"/> 
+	</data>
+</openerp>

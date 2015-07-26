@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openerp>
+    <data>
+		<record model="ir.ui.view" id="view_rh_users_form">
+			<field name="name">users.rh_employee</field>
+			<field name="model">res.users</field>
+			<field name="type">form</field>
+			<field name="inherit_id" ref="base.view_users_form" />
+			<field name="arch" type="xml">
+				<field name="company_id" position="after">
+					<field name="employee_id" on_change="onchage_employee_id(employee_id,context)" widget="selection"/>
+				</field>
+			</field>
+		</record>
+		
+		<menuitem id="rh_users_menu" name="Users" parent="rh_menu_configuration" action="base.action_res_users" />
+    </data>
+</openerp>
+

@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<style type="text/css">${css}</style>
+<style type="text/css">
+table,th,td
+{
+border:1px solid black;
+th
+{
+text-align:left;
+color:#CCCC00;
+} 
+}
+th,td
+{
+padding:7px;
+}
+table
+{
+border-spacing:0px;
+}
+
+</style>
+	</head>
+<body>
+<h1 align="center">Liste du personnenel</h1>
+
+<table width="600px" align="center" border="1">
+<tr>
+<th width="300px">Nom complet</th><th>Signature</th>
+</tr>
+% for admin in objects:
+<tr>
+<td width="300px">${admin.complete_name}</td><td></td>
+</tr>
+% endfor
+</table>
+</body>
+</html>

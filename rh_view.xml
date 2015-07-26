@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+<data>
+	<record id="view_employee_filter" model="ir.ui.view">
+		<field name="name">rh.employee.search</field>
+		<field name="model">rh.employee</field>
+		<field name="arch" type="xml">
+			<search string="Employee">
+				<field name="complete_name" string="Employee"/>
+				<field name="establishment_id1" />
+				<field name="department_id" />
+				<group expand="0" string="Group By...">
+					<filter string="Establishment" icon="terp-personal+" domain="[]" context="{'group_by':'establishment_id1'}"/>
+					<filter string="Department" icon="terp-personal+" domain="[]" context="{'group_by':'department_id'}"/>
+					<filter string="Poste" icon="terp-gtk-select-all" domain="[]" context="{'group_by':'poste'}"/>
+				</group>
+				<group expand="1" string="Filtres">
+					<filter string="Professors" icon="terp-personal+" domain="[('job_state','=','p')]" />
+					<filter string="Administrators" icon="terp-gtk-select-all" domain="[('job_state','=','a')]"/>
+					<filter string="Detached" icon="terp-gtk-select-all" domain="[('job_state','=','d')]"/>
+					<filter string="Temporary" icon="terp-gtk-select-all" domain="[('job_state','=','t')]"/>
+				</group>
+			</search>
+		</field>
+	 </record>
+	
+	
+	<record id="view_employee_form" model="ir.ui.view">
+            <field name="name">rh.employee.form</field>
+            <field name="model">rh.employee</field>
+            <field name="arch" type="xml">
+                <form string="employee" version="7.0">
+				<sheet>
+					<field name="image" widget='image' class="oe_left oe_avatar"/>
+					<div class="oe_title oe_left">
+						<h2>
+							<label for="name" class="oe_edit_only"/><field name="name" required="1"  placeholder="Name"/>
+							<label for="lastname" class="oe_edit_only"/><field name="lastname" required="1"/>
+						</h2>
+					</div>
+					<notebook>
+						<page string="General Informations">
+							<group >
+								<group string="Vital" col="2">
+									<label for="name_ar"/><h2><field name="name_ar"/></h2>
+									<label for="lastname_ar"/><h2><field name="lastname_ar"/></h2>
+									<field name="gender" required="1"/>
+									<field name="birthday" required="1"/>
+									<field name="birth_place" required="1"/>
+									<field name="marital" required="1"/>
+									<field name="num_children"  attrs="{'invisible':[('marital', '=', 'single')]}"/>
+								</group>
+								<group string="Contact" col="2">
+									<field name="cin" required="1"/>
+									<field name="passport"/>
+									<field name="adress" required="1"/>
+									<field name="city" required="1"/>
+									<field name="phone" />
+									<field name="email" widget="email"/>
+								</group>
+								<group string="Work contact" col="2">
+									<field name="establishment_id1" widget="selection" required="1"/>
+									<field name="department_id" widget="selection" required="1" />
+									<field name="office_localisation"/>
+									<field name="office_station" />
+									<field name="work_fleet" />
+									<field name="work_email" widget="email"/>
+								</group>
+						</group>
+						</page>
+						<page string="professional informations">
+							<group col="6">
+								<field name="doti" required="1" />
+								<field name="pb" required="1"/>
+								<field name="recruitment_date" required="1" />
+							</group>
+							<group string="Current state" col="6" >
+								<group >
+									<field name="poste" readonly="1" />
+									<field name="category" readonly="1"  />
+								</group >	
+								<group >
+									<field name="scale" readonly="1" />
+									<field name="scale_effect_date" readonly="1"  />
+									<field name="echelon_effect_date" readonly="1" />
+								</group>
+								<group >
+									<field name="echelon" readonly="1"  />
+									<field name="index" readonly="1"  />
+								</group>
+							</group>
+							<group string="Proposed state" col="6">
+								<group>
+									<field name="poste_prop" />
+									<field name="category_prop" />
+								</group>
+								<group>
+									<field name="scale_prop" />
+									<field name="echelon_prop" />
+								</group>
+								<group>
+									<field name="next_prop_date" />
+								</group>
+							</group>
+							<group string="History">
+								<tree string="Grades">
+									<field name="poste_ids" colspan="4" nolabel="1" editable="bottom"/>
+								</tree>
+							</group>
+						</page>
+						<page string="Studies">
+							<field name="studies_ids" colspan="4" nolabel="1" editable="bottom"/>
+						</page>
+						<page string="Documents">
+							<field name="docs_ids" colspan="4" nolabel="1" editable="bottom"/>
+						</page>
+					</notebook>
+					<field name="notes" placeholder="Other Information ..." colspan="4"/>
+				</sheet>
+			</form>
+        </field>
+    </record> 
+    <record model="ir.ui.view" id="view_employee_tree">
+        <field name="name">rh.employee.tree</field>
+        <field name="model">rh.employee</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="employees" >
+				<field name="complete_name"/>
+				<field name="poste"/>
+				<field name="doti"/>
+				<field name="email"/>
+			</tree>
+        </field>
+    </record>
+	<record model="ir.ui.view" id="view_employee_kanban">
+        <field name="name">rh.employee.kanban</field>
+        <field name="model">rh.employee</field>
+        <field name="arch" type="xml">
+            <kanban>
+				<templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_grh_vignette">
+							<div class="oe_grh_image">
+								<a type="open"><img t-att-src="kanban_image('rh.employee', 'image', record.id.value)" class="oe_grh_picture"/></a>
+							</div>
+							<div class="oe_grh_details">
+								<h4>
+									<a type="open">
+										<field name="name"/>
+										<field name="lastname"/>
+										<t t-if="record.name.raw_value"></t>
+									</a>
+								</h4>
+								<ul>
+									<li t-if="record.poste.raw_value"><field name="poste"/></li>
+									<li t-if="record.category.raw_value"><field name="category"/></li>
+								</ul>
+							</div>
+						</div>
+                        <script>
+						$('.oe_grh_picture').load(function() { if($(this).width() > $(this).height()) { $(this).addClass('oe_grh_picture_wide') } });
+						</script>
+                    </t>
+                </templates>
+            </kanban>
+
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="act_employee_view">
+        <field name="name">employees</field>
+        <field name="res_model">rh.employee</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">kanban,tree,form</field>
+		<field name="help" type="html"><p class="oe_view_nocontent_create"> Click to define a new record.</p></field>
+				
+    </record>
+    
+	<menuitem name="Human Resources" id="menu_GRH" />
+	<menuitem name="Human Resources" id="menu_human_resources" parent="menu_GRH"/>
+	<menuitem name="Employees" id="menu_employees"  parent="menu_human_resources" action="act_employee_view"/>
+
+        
+</data>
+</openerp>

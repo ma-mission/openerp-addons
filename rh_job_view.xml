@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+<data>
+	<record id="view_job_filter" model="ir.ui.view">
+		<field name="name">rh.job.search</field>
+		<field name="model">rh.job</field>
+		<field name="arch" type="xml">
+			<search string="Jobs">
+				<field name="poste_id" string="Jobs"/>
+				<group expand="0" string="Group By...">
+					<filter string="Poste" icon="terp-gtk-select-all" domain="[]" context="{'group_by':'poste_id'}"/>
+					<filter string="Employee" icon="terp-gtk-select-all" domain="[]" context="{'group_by':'employee_id'}"/>
+				</group>
+				<group expand="1" string="Filtres">
+					<filter string="Professors" icon="terp-personal+" domain="[('job_state','=','p')]" />
+					<filter string="Administrators" icon="terp-gtk-select-all" domain="[('job_state','=','a')]"/>
+					<filter string="Detached" icon="terp-gtk-select-all" domain="[('job_state','=','d')]"/>
+					<filter string="Temporary" icon="terp-gtk-select-all" domain="[('job_state','=','t')]"/>
+				</group>
+			</search>
+		</field>
+	 </record>
+    <record id="view_job_form" model="ir.ui.view">
+            <field name="name">rh.job.form</field>
+            <field name="model">rh.job</field>
+            <field name="arch" type="xml">
+                <form string="Jobs" version="7.0">
+					<sheet>
+						<label for="poste_id" class="oe_edit_only"/>
+						<h3>
+							<field name="poste_id"  widget="selection" required="1"/>
+						</h3>
+						<group col="3">
+							<group >
+								<field name="employee_id" widget="selection" />
+								<field name="category" required="1"/>
+							</group>
+							<group >	
+								<field name="scale" required="1" />
+								<field name="scale_effect_date" required="1"/>
+							</group>
+							<group >	
+								<field name="echelon" required="1"  />
+								<field name="index" required="1"  />
+								<field name="echelon_effect_date" required="1" />
+							</group>
+							<group >
+								<field name="current_state" on_change="onchange_current_state(employee_id,context)"/>
+								<field name="job_state" required="1" />
+							</group >
+						</group>
+						<label for="support" />
+						<field name="support" colspan="8"/>
+					</sheet>
+				</form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_job_tree">
+        <field name="name">rh.job.tree</field>
+        <field name="model">rh.job</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Jobs" >
+				<field name="employee_id"/>
+				<field name="poste_id"/>
+				<field name="category"/>
+				<field name="scale"  />
+				<field name="echelon"  />
+				<field name="current_state"  />
+				<field name="support"  />
+			</tree>
+        </field>
+    </record>
+	<record model="ir.actions.act_window" id="act_job_view">
+        <field name="name">Jobs</field>
+        <field name="res_model">rh.job</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+		<field name="help" type="html"><p class="oe_view_nocontent_create">Click to define a new record.</p></field>
+    </record>
+	
+	
+	<menuitem name="Jobs" id="menu_jobs" parent="menu_human_resources" action="act_job_view"/>
+	
+	<!-- Postes -->
+	  <record id="view_poste_form" model="ir.ui.view">
+            <field name="name">rh.poste.form</field>
+            <field name="model">rh.poste</field>
+            <field name="arch" type="xml">
+                <form string="Postes" version="7.0">
+					<sheet>
+						<div class="oe_title">
+							<label for="name" class="oe_edit_only"/>
+							<h2>
+								<field name="name" required="1"/>
+							</h2>
+							<group>	
+								<field name="poste_count"   />
+							</group>
+						</div>
+						<notebook>
+							<page string="Postes">
+								<field name="poste_ids" />
+							</page>
+						</notebook>
+					</sheet>
+				</form>
+        </field>
+    </record>
+	<record model="ir.ui.view" id="view_poste_tree">
+        <field name="name">rh.poste.tree</field>
+        <field name="model">rh.poste</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Poste" >
+				<field name="name"/>
+				<field name="poste_count"/>
+			</tree>
+        </field>
+    </record>
+	<record model="ir.actions.act_window" id="act_poste_view">
+        <field name="name">poste</field>
+        <field name="res_model">rh.poste</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+		<field name="help" type="html"><p class="oe_view_nocontent_create">Click to define a new record.</p></field>
+    </record>
+	
+	
+	<menuitem name="Postes" id="menu_poste" parent="menu_human_resources" action="act_poste_view"/>
+	
+	    
+</data>
+</openerp>

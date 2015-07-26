@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+    
+        	<record model="ir.ui.view" id="rh_reportwzlc_form_view">
+            <field name="name">rh.reportwzlc.form</field>
+            <field name="model">rh.reportwzlc</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+				<form string="Information:" version="7.0">
+					<!--<label for="Administrator_id"/>
+					<field name="Administrator_id" /> -->
+					
+					<label for="start_date"/>
+					<field name="start_date" />
+					
+					<label for="end_date"/>
+					<field name="end_date" />
+					
+					<label for="reason"/>
+					<field name="reason" colspan="2" />
+					
+					<label for="adress"/>
+					<field name="adress" colspan="2" />
+					<footer>
+						<button type="special" special="cancel" string="Cancel" icon="gtk-cancel"/>
+						<button type="object" name="print_report" string="Print" icon="gtk-ok" confirm="Are you sure you want to print?"/>
+					</footer>
+				</form>
+            </field>
+        </record>
+        
+	    <record model="ir.actions.act_window" id="rh_reportwzlc_action">
+			<field name="name">Leave Country Autorisation</field>
+			<field name="res_model">rh.reportwzlc</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">form</field>
+			<field name="target">new</field>
+		</record>
+		
+		<act_window id="rh_reportwzlc_action_win"
+				name="Leave Country Certification wizard"
+				src_model="rh.employee"
+				res_model="rh.reportwzlc"
+				view_mode="form"
+				target="new"
+				key2="client_print_multi"/>
+	
+	<record model="ir.ui.view" id="rh_reportwzac_form_view">
+            <field name="name">rh.reportwzac.form</field>
+            <field name="model">rh.reportwzac</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+				<form string="Information:" version="7.0">
+					<h2><label string="Are you sure you want to print?"/></h2>
+					<footer>
+						<button type="special" special="cancel" string="Cancel" icon="gtk-cancel"/>
+						<button type="object" name="print_report" string="Print" icon="gtk-ok"/>
+					</footer>
+				</form>
+			</field>
+	</record>
+			
+    
+	<record model="ir.actions.act_window" id="rh_reportwzac_action">
+			<field name="name">Administrative certification</field>
+			<field name="res_model">rh.reportwzac</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">form</field>
+			<field name="target">new</field>
+		</record>
+		
+		<act_window id="rh_reportwzac_action_win"
+				name="Administrative certification wizard"
+				src_model="rh.employee"
+				res_model="rh.reportwzac"
+				view_mode="form"
+				target="new"
+				key2="client_print_multi"/>
+				
+    </data>
+</openerp>

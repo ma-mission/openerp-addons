@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+<data>
+    <record id="view_diploma_form" model="ir.ui.view">
+            <field name="name">rh.diploma.form</field>
+            <field name="model">rh.diploma</field>
+            <field name="arch" type="xml">
+                <form string="diploma" version="7.0">
+					<header >
+						<button name="mymod_assigned" string="Assigned" states="new" type="workflow" class="oe_highlight"/>
+						<button name="mymod_negotiation" string="Negotiation" states="assigned" type="workflow" class="oe_highlight" />
+						<button name="mymod_won" string="Negotiation" states="negotiation" type="workflow" class="oe_highlight"/>
+						
+						<button string="Reset to New" name="mymod_reset" states="assigned,negotiation"    type="object" />
+						<button string="Cancel" name="mymod_cancel" states="assigned,negotiation"    type="object" />
+						<field name="state" widget="statusbar" statusbar_colors='{"canceled":"red","won":"green"}'  />
+					</header>
+					<sheet>
+						<label for="diploma" class="oe_edit_only"/>
+						<h2>
+							<field name="diploma"/>
+						</h2>
+						<group>
+							<group >
+								<field name="employee_id" widget="selection"/>
+								<field name="graduation_date"/>
+								<field name="start_time"/>
+							</group>
+							<group >	
+								<field name="establishment"  />
+								<field name="city"/>
+							</group>
+							<group >
+								<field name="support"/>
+							</group >
+							
+						</group>
+					</sheet>
+				</form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_diploma_tree">
+        <field name="name">rh.diploma.tree</field>
+        <field name="model">rh.diploma</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="diploma" >
+				<field name="diploma"/>
+				<field name="graduation_date"/>
+				<field name="establishment"  />
+				<field name="city"  />
+				<field name="support"  />
+			</tree>
+        </field>
+    </record>
+	<record model="ir.actions.act_window" id="act_diploma_view">
+        <field name="name">Studies</field>
+        <field name="res_model">rh.diploma</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+		<field name="help" type="html"><p class="oe_view_nocontent_create">Click to define a new record.</p></field>
+    </record>
+	
+  
+	<menuitem name="Studies" id="menu_qualifications" parent="menu_human_resources" action="act_diploma_view" />
+  
+ 
+</data>
+</openerp>

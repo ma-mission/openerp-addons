@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    <!-- Département -->
+		
+		<!--Pie of employees by department-->
+        <record  model="ir.ui.view" id="board_rh_department_employee_graph_pie">
+            <field name="name">rh.employee.graph_pie</field>
+            <field name="model">rh.employee</field>
+            <field name="type">graph</field>
+			<field name="arch" type="xml">
+                <graph string="Pie of employees by department" type="pie">
+                    <field name="department_id"  />
+                    <field name="count" operator="+"/>
+               </graph>
+            </field>
+        </record>
+		<record model="ir.actions.act_window" id="board_rh_department_employee_graph_pie_act">
+            <field name="name">Pie of employees by department</field>
+            <field name="res_model">rh.employee</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">graph</field>
+            <field name="view_id" ref="board_rh_department_employee_graph_pie"/>
+        </record>
+		
+		<!--number of employees by department-->
+        <record id="board_rh_department_employee_graph_bar" model="ir.ui.view">
+            <field name="name">rh.employee.graph_bar</field>
+            <field name="model">rh.employee</field>
+            <field name="type">graph</field>
+			<field name="arch" type="xml">
+                <graph string="Number of employees by department" type="bar">
+                    <field name="department_id"  />
+                    <field name="count" operator="+"/>
+                    <field name="poste" group="1"/>
+               </graph>
+            </field>
+        </record>
+		<record model="ir.actions.act_window" id="board_rh_department_employee_graph_bar_act">
+            <field name="name">Number of employees by department</field>
+            <field name="res_model">rh.employee</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">graph,tree</field>
+            <field name="view_id" ref="board_rh_department_employee_graph_bar"/>
+        </record>
+		
+		<!-- Request-->
+		<record model="ir.ui.view" id="board_rh_request_calendar">
+			<field name="name">rh.employee.requests.calendar_1</field>
+			<field name="model">rh.employee.request</field>
+			<field name="type">calendar</field>
+			<field name="arch" type="xml">
+				<calendar string="Requests" date_start="date" color="request">
+					<field name="applicant_id"/>
+				</calendar>
+			</field>
+		</record>
+		<record model="ir.actions.act_window" id="board_rh_request_calendar_act">
+            <field name="name">Request Timing</field>
+            <field name="res_model">rh.employee.request</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">calendar,tree</field>
+            <field name="view_id" ref="board_rh_request_calendar"/>
+        </record>
+		
+		<!-- Board  -->
+		<record id="board_rh_form" model="ir.ui.view">
+            <field name="name">board.rh.form</field>
+            <field name="model">board.board</field>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+                <form string="Rh Dashboards" version="7.0">
+                    <board style="1-2">
+					    <column>
+                            <action name="%(board_rh_department_employee_graph_pie_act)d" string="Pie of employees by department"/>
+                            <action name="%(board_rh_department_employee_graph_bar_act)d" string="Number of employees by department"/>
+                        </column>
+						<column>
+                            <action name="%(board_rh_request_calendar_act)d" string="Employees requests calandar"/>
+                        </column>
+					</board>
+                </form>
+            </field>
+        </record>
+        <record id="open_board_rh_form" model="ir.actions.act_window">
+            <field name="name">Rh boards</field>
+            <field name="res_model">board.board</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+			<field name="view_id" ref="board_rh_form"/>
+        </record>
+
+       	<menuitem name="Dashboards" id="menu_rh_dashboards" parent="menu_human_resources" action="open_board_rh_form"/>
+
+    </data>
+</openerp>

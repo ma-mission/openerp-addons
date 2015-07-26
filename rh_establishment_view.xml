@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+<data>
+	<record model="ir.ui.view" id="view_establishment_kanban">
+        <field name="name">rh.establishment.kanban</field>
+        <field name="model">rh.establishment</field>
+        <field name="arch" type="xml">
+            <kanban>
+				<templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_grh_vignette">
+							<div class="oe_grh_image">
+								<a type="open"><img t-att-src="kanban_image('rh.establishment', 'logo', record.id.value)" class="oe_grh_picture"/></a>
+							</div>
+							<div class="oe_grh_details">
+								<h4>
+									<a type="open">
+										<field name="name"/>
+										<t t-if="record.name.raw_value"></t>
+									</a>
+								</h4>
+								<ul>
+									<!--<li t-if="record.phone.raw_value"><field name="phone"/></li>-->
+								</ul>
+							</div>
+						</div>
+                        <script>
+						$('.oe_grh_picture').load(function() { if($(this).width() > $(this).height()) { $(this).addClass('oe_grh_picture_wide') } });
+						</script>
+                    </t>
+                </templates>
+            </kanban>
+
+        </field>
+    </record>
+    <record id="view_establishment_form" model="ir.ui.view">
+            <field name="name">rh.establishment.form</field>
+            <field name="model">rh.establishment</field>
+            <field name="arch" type="xml">
+                <form string="Establishment" version="7.0">
+					<sheet>
+						<field name="logo" widget='image' class="oe_left oe_avatar"/>
+						<div class="oe_title">
+							<label for="name" class="oe_edit_only"/>
+							<h2>
+								<field name="name" required="1"/>
+							</h2>
+							<group>	
+								<field name="code" required="1"/>
+								<field name="leader_id"  widget="selection" />
+								<field name="secretary_id" widget="selection" /> 
+								<field name="professor_count"  />
+								<field name="administrator_count"   />
+							</group>
+						</div>
+						<notebook>
+							<page string="Departments">
+								<field name="department_ids"  widget="many2many_kanban"/>
+							</page>
+							<page string="Professors">
+								<field name="professor_ids"  widget="many2many_kanban"/>
+							</page>
+							<page string="Administrators">
+								<field name="administrator_ids"  widget="many2many_kanban"/>
+							</page>
+							<field name="notes" placeholder="Other Information ..." colspan="4"/>
+						</notebook>
+					</sheet>
+				</form>
+        </field>
+    </record>
+    
+	
+	<record model="ir.ui.view" id="view_establishment_tree">
+		<field name="name">rh.establishment.tree</field>
+        <field name="model">rh.establishment</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Establishment" >
+				<field name="name"/>
+				<field name="leader_id"/>
+				<field name="secretary_id"/>
+				</tree>
+        </field>
+    </record>
+	<record model="ir.actions.act_window" id="act_establishment_view">
+        <field name="name">establishments</field>
+        <field name="res_model">rh.establishment</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">kanban,tree,form</field>
+		<field name="view_id" ref="view_establishment_kanban"/>
+		<field name="help" type="html"><p class="oe_view_nocontent_create">Click to define a new record.</p></field>
+    </record>
+	
+	
+	<menuitem name="Establishments" id="menu_establishments" parent="menu_human_resources" action="act_establishment_view" sequence="1"/>
+	
+	    
+</data>
+</openerp>

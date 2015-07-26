@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+<data>
+	<record model="ir.ui.view" id="view_department_kanban">
+        <field name="name">rh.department.kanban</field>
+        <field name="model">rh.department</field>
+        <field name="arch" type="xml">
+            <kanban>
+				<templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_grh_vignette">
+							<div class="oe_grh_image">
+								<a type="open"><img t-att-src="kanban_image('rh.department', 'logo', record.id.value)" class="oe_grh_picture"/></a>
+							</div>
+							<div class="oe_grh_details">
+								<h4>
+									<a type="open">
+										<field name="name"/>
+										<t t-if="record.name.raw_value"></t>
+									</a>
+								</h4>
+								<ul>
+									<!--<li t-if="record.phone.raw_value"><field name="phone"/></li>-->
+								</ul>
+							</div>
+						</div>
+                        <script>
+						$('.oe_grh_picture').load(function() { if($(this).width() > $(this).height()) { $(this).addClass('oe_grh_picture_wide') } });
+						</script>
+                    </t>
+                </templates>
+            </kanban>
+
+        </field>
+    </record>
+    <record id="view_department_form" model="ir.ui.view">
+            <field name="name">rh.department.form</field>
+            <field name="model">rh.department</field>
+            <field name="arch" type="xml">
+                <form string="Department" version="7.0">
+					<sheet>
+						<field name="logo" widget='image' class="oe_left oe_avatar"/>
+						<div class="oe_title">
+							<label for="name" class="oe_edit_only"/>
+							<h2>
+								<field name="name" required="1"/>
+							</h2>
+							<group>	
+								<field name="establishment_id"  widget="selection" required="1"/>
+								<field name="leader_id"  widget="selection" />
+								<field name="secretary_id" widget="selection" /> 
+								<field name="professor_count"  />
+								<field name="administrator_count"   />
+							</group>
+						</div>
+						<notebook>
+							<page string="Professors">
+								<field name="professor_ids"  widget="many2many_kanban"/>
+							</page>
+							<page string="Administrators">
+								<field name="administrator_ids"  widget="many2many_kanban"/>
+							</page>
+							<field name="notes" placeholder="Other Information ..." colspan="4"/>
+						</notebook>
+					</sheet>
+				</form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_department_tree">
+        <field name="name">rh.department.tree</field>
+        <field name="model">rh.department</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Department" >
+				<field name="name"/>
+				<field name="leader_id"/>
+				<field name="secretary_id"/>
+				</tree>
+        </field>
+    </record>
+	<record model="ir.actions.act_window" id="act_department_view">
+        <field name="name">Departments</field>
+        <field name="res_model">rh.department</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">kanban,tree,form</field>
+		<field name="view_id" ref="view_department_kanban"/>
+		<field name="help" type="html"><p class="oe_view_nocontent_create">Click to define a new record.</p></field>
+    </record>
+	
+	
+	<menuitem name="Departments" id="menu_departments" parent="menu_human_resources" action="act_department_view"/>
+	
+	    
+</data>
+</openerp>

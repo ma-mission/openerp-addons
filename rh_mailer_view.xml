@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+<data>
+    <record id="rh_mailer_smtpserver_form" model="ir.ui.view">
+            <field name="name">rh.mailer.smtpserver.form</field>
+            <field name="model">rh.mailer.smtpserver</field>
+            <field name="arch" type="xml">
+                <form string="SMTP Server" version="7.0">
+					<sheet>
+						<label for="name" class="oe_edit_only"/>
+						<h2>
+							<field name="name"/>
+						</h2>
+						<group string="Server Information" col="4" >
+							<field name="host"/>
+							<field name="port"/>
+						</group>
+						<group string="Login" col="4">	
+							<field name="username"  />
+							<field name="encryption"/>
+							<field name="password" password="True"/>
+							<field name="employee_id" widget="selection"/>
+						</group >
+						<button name="test_smtp_connection" type="object" string="Test Connection" icon="gtk-network"/>
+						<button name="test_smtp_email" type="object" string="Test sending email" icon="terp-mail-"/>
+					</sheet>
+				</form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="rh_mailer_smtpserver_tree">
+        <field name="name">rh.mailer.smtpserver.tree</field>
+		<field name="model">rh.mailer.smtpserver</field>
+		<field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="SMTP Server" >
+				<field name="employee_id"/>
+				<field name="name"/>
+				<field name="host"/>
+				<field name="port"  />
+				<field name="username"  />
+			</tree>
+        </field>
+    </record>
+	<record model="ir.actions.act_window" id="rh_mailer_smtpserver_act">
+        <field name="name">SMTP Servers</field>
+        <field name="res_model">rh.mailer.smtpserver</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+		<field name="help" type="html"><p class="oe_view_nocontent_create">Click to define a new record.</p></field>
+    </record>
+	
+  
+	<menuitem name="Configuration" id="rh_menu_configuration" parent="menu_human_resources"/>
+	<menuitem name="SMTP Server" id="rh_menu_smtpserver" parent="rh_menu_configuration" action="rh_mailer_smtpserver_act" />
+  
+ 
+</data>
+</openerp>

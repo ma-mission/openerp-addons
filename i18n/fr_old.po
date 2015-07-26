@@ -1,0 +1,639 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* rh
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20131228-002427\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-01 14:11+0000\n"
+"PO-Revision-Date: 2014-09-01 15:13-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: fr\n"
+"X-Generator: Poedit 1.6.4\n"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_department
+msgid "rh.department"
+msgstr "Département"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.menu_GRH
+#: model:ir.ui.menu,name:rh.menu_human_resources
+msgid "Human Resources"
+msgstr "Ressources Humaines"
+
+#. module: rh
+#: view:rh.employee:0 view:rh.job:0
+msgid "Group By..."
+msgstr "Regrouper par..."
+
+#. module: rh
+#: field:rh.employee,name_ar:0
+msgid "Arabic name"
+msgstr "Nom en Arabe"
+
+#. module: rh
+#: view:rh.department:0 view:rh.employee:0 field:rh.employee,department_id:0
+msgid "Department"
+msgstr "Département"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_employee
+msgid "rh.employee"
+msgstr "Employé"
+
+#. module: rh
+#: field:rh.poste,poste_count:0
+msgid "Poste count"
+msgstr "Nombre de postes"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.act_job_view
+#: model:ir.ui.menu,name:rh.menu_jobs view:rh.job:0
+msgid "Jobs"
+msgstr "Grade"
+
+#. module: rh
+#: view:rh.department:0 view:rh.employee:0
+msgid "Other Information ..."
+msgstr "Autre Information ..."
+
+#. module: rh
+#: field:rh.employee,echelon_effect_date:0
+msgid "Date of echelon effect"
+msgstr "Date d'effet d'échelon"
+
+#. module: rh
+#: field:rh.employee.request,reason:0 field:rh.reportwzlc,reason:0
+msgid "Reason"
+msgstr "Motif"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_reportwzlc_action
+msgid "Leave Country Autorisation"
+msgstr "Autorisation de quittement de territoire"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_reportwzlc_action_win
+msgid "Leave Country Certification wizard"
+msgstr "Autorisation de quittement de territoire"
+
+#. module: rh
+#: view:rh.employee:0
+msgid "employee"
+msgstr "Employé"
+
+#. module: rh
+#: field:rh.department,secretary_id:0
+msgid "Secretary"
+msgstr "Secrétaire"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_diploma
+msgid "rh.diploma"
+msgstr "Diplôme"
+
+#. module: rh
+#: field:rh.employee,complete_name:0 field:rh.employee.request,applicant_id:0
+msgid "Full name"
+msgstr "Nom et Prénom"
+
+#. module: rh
+#: field:rh.employee,lastname:0
+msgid "Last name"
+msgstr "Prénom"
+
+#. module: rh
+#: field:rh.department,notes:0 field:rh.employee,notes:0
+msgid "Notes"
+msgstr "Notes"
+
+#. module: rh
+#: selection:rh.employee,marital:0
+msgid "Married"
+msgstr "Marié"
+
+#. module: rh
+#: view:rh.employee:0
+msgid "Current state"
+msgstr "État actuel"
+
+#. module: rh
+#: field:rh.employee,lastname_ar:0
+msgid "Arabic last name"
+msgstr "Prénom en Arabe"
+
+#. module: rh
+#: field:rh.employee,scale_prop:0
+msgid "Proposal scale"
+msgstr "Échelle proposée"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.act_employee_request_view
+#: model:ir.ui.menu,name:rh.menu_requests view:rh.employee.request:0
+msgid "Requests"
+msgstr "Demandes"
+
+#. module: rh
+#: field:rh.employee,echelon:0 field:rh.job,echelon:0
+msgid "Echelon"
+msgstr "Échelon"
+
+#. module: rh
+#: selection:rh.employee,gender:0
+msgid "Female"
+msgstr "Féminin"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.act_poste_view
+msgid "poste"
+msgstr "Grade"
+
+#. module: rh
+#: model:ir.actions.act_window,help:rh.act_department_view
+#: model:ir.actions.act_window,help:rh.act_diploma_view
+#: model:ir.actions.act_window,help:rh.act_job_view
+#: model:ir.actions.act_window,help:rh.act_poste_view
+msgid "<p class=\"oe_view_nocontent_create\">Click to define a new record.</p>"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">Cliquer pour ajouter un nouveau "
+"enregistrement.</p>"
+
+#. module: rh
+#: field:rh.employee,index:0 field:rh.job,index:0
+msgid "Index"
+msgstr "Indice"
+
+#. module: rh
+#: field:rh.employee,scale:0 field:rh.job,scale:0
+msgid "Scale"
+msgstr "Échelle"
+
+#. module: rh
+#: view:rh.employee:0
+msgid "Attendees"
+msgstr "Attendees"
+
+#. module: rh
+#: view:rh.department:0 view:rh.employee:0
+msgid ""
+"$('.oe_grh_picture').load(function() { if($(this).width() > $(this)."
+"height()) { $(this).addClass('oe_grh_picture_wide') } });"
+msgstr ""
+"$('.oe_grh_picture').load(function() { if($(this).width() > $(this)."
+"height()) { $(this).addClass('oe_grh_picture_wide') } });"
+
+#. module: rh
+#: view:rh.reportwzlc:0
+msgid "Are you sure you want to print?"
+msgstr "Êtes vous sur de vouloir imprimer?"
+
+#. module: rh
+#: field:rh.employee,doti:0
+msgid "S.O.M"
+msgstr "S.O.M"
+
+#. module: rh
+#: field:rh.employee.request,state:0
+msgid "State"
+msgstr "État"
+
+#. module: rh
+#: view:rh.employee:0
+msgid "Vital"
+msgstr "État civil"
+
+#. module: rh
+#: field:rh.employee,passport:0
+msgid "Passport"
+msgstr "Passeport"
+
+#. module: rh
+#: view:rh.employee.request:0 view:rh.reportwzlc:0
+msgid "Print"
+msgstr "Print"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.board_rh_department_admin_graph_act
+msgid "Adminstrators by department"
+msgstr "Adminstrators by department"
+
+#. module: rh
+#: field:rh.employee.request,start_date:0 field:rh.reportwzlc,start_date:0
+msgid "Start date"
+msgstr "Date de début"
+
+#. module: rh
+#: field:rh.job,isadmin:0
+msgid "Is Administrator?"
+msgstr "Administrateur?"
+
+#. module: rh
+#: field:rh.employee,email:0
+msgid "Email"
+msgstr "E-mail"
+
+#. module: rh
+#: view:rh.employee:0
+msgid "Proposed state"
+msgstr "État proposé"
+
+#. module: rh
+#: field:rh.employee,marital:0
+msgid "Marital Status"
+msgstr "Situation familiale"
+
+#. module: rh
+#: view:rh.department:0 field:rh.department,administrator_ids:0
+#: view:rh.employee:0 view:rh.job:0
+msgid "Administrators"
+msgstr "Administrateurs"
+
+#. module: rh
+#: view:board.board:0
+#: model:ir.actions.act_window,name:rh.board_rh_department_prof_graph_act
+#: view:rh.employee:0
+msgid "Professors by department"
+msgstr "Professors by department"
+
+#. module: rh
+#: field:rh.department,administrator_count:0
+msgid "Administrators count"
+msgstr "Nombre des administrateurs"
+
+#. module: rh
+#: view:rh.employee:0
+msgid "General Informations"
+msgstr "Informations générales "
+
+#. module: rh
+#: model:ir.actions.report.xml,name:rh.administrative_certification_webkit
+msgid "Aministrative Certification webkit"
+msgstr "Attestation administrative"
+
+#. module: rh
+#: selection:rh.employee,marital:0
+msgid "Divorced"
+msgstr "Divorcé"
+
+#. module: rh
+#: view:rh.employee:0
+msgid "professional informations"
+msgstr "Informations professionnelles"
+
+#. module: rh
+#: field:rh.employee,count:0
+msgid "Counter"
+msgstr "Counter"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.act_department_view
+#: model:ir.ui.menu,name:rh.menu_departments
+msgid "Departments"
+msgstr "Départements"
+
+#. module: rh
+#: field:rh.employee,office_localisation:0
+msgid "Office localisation"
+msgstr "Bureau"
+
+#. module: rh
+#: view:rh.employee:0
+msgid "Contact"
+msgstr "Contacte"
+
+#. module: rh
+#: selection:rh.employee,gender:0
+msgid "Male"
+msgstr "Masculin"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.act_diploma_view
+#: model:ir.ui.menu,name:rh.menu_qualifications view:rh.employee:0
+msgid "Studies"
+msgstr "Études"
+
+#. module: rh
+#: field:rh.employee,image:0
+msgid "Photo"
+msgstr "Photo"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.act_employee_view view:rh.employee:0
+msgid "employees"
+msgstr "Employés"
+
+#. module: rh
+#: view:rh.employee:0 view:rh.job:0
+msgid "Filtres"
+msgstr "Filtres"
+
+#. module: rh
+#: field:rh.employee,image_medium:0
+msgid "Medium-sized image"
+msgstr "Medium-sized image"
+
+#. module: rh
+#: field:rh.diploma,graduation_date:0
+msgid "Date of graduation"
+msgstr "Date d'obtention du diplôme"
+
+#. module: rh
+#: field:rh.employee,work_fleet:0
+msgid "Work phone"
+msgstr "Numéro de flot"
+
+#. module: rh
+#: field:rh.employee,office_station:0
+msgid "Number of station"
+msgstr "Numéro de poste"
+
+#. module: rh
+#: field:rh.employee,next_prop_date:0
+msgid "Date of next proposal"
+msgstr "Date de la proposition suivante"
+
+#. module: rh
+#: field:rh.employee,category:0 field:rh.job,category:0
+msgid "Category"
+msgstr "Catégorie"
+
+#. module: rh
+#: view:board.board:0 view:rh.department:0
+msgid "Administrators by department"
+msgstr "Administrators by department"
+
+#. module: rh
+#: field:rh.diploma,support:0 field:rh.job,support:0
+msgid "Support"
+msgstr "Support"
+
+#. module: rh
+#: field:rh.employee,num_children:0
+msgid "Number of children"
+msgstr "Nombre d'enfants"
+
+#. module: rh
+#: field:rh.employee,scale_effect_date:0 field:rh.job,echelon_effect_date:0
+#: field:rh.job,scale_effect_date:0
+msgid "Date of scale effect"
+msgstr "Date d'effet de grade"
+
+#. module: rh
+#: field:rh.employee,image_small:0
+msgid "Smal-sized image"
+msgstr "Smal-sized image"
+
+#. module: rh
+#: field:rh.department,professor_count:0
+msgid "Professors count"
+msgstr "Nombre de professeurs"
+
+#. module: rh
+#: field:rh.department,leader_id:0
+msgid "Leader"
+msgstr "Chef"
+
+#. module: rh
+#: field:rh.employee,city:0
+msgid "city"
+msgstr "Ville"
+
+#. module: rh
+#: field:rh.department,logo:0
+msgid "Logo of department"
+msgstr "Logo"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_poste
+msgid "rh.poste"
+msgstr "Poste"
+
+#. module: rh
+#: model:ir.actions.report.xml,name:rh.admin_list_webkit
+msgid "Administrator List webkit"
+msgstr "Liste des administrateurs"
+
+#. module: rh
+#: field:rh.employee,birthday:0
+msgid "Birthday"
+msgstr "Date de naissance"
+
+#. module: rh
+#: field:rh.employee.request,date:0
+msgid "Date"
+msgstr "Date"
+
+#. module: rh
+#: field:rh.employee,poste_prop:0
+msgid "Proposal Poste "
+msgstr "Grade proposé"
+
+#. module: rh
+#: view:board.board:0
+msgid "Employees Dashboard"
+msgstr "Tableaux de bord"
+
+#. module: rh
+#: field:rh.employee,pb:0
+msgid "Budget item"
+msgstr "Numéro budgetaire"
+
+#. module: rh
+#: view:rh.employee:0 field:rh.employee,poste:0 view:rh.job:0
+#: field:rh.job,poste_id:0 view:rh.poste:0
+msgid "Poste"
+msgstr "Grade"
+
+#. module: rh
+#: field:rh.employee,category_prop:0
+msgid "Proposal category"
+msgstr "Catégorie proposée"
+
+#. module: rh
+#: view:rh.employee:0
+msgid "History"
+msgstr "Historique"
+
+#. module: rh
+#: field:rh.employee.request,end_date:0 field:rh.reportwzlc,end_date:0
+msgid "End date"
+msgstr "Date de fin "
+
+#. module: rh
+#: field:rh.job,current_state:0
+msgid "Is current state?"
+msgstr "État actuel?"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.menu_dashboards
+msgid "Dashboards"
+msgstr "Tableaux de bord"
+
+#. module: rh
+#: view:rh.department:0 field:rh.department,professor_ids:0 view:rh.employee:0
+#: view:rh.job:0
+msgid "Professors"
+msgstr "Professeurs"
+
+#. module: rh
+#: view:rh.reportwzlc:0
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: rh
+#: field:rh.diploma,city:0
+msgid "City"
+msgstr "Ville"
+
+#. module: rh
+#: view:rh.employee:0
+msgid "Work contact"
+msgstr "Contact de travail"
+
+#. module: rh
+#: field:rh.employee,cin:0
+msgid "CIN"
+msgstr "CIN"
+
+#. module: rh
+#: field:rh.employee,recruitment_date:0
+msgid "Date of recruitment"
+msgstr "Date de recrutement"
+
+#. module: rh
+#: field:rh.diploma,employee_id:0 field:rh.job,employee_id:0
+msgid "Employee"
+msgstr "Employé"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_reportwzlc
+msgid "rh.reportwzlc"
+msgstr "Wizard de quittement de territoire"
+
+#. module: rh
+#: field:rh.employee,adress:0 field:rh.employee.request,adress:0
+#: field:rh.reportwzlc,adress:0
+msgid "Adress"
+msgstr "Adresse"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.board_rh_request_calendar_act
+msgid "Request Timing"
+msgstr "Request Timing"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.menu_poste field:rh.employee,poste_ids:0
+#: view:rh.poste:0 field:rh.poste,poste_ids:0
+msgid "Postes"
+msgstr "Postes"
+
+#. module: rh
+#: field:rh.diploma,establishment:0
+msgid "Establishment"
+msgstr "Établissements "
+
+#. module: rh
+#: field:rh.employee,phone:0
+msgid "Phone number"
+msgstr "Téléphone"
+
+#. module: rh
+#: field:rh.diploma,diploma:0 field:rh.employee,studies_ids:0
+msgid "Diploma"
+msgstr "Diplôme"
+
+#. module: rh
+#: field:rh.employee,echelon_prop:0
+msgid "Proposal echelon"
+msgstr "Échelon proposé"
+
+#. module: rh
+#: field:rh.department,name:0 field:rh.employee,name:0 field:rh.poste,name:0
+msgid "Name"
+msgstr "Nom"
+
+#. module: rh
+#: field:rh.employee,gender:0
+msgid "Gender"
+msgstr "Sexe"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.open_rh_board_employee
+#: model:ir.ui.menu,name:rh.menu_employees view:rh.employee:0
+msgid "Employees"
+msgstr "Employés"
+
+#. module: rh
+#: view:rh.diploma:0
+msgid "diploma"
+msgstr "Diplôme"
+
+#. module: rh
+#: field:rh.employee,birth_place:0
+msgid "Place of birth"
+msgstr "Lieu de naissance"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_employee_request
+msgid "rh.employee.request"
+msgstr "Demande"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_job
+msgid "rh.job"
+msgstr "Grade"
+
+#. module: rh
+#: view:rh.employee.request:0
+msgid "Administrators Requests"
+msgstr "Demandes"
+
+#. module: rh
+#: model:ir.actions.report.xml,name:rh.leave_country_webkit
+msgid "Leave Country Certification webkit"
+msgstr "Autorisation de quittement de territoire"
+
+#. module: rh
+#: field:rh.employee.request,request:0
+msgid "request"
+msgstr "Demande"
+
+#. module: rh
+#: selection:rh.employee,marital:0
+msgid "Single"
+msgstr "Célibataire"
+
+#. module: rh
+#: selection:rh.employee,marital:0
+msgid "Widower"
+msgstr "Veuf"
+
+#. module: rh
+#: field:rh.employee,work_email:0
+msgid "Work e-mail"
+msgstr "E-mail professionnel"
+
+#. module: rh
+#: model:ir.actions.act_window,help:rh.act_employee_view
+msgid ""
+"<p class=\"oe_view_nocontent_create\"> Click to define a new record.</p>"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\"> Cliquer pour ajouter un nouveau "
+"enregistrement</p>"
+
+#. module: rh
+#: field:rh.employee,isadmin:0
+msgid "Is Administrators?"
+msgstr "Administrateurs?"
+
+#. module: rh
+#: view:rh.reportwzlc:0
+msgid "Information:"
+msgstr "Information:"
