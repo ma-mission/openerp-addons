@@ -20,8 +20,7 @@
 
 #from openerp import addons
 #import logging
-#from openerp.osv import fields, osv
-from osv import fields, osv
+from openerp.osv import fields, osv
 #from openerp import tools
 #_logger = logging.getLogger(__name__)
 

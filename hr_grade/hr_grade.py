@@ -20,7 +20,7 @@
 
 import time
 
-from osv import fields, osv
+from openerp.osv import fields, osv
 
 class grade(osv.osv):
     _name = "hr.grade"
