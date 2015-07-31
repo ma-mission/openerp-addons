@@ -87,9 +87,9 @@
             <field name="inherit_id" ref="hr.view_employee_filter"/>
             <field name="arch" type="xml">
                 <data>
-                    <group string="Group By..." position="inside">
+                    <filter string="Manager" position="before">
                         <filter string="Grade" domain="[]" context="{'group_by':'grade_id'}"/>
-                    </group>
+                    </filter>
                 </data>
             </field>
         </record>

@@ -2,7 +2,70 @@
 <openerp>
     <data>
 
-        <report auto="False" id="report_hr_at" model="hr.employee" name="report.hr.at" file="hr_ma/report/at.mako" string="Employee Info" report_type="webkit"/>
+        <report auto="False" id="report_hr_work_certificate" model="hr.employee" name="hr_ma.report_work_certificate" string="Work certificate" report_type="qweb-pdf"/>
 
-    </data>
+<template id="report_work_certificate">
+    <t t-call="report.html_container">
+        <t t-foreach="docs" t-as="emp">
+            <t t-call="report.external_layout">
+                <div class="page">
+    <h1>
+شهادة العمل<br/>
+ATTESTATION DE TRAVAIL 
+    </h1>
+
+<div dir="rtl">يشهد رئيس جامعة الحسن الأول بسطات أن السيد(ة)</div><br/>
+Le Président de l'Université Hassan 1er de Settat atteste que Mr/Mme:
+
+    <table width="100%">
+      <tr>
+         <td>Nom</td>
+         <td><span t-field="emp.surname_latin"/></td>
+         <td align="right"><span t-field="emp.surname"/></td>
+         <td align="right">الاسم العائلي</td>
+      </tr>
+      <tr>
+         <td>Prénom</td>
+         <td><span t-field="emp.givenname_latin"/></td>
+         <td align="right"><span t-field="emp.givenname"/></td>
+         <td align="right">الاسم الشخصي</td>
+      </tr>
+      <tr>
+         <td>N° CIN</td>
+         <td colspan="2" align="center"><span t-field="emp.identification_id"/></td>
+         <td align="right">رقم ب.ت.و</td>
+      </tr>
+      <tr>
+         <td>N° PPR</td>
+         <td colspan="2" align="center"><span t-field="emp.employee_id"/></td>
+         <td align="right">رقم التأجير</td>
+      </tr>
+      <tr>
+         <td>Grade</td>
+         <td><span t-field="emp.current_grade_id.grade_id.name"/></td>
+         <td align="right"></td>
+         <td align="right">الإطار</td>
+      </tr>
+      <tr>
+         <td>Lieu de Travail</td>
+         <td><span t-field="emp.work_location"/></td>
+         <td align="right"></td>
+         <td align="right">مقر العمل</td>
+      </tr>
+      <tr>
+         <td colspan="2">Date d'affection dans l'administration publique</td>
+         <td align="center"><span t-field="emp.public_employment_date"/></td>
+         <td align="right">تاريخ ولوج الوظيفة العمومية</td>
+      </tr>
+    </table>
+    <p>
+        Fait le <span t-esc="time.strftime('%d/%m/%Y')"/>
+    </p>
+
+                </div>
+            </t>
+        </t>
+    </t>
+</template>
+	</data>
 </openerp>

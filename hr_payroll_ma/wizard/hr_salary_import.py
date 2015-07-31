@@ -25,7 +25,7 @@ import csv
 from datetime import datetime, date, timedelta
 
 import logging
-from osv import fields, osv
+from openerp.osv import fields, osv
 
 _logger = logging.getLogger(__name__)
 
