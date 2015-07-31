@@ -21,9 +21,7 @@
 {
     'name': 'MA Employee',
     'version': '1.1',
-    'author': 'Zakaria',
     'category': 'Human Resources',
-    'sequence': 150,
     'summary': 'Ma Univ Employee',
     'description': """
 Human Resources Management
@@ -33,8 +31,6 @@ HR Localization
     """,
     'author': 'UH1',
     'website': 'http://www.uh1.ac.ma',
-    'images': [
-    ],
     'depends': ['hr', 'report_webkit'],
     'data': [
         'hr_report.xml',
@@ -45,9 +41,6 @@ HR Localization
     'test': [
     ],
     'installable': True,
-    'active': False,
-    'application': False,
     'auto_install': False,
-    'css': [],
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
