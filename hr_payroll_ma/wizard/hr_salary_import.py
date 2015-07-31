@@ -72,11 +72,13 @@ class employee(osv.osv_memory):
         'marital_status': fields.selection((('C', 'Celibataire'), ('M', 'Marie'), ('D', 'Divorce'), ('V', 'Veuf'), ('J', 'Autre')), 'Marital Status'),
         'children_number': fields.integer('# Children'),
         'deduction_rate': fields.integer('Deduction Rate'),
+        'new': fields.boolean('New employee'),
         'line_ids': fields.one2many('hr.salary.wizard.salary.line', 'employee_id', 'Lines'),
     }
 
     _defaults = {
         #'date_start': lambda *a: time.strftime("%Y-%m-01"),
+        'new': lambda *a: False,
     }
 
     def name_search(self, cr, uid, name='', args=None, operator='ilike', context=None, limit=100):
@@ -147,7 +149,8 @@ class salary_import(osv.osv_memory):
                 employee_id = employee_ids[0]
                 self.pool.get('hr.employee').write(cr, uid, employee_id, val),
                 _logger.info('updated user .. %s' % repr(val))
-            else: # next
+            else:  # this is a new employee, mark and skip
+                employee.write({'new': True})
                 continue
             # import grade info
             #current_grade_ids = self.pool.get('hr.employee.grade').search(cr, uid, [('employee_id', '=', employee_id),
@@ -284,16 +287,21 @@ class salary_import(osv.osv_memory):
         #if result['ids'] == False:
         #    return result
 
+        #result_view = self.pool.get('ir.ui.view').search(cr, uid, [('name', '=', 'view_hr_salary_import_result')], context=context)
+        #_logger.info('View ID is .. %s' % repr(result_view))
         action={
             'type': 'ir.actions.act_window',
             #'name': 'action_hr_salary_import_employee',
-            'view_mode': 'tree,form',
+            'view_mode': 'form',
             'view_type': 'form',
-            'res_model': 'hr.salary.wizard.employee',
-            'model': 'hr.salary.wizard.employee',
+            'res_model': 'hr.salary.wizard',
+            'model': 'hr.salary.wizard',
+            #'view_id': result_view,
             'target': 'new',
             'context': context,
-            'domain': [('wizard_id', '=', ids[0])]
+            'res_id': ids[0],
+            #'domain': [('wizard_id', '=', ids[0])],
+            'context': {'form_view_ref': 'hr_payroll_ma.view_hr_salary_import_result'},
         }
         return action
 
