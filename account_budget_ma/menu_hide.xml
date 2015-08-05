@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <menuitem id="account.menu_finance_receivables" name="Customers" parent="account.menu_finance" groups="base.group_no_one"/>
+	<menuitem action="account.action_invoice_tree4" id="account.menu_action_invoice_tree4" parent="account.menu_finance_payables" groups="base.group_no_one"/>
+
+    </data>
+</openerp>

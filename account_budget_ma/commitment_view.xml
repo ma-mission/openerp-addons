@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_commitment_search" model="ir.ui.view">
+            <field name="name">account.commitment.search</field>
+            <field name="model">account.analytic.line</field>
+            <field name="arch" type="xml">
+                <search>
+                    <filter name="Commitments" domain="[('journal_id','=','Purchase commitments')]"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="view_commitment_tree" model="ir.ui.view">
+            <field name="name">account.commitment.form</field>
+            <field name="model">account.analytic.line</field>
+            <field name="arch" type="xml">
+                <tree editable="top">
+                    <field name="name"/>
+                    <field name="general_account_id"/>
+                    <field name="account_id" string="Analytic axis"/>
+                    <field name="date"/>
+                    <field name="journal_id" invisible="True"/>
+                    <field name="amount"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <record id="action_commitment" model="ir.actions.act_window">
+            <field name="res_model">account.analytic.line</field>
+            <field name="view_type">form</field>
+            <field name="name">Commitments</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_commitment_tree"/>
+	    <field name="domain" eval="[('journal_id','=',ref('analytic_journal_commitments'))]"/>
+	    <field name="context" eval="{'default_journal_id':ref('analytic_journal_commitments')}"/>
+        </record>
+
+        <menuitem action="action_commitment" id="menu_commitments" parent="menu_main"/>
+
+    </data>
+</openerp>

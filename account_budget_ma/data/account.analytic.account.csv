@@ -1,0 +1,5 @@
+id,name,parent_id,type
+analtyic_axis_teaching,Teaching,,view
+analtyic_axis_research,Research,,view
+analtyic_axis_teaching_misc,Misc,Teaching,normal
+analtyic_axis_research_misc,Misc,Research,normal
