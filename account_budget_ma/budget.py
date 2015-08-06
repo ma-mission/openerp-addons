@@ -10,7 +10,7 @@ class budget(osv.osv):
 
     _columns = {
         'name': fields.char('Name', size=128, required=True),
-        'period': fields.many2one('account.period', 'Period', required=True),
+        'fiscalyear_id': fields.many2one('account.fiscalyear', 'Fiscal Year', required=True),
         'company_id': fields.many2one('res.company', 'Company', required=True),
         'line_ids': fields.one2many('account.budget.line', 'budget_id', 'Budget lines'),
     }
@@ -28,7 +28,7 @@ class budget_line(osv.osv):
                     "WHERE general_account_id=%s AND account_id=%s "
                     "AND date BETWEEN to_date(%s,'yyyy-mm-dd') AND to_date(%s,'yyyy-mm-dd')",
                     (line.general_account_id.id, line.analytic_axis_id.id,
-                    line.budget_id.period.date_start, line.budget_id.period.date_stop))
+                    line.budget_id.fiscalyear_id.date_start, line.budget_id.fiscalyear_id.date_stop))
             result = cr.fetchone()[0]
             if result is None:
                 result = 0.00
@@ -40,7 +40,7 @@ class budget_line(osv.osv):
         for commitment in self.pool['account.analytic.line'].browse(cr, uid, ids, context=context):
             budget_ids = self.pool['account.budget'].search(cr, uid, 
                     [('company_id', '=', commitment.company_id.id),
-                    ('period', '=', self.pool['account.period'].find(cr, uid, commitment.date, context=context))])
+                    ('fiscalyear_id', '=', self.pool['account.fiscalyear'].find(cr, uid, commitment.date, context=context))])
             line_ids = self.pool['account.budget.line'].search(cr, uid, 
                     [('general_account_id', '=', commitment.general_account_id.id),
                     ('analytic_axis_id', '=', commitment.account_id.id),
