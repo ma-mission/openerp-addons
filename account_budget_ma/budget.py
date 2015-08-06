@@ -55,6 +55,9 @@ class budget_line(osv.osv):
         'analytic_axis_id': fields.many2one('account.analytic.account', 'Analytic Axis', required=True),
         'amount': fields.float('Amount', digits_compute=dp.get_precision('Account'), required=True),
         'committed_amount': fields.function(_committed_amount, string='Committed', type='float', digits_compute=dp.get_precision('Account'),
-            store={'account.analytic.line': (_get_budget_line_from_commitment, None, 10)}),
+            store={'account.analytic.line': (_get_budget_line_from_commitment, None, 10),
+                'account.budget.line': (lambda self,cr,uid,ids,c={}: ids, None, 10),
+                'account.budget': (lambda self,cr,uid,ids,c={}: map(lambda x: x.id, reduce(lambda x,y: x|y, (set(self.browse(cr,uid,id,context=c).line_ids) for id in ids))), None, 10),
+                }),
     }
 
