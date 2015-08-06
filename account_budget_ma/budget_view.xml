@@ -21,6 +21,7 @@
                             <field name="general_account_id"/>
                             <field name="analytic_axis_id"/>
                             <field name="amount"/>
+                            <field name="committed_amount"/>
                         </tree>
                     </field>
                 </form>
