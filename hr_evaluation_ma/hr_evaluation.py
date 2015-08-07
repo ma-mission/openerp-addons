@@ -20,7 +20,7 @@
 ##############################################################################
 import datetime
 
-from osv import fields, osv
+from openerp.osv import fields, osv
 import logging
 
 class evaluation(osv.osv):
@@ -158,8 +158,13 @@ class employee_grade(osv.osv):
             res[employee_grade.id] = pace
         return res
         
-    def _search_by_pace(self, cr, uid, obj, name, args, context):
-        pass
+    def _get_employee_grade_from_evaluation(self, cr, uid, ids, context={}):
+        res = set()
+        for evaluation in self.pool['hr.evaluation'].browse(cr, uid, ids, context=context):
+            date = datetime.datetime(evaluation.year, 1, 1)
+            employee_grade_ids = self.pool['hr.employee.grade'].search(cr, uid, [('date_start', '>=', date)], context=context)
+            res.update(employee_grade_ids)
+        return res
 
     _columns = {
         'evaluation_avg': fields.function(_get_avg, string='Evaluation average', type='float'),
@@ -167,7 +172,8 @@ class employee_grade(osv.osv):
                                 selection=[('F', 'Fast'),
                                            ('M', 'Medium'),
                                            ('S', 'Slow'),], 
-                                store=True,  # for search
+                                store={_name: (lambda self,cr,uid,ids,c={}: ids, None, 10),
+                                    'hr.evaluation': (_get_employee_grade_from_evaluation, None, 10),},
                                 readOnly=True),
     }
 
