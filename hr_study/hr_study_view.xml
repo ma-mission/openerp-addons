@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_employee_inherit_grade_form" model="ir.ui.view">
+            <field name="name">hr.employee.inherit.study.form</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+		    <xpath expr="//notebook/page[last()]" position="before">
+                        <page string="Studies">
+                                <field name="study_ids">
+                                    <tree editable="top">
+                                        <field name="name"/>
+                                        <field name="date"/>
+                                        <field name="paper"/>
+                                    </tree>
+                                </field>
+                        </page>
+                    </xpath>
+            </field>
+        </record>
+
+    </data>
+</openerp>
