@@ -65,11 +65,11 @@ class evaluation(osv.osv):
             ev = evaluation.sum
             if ev >= 18:
                 mark = 'E'
-            elif avg >= 16:
+            elif ev >= 16:
                 mark = 'V'
-            elif avg >= 14:
+            elif ev >= 14:
                 mark = 'G'
-            elif avg >= 10:
+            elif ev >= 10:
                 mark = 'A'
             else:
                 mark = 'W'
@@ -161,8 +161,8 @@ class employee_grade(osv.osv):
     def _get_employee_grade_from_evaluation(self, cr, uid, ids, context={}):
         res = set()
         for evaluation in self.pool['hr.evaluation'].browse(cr, uid, ids, context=context):
-            date = datetime.datetime(evaluation.year, 1, 1)
-            employee_grade_ids = self.pool['hr.employee.grade'].search(cr, uid, [('date_start', '>=', date)], context=context)
+            date = datetime.datetime(evaluation.year+1, 1, 1)
+            employee_grade_ids = self.pool['hr.employee.grade'].search(cr, uid, [('date_start', '<', date)], context=context)
             res.update(employee_grade_ids)
         return res
 
