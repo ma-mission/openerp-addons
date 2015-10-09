@@ -51,9 +51,25 @@
             <field name="model">hr.employee</field>
             <field name="inherit_id" ref="hr.view_employee_form"/>
             <field name="arch" type="xml">
-                    <page string="HR Settings" position="before">
+                    <xpath expr="//notebook/page[3]" position="before">
                         <page string="Career Information">
                                 <field name="employee_grade_ids">
+                                    <form>
+                                        <header>
+                                            <button type="object" name="grade_validate" string="Validate" states="draft,proposal" class="oe_highlight"/>
+					</header>
+                                        <group>
+                                            <group>
+                                                <field name="grade_id"/>
+                                                <field name="echelon"/>
+                                                <field name="state"/>
+                                            </group>
+                                            <group>
+                                                <field name="date_start"/>
+                                                <field name="date_end"/>
+                                            </group>
+                                        </group>
+                                    </form>
 <!--
                                     <tree editable="bottom">
                                         <field name="grade_id"/>
@@ -63,7 +79,7 @@
 -->
                                 </field>
                         </page>
-                    </page>
+                    </xpath>
             </field>
         </record>
 
@@ -87,9 +103,9 @@
             <field name="inherit_id" ref="hr.view_employee_filter"/>
             <field name="arch" type="xml">
                 <data>
-                    <filter string="Manager" position="before">
+                    <xpath expr="(//group/filter)[1]" position="before">
                         <filter string="Grade" domain="[]" context="{'group_by':'grade_id'}"/>
-                    </filter>
+                    </xpath>
                 </data>
             </field>
         </record>

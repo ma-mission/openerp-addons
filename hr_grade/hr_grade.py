@@ -71,6 +71,17 @@ class employee_grade(osv.osv):
         'date_start': lambda *a: time.strftime("%Y-%m-01"), # first day of month
     }
 
+    def grade_validate(self, cr, uid, ids, context=None):
+        employee_grades = self.browse(cr, uid, ids)
+        # Only one employee_grade is current: deprecate current grades first
+        for employee_grade in employee_grades:
+            current_grade = employee_grade.employee_id.current_grade_id
+            current_grade.grade_deprecate()
+        return self.write(cr, uid, ids, {'state':'current'})
+
+    def grade_deprecate(self, cr, uid, ids, context=None):
+        return self.write(cr, uid, ids, {'state':'old'})
+
 employee_grade()
 
 
