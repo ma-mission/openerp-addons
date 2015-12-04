@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+        <script>
+            function subst() {
+            var vars={};
+            var x=document.location.search.substring(1).split('&');
+            for(var i in x) {var z=x[i].split('=',2);vars[z[0]] = unescape(z[1]);}
+            var x=['frompage','topage','page','webpage','section','subsection','subsubsection'];
+            for(var i in x) {
+            var y = document.getElementsByClassName(x[i]);
+            for(var j=0; j<y.length; ++j) y[j].textContent = vars[x[i]];
+                }
+            }
+        </script>
+        <style type="text/css">
+            ${css}
+        </style>
+    </head>
+    <body style="border:0; margin: 0;" onload="subst()">
+        <table class="header" style="border-bottom: 2px solid black; width: 100%">
+            <tr>
+                <td style="text-align:center; width: 33%" ><h3>Ministère de l'Enseignement Supérieur<br/>
+                    de la Recherche Scientifique et de la <br/>
+                    Formation des Cadres<br/>
+                    ${company.partner_id.name |entity}</h3></td>
+                <td style="text-align:center; width: 34%">${helper.embed_logo_by_name('USMS_logo')|n}</td>
+                <td style="text-align:center; width: 33%"><h2>
+                       <div dir="rtl"> <br/>وزارة التعليم العالي والبحث العلمي
+                                       <br/>وتكوين الأطر
+                                       <br/>جامعة السلطان مولاي سليمان
+                                       <br>الرئاسة
+                                     </div> </h2></td>
+            </tr>
+           
+        </table> ${_debug or ''|n} </body>
+</html>

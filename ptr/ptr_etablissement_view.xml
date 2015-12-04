@@ -1,0 +1,125 @@
+<openerp>
+	<data>
+		<menuitem id="ptr_root_menu" name="Patrimoine" />
+		
+	<record model="ir.ui.view" id="ptr_etablissement_kanban_view">
+		<field name="name">ptr.etablissement.kanban</field>
+		<field name="model">ptr.etablissement</field>
+		<field name="arch" type="xml">
+			<kanban>
+				<templates>
+					<t t-name="kanban-box">
+						<div class="oe_etablissemen_vignette">
+							<div class="oe_etablissement_image">
+								<a type="open"><img t-att-src="kanban_image('ptr.etablissement', 'image', record.id.value)" class="oe_etablissement_picture"/></a>
+							</div>
+							<div class="oe_etablissement_details">
+								<h4>
+									<a type="open">
+										<field name="libelle"/>
+									</a>
+								</h4>
+							</div>
+						</div>
+						<script>
+						$('.oe_etablissement_picture').load(function() { if($(this).width() > $(this).height()) { $(this).addClass('oe_etablissement_picture_wide') } });
+						</script>
+					</t>
+				</templates>
+			</kanban>
+		</field>
+	</record>
+
+	<record id="ptr_etablissement_form_view" model="ir.ui.view">
+            <field name="name">ptr.etablissement.form</field>
+            <field name="model">ptr.etablissement</field>
+            <field name="arch" type="xml">
+                <form string="Etablissement" version="7.0">
+					<sheet>
+						<field name="image" widget="image" class="oe_left oe_avatar" />
+						<div class="oe_title">
+							<h2> 
+								<label for="code" class="oe_edit_only" />
+								<field name="code"/> 
+							</h2>
+						</div>
+						<notebook >
+							<page string="Information">
+								<group>
+									<field name="libelle"/>
+								</group>
+							</page>
+							<page string="Departements">
+			                    <field name="unite_ids" />
+							</page>
+							<page string="Inventaire">
+			                    <field name="inventaire_ids" >
+									<tree string="Inventaire" version="7.0">
+										<field name="code" /> 
+										<field name="libelle"/> 
+										<field name="responsable"/> 
+										<field name="state"/> 
+									</tree>
+								</field>
+							</page>
+							<page string="Intervention" group="group_user">
+			                    <field name="intervention_ids" >
+									<tree string="Intervention" colors="blue:statut=='Demande';red:statut=='En Cours';green:statut=='Executee'">
+										<field name="code" /> 
+										<field name="libelle"/>
+										<field name="unite"/> 
+										<field name="ptrgeo"/> 
+										<field name="ptractif"/> 
+										<field name="personnel"/> 
+										<field name="priorite"/> 
+										<field name="statut"/>
+										<field name="datedemande"/>
+										<field name="dateencours"/>
+										<field name="dateexeute"/>
+									</tree>
+								</field>
+							</page>
+						</notebook>						
+					</sheet>     
+                </form>
+            </field>
+        </record>
+
+		<record id="ptr_etablissement_tree_view" model="ir.ui.view">
+            <field name="name">ptr.etablissement.tree</field>
+            <field name="model">ptr.etablissement</field>
+            <field name="arch" type="xml">
+                <tree string="etablissement"  toolbar="1"  version="7.0">
+					<field name="code" /> 
+                     <field name="libelle"/>				
+                </tree>
+            </field>
+        </record>
+		
+
+		<record model ="ir.actions.act_window" id="ptr_etablissement_act">
+			<field name="name">Etablissement</field>
+			<field name="res_model">ptr.etablissement</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">kanban,tree,form</field>
+			<field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to add a new record.
+              </p>
+            </field>
+		</record>
+		
+		
+		<menuitem id="ptr_main_menu" parent="ptr_root_menu" name="Gestion Patrimoines" />
+		<menuitem id="ptr_etablissements_menu" name="Etablissements" parent="ptr_main_menu" action="ptr_etablissement_act"/>
+
+		<menuitem id="ptr_recapitul_menu" parent="ptr_root_menu" name="Recapitulatif" />
+		<menuitem id="ptr_config_menu" parent="ptr_root_menu" name="Configuration listes" />
+		<menuitem id="ptr_pilotage_menu" parent="ptr_root_menu" name="Pilotage" />
+		
+
+				  
+		
+
+	</data>
+</openerp>

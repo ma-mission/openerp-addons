@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <record id="b_nature_view_search" model="ir.ui.view">
+            <field name="name">b.nature.view.search</field>
+            <field name="model">b.nature</field>
+            <field name="arch" type="xml">
+                <search string="Nature">
+                   	<field name="code"/>
+                    <group string="State">
+                        <filter name="Draft" domain="[('state','=','draft')]"/>
+                        <filter name="Validated" domain="[('state','=','validate')]"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record id="b_nature_view_form" model="ir.ui.view">
+            <field name="name">b.nature.view.form</field>
+            <field name="model">b.nature</field>
+            <field name="arch" type="xml">
+                <form string="Nature" version="7.0">
+                <sheet>
+                        <group>
+                            <field name="code"/>
+                            <field name="desig"/>
+                            <field name="montant"/>
+                            <field name="total"/>
+                        </group>
+                </sheet>
+                </form>
+            </field>
+        </record>
+         <record id="b_nature_view_tree" model="ir.ui.view">
+            <field name="name">b.nature.view.tree</field>
+            <field name="model">b.nature</field>
+            <field name="arch" type="xml">
+                <tree string="Nature d'engagement">
+                    <field name="code"/>
+                    <field name="desig"/>
+                    <field name="total"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_b_nature" model="ir.actions.act_window">
+            <field name="name">Nature d'engagement</field>
+            <field name="res_model">b.nature</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem action="action_b_nature" id="menu_nature" parent="budget_menu_ajouter" name="Nature d'engagement" />
+
+    </data>
+</openerp>

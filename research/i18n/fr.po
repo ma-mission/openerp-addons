@@ -1,0 +1,390 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* research
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20131228-002427\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-28 11:30+0000\n"
+"PO-Revision-Date: 2015-10-28 11:42-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: fr\n"
+"X-Generator: Poedit 1.6.4\n"
+
+#. module: research
+#: field:chercheurs,function:0
+msgid "profile"
+msgstr "Profile"
+
+#. module: research
+#: field:paretenariat,objectif:0
+msgid "objectif"
+msgstr "Objectif"
+
+#. module: research
+#: model:ir.ui.menu,name:research.publication_act
+msgid "Publication"
+msgstr "Publication"
+
+#. module: research
+#: model:ir.actions.act_window,name:research.publicationtype_action
+#: model:ir.model,name:research.model_publicationtype view:publicationtype:0
+msgid "publicationtype"
+msgstr "Type de publication"
+
+#. module: research
+#: model:ir.model,name:research.model_equipment_category
+msgid "equipment_category"
+msgstr "Catégorie d'équipement"
+
+#. module: research
+#: field:brevets,registre_date:0
+msgid "Date denregistrement a l'OMPIC"
+msgstr "Date d'enregistrement à l'OMPIC"
+
+#. module: research
+#: model:ir.actions.act_window,name:research.paretenariat_action
+#: model:ir.model,name:research.model_paretenariat
+#: model:ir.ui.menu,name:research.paretenariat_act view:paretenariat:0
+msgid "paretenariat"
+msgstr "Partenariats"
+
+#. module: research
+#: field:equipment,name:0
+msgid "intitule"
+msgstr "Intitulé"
+
+#. module: research
+#: field:publication,date:0
+msgid "date"
+msgstr "Date"
+
+#. module: research
+#: field:brevets,these_title:0
+msgid "Titre de these"
+msgstr "Titre de thèse"
+
+#. module: research
+#: view:equipment:0 model:ir.actions.act_window,name:research.type_action
+#: model:ir.model,name:research.model_type view:paretenariat:0
+#: field:publication,type:0 field:structures,type_id:0 view:type:0
+#: field:type,name:0
+msgid "type"
+msgstr "Type "
+
+#. module: research
+#: model:ir.ui.menu,name:research.type_act
+msgid "Type de structure "
+msgstr "Type de structure "
+
+#. module: research
+#: field:brevets,title:0
+msgid "Titre"
+msgstr "Titre"
+
+#. module: research
+#: view:chercheurs:0
+msgid "Beverts"
+msgstr "Brevets"
+
+#. module: research
+#: view:chercheurs:0 field:chercheurs,structures_ids:0
+#: field:equipment,structure_ids:0
+#: model:ir.ui.menu,name:research.structures_act
+msgid "Structures"
+msgstr "Structures"
+
+#. module: research
+#: model:ir.ui.menu,name:research.publicationtype_act
+msgid "Publication type"
+msgstr "Type de publication"
+
+#. module: research
+#: field:brevets,doctorant:0
+msgid "doctorant"
+msgstr "Doctorant"
+
+#. module: research
+#: field:brevets,ced:0
+msgid "CED"
+msgstr "CED"
+
+#. module: research
+#: field:equipment,category:0
+msgid "Categorie"
+msgstr "Catégorie"
+
+#. module: research
+#: model:ir.actions.act_window,name:research.publication_action
+#: model:ir.model,name:research.model_publication view:publication:0
+msgid "publication"
+msgstr "Publication"
+
+#. module: research
+#: field:equipment,amount:0
+msgid "Montant"
+msgstr "Montant"
+
+#. module: research
+#: view:equipment:0 model:ir.actions.act_window,name:research.equipment_action
+#: model:ir.model,name:research.model_equipment
+#: model:ir.ui.menu,name:research.equipment_act
+msgid "equipment"
+msgstr "Équipement"
+
+#. module: research
+#: model:ir.model,name:research.model_paretenariattype
+msgid "paretenariattype"
+msgstr "Type de partenariat"
+
+#. module: research
+#: field:paretenariat,type:0
+msgid "unknown"
+msgstr "Inconnu"
+
+#. module: research
+#: field:chercheurs,responsible:0 field:paretenariat,responsible:0
+msgid "responsible"
+msgstr "Responsable"
+
+#. module: research
+#: model:ir.ui.menu,name:research.chercheurs_act
+msgid "Chercheurs"
+msgstr "Chercheurs"
+
+#. module: research
+#: field:brevets,chercheurs_id:0 field:publication,chercheurs_id:0
+msgid "chercheur"
+msgstr "Chercheur"
+
+#. module: research
+#: field:brevets,code:0 field:chercheurs,code:0 field:equipment,id_equipment:0
+#: field:equipment_category,code:0 field:establishment,code:0
+#: field:paretenariat,code:0 field:paretenariattype,code:0
+#: field:publication,code:0 field:publicationtype,code:0
+#: field:structures,code:0 field:type,code:0
+msgid "id"
+msgstr "ID"
+
+#. module: research
+#: field:brevets,reference:0
+msgid "Numero de reference"
+msgstr "Numéro de référence"
+
+#. module: research
+#: selection:equipment,type_of_budjet:0
+msgid "other"
+msgstr "Autres"
+
+#. module: research
+#: selection:equipment,type_of_sale:0
+msgid "bon de commande"
+msgstr "Bon de commande"
+
+#. module: research
+#: field:structures,budget_fonc:0
+msgid "Budget de Fonctionnement"
+msgstr "Budget de fonctionnement"
+
+#. module: research
+#: field:structures,chercheurs_id1:0
+msgid "Members"
+msgstr "Membres"
+
+#. module: research
+#: field:structures,other_budget:0
+msgid "Autres Budgets"
+msgstr "Autres Budgets"
+
+#. module: research
+#: view:establishment:0
+#: model:ir.actions.act_window,name:research.establishment_action
+#: model:ir.model,name:research.model_establishment
+msgid "establishment"
+msgstr "Établissement"
+
+#. module: research
+#: field:brevets,signup_date:0
+msgid "date d'inscription"
+msgstr "Date d'inscription"
+
+#. module: research
+#: field:equipment,date_of_sale:0
+msgid "Commande le"
+msgstr "Commandé le"
+
+#. module: research
+#: model:ir.ui.menu,name:research.structures_inner
+#: model:ir.ui.menu,name:research.structures_menu
+msgid "Recherche scientifique"
+msgstr "Recherche scientifique"
+
+#. module: research
+#: field:equipment,quantity:0
+msgid "Quantite"
+msgstr "Quantité"
+
+#. module: research
+#: selection:equipment,type_of_budjet:0
+msgid "Invistissement"
+msgstr "Invistissement"
+
+#. module: research
+#: field:publication,publisher:0
+msgid "publisher"
+msgstr "Publicateur"
+
+#. module: research
+#: field:paretenariat,duration:0
+msgid "duration"
+msgstr "Durée"
+
+#. module: research
+#: model:ir.ui.menu,name:research.establishment_act
+#: field:structures,establishment_id:0
+msgid "Etablissement"
+msgstr "Établissement"
+
+#. module: research
+#: view:chercheurs:0
+#: model:ir.actions.act_window,name:research.chercheurs_action
+#: model:ir.model,name:research.model_chercheurs
+msgid "chercheurs"
+msgstr "Chercheurs"
+
+#. module: research
+#: field:brevets,these:0
+msgid "Encedrement de These"
+msgstr "Encadrement de Thèse"
+
+#. module: research
+#: field:structures,equipment_ids:0
+msgid "Equipments et ressousses"
+msgstr "Équipements "
+
+#. module: research
+#: field:equipment,type_of_sale:0
+msgid "Type de Commande"
+msgstr "Type de commande"
+
+#. module: research
+#: field:brevets,co_encadron:0
+msgid "Co Encadrant"
+msgstr "Co-encadrant"
+
+#. module: research
+#: field:equipment,inventory:0
+msgid "Numero d'inventaire"
+msgstr "Numéro d'inventaire"
+
+#. module: research
+#: field:structures,budget_inv:0 field:structures,budget_inv_calc:0
+msgid "Budget d'investissement"
+msgstr "Budget d'investissement"
+
+#. module: research
+#: field:establishment,address:0
+msgid "address"
+msgstr "Adresse"
+
+#. module: research
+#: field:brevets,active:0 field:chercheurs,active:0 field:equipment,active:0
+#: field:equipment_category,active:0 field:establishment,active:0
+#: field:paretenariat,active:0 field:paretenariattype,active:0
+#: field:publication,active:0 field:publicationtype,active:0
+#: field:structures,active:0 field:type,active:0
+msgid "active"
+msgstr "Active"
+
+#. module: research
+#: field:paretenariat,date_signature:0
+msgid "date signature"
+msgstr "Date signature"
+
+#. module: research
+#: selection:equipment,type_of_sale:0
+msgid "marche"
+msgstr "Marché"
+
+#. module: research
+#: field:brevets,expiration_date:0
+msgid "Date d'expiration"
+msgstr "Date d'expiration"
+
+#. module: research
+#: field:equipment,type_of_budjet:0
+msgid "Type de Budjet"
+msgstr "Type de Budget"
+
+#. module: research
+#: field:chercheurs,name:0 field:equipment_category,name:0
+#: field:establishment,name:0 field:paretenariat,name:0
+#: field:paretenariattype,name:0 field:publicationtype,name:0
+msgid "name"
+msgstr "Nom"
+
+#. module: research
+#: model:ir.actions.act_window,name:research.structures_action
+#: model:ir.model,name:research.model_structures
+#: field:paretenariat,structures_id:0 view:structures:0
+msgid "structures"
+msgstr "Structures"
+
+#. module: research
+#: field:brevets,encadrant:0
+msgid "encadrant"
+msgstr "Encadrant"
+
+#. module: research
+#: field:brevets,link:0
+msgid "Lien pour Telechargement du rapport"
+msgstr "Lien pour téléchargement du rapport"
+
+#. module: research
+#: field:chercheurs,phone:0
+msgid "Telephone"
+msgstr "Téléphone"
+
+#. module: research
+#: field:chercheurs,email:0
+msgid "email"
+msgstr "E-mail"
+
+#. module: research
+#: field:structures,name:0
+msgid "Intitule"
+msgstr "Intitulé"
+
+#. module: research
+#: view:brevets:0 field:chercheurs,brevets_ids:0
+#: model:ir.actions.act_window,name:research.brevets_action
+#: model:ir.model,name:research.model_brevets
+#: model:ir.ui.menu,name:research.brevets_act
+msgid "brevets"
+msgstr "Brevets"
+
+#. module: research
+#: selection:equipment,type_of_budjet:0
+msgid "fonctionnement"
+msgstr "Fonctionnement"
+
+#. module: research
+#: field:chercheurs,publication_ids:0
+msgid "publications"
+msgstr "Publications"
+
+#. module: research
+#: field:publication,name:0
+msgid "title"
+msgstr "Titre"
+
+#. module: research
+#: view:chercheurs:0
+msgid "Publications"
+msgstr "Publications"

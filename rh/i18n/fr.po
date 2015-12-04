@@ -1,0 +1,1225 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* rh
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20131228-002427\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-25 12:01+0000\n"
+"PO-Revision-Date: 2015-10-28 09:46-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: fr\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Bookmarks: -1,-1,-1,-1,119,-1,-1,-1,-1,-1\n"
+
+#. module: rh
+#: field:rh.import_data_wz,fichier:0 field:rh.import_salary_wz,fichier:0
+msgid "Fichier"
+msgstr "Fichier"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_province_act_view view:rh.province:0
+#: view:rh.region:0 field:rh.region,province_ids:0
+msgid "Provinces"
+msgstr "Provinces"
+
+#. module: rh
+#: field:rh.ordre_mission,prise_en_charge:0
+msgid "Prise en charge"
+msgstr "Prise en charge"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_moyen_transport
+msgid "rh.moyen_transport"
+msgstr "Moyen de transport"
+
+#. module: rh
+#: field:rh.ordre_mission,destination_id:0
+msgid "Destination"
+msgstr "Destination"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_fonction_corps
+msgid "rh.fonction.corps"
+msgstr ""
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_salary_act_view
+#: model:ir.ui.menu,name:rh.salaries_menu view:rh.salary:0
+msgid "Salaries"
+msgstr "Salaires"
+
+#. module: rh
+#: view:rh.employe:0
+msgid "Group By..."
+msgstr "Grouper  par ..."
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.act_ordre_mission_view
+#: view:rh.employe:0 field:rh.employe,ordre_mission_ids:0
+#: view:rh.ordre_mission:0
+msgid "Ordres de mission"
+msgstr "Ordres de mission"
+
+#. module: rh
+#: field:rh.employe,name_ar:0
+msgid "Arabic name"
+msgstr "Nom en arabe"
+
+#. module: rh
+#: view:rh.study:0
+msgid "Niveau de qualification"
+msgstr "Niveau de qualification"
+
+#. module: rh
+#: field:rh.employe,net_mensuel:0
+msgid "Net mensuel"
+msgstr "Net mensuel"
+
+#. module: rh
+#: view:rh.province:0 field:rh.ville,province_id:0
+msgid "Province"
+msgstr "Province"
+
+#. module: rh
+#: selection:rh.employe,mois:0 selection:rh.import_salary_wz,mois:0
+#: selection:rh.salary,mois:0
+msgid "Aout"
+msgstr "Août"
+
+#. module: rh
+#: view:rh.moyen_transport:0 field:rh.ordre_mission,moyen_transport_id:0
+msgid "Moyen de transport"
+msgstr "Moyen de transport"
+
+#. module: rh
+#: field:rh.ville,zip:0
+msgid "Zip Code"
+msgstr "Code postal"
+
+#. module: rh
+#: view:rh.departement:0 view:rh.employe:0 view:rh.etablissement:0
+#: view:rh.fonction:0 view:rh.ordre_mission:0
+msgid "Other Information ..."
+msgstr "Autres informations ..."
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_fonction_cadre_act_view
+#: model:ir.ui.menu,name:rh.cadre_menu view:rh.fonction.cadre:0
+#: view:rh.fonction.corps:0 field:rh.fonction.corps,cadre_ids:0
+msgid "Cadres"
+msgstr "Cadres"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_reportwz_as
+msgid "rh.reportwz_as"
+msgstr "Attestation de salaire"
+
+#. module: rh
+#: field:rh.demande,reason:0 field:rh.reportwz_aqt,reason:0
+msgid "Reason"
+msgstr "Pour"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_et_type
+msgid "rh.et_type"
+msgstr "Type d' établissement"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_departement
+msgid "rh.departement"
+msgstr "Département"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.menu_import_employe_data
+msgid "Import employes data"
+msgstr "Importer les données des employés"
+
+#. module: rh
+#: view:rh.employe:0 view:rh.salary:0
+msgid "Salary"
+msgstr "Salaire"
+
+#. module: rh
+#: field:rh.employe,recrutement_date:0
+msgid "Date of recrutement"
+msgstr "Date de recrutement"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.rh_menu model:ir.ui.menu,name:rh.rh_root_menu
+msgid "Human Resources"
+msgstr "Ressources Humaines"
+
+#. module: rh
+#: field:rh.fonction,ville_id:0 field:rh.import_data_wz,ville_id:0
+#: field:rh.reportwz_aqt,ville_id:0 field:rh.study,ville_id:0 view:rh.ville:0
+msgid "Ville"
+msgstr "Ville"
+
+#. module: rh
+#: field:rh.employe,lastname:0
+msgid "Last name"
+msgstr "Prénom"
+
+#. module: rh
+#: field:rh.departement,notes:0 field:rh.employe,notes:0
+#: field:rh.etablissement,notes:0 field:rh.fonction,notes:0
+#: field:rh.ordre_mission,notes:0
+msgid "Notes"
+msgstr "Notes"
+
+#. module: rh
+#: selection:rh.employe,marital:0
+msgid "Married"
+msgstr "Marié(e)"
+
+#. module: rh
+#: field:rh.employe,net_annuel:0
+msgid "Net annuel"
+msgstr "Net annuel"
+
+#. module: rh
+#: field:rh.employe,num_children:0
+msgid "Number of children"
+msgstr "Nombre d'enfants"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.regions_menu
+msgid "Liste des regions"
+msgstr "Liste des regions"
+
+#. module: rh
+#: field:rh.employe,lastname_ar:0
+msgid "Arabic last name"
+msgstr "Prénom en arabe"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_ville_act_view view:rh.province:0
+#: field:rh.province,ville_ids:0 view:rh.ville:0
+msgid "Villes"
+msgstr "Villes"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_et_type_act_view view:rh.et_type:0
+msgid "Types Etablissement"
+msgstr "Types d'établissement"
+
+#. module: rh
+#: field:rh.employe,som:0
+msgid "S.O.M"
+msgstr "Numéro de S.O.M"
+
+#. module: rh
+#: view:rh.employe:0 field:rh.fonction,employe_id:0
+#: field:rh.salary,employe_id:0 field:rh.study,employe_id:0
+msgid "Employe"
+msgstr "Employé"
+
+#. module: rh
+#: field:rh.ordre_mission,doc_ref:0
+msgid "Ordre de Mission"
+msgstr "Ordre de mission"
+
+#. module: rh
+#: field:rh.demande,doc_ref:0
+msgid "Reference"
+msgstr "Référence"
+
+#. module: rh
+#: field:rh.etablissement,logo:0
+msgid "Logo de l'etablissement"
+msgstr "Logo de l'établissement"
+
+#. module: rh
+#: field:rh.fonction,echelon_id:0 view:rh.fonction.echelon:0
+#: field:rh.fonction.echelon,echelon:0
+msgid "Echelon"
+msgstr "Échelon"
+
+#. module: rh
+#: field:rh.ordre_mission,nombre_de_jour:0
+msgid "Nombre de jours"
+msgstr "Nombre de jours"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_fonction_grade_act_view
+#: model:ir.ui.menu,name:rh.grade_menu view:rh.fonction.cadre:0
+#: field:rh.fonction.cadre,grade_ids:0 view:rh.fonction.grade:0
+msgid "Grades"
+msgstr "Grades"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.nationalites_menu
+msgid "Liste des nationalites"
+msgstr "Pays"
+
+#. module: rh
+#: field:rh.salary,rubrique_id:0
+msgid "Rubric"
+msgstr "Rubrique"
+
+#. module: rh
+#: selection:rh.employe,gender:0
+msgid "Female"
+msgstr "Féminin"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_reportwz_at_action
+#: model:ir.actions.act_window,name:rh.rh_reportwz_at_action_win
+msgid "Attestation de travail"
+msgstr "Attestation de travail"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.fonctions_menu
+msgid "Fontions"
+msgstr "Fontions"
+
+#. module: rh
+#: model:ir.actions.act_window,help:rh.act_departement_view
+#: model:ir.actions.act_window,help:rh.act_etablissement_view
+#: model:ir.actions.act_window,help:rh.act_ordre_mission_view
+#: model:ir.actions.act_window,help:rh.act_study_view
+msgid "<p class=\"oe_view_nocontent_create\">Click to define a new record.</p>"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">Cliquer pour ajouter un nouveau "
+"enregistrement.</p>"
+
+#. module: rh
+#: selection:rh.ordre_mission,state:0
+msgid "Confirmed"
+msgstr "Confirmé"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.menu_etude_qualification
+msgid "Etudes et qualifications"
+msgstr "Études et qualifications"
+
+#. module: rh
+#: field:rh.employe,echelon_date_rel:0
+msgid "Last modification date"
+msgstr "Date de dernière modif."
+
+#. module: rh
+#: view:rh.ordre_mission:0
+msgid "Confirm"
+msgstr "Confirmer"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_annee_act_view view:rh.annee:0
+msgid "Annees"
+msgstr "Années"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_ordre_mission
+msgid "rh.ordre_mission"
+msgstr "Ordre de mission"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_reportwz_at
+msgid "rh.reportwz_at"
+msgstr "Attestation de travail"
+
+#. module: rh
+#: selection:rh.employe,mois:0 selection:rh.import_salary_wz,mois:0
+#: selection:rh.salary,mois:0
+msgid "Juillet"
+msgstr "Juillet"
+
+#. module: rh
+#: view:rh.departement:0 view:rh.employe:0 view:rh.etablissement:0
+msgid ""
+"$('.oe_grh_picture').load(function() { if($(this).width() > $(this)."
+"height()) { $(this).addClass('oe_grh_picture_wide') } });"
+msgstr ""
+"$('.oe_grh_picture').load(function() { if($(this).width() > $(this)."
+"height()) { $(this).addClass('oe_grh_picture_wide') } });"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_employe_act_view
+#: model:ir.ui.menu,name:rh.employes_menu view:rh.employe:0
+#: field:rh.ordre_mission,employe_ids:0
+msgid "Employes"
+msgstr "Employés"
+
+#. module: rh
+#: view:rh.employe:0
+msgid "Ordres de missions"
+msgstr "Ordres de mission"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_fonction_act_view view:rh.employe:0
+#: field:rh.employe,fonction_ids:0 view:rh.fonction:0
+msgid "Fonctions"
+msgstr "Fonctions"
+
+#. module: rh
+#: field:rh.demande,state:0 field:rh.fonction,state:0
+#: field:rh.ordre_mission,state:0
+msgid "State"
+msgstr "Etat"
+
+#. module: rh
+#: field:rh.reportwz_aqt,update_adress:0
+msgid "Update Address"
+msgstr "Mettre à jours l'adresse"
+
+#. module: rh
+#: field:rh.employe,organisme_id:0
+msgid "Organisme code"
+msgstr "Code d'organisme"
+
+#. module: rh
+#: selection:rh.employe,mois:0 selection:rh.import_salary_wz,mois:0
+#: selection:rh.salary,mois:0
+msgid "Mars"
+msgstr "Mars"
+
+#. module: rh
+#: view:rh.demande:0 view:rh.reportwz_aqt:0 view:rh.reportwz_as:0
+#: view:rh.reportwz_at:0 view:rh.reportwz_om:0
+msgid "Print"
+msgstr "Imprimer"
+
+#. module: rh
+#: field:rh.demande,start_date:0 field:rh.reportwz_aqt,start_date:0
+msgid "Start date"
+msgstr "Date de départ"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.moyen_transports_menu
+msgid "Liste des moyens de transport"
+msgstr "Liste des moyens de transport"
+
+#. module: rh
+#: field:rh.employe,email:0
+msgid "Email"
+msgstr "E-mail"
+
+#. module: rh
+#: field:rh.employe,retenues:0
+msgid "Total des Retenues"
+msgstr "Total des Retenues"
+
+#. module: rh
+#: field:rh.departement,logo:0
+msgid "Logo du departement"
+msgstr "Logo du département"
+
+#. module: rh
+#: field:rh.employe,mois:0 field:rh.import_salary_wz,mois:0
+#: field:rh.salary,mois:0
+msgid "Mois"
+msgstr "Mois"
+
+#. module: rh
+#: field:rh.fonction.echelon,grade_id:0
+msgid "Garde"
+msgstr "Garde"
+
+#. module: rh
+#: view:rh.employe:0
+msgid "professional informations"
+msgstr "Informations professionnelles"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_nationalite
+msgid "rh.nationalite"
+msgstr "Pays"
+
+#. module: rh
+#: view:rh.rubrique:0
+msgid "Rubrique"
+msgstr "Rubrique"
+
+#. module: rh
+#: field:rh.employe,deduction_rel:0 field:rh.fonction,deduction:0
+msgid "Deductions"
+msgstr "Déductions"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.menu_autres_referentiels
+msgid "Autres referentiels"
+msgstr "Autres référentiels"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.annees_menu
+msgid "Liste des annees de salaire"
+msgstr "Liste des années de salaire"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.menu_demandes1
+msgid "toutes les demandes"
+msgstr "Demandes"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.rubriques_menu
+msgid "Liste des rubriques de salaire"
+msgstr "Liste des rubriques de salaire"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_fonction_category_act_view
+#: model:ir.ui.menu,name:rh.categories_menu view:rh.fonction.category:0
+msgid "Categories"
+msgstr "Categories"
+
+#. module: rh
+#: view:rh.employe:0
+msgid "General Informations"
+msgstr "Informations générales"
+
+#. module: rh
+#: selection:rh.employe,marital:0
+msgid "Divorced"
+msgstr "Divorcé(e)"
+
+#. module: rh
+#: field:rh.employe,birthday_state:0
+msgid "Estime"
+msgstr "Estimée"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_fonction_grade
+msgid "rh.fonction.grade"
+msgstr "Grade"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_import_salary_wz
+msgid "rh.import_salary_wz"
+msgstr "Salaire"
+
+#. module: rh
+#: field:rh.employe,office_localisation:0
+msgid "Office localisation"
+msgstr "Bureau"
+
+#. module: rh
+#: view:rh.employe:0
+msgid "Retenues Annuelles"
+msgstr "Retenues Annuelles"
+
+#. module: rh
+#: field:rh.fonction,cadre_id:0 view:rh.fonction.cadre:0
+#: view:rh.fonction.grade:0 field:rh.fonction.grade,cadre_id:0
+msgid "Cadre"
+msgstr "Cadre"
+
+#. module: rh
+#: field:rh.study,date:0
+msgid "Date of graduation"
+msgstr "Date d'obtention"
+
+#. module: rh
+#: view:rh.et_type:0 view:rh.qualification:0 field:rh.study,qualification_id:0
+msgid "Qualification"
+msgstr "Qualification"
+
+#. module: rh
+#: selection:rh.employe,mois:0 selection:rh.import_salary_wz,mois:0
+#: selection:rh.salary,mois:0
+msgid "Janvier"
+msgstr "Janvier"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.act_study_view
+msgid "Studies"
+msgstr "Études"
+
+#. module: rh
+#: view:rh.departement:0 view:rh.employe:0
+msgid "Departement"
+msgstr "Département"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_import_data_wz
+msgid "rh.import_data_wz"
+msgstr "Données d'emplyées"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.menu_referentiel_metiers
+msgid "Referentiel des metiers"
+msgstr "Référentiel des métiers"
+
+#. module: rh
+#: field:rh.fonction,grade_id:0
+msgid "Grade"
+msgstr "Grade"
+
+#. module: rh
+#: field:rh.employe,image:0
+msgid "Photo"
+msgstr "Photo"
+
+#. module: rh
+#: view:rh.study:0
+msgid "study"
+msgstr "Étude"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_study
+msgid "rh.study"
+msgstr "Étude"
+
+#. module: rh
+#: field:rh.employe,image_small:0
+msgid "Smal-sized image"
+msgstr "Image"
+
+#. module: rh
+#: selection:rh.ordre_mission,state:0
+msgid "Canceled"
+msgstr "Annulé"
+
+#. module: rh
+#: field:rh.employe,image_medium:0
+msgid "Medium-sized image"
+msgstr "Image"
+
+#. module: rh
+#: view:rh.reportwz_as:0 view:rh.reportwz_om:0
+msgid "Informasion:"
+msgstr "Informations:"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_nationalite_act_view
+#: view:rh.nationalite:0
+msgid "Nationalites"
+msgstr "Pays"
+
+#. module: rh
+#: field:rh.employe,work_fleet:0
+msgid "Work phone"
+msgstr "Téléphone de professionnel"
+
+#. module: rh
+#: view:rh.demande:0
+msgid "Employes Demandes"
+msgstr "Demandes des employés"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.qualifications_menu
+msgid "Liste de niveaux de qualifications"
+msgstr "Liste de niveaux de qualifications"
+
+#. module: rh
+#: field:rh.fonction,category_id:0 view:rh.fonction.category:0
+#: field:rh.fonction.corps,category_id:0
+msgid "Category"
+msgstr "Category"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_reportwz_aqt
+msgid "rh.reportwz_aqt"
+msgstr "Attestation de quittement de territoire"
+
+#. module: rh
+#: field:rh.fonction,support:0 field:rh.study,support:0
+msgid "Support"
+msgstr "Fichier joint"
+
+#. module: rh
+#: view:rh.employe:0
+msgid "Etat civil"
+msgstr "État civil"
+
+#. module: rh
+#: field:rh.employe,departement_id:0
+msgid "Deparetment"
+msgstr "Déparetment"
+
+#. module: rh
+#: field:rh.fonction,echelon_date:0
+msgid "Date d echelon"
+msgstr "Date d'échelon"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.menu_import_employe_salary
+msgid "Import employes salary"
+msgstr "Importer les salires des employés"
+
+#. module: rh
+#: view:rh.employe:0
+msgid "Contacte"
+msgstr "Contacte"
+
+#. module: rh
+#: selection:rh.employe,mois:0 selection:rh.import_salary_wz,mois:0
+#: selection:rh.salary,mois:0
+msgid "Juin"
+msgstr "Juin"
+
+#. module: rh
+#: field:rh.fonction.grade,scale:0
+msgid "Scale"
+msgstr "Échelle"
+
+#. module: rh
+#: selection:rh.ordre_mission,state:0
+msgid "Draft"
+msgstr "Brouillon"
+
+#. module: rh
+#: view:rh.import_data_wz:0 view:rh.import_salary_wz:0
+msgid "Are you sure you want to import?"
+msgstr "Etes-vous sûr que vous voulez importer?"
+
+#. module: rh
+#: view:rh.import_data_wz:0 view:rh.import_salary_wz:0
+msgid "Import"
+msgstr "Importer"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.et_types_menu
+msgid "Liste des types Etablissement"
+msgstr "Liste des types d'établissement"
+
+#. module: rh
+#: field:rh.ordre_mission,date_depart:0
+msgid "Date de Depart"
+msgstr "Date de départ"
+
+#. module: rh
+#: field:rh.fonction,grade_date:0
+msgid "Date de Grade"
+msgstr "Date de grade"
+
+#. module: rh
+#: selection:rh.employe,mois:0 selection:rh.import_salary_wz,mois:0
+#: selection:rh.salary,mois:0
+msgid "Avril"
+msgstr "Avril"
+
+#. module: rh
+#: field:rh.ville,zone:0
+msgid "Zone"
+msgstr "Zone"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_employe
+msgid "rh.employe"
+msgstr "Employé"
+
+#. module: rh
+#: view:rh.employe:0
+msgid "Filtres"
+msgstr "Filtres"
+
+#. module: rh
+#: field:rh.demande,ville_id:0 field:rh.employe,emolument_ids:0
+#: field:rh.employe,qualification_ids:0 field:rh.employe,retenue_ids:0
+msgid "unknown"
+msgstr "Inconnu"
+
+#. module: rh
+#: sql_constraint:rh.employe:0
+msgid "The Budget Item of the employe must be unique !"
+msgstr "Le numéro budgetaire de l'employé doit être unique!"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_qualification_act_view
+#: view:rh.employe:0 view:rh.qualification:0 view:rh.study:0
+msgid "Qualifications"
+msgstr "Qualifications"
+
+#. module: rh
+#: field:rh.demande,employe_id:0 field:rh.employe,complete_name:0
+msgid "Full name"
+msgstr "Nom et Prénom"
+
+#. module: rh
+#: view:rh.ordre_mission:0
+msgid "Paid"
+msgstr "Payer"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.act_etablissement_view
+#: model:ir.ui.menu,name:rh.menu_etablissements
+msgid "Etablissements"
+msgstr "Établissements"
+
+#. module: rh
+#: view:rh.employe:0
+msgid "Demande"
+msgstr "Demande"
+
+#. module: rh
+#: field:rh.employe,birthday:0
+msgid "Birthday"
+msgstr "Date de naissance"
+
+#. module: rh
+#: field:rh.employe,work_email:0
+msgid "Work e-mail"
+msgstr "E-mail professionnel"
+
+#. module: rh
+#: selection:rh.employe,mois:0 selection:rh.import_salary_wz,mois:0
+#: selection:rh.salary,mois:0
+msgid "Septembre"
+msgstr "Septembre"
+
+#. module: rh
+#: selection:rh.fonction,state:0
+msgid "Active"
+msgstr "Active"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.provinces_menu
+msgid "Liste des provinces"
+msgstr "Liste des provinces"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_fonction_echelon
+msgid "rh.fonction.echelon"
+msgstr "Échelon"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_salary
+msgid "rh.salary"
+msgstr "Salaire"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_reportwz_om
+msgid "rh.reportwz_om"
+msgstr "Ordre de mission"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_fonction_echelon_act_view
+#: model:ir.ui.menu,name:rh.echelon_menu view:rh.fonction.echelon:0
+#: view:rh.fonction.grade:0 field:rh.fonction.grade,echelon_ids:0
+msgid "Echelons"
+msgstr "Échelons"
+
+#. module: rh
+#: selection:rh.employe,gender:0
+msgid "Male"
+msgstr "Masculin"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_province
+msgid "rh.province"
+msgstr "Province"
+
+#. module: rh
+#: field:rh.departement,etablissement_id:0 view:rh.employe:0
+#: field:rh.employe,etablissement_id:0 view:rh.etablissement:0
+msgid "Etablissement"
+msgstr "Établissement"
+
+#. module: rh
+#: selection:rh.employe,mois:0 selection:rh.import_salary_wz,mois:0
+#: selection:rh.salary,mois:0
+msgid "Nevembre"
+msgstr "Nevembre"
+
+#. module: rh
+#: selection:rh.ordre_mission,state:0
+msgid "Payed"
+msgstr "Payé"
+
+#. module: rh
+#: field:rh.demande,date:0
+msgid "Date"
+msgstr "Date"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_etablissement
+msgid "rh.etablissement"
+msgstr "Établissement"
+
+#. module: rh
+#: field:rh.employe,pb:0
+msgid "Budget item"
+msgstr "Poste budgétaire"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.act_demande_view
+#: model:ir.actions.act_window,name:rh.act_demande_view1
+#: model:ir.ui.menu,name:rh.menu_demandes view:rh.demande:0
+#: field:rh.employe,demande_ids:0
+msgid "Demandes"
+msgstr "Nouvelles demandes"
+
+#. module: rh
+#: model:ir.actions.report.xml,name:rh.attestation_travail_webkit
+msgid "Attestation de Travail"
+msgstr "Attestation de travail"
+
+#. module: rh
+#: field:rh.demande,end_date:0 field:rh.reportwz_aqt,end_date:0
+msgid "End date"
+msgstr "Date de fin "
+
+#. module: rh
+#: field:rh.departement,code:0 field:rh.etablissement,code:0
+#: field:rh.fonction,code:0 field:rh.fonction.cadre,code:0
+#: field:rh.fonction.category,code:0 field:rh.fonction.corps,code:0
+#: field:rh.fonction.echelon,code:0 field:rh.fonction.grade,code:0
+#: field:rh.nationalite,code:0 field:rh.province,code:0 field:rh.region,code:0
+#: field:rh.rubrique,code:0 field:rh.ville,code:0
+msgid "Code"
+msgstr "Code"
+
+#. module: rh
+#: selection:rh.fonction,state:0
+msgid "Proposed"
+msgstr "Proposée"
+
+#. module: rh
+#: view:rh.reportwz_aqt:0 view:rh.reportwz_as:0 view:rh.reportwz_at:0
+#: view:rh.reportwz_om:0
+msgid "Are you sure you want to print?"
+msgstr "Êtes vous sur de vouloir imprimer?"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_import_salary_wz_action
+#: view:rh.import_salary_wz:0
+msgid "Import employe salary wizard"
+msgstr "Assistant d'import des salaires d'employés"
+
+#. module: rh
+#: field:rh.employe,marital:0
+msgid "Marital Status"
+msgstr "Situation familiale"
+
+#. module: rh
+#: selection:rh.fonction,state:0
+msgid "Inactive"
+msgstr "Inactive"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.menu_referentiel_structures
+msgid "Referentiel des structures"
+msgstr "Référentiel des structures"
+
+#. module: rh
+#: view:rh.import_data_wz:0 view:rh.import_salary_wz:0 view:rh.ordre_mission:0
+#: view:rh.reportwz_aqt:0 view:rh.reportwz_as:0 view:rh.reportwz_at:0
+#: view:rh.reportwz_om:0
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_ville
+msgid "rh.ville"
+msgstr "Ville"
+
+#. module: rh
+#: selection:rh.ordre_mission,state:0
+msgid "Validated"
+msgstr "Validé"
+
+#. module: rh
+#: field:rh.employe,city_id:0
+msgid "City"
+msgstr "Ville"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.menu_base_donnee
+msgid "Bases de donnees"
+msgstr "Bases de données"
+
+#. module: rh
+#: field:rh.employe,passport:0
+msgid "Passport"
+msgstr "Passeport"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_reportwz_om_action
+#: model:ir.actions.act_window,name:rh.rh_reportwz_om_wz
+#: model:ir.actions.report.xml,name:rh.ordre_mission_webkit
+#: view:rh.ordre_mission:0
+msgid "Ordre de mission"
+msgstr "Ordre de mission"
+
+#. module: rh
+#: field:rh.study,et_type_id:0
+msgid "Type etablissement"
+msgstr "Type d'établissement"
+
+#. module: rh
+#: field:rh.employe,cin:0
+msgid "CIN"
+msgstr "CIN"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_region_act_view view:rh.region:0
+msgid "Regions"
+msgstr "Régions"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_demande
+msgid "rh.demande"
+msgstr "Demande"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_annee
+msgid "rh.annee"
+msgstr "Année"
+
+#. module: rh
+#: field:rh.employe,brut_annuel:0
+msgid "Brut annuel"
+msgstr "Brut annuel"
+
+#. module: rh
+#: field:rh.demande,adress:0 field:rh.employe,adress:0
+#: field:rh.reportwz_aqt,adress:0
+msgid "Adress"
+msgstr "Adresse"
+
+#. module: rh
+#: view:rh.ordre_mission:0
+msgid "Print document"
+msgstr "Imprimer le document"
+
+#. module: rh
+#: field:rh.employe,nationalite_id:0 view:rh.nationalite:0
+msgid "Nationalite"
+msgstr "Pays"
+
+#. module: rh
+#: field:rh.salary,price:0
+msgid "Price"
+msgstr "Montant"
+
+#. module: rh
+#: field:rh.employe,phone:0
+msgid "Phone number"
+msgstr "Téléphone personnel"
+
+#. module: rh
+#: selection:rh.employe,mois:0 selection:rh.import_salary_wz,mois:0
+#: selection:rh.salary,mois:0
+msgid "Octobre"
+msgstr "Octobre"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.villes_menu
+msgid "Liste des villes"
+msgstr "Liste des villes"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_moyen_transport_act_view
+#: view:rh.moyen_transport:0
+msgid "Moyens de transport"
+msgstr "Moyens de transport"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_import_data_wz_action
+#: view:rh.import_data_wz:0
+msgid "Import employe data wizard"
+msgstr "Assistant d'import de données d'employés"
+
+#. module: rh
+#: selection:rh.employe,mois:0 selection:rh.import_salary_wz,mois:0
+#: selection:rh.salary,mois:0
+msgid "Mai"
+msgstr "Mai"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_region
+msgid "rh.region"
+msgstr "Région"
+
+#. module: rh
+#: view:rh.annee:0 field:rh.annee,annee:0 field:rh.employe,annee_id:0
+#: field:rh.import_salary_wz,annee:0 field:rh.salary,annee:0
+msgid "Annee"
+msgstr "Année"
+
+#. module: rh
+#: field:rh.province,region_id:0 view:rh.region:0
+msgid "Region"
+msgstr "Région"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.menu_ordre_mission
+msgid "Ordres de Mission"
+msgstr "Ordres de Mission"
+
+#. module: rh
+#: selection:rh.employe,mois:0 selection:rh.import_salary_wz,mois:0
+#: selection:rh.salary,mois:0
+msgid "Fevrier"
+msgstr "Février"
+
+#. module: rh
+#: field:rh.import_data_wz,import_static_info:0
+msgid "Import static info"
+msgstr "Actualiser les données statiques"
+
+#. module: rh
+#: field:rh.departement,name:0 view:rh.employe:0 field:rh.employe,name:0
+#: field:rh.et_type,name:0 field:rh.etablissement,name:0
+#: field:rh.fonction.cadre,name:0 field:rh.fonction.category,name:0
+#: field:rh.fonction.corps,name:0 field:rh.fonction.echelon,name:0
+#: field:rh.fonction.grade,name:0 field:rh.moyen_transport,name:0
+#: field:rh.nationalite,name:0 field:rh.province,name:0
+#: field:rh.qualification,name:0 field:rh.region,name:0
+#: field:rh.rubrique,name:0 field:rh.ville,name:0
+msgid "Name"
+msgstr "Nom"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_qualification
+msgid "rh.qualification"
+msgstr "Qualification"
+
+#. module: rh
+#: field:rh.ordre_mission,date_retour:0
+msgid "Date de retour"
+msgstr "Date de retour"
+
+#. module: rh
+#: field:rh.employe,gender:0
+msgid "Gender"
+msgstr "Sexe"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_fonction_category
+msgid "rh.fonction.category"
+msgstr "Catégorie"
+
+#. module: rh
+#: view:rh.employe:0
+msgid "Contacte de travail"
+msgstr "Contacte de travail"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_rubrique_act_view view:rh.rubrique:0
+msgid "Rubriques"
+msgstr "Rubriques"
+
+#. module: rh
+#: field:rh.employe,birth_place:0
+msgid "Place of birth"
+msgstr "Lieu de naissance"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_reportwz_aqt_action
+#: model:ir.actions.act_window,name:rh.rh_reportwz_aqt_action_win
+#: model:ir.actions.report.xml,name:rh.autorisation_quittement_territoire_webkit
+msgid "Autorisation de quittement de territoire"
+msgstr "Autorisation de quittement de territoire"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_fonction_cadre
+msgid "rh.fonction.cadre"
+msgstr "Cadre"
+
+#. module: rh
+#: field:rh.employe,office_station:0
+msgid "Number of station"
+msgstr "Numéro du poste"
+
+#. module: rh
+#: selection:rh.ordre_mission,state:0
+msgid "Reseted"
+msgstr "Recyclé"
+
+#. module: rh
+#: model:ir.ui.menu,name:rh.menu_import_data
+msgid "Import data"
+msgstr "Assistants d'import"
+
+#. module: rh
+#: selection:rh.employe,mois:0 selection:rh.import_salary_wz,mois:0
+#: selection:rh.salary,mois:0
+msgid "Decembre"
+msgstr "Décembre"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_fonction
+msgid "rh.fonction"
+msgstr "Fonction"
+
+#. module: rh
+#: view:rh.ordre_mission:0
+msgid "Activate"
+msgstr "Activer"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_fonction_corps_act_view
+#: model:ir.ui.menu,name:rh.corps_menu field:rh.fonction,corps_id:0
+#: field:rh.fonction.cadre,corps_id:0 view:rh.fonction.category:0
+#: field:rh.fonction.category,corps_ids:0 view:rh.fonction.corps:0
+msgid "Corps"
+msgstr "Corps"
+
+#. module: rh
+#: model:ir.model,name:rh.model_rh_rubrique
+msgid "rh.rubrique"
+msgstr "Rubrique"
+
+#. module: rh
+#: field:rh.demande,demande:0
+msgid "request"
+msgstr "Demande"
+
+#. module: rh
+#: field:rh.ordre_mission,mission:0
+msgid "Mission"
+msgstr "Pour"
+
+#. module: rh
+#: selection:rh.employe,marital:0
+msgid "Single"
+msgstr "Célibataire"
+
+#. module: rh
+#: selection:rh.employe,marital:0
+msgid "Widower"
+msgstr "Veuf"
+
+#. module: rh
+#: view:rh.employe:0
+msgid "Emoluments Bruts Annuels"
+msgstr "Emoluments Bruts Annuels"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.rh_reportwz_as_action
+#: model:ir.actions.act_window,name:rh.rh_reportwz_as_action_win
+#: model:ir.actions.report.xml,name:rh.attestation_salaire_webkit
+msgid "Attestation de salaire"
+msgstr "Attestation de salaire"
+
+#. module: rh
+#: model:ir.actions.act_window,help:rh.rh_annee_act_view
+#: model:ir.actions.act_window,help:rh.rh_employe_act_view
+#: model:ir.actions.act_window,help:rh.rh_et_type_act_view
+#: model:ir.actions.act_window,help:rh.rh_fonction_act_view
+#: model:ir.actions.act_window,help:rh.rh_fonction_cadre_act_view
+#: model:ir.actions.act_window,help:rh.rh_fonction_category_act_view
+#: model:ir.actions.act_window,help:rh.rh_fonction_corps_act_view
+#: model:ir.actions.act_window,help:rh.rh_fonction_echelon_act_view
+#: model:ir.actions.act_window,help:rh.rh_fonction_grade_act_view
+#: model:ir.actions.act_window,help:rh.rh_moyen_transport_act_view
+#: model:ir.actions.act_window,help:rh.rh_nationalite_act_view
+#: model:ir.actions.act_window,help:rh.rh_province_act_view
+#: model:ir.actions.act_window,help:rh.rh_qualification_act_view
+#: model:ir.actions.act_window,help:rh.rh_region_act_view
+#: model:ir.actions.act_window,help:rh.rh_rubrique_act_view
+#: model:ir.actions.act_window,help:rh.rh_salary_act_view
+#: model:ir.actions.act_window,help:rh.rh_ville_act_view
+msgid ""
+"<p class=\"oe_view_nocontent_create\"> Click to define a new record.</p>"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">Cliquer pour ajouter un nouveau "
+"enregistrement</p>"
+
+#. module: rh
+#: model:ir.actions.act_window,name:rh.act_departement_view
+#: model:ir.ui.menu,name:rh.menu_departements
+msgid "Departements"
+msgstr "Départements"
+
+#. module: rh
+#: view:rh.reportwz_aqt:0 view:rh.reportwz_at:0
+msgid "Information:"
+msgstr "Informations:"

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openerp>
+    <data>
+
+    
+			<!--											 -->
+    		<!-- 			Vue Formulaire / Form			 -->
+			<!--											 -->
+    
+	        
+	        <record model="ir.ui.view" id="sollicitationeffectif_tree_view">
+				<field name="name">sollicitationeffectif.tree</field>
+				<field name="model">apogee.effectif_inscrit</field>
+				<field name="arch" type="xml">
+					<form string="sollicitation Effectif Tree">
+						<field name="annee" colspan="4" />
+						<field name="nbr" colspan="4" />
+						<field name="filiere_id" colspan="4" />
+					</form>
+				</field>
+			</record>
+			
+			<record model="ir.ui.view" id="effectif_graph_view">
+				<field name="name">effectif_inscrit.graph</field>
+				<field name="model">apogee.effectif_inscrit</field>
+				<field name="arch" type="xml">
+					<graph string="Effectif des inscrits filières" type="pie">
+						<field name="filiere_id" />
+						<field name="nbr" operator="+"/>
+					</graph>
+				</field>
+			</record>
+
+		   <record id="effectif_search_view" model="ir.ui.view">
+	            <field name="name">effectif_inscrit.search</field>
+	            <field name="model">apogee.effectif_inscrit</field>
+	            <field name="arch" type="xml">
+	                <search string="Search">
+						<field name="etablissement_id" string="Code Etab" />
+		                <separator/>
+						<field name="annee" string="Annee" />
+		                <group  string="Regrouper par :">
+		              		<filter string="Etablissement"  context="{'group_by':'etablissement_id'}"/>
+		              		<filter string="Diplome"  context="{'group_by':'diplome_id'}"/>
+		                </group>
+	  				 </search>
+	            </field>
+        	</record>			
+	        
+	       <record model="ir.actions.act_window" id="sollicitationfiliere_effectif_list_action">
+	            <field name="name">Taux de sollicitation des Filiéres</field>
+	            <field name="res_model">apogee.effectif_inscrit</field>
+	            <field name="view_type">form</field>
+	            <field name="view_mode">tree,graph</field>
+	            <field name="view_id" ref="effectif_graph_view" />
+	            <field name="context">{'search_default_instructor_filter':1}</field>
+	        </record>
+
+	
+	    	<menuitem id="main_apogee_menu" name="Scolarite" />
+	    		<menuitem id="inscription_menu" name="Inscription" parent="main_apogee_menu" sequence="1"/>
+			    	<menuitem id="sollicitationeffectif_menu" name="Taux de sollic. des Filiéres" parent="inscription_menu" action="sollicitationfiliere_effectif_list_action" sequence="2"/>
+	    		
+			    	<!-- menuitem id="global_dip_menu" name="Par Diplôme" parent="global_menu" action="globaldipfiliere_dip_list_action" sequence="3"/>
+			    	<menuitem id="global_fil_menu" name="Par Filières" parent="global_menu" action="globaldipfiliere_fil_list_action" sequence="4"/>
+			    	<menuitem id="global_pays_menu" name="Par Pays" parent="global_menu" action="globalpays_pays_list_action" sequence="4"/>
+			    	<menuitem id="global_prov_menu" name="Par Province" parent="global_menu" action="globalprov_prov_list_action" sequence="5"/-->
+
+    </data>
+</openerp>

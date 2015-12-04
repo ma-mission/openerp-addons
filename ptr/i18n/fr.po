@@ -1,0 +1,1325 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* ptr
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20140622-231040\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-28 11:42+0000\n"
+"PO-Revision-Date: 2015-10-28 14:22+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: fr\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#. module: ptr
+#: model:ir.ui.menu,name:ptr.ptr_priorite_menu
+msgid "Priorite intervention"
+msgstr "Priorité d'intervention"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_fournisseur_act
+#: model:ir.ui.menu,name:ptr.ptr_fournisseur_menu
+#: field:ptr.patrimoineactif,fournisseur:0
+msgid "Fournisseur"
+msgstr "Fournisseur"
+
+#. module: ptr
+#: view:board.board:0
+msgid "Pie graph des reglements par etablissement"
+msgstr "Pie graphque des règlements par établissement"
+
+#. module: ptr
+#: view:ptr.inv:0
+msgid "Signature et validation courrier"
+msgstr "Signature et validation du courrier"
+
+#. module: ptr
+#: field:ptr.reglement,neffet:0
+msgid "Num. Effet"
+msgstr "Numéro d'effet"
+
+#. module: ptr
+#: view:ptr.typeptrgeo:0
+msgid "typeptrgeo"
+msgstr "Type de Patrimoine Géographique"
+
+#. module: ptr
+#: selection:ptr.inv,state:0
+msgid "MAJ plan d action"
+msgstr "Mettre à Jourrs du plan d'action"
+
+#. module: ptr
+#: field:ptr.patrimoineactif,valacqui:0
+msgid "Val Acqui."
+msgstr "Valeur d'acquisition."
+
+#. module: ptr
+#: field:ptr.prestation,dateprestation:0
+msgid "Date Prestation"
+msgstr "Date de prestation"
+
+#. module: ptr
+#: view:ptr.patrimoinegeo:0
+msgid "Personnel Occupant"
+msgstr "Personnel Occupant"
+
+#. module: ptr
+#: view:ptr.marque:0
+msgid "marque"
+msgstr "Marque"
+
+#. module: ptr
+#: model:ir.ui.menu,name:ptr.ptr_config_menu
+msgid "Configuration listes"
+msgstr "Listes de Configuration"
+
+#. module: ptr
+#: field:ptr.detailinventaire,ptractif:0 field:ptr.intervention,ptractif:0
+msgid "ptr Actif"
+msgstr "Patrimoine actif"
+
+#. module: ptr
+#: selection:ptr.inv,state:0
+msgid "Validation et signature de courrier"
+msgstr "Validation et signature de courrier"
+
+#. module: ptr
+#: field:ptr.patrimoineactif,nbc:0
+msgid "N BC"
+msgstr "Numéro du bon de commande"
+
+#. module: ptr
+#: field:ptr.detailinventaire,ptrgeo:0
+msgid "ptr geo."
+msgstr "Patrimoine géographique."
+
+#. module: ptr
+#: view:ptr.inv:0 selection:ptr.inv,state:0
+msgid "PV de reunion ouverture"
+msgstr "PV de la réunion d'ouverture"
+
+#. module: ptr
+#: view:ptr.categoriepersonnel:0
+msgid "categoriepersonnel"
+msgstr "Catégorie du personnel"
+
+#. module: ptr
+#: field:ptr.personnel,nom:0 field:ptr.technicieninterne,nom:0
+msgid "Nom"
+msgstr "Nom"
+
+#. module: ptr
+#: field:ptr.fournisseur,fax:0 field:ptr.personnel,fax:0
+msgid "Fax"
+msgstr "Fax"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_prestation
+msgid "Classe des prestations"
+msgstr "Classe des prestations"
+
+#. module: ptr
+#: help:ptr.patrimoinegeo,image_medium:0
+msgid "Medium-sized photo of the geographic patrimoin. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
+msgstr "Medium-sized photo of the geographic patrimoin. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
+
+#. module: ptr
+#: field:ptr.fournisseur,GSM1:0
+msgid "GSM1"
+msgstr "GSM1"
+
+#. module: ptr
+#: field:ptr.patrimoinegeo,croquis:0
+msgid "Croquis"
+msgstr "Croquis"
+
+#. module: ptr
+#: field:ptr.intervention,diagnostic:0
+msgid "Diagnostic"
+msgstr "Diagnostique"
+
+#. module: ptr
+#: field:ptr.intervention,datedemande:0
+msgid "DateDem."
+msgstr "Date de la demande"
+
+#. module: ptr
+#: model:ir.ui.menu,name:ptr.ptr_etablissements_menu
+msgid "Etablissements"
+msgstr "Etablissements"
+
+#. module: ptr
+#: view:ptr.inv:0 selection:ptr.inv,state:0
+msgid "Demarrage inventaire"
+msgstr "Démarrage d'inventaire"
+
+#. module: ptr
+#: model:ir.ui.menu,name:ptr.ptr_process_inv_menu
+msgid "Inventaire Processus"
+msgstr "Processus d'inventaire"
+
+#. module: ptr
+#: view:ptr.patrimoineactif:0
+msgid "Num facture"
+msgstr "Numéro de  facture"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_prestation_act
+#: model:ir.ui.menu,name:ptr.ptr_prestation_menu
+#: field:ptr.intervention,prestation_ids:0 view:ptr.prestation:0
+#: field:ptr.reglement,prestation:0
+msgid "Prestation"
+msgstr "Prestation"
+
+#. module: ptr
+#: view:board.board:0
+msgid "Histogramme des patrimoines actifs hors service par etablissement"
+msgstr "Histogramme des patrimoines actifs hors service par etablissement"
+
+#. module: ptr
+#: selection:ptr.alertstock,masquer:0 selection:ptr.detailinventaire,existe:0
+msgid "non"
+msgstr "Non"
+
+#. module: ptr
+#: view:ptr.inventaire:0 selection:ptr.inventaire,state:0
+msgid "Rapport inventaire"
+msgstr "Rapport d'inventaire"
+
+#. module: ptr
+#: view:ptr.banque:0 view:ptr.categoriepersonnel:0 view:ptr.famille:0
+#: view:ptr.fournisseur:0 view:ptr.inv:0 view:ptr.inventaire:0
+#: view:ptr.marque:0 view:ptr.modepaiement:0 view:ptr.prestation:0
+#: view:ptr.priorite:0 view:ptr.reglement:0 view:ptr.sousfamille:0
+#: view:ptr.technicieninterne:0 view:ptr.typeptrgeo:0 view:ptr.unite:0
+msgid "Informations"
+msgstr "Informations"
+
+#. module: ptr
+#: model:ir.ui.menu,name:ptr.ptr_patrimoinegeo_menu view:ptr.unite:0
+msgid "Patrimoine Geographique"
+msgstr "Patrimoine Geographique"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_categoriepersonnel
+msgid "Classe des categories de personnel"
+msgstr "Classe des catégories du personnel"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_priorite_act view:ptr.priorite:0
+msgid "Priorite Intervention"
+msgstr "Priorité d'intervention"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_famille
+msgid "Classe de Famille"
+msgstr "Classe de famille"
+
+#. module: ptr
+#: view:ptr.personnel:0
+msgid "exemple : nomUser@gmail.com"
+msgstr "exemple : nomUser@gmail.com"
+
+#. module: ptr
+#: view:ptr.marque:0
+msgid "$('.oe_marque_picture').load(function() { if($(this).width() > $(this).height()) { $(this).addClass('oe_marque_picture_wide') } });"
+msgstr "$('.oe_marque_picture').load(function() { if($(this).width() > $(this).height()) { $(this).addClass('oe_marque_picture_wide') } });"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.board_ptr_prestation_graph_bar_act
+#: model:ir.actions.act_window,name:ptr.board_ptr_prestation_graph_pie_act
+#: view:ptr.prestation:0
+msgid "Reglement par intervention"
+msgstr "Reglement par intervention"
+
+#. module: ptr
+#: field:ptr.patrimoinegeo,ficheetage:0
+msgid "Fiche Etage"
+msgstr "Fiche d'étage"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.open_board_ptr_form
+msgid "Ptr boards"
+msgstr "Patrimoine boards"
+
+#. module: ptr
+#: view:ptr.patrimoineactif:0
+msgid "patrimoineactif"
+msgstr "patrimoine actif"
+
+#. module: ptr
+#: constraint:ptr.reglement:0
+msgid ""
+"Error!\n"
+"Certains reglements ont depasse le cout de la prestation"
+msgstr ""
+"Error!\n"
+"Certains reglements ont depasse le cout de la prestation"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_personnel
+msgid "Classe de personnel"
+msgstr "Classe du personnel"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_categoriepersonnel_act
+#: model:ir.ui.menu,name:ptr.ptr_categoriepersonnel_menu
+#: view:ptr.categoriepersonnel:0
+msgid "Categorie Personnel"
+msgstr "Catégorie du personnel"
+
+#. module: ptr
+#: view:ptr.personnel:0
+msgid "Patrimoin actif affecte"
+msgstr "Patrimoine actif affecté"
+
+#. module: ptr
+#: constraint:ptr.reglement:0
+msgid ""
+"Error!\n"
+"Certains reglements ont un montant negatif"
+msgstr ""
+"Error!\n"
+"Certains reglements ont un montant negatif"
+
+#. module: ptr
+#: model:ir.ui.menu,name:ptr.ptr_patrimoineactif_menu
+msgid "Patrimoine Actif"
+msgstr "Patrimoine actif"
+
+#. module: ptr
+#: view:ptr.etablissement:0
+msgid "etablissement"
+msgstr "Etablissement"
+
+#. module: ptr
+#: field:ptr.alertstock,libelle:0 field:ptr.categoriepersonnel,libelle:0
+#: field:ptr.etablissement,libelle:0 field:ptr.famille,libelle:0
+#: field:ptr.marque,libelle:0 field:ptr.prestation,libelle:0
+#: field:ptr.sousfamille,libelle:0 field:ptr.typeptrgeo,libelle:0
+#: field:ptr.unite,libelle:0
+msgid "Libelle"
+msgstr "Libelle"
+
+#. module: ptr
+#: view:ptr.fournisseur:0
+msgid "$('.oe_fournisseur_picture').load(function() { if($(this).width() > $(this).height()) { $(this).addClass('oe_fournisseur_picture_wide') } });"
+msgstr "$('.oe_fournisseur_picture').load(function() { if($(this).width() > $(this).height()) { $(this).addClass('oe_fournisseur_picture_wide') } });"
+
+#. module: ptr
+#: field:ptr.inventaire,nbinexistant:0
+msgid "nbinexistant"
+msgstr "Nombre inexistant"
+
+#. module: ptr
+#: view:board.board:0
+msgid "Histogramme des reglements par prestation"
+msgstr "Histogramme des reglements par prestation"
+
+#. module: ptr
+#: field:ptr.patrimoineactif,dateserv:0
+msgid "Date mise serv."
+msgstr "Date de mise en service"
+
+#. module: ptr
+#: view:ptr.intervention:0
+msgid "Statut Executee"
+msgstr "Statut exécuté"
+
+#. module: ptr
+#: view:ptr.patrimoineactif:0
+msgid "Num bon de commande"
+msgstr "Numéro de bon de commande"
+
+#. module: ptr
+#: view:board.board:0
+msgid "Pie graph des patrimoines actifs hors service par etablissement"
+msgstr "Pie graphique des patrimoines actifs hors service par établissement"
+
+#. module: ptr
+#: field:ptr.prestation,cout:0
+msgid "Cout Prestation"
+msgstr "Coût de prestation"
+
+#. module: ptr
+#: field:ptr.unite,ptrgeo_ids:0
+msgid "Patrimoin Geo"
+msgstr "Patrimoine géographique"
+
+#. module: ptr
+#: selection:ptr.alertstock,masquer:0 selection:ptr.detailinventaire,existe:0
+msgid "oui"
+msgstr "Oui"
+
+#. module: ptr
+#: field:ptr.personnel,patrimoinegeo:0
+msgid "Patrimoine Geo"
+msgstr "Patrimoine géographique"
+
+#. module: ptr
+#: view:ptr.inv:0
+msgid "Designation Equipe"
+msgstr "Désignation d'équipe"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_sousfamille
+msgid "Classe de Sous Famille"
+msgstr "Classe de Sous Famille"
+
+#. module: ptr
+#: view:ptr.inv:0
+msgid "MAJ Plan d action"
+msgstr "MAJ du plan d'action"
+
+#. module: ptr
+#: field:ptr.intervention,priorite:0 field:ptr.priorite,libelle:0
+msgid "Priorite"
+msgstr "Priorité"
+
+#. module: ptr
+#: view:ptr.unite:0
+msgid "Unite"
+msgstr "Unité"
+
+#. module: ptr
+#: model:ir.actions.act_window,help:ptr.ptr_banque_act
+#: model:ir.actions.act_window,help:ptr.ptr_categoriepersonnel_act
+#: model:ir.actions.act_window,help:ptr.ptr_etablissement_act
+#: model:ir.actions.act_window,help:ptr.ptr_famille_act
+#: model:ir.actions.act_window,help:ptr.ptr_fournisseur_act
+#: model:ir.actions.act_window,help:ptr.ptr_intervention_act
+#: model:ir.actions.act_window,help:ptr.ptr_inv_act
+#: model:ir.actions.act_window,help:ptr.ptr_inventaire_act
+#: model:ir.actions.act_window,help:ptr.ptr_marque_act
+#: model:ir.actions.act_window,help:ptr.ptr_modepaiement_act
+#: model:ir.actions.act_window,help:ptr.ptr_prestation_act
+#: model:ir.actions.act_window,help:ptr.ptr_priorite_act
+#: model:ir.actions.act_window,help:ptr.ptr_reglement_act
+#: model:ir.actions.act_window,help:ptr.ptr_sousfamille_act
+#: model:ir.actions.act_window,help:ptr.ptr_typeptrgeo_act
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click to add a new record.\n"
+"              </p>\n"
+"            "
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click to add a new record.\n"
+"              </p>\n"
+"            "
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_alertstock
+msgid "Classe des aletres du stock"
+msgstr "Classe des alertes du stock"
+
+#. module: ptr
+#: field:ptr.inv,state:0 field:ptr.inventaire,state:0
+msgid "State"
+msgstr "Statut"
+
+#. module: ptr
+#: view:ptr.intervention:0
+msgid "Statut En cours"
+msgstr "Statut en cours"
+
+#. module: ptr
+#: field:ptr.patrimoinegeo,fichelocal:0
+msgid "Fiche Local"
+msgstr "Fiche du local"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_banque_act
+#: model:ir.ui.menu,name:ptr.ptr_banque_menu view:ptr.banque:0
+#: field:ptr.banque,libelle:0 field:ptr.reglement,banque:0
+msgid "Banque"
+msgstr "Banque"
+
+#. module: ptr
+#: field:ptr.personnel,email:0
+msgid "Email"
+msgstr "Email"
+
+#. module: ptr
+#: field:ptr.intervention,dateencours:0
+msgid "DateCours"
+msgstr "Date en cours"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_reglement_act
+#: model:ir.ui.menu,name:ptr.ptr_reglement_menu view:ptr.prestation:0
+#: field:ptr.prestation,reglement_ids:0 view:ptr.reglement:0
+msgid "Reglement"
+msgstr "Réglement"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_marque_act
+#: model:ir.ui.menu,name:ptr.ptr_marque_menu field:ptr.patrimoineactif,marque:0
+msgid "Marque"
+msgstr "Marque"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_typeptrgeo_act
+msgid "Type patrimoin geo"
+msgstr "Type de patrimoine géographique"
+
+#. module: ptr
+#: view:ptr.intervention:0 view:ptr.patrimoineactif:0 view:ptr.patrimoinegeo:0
+#: view:ptr.personnel:0
+msgid "Generale Info"
+msgstr "Informations Générales"
+
+#. module: ptr
+#: view:ptr.intervention:0
+msgid "Techniciens Internes"
+msgstr "Techniciens internes"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_personnel_act view:ptr.personnel:0
+msgid "Liste Personnel"
+msgstr "Liste des personnels"
+
+#. module: ptr
+#: view:board.board:0
+msgid "Pie graph des reglements par prestation"
+msgstr "Pie graphiue des règlements par prestation"
+
+#. module: ptr
+#: view:ptr.inventaire:0
+msgid "importer"
+msgstr "Importer"
+
+#. module: ptr
+#: view:board.board:0
+msgid "ptr Dashboards"
+msgstr "Patrimoine dashboards"
+
+#. module: ptr
+#: field:ptr.alertstock,stockmin:0
+msgid "Qte en Stock Minimale"
+msgstr "Quantité en stock Minimale"
+
+#. module: ptr
+#: field:ptr.intervention,ptrgeo:0
+msgid "ptr Geo."
+msgstr "Patrimoine géographique"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_patrimoineactif_act
+#: view:ptr.patrimoineactif:0 field:ptr.personnel,ptractif_ids:0
+msgid "Patrimoin Actif"
+msgstr "Patrimoine actif"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.board_ptr_reglement_graph_bar_act
+#: model:ir.actions.act_window,name:ptr.board_ptr_reglement_graph_pie_act
+#: view:ptr.reglement:0
+msgid "Reglement par prestation"
+msgstr "Reglement par prestation"
+
+#. module: ptr
+#: view:board.board:0
+msgid "Histogramme des patrimoines actifs innexistants par etablissement"
+msgstr "Histogramme des patrimoines actifs innexistants par etablissement"
+
+#. module: ptr
+#: field:ptr.detailinventaire,observation:0
+msgid "Observation"
+msgstr "Observation"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_alertstock_act
+#: model:ir.ui.menu,name:ptr.ptr_alertstock_menu
+msgid "Alerte Stock"
+msgstr "Alerte du stock"
+
+#. module: ptr
+#: field:ptr.reglement,dateeffet:0
+msgid "Date Effet"
+msgstr "Date d'effet"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_inv_act
+#: model:ir.actions.act_window,name:ptr.ptr_inventaire_act
+#: model:ir.ui.menu,name:ptr.ptr_inventaire_menu
+#: field:ptr.detailinventaire,inventaire:0 view:ptr.etablissement:0
+#: field:ptr.etablissement,inventaire_ids:0 view:ptr.inv:0
+#: view:ptr.inventaire:0
+msgid "Inventaire"
+msgstr "Inventaire"
+
+#. module: ptr
+#: view:ptr.detailinventaire:0
+msgid "Detail Inventaire"
+msgstr "Détails d'inventaire"
+
+#. module: ptr
+#: field:ptr.etablissement,image_small:0 field:ptr.fournisseur,image_small:0
+#: field:ptr.marque,image_small:0 field:ptr.patrimoineactif,image_small:0
+#: field:ptr.personnel,image_small:0 field:ptr.unite,image_small:0
+msgid "Small-sized image"
+msgstr "Image de petite taille"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_reglement
+msgid "Classe des reglements des prestations"
+msgstr "Classe des reglements des prestations"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_marque
+msgid "Classe des marques"
+msgstr "Classe des marques"
+
+#. module: ptr
+#: view:ptr.inv:0 selection:ptr.inv,state:0
+msgid "Redaction du PV de lancement"
+msgstr "Rédaction du PV de lancement"
+
+#. module: ptr
+#: view:ptr.patrimoinegeo:0
+msgid "Attachements"
+msgstr "Attachements"
+
+#. module: ptr
+#: field:ptr.fournisseur,prenom_resp:0
+msgid "Prenom Responsable"
+msgstr "Prénom du responsable"
+
+#. module: ptr
+#: selection:ptr.detailinventaire,etat:0
+msgid "hors service"
+msgstr "Hors service"
+
+#. module: ptr
+#: field:ptr.etablissement,unite_ids:0 field:ptr.inventaire,unite:0
+#: field:ptr.patrimoinegeo,unite:0 view:ptr.unite:0
+msgid "Departement"
+msgstr "Département"
+
+#. module: ptr
+#: field:ptr.intervention,personnel:0 field:ptr.inventaire,responsable:0
+msgid "Resp."
+msgstr "Responsable."
+
+#. module: ptr
+#: field:ptr.patrimoinegeo,capacite_accueil:0
+msgid "Capacite Accueil"
+msgstr "Capacité d'accueil"
+
+#. module: ptr
+#: view:ptr.inv:0 selection:ptr.inv,state:0
+msgid "Diffusion RPE"
+msgstr "Diffusion pour les RPE"
+
+#. module: ptr
+#: model:ir.ui.menu,name:ptr.ptr_famille_menu
+msgid "Famille ptr actif"
+msgstr "Famille du patrimoine actif"
+
+#. module: ptr
+#: field:ptr.alertstock,qtestock:0
+msgid "Qte en Stock"
+msgstr "Quantité en stock"
+
+#. module: ptr
+#: view:ptr.fournisseur:0
+msgid "fournisseur"
+msgstr "Fournisseur"
+
+#. module: ptr
+#: view:board.board:0
+msgid "Pie graph des reglements par intervention"
+msgstr "Pie graphique des règlements par intervention"
+
+#. module: ptr
+#: field:ptr.etablissement,image:0 field:ptr.fournisseur,image:0
+#: field:ptr.marque,image:0 field:ptr.patrimoineactif,image:0
+#: field:ptr.patrimoinegeo,image:0 field:ptr.personnel,image:0
+#: field:ptr.unite,image:0
+msgid "Image"
+msgstr "Image"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.board_ptr_intervention_graph_bar_act
+#: model:ir.actions.act_window,name:ptr.board_ptr_intervention_graph_pie_act
+#: view:ptr.intervention:0
+msgid "Reglement par etablissement"
+msgstr "Reglement par établissement"
+
+#. module: ptr
+#: constraint:ptr.technicieninterne:0
+msgid ""
+"Error!\n"
+"Certains volumes horaires de technicien interne sont negatifs"
+msgstr ""
+"Error!\n"
+"Certains volumes horaires de technicien interne sont negatifs"
+
+#. module: ptr
+#: selection:ptr.inventaire,state:0
+msgid "Saisie"
+msgstr "Saisie"
+
+#. module: ptr
+#: field:ptr.patrimoinegeo,image_medium:0
+msgid "Medium-sized image"
+msgstr "Image de taille moyenne"
+
+#. module: ptr
+#: sql_constraint:ptr.detailinventaire:0
+msgid "Impossible de doubler un patrimoin actif dans le meme inventaire"
+msgstr "Impossible de doubler un patrimoine actif dans le même inventaire"
+
+#. module: ptr
+#: view:board.board:0
+msgid "Histogramme des reglements par intervention"
+msgstr "Histogramme des règlements par intervention"
+
+#. module: ptr
+#: selection:ptr.detailinventaire,etat:0
+msgid "bon"
+msgstr "Bon"
+
+#. module: ptr
+#: field:ptr.detailinventaire,personne:0
+msgid "User"
+msgstr "Utilisateur"
+
+#. module: ptr
+#: field:ptr.alertstock,datealerte:0
+msgid "Date Alerte"
+msgstr "Dated'alerte"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_intervention_act
+#: model:ir.ui.menu,name:ptr.ptr_intervention_menu view:ptr.etablissement:0
+#: field:ptr.etablissement,intervention_ids:0 view:ptr.intervention:0
+#: field:ptr.prestation,intervention:0
+#: field:ptr.technicieninterne,intervention:0
+msgid "Intervention"
+msgstr "Intervention"
+
+#. module: ptr
+#: field:ptr.personnel,matricule:0
+msgid "Matricule"
+msgstr "Matricule"
+
+#. module: ptr
+#: model:ir.ui.menu,name:ptr.ptr_typeptrgeo_menu
+msgid "Type ptr geographique"
+msgstr "Type patrimoine géographique"
+
+#. module: ptr
+#: field:ptr.detailinventaire,etat:0
+msgid "Etat"
+msgstr "Etat"
+
+#. module: ptr
+#: view:ptr.patrimoineactif:0
+msgid "Date Acquisition"
+msgstr "Dated'acquisition"
+
+#. module: ptr
+#: field:ptr.fournisseur,GSM2:0
+msgid "GSM2"
+msgstr "GSM2"
+
+#. module: ptr
+#: field:ptr.intervention,unite:0
+msgid "Departem."
+msgstr "Département"
+
+#. module: ptr
+#: field:ptr.intervention,volh:0 field:ptr.prestation,volh:0
+msgid "Vol.Horaire"
+msgstr "Volume horaire"
+
+#. module: ptr
+#: field:ptr.patrimoineactif,ptrgeo:0
+msgid "Patrimoine geo"
+msgstr "Patrimoine géographique"
+
+#. module: ptr
+#: view:ptr.detailinventaire:0
+msgid "Cocher dans le cas de l existance du patr actif"
+msgstr "Cocher dans le cas de l'existence du patrimoine actif"
+
+#. module: ptr
+#: selection:ptr.inv,state:0
+msgid "Draft"
+msgstr "Brouillant"
+
+#. module: ptr
+#: selection:ptr.detailinventaire,etat:0
+msgid "moyen"
+msgstr "Moyen"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_patrimoineactif
+msgid "Classe de patrimoine actif"
+msgstr "Classe de patrimoine actif"
+
+#. module: ptr
+#: field:ptr.patrimoineactif,nbl:0
+msgid "N BL"
+msgstr "Numéro de  bon de livraison"
+
+#. module: ptr
+#: view:ptr.alertstock:0
+msgid "Alerte"
+msgstr "Alerte"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_unite
+msgid "Classe des unites"
+msgstr "Classe des unités"
+
+#. module: ptr
+#: field:ptr.patrimoineactif,sousfamille:0
+msgid "SFamille"
+msgstr "Sous famille"
+
+#. module: ptr
+#: field:ptr.alertstock,categorie:0 field:ptr.personnel,categorie:0
+msgid "Categorie"
+msgstr "Catégorie"
+
+#. module: ptr
+#: field:ptr.intervention,statut:0 field:ptr.prestation,statut:0
+msgid "Statut"
+msgstr "Statut"
+
+#. module: ptr
+#: field:ptr.intervention,technicien_ids:0 view:ptr.technicieninterne:0
+msgid "Technicien Interne"
+msgstr "Technicien interne"
+
+#. module: ptr
+#: field:ptr.patrimoinegeo,ficheimmeuble:0
+msgid "Fiche Immeuble"
+msgstr "Fiche d'immeuble"
+
+#. module: ptr
+#: field:ptr.fournisseur,adresse:0
+msgid "Adresse"
+msgstr "Adresse"
+
+#. module: ptr
+#: view:ptr.prestation:0 field:ptr.technicieninterne,volh:0
+msgid "Volume Horaire"
+msgstr "Volume Horaire"
+
+#. module: ptr
+#: view:ptr.technicieninterne:0
+msgid "Technicien interne"
+msgstr "Technicien interne"
+
+#. module: ptr
+#: field:ptr.fournisseur,denomination:0
+msgid "Denomination"
+msgstr "Dénomination"
+
+#. module: ptr
+#: selection:ptr.inventaire,state:0
+msgid "Validation"
+msgstr "Validation"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_modepaiement
+msgid "Classe des modes de paiement"
+msgstr "Classe des modes de paiement"
+
+#. module: ptr
+#: view:ptr.detailinventaire:0
+msgid "Detail ptr actif"
+msgstr "Détail du patrimoine actif"
+
+#. module: ptr
+#: field:ptr.patrimoinegeo,superficie:0
+msgid "Superficie"
+msgstr "Superficie"
+
+#. module: ptr
+#: view:ptr.inventaire:0
+msgid "Liste des patrimoins actifs"
+msgstr "Liste des patrimoines actifs"
+
+#. module: ptr
+#: view:ptr.inventaire:0
+msgid "Vider Liste"
+msgstr "Vider la liste"
+
+#. module: ptr
+#: field:ptr.inv,date_inv_dec:0
+msgid "Date de declenchement"
+msgstr "Date de déclenchement"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_sousfamille_act
+msgid "Sous Famille"
+msgstr "Sous famille"
+
+#. module: ptr
+#: view:ptr.patrimoineactif:0
+msgid "Valeur Acquisition"
+msgstr "Valeurd'acquisition"
+
+#. module: ptr
+#: model:ir.ui.menu,name:ptr.ptr_sousfamille_menu
+msgid "SFamille ptr actif"
+msgstr "Sous famille du patrimoine actif"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_typeptrgeo
+msgid "Classe des type de patrimoines geographique"
+msgstr "Classe des types de patrimoine géographique"
+
+#. module: ptr
+#: field:ptr.patrimoineactif,designation:0
+#: field:ptr.patrimoinegeo,designation:0
+msgid "Designation"
+msgstr "Designation"
+
+#. module: ptr
+#: field:ptr.personnel,fonction:0
+msgid "Fonction"
+msgstr "Fonction"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_etablissement_act
+#: view:ptr.etablissement:0 field:ptr.intervention,etablissement:0
+#: field:ptr.inventaire,etablissement:0 field:ptr.unite,idetablissement:0
+msgid "Etablissement"
+msgstr "Etablissement"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_etablissement
+msgid "Classe des etablissements"
+msgstr "Classe des établissements"
+
+#. module: ptr
+#: model:ir.ui.menu,name:ptr.ptr_board_menu
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_patrimoinegeo_act
+#: view:ptr.patrimoinegeo:0
+msgid "Patrimoin Geographique"
+msgstr "Patrimoine géographique"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.board_ptr_inventaire_graph_bar_act2
+#: model:ir.actions.act_window,name:ptr.board_ptr_inventaire_graph_pie_act2
+#: view:ptr.inventaire:0
+msgid "ptr actif hors service par etablissement"
+msgstr "patrimoine actif hors service par établissement"
+
+#. module: ptr
+#: field:ptr.detailinventaire,unite:0
+msgid "Depart."
+msgstr "Département"
+
+#. module: ptr
+#: field:ptr.intervention,probleme:0
+msgid "Probleme"
+msgstr "Problème"
+
+#. module: ptr
+#: view:ptr.reglement:0
+msgid "Reglements Prestation"
+msgstr "Règlements des prestation"
+
+#. module: ptr
+#: view:ptr.reglement:0
+msgid "Reglement par prsetation"
+msgstr "Règlement par prestation"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_priorite
+msgid "Classe des prioites des interventions"
+msgstr "Classe des prioites des interventions"
+
+#. module: ptr
+#: field:ptr.banque,code:0 field:ptr.categoriepersonnel,code:0
+#: field:ptr.etablissement,code:0 field:ptr.famille,code:0
+#: field:ptr.fournisseur,code:0 field:ptr.intervention,code:0
+#: field:ptr.inventaire,code:0 field:ptr.marque,code:0
+#: field:ptr.modepaiement,code:0 field:ptr.patrimoineactif,code:0
+#: field:ptr.patrimoinegeo,code:0 field:ptr.prestation,code:0
+#: field:ptr.priorite,code:0 field:ptr.reglement,code:0
+#: field:ptr.sousfamille,code:0 field:ptr.typeptrgeo,code:0
+#: field:ptr.unite,code:0
+msgid "Code"
+msgstr "Code"
+
+#. module: ptr
+#: field:ptr.fournisseur,tel:0 field:ptr.personnel,tel:0
+msgid "Tel"
+msgstr "Téléphone"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_modepaiement_act
+#: model:ir.ui.menu,name:ptr.ptr_modepaiement_menu view:ptr.modepaiement:0
+#: field:ptr.modepaiement,libelle:0 field:ptr.reglement,modepaiement:0
+msgid "Mode Paiement"
+msgstr "Mode de paiement"
+
+#. module: ptr
+#: field:ptr.patrimoineactif,responsable:0
+#: field:ptr.patrimoinegeo,responsable:0
+msgid "Responsable"
+msgstr "Responsable"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_intervention
+msgid "Classe de l' intervention"
+msgstr "Classe de l' intervention"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_banque
+msgid "Classe des banques"
+msgstr "Classe des banques"
+
+#. module: ptr
+#: view:ptr.sousfamille:0
+msgid "sousfamille"
+msgstr "Sous famille"
+
+#. module: ptr
+#: field:ptr.inventaire,detailinventaire_ids:0
+msgid "LigneInventaire"
+msgstr "Ligne d'inventaire"
+
+#. module: ptr
+#: field:ptr.alertstock,masquer:0
+msgid "Masquer"
+msgstr "Masquer"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.board_ptr_inventaire_graph_bar_act1
+#: model:ir.actions.act_window,name:ptr.board_ptr_inventaire_graph_pie_act1
+#: view:ptr.inventaire:0
+msgid "ptr actif innexistant par etablissement"
+msgstr "Patrimoine actif inexistant par établissement"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_inv
+msgid " Porcessus d inventaire"
+msgstr " Processus d inventaire"
+
+#. module: ptr
+#: view:ptr.patrimoineactif:0
+msgid "Num bon de livraison"
+msgstr "Numéro de bon de livraison"
+
+#. module: ptr
+#: constraint:ptr.prestation:0
+msgid ""
+"Error!\n"
+"Certains volumes horaires de prestations sont negatifs"
+msgstr ""
+"Error!\n"
+"Certains volumes horaires de prestations sont négatifs"
+
+#. module: ptr
+#: view:ptr.famille:0
+msgid "famille"
+msgstr "Famille"
+
+#. module: ptr
+#: view:ptr.intervention:0
+msgid "Details"
+msgstr "Détails"
+
+#. module: ptr
+#: view:ptr.etablissement:0
+msgid "Information"
+msgstr "Information"
+
+#. module: ptr
+#: view:ptr.inventaire:0
+msgid "Validation Inv"
+msgstr "Validation d'inventaire"
+
+#. module: ptr
+#: model:ir.ui.menu,name:ptr.ptr_personnel_menu
+#: field:ptr.patrimoinegeo,personnel_ids:0
+msgid "Personnel"
+msgstr "Personnel"
+
+#. module: ptr
+#: field:ptr.intervention,dateexeute:0
+msgid "DateExec."
+msgstr "Date d'éxécution"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_fournisseur
+msgid "Classe de Fournisseur"
+msgstr "Classe de Fournisseur"
+
+#. module: ptr
+#: model:ir.ui.menu,name:ptr.ptr_root_menu
+msgid "Gestion du Patrimoines"
+msgstr "Gestion du patrimoines"
+
+#. module: ptr
+#: view:ptr.detailinventaire:0
+msgid "Ligne Inventaire"
+msgstr "Ligne d'inventaire"
+
+#. module: ptr
+#: field:ptr.fournisseur,email:0
+msgid "E-mail"
+msgstr "E-mail"
+
+#. module: ptr
+#: field:ptr.reglement,datereglement:0
+msgid "Date Reglement"
+msgstr "Date du règlement"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_detailinventaire
+msgid "Classe de detail de l'inventaire"
+msgstr "Classe des détails de l'inventaire"
+
+#. module: ptr
+#: field:ptr.personnel,prenom:0
+msgid "Prenom"
+msgstr "Prénom"
+
+#. module: ptr
+#: field:ptr.reglement,montant:0
+msgid "Montant ttc"
+msgstr "MontantTTC"
+
+#. module: ptr
+#: view:ptr.technicieninterne:0
+msgid "Total Volume Horaire"
+msgstr "Total du volume horaire"
+
+#. module: ptr
+#: view:ptr.intervention:0
+msgid "Prestations"
+msgstr "Prestations"
+
+#. module: ptr
+#: field:ptr.inventaire,nbhorservice:0
+msgid "nbhorservice"
+msgstr "Nombre de patrimoine hors service"
+
+#. module: ptr
+#: view:ptr.inventaire:0 selection:ptr.inventaire,state:0
+msgid "Validation RP"
+msgstr "Validation du rapport"
+
+#. module: ptr
+#: field:ptr.patrimoinegeo,type:0
+msgid "Type Patrimoin"
+msgstr "Type de patrimoine"
+
+#. module: ptr
+#: view:board.board:0
+msgid "Histogramme des reglements par etablissement"
+msgstr "Histogramme des règlements par établissement"
+
+#. module: ptr
+#: model:ir.ui.menu,name:ptr.ptr_pilotage_menu
+msgid "Pilotage"
+msgstr "Pilotage"
+
+#. module: ptr
+#: view:ptr.prestation:0
+msgid "Reglements"
+msgstr "Reglements"
+
+#. module: ptr
+#: view:ptr.prestation:0 view:ptr.reglement:0
+msgid "Montant Total ttc"
+msgstr "Montant total TTC"
+
+#. module: ptr
+#: field:ptr.patrimoineactif,qttstock:0
+msgid "Qauantie en stock."
+msgstr "Qauantie en stock."
+
+#. module: ptr
+#: selection:ptr.detailinventaire,etat:0
+msgid "neuf"
+msgstr "Neuf"
+
+#. module: ptr
+#: view:ptr.inventaire:0 selection:ptr.inventaire,state:0
+msgid "Resultat inventaire"
+msgstr "Résultat d'inventaire"
+
+#. module: ptr
+#: field:ptr.prestation,prestataire:0
+msgid "Prestataire"
+msgstr "Prestataire"
+
+#. module: ptr
+#: field:ptr.inv,name:0
+msgid "Name"
+msgstr "Nom"
+
+#. module: ptr
+#: field:ptr.intervention,solution:0
+msgid "Solution"
+msgstr "Solution"
+
+#. module: ptr
+#: help:ptr.etablissement,image_small:0 help:ptr.fournisseur,image_small:0
+#: help:ptr.marque,image_small:0 help:ptr.patrimoineactif,image_small:0
+#: help:ptr.personnel,image_small:0 help:ptr.unite,image_small:0
+msgid "Medium-sized photo of the actif patrimoin. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
+msgstr "Medium-sized photo of the actif patrimoin. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_technicieninterne
+msgid "Classe des techniciens internes"
+msgstr "Classe des techniciens internes"
+
+#. module: ptr
+#: field:ptr.patrimoineactif,dateacqui:0
+msgid "Date Acqui."
+msgstr "Date d'acquisition"
+
+#. module: ptr
+#: field:ptr.sousfamille,stkmin:0
+msgid "Stock Min"
+msgstr "Stock minimum"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_patrimoinegeo
+msgid "Classe de patrimoine geographique"
+msgstr "Classe de patrimoine géographique"
+
+#. module: ptr
+#: view:ptr.inventaire:0 selection:ptr.inventaire,state:0
+msgid "Cloture"
+msgstr "Cloture"
+
+#. module: ptr
+#: model:ir.model,name:ptr.model_ptr_inventaire
+msgid "Classe de l' inventaire"
+msgstr "Classe de l'inventaire"
+
+#. module: ptr
+#: model:ir.actions.act_window,help:ptr.ptr_alertstock_act
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"\t\t\t\t\tClick to add a new record.\n"
+"\t\t\t\t  </p>\n"
+"\t\t\t\t"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"\t\t\t\t\tClick to add a new record.\n"
+"\t\t\t\t  </p>\n"
+"\t\t\t\t"
+
+#. module: ptr
+#: field:ptr.patrimoineactif,nfact:0
+msgid "N Fact."
+msgstr "Numéro de facture"
+
+#. module: ptr
+#: view:ptr.prestation:0
+msgid "prestation"
+msgstr "Prestation"
+
+#. module: ptr
+#: field:ptr.intervention,libelle:0 field:ptr.inventaire,libelle:0
+msgid "Lib."
+msgstr "Libelle"
+
+#. module: ptr
+#: model:ir.ui.menu,name:ptr.ptr_recapitul_menu
+msgid "Recapitulatif"
+msgstr "Récapitulatif"
+
+#. module: ptr
+#: view:ptr.patrimoineactif:0
+msgid "Date de mise en service"
+msgstr "Date de mise en service"
+
+#. module: ptr
+#: constraint:ptr.prestation:0
+msgid ""
+"Error!\n"
+"Certains couts de prestations sont negatifs"
+msgstr ""
+"Error!\n"
+"Certains couts de prestations sont négatifs"
+
+#. module: ptr
+#: view:board.board:0
+msgid "Pie graph des patrimoines actifs innexistants par etablissement"
+msgstr "Pie graphique des patrimoines actifs inexistants par établissement"
+
+#. module: ptr
+#: field:ptr.fournisseur,nom_resp:0
+msgid "Nom Responsable"
+msgstr "Nom du responsable"
+
+#. module: ptr
+#: field:ptr.inv,date_inv_ar:0
+msgid "Date d arret"
+msgstr "Date d'arrêt"
+
+#. module: ptr
+#: view:ptr.inventaire:0 selection:ptr.inventaire,state:0
+msgid "Cloture globale"
+msgstr "Cloture globale"
+
+#. module: ptr
+#: view:ptr.etablissement:0
+msgid "$('.oe_etablissement_picture').load(function() { if($(this).width() > $(this).height()) { $(this).addClass('oe_etablissement_picture_wide') } });"
+msgstr "$('.oe_etablissement_picture').load(function() { if($(this).width() > $(this).height()) { $(this).addClass('oe_etablissement_picture_wide') } });"
+
+#. module: ptr
+#: field:ptr.intervention,coutprestation:0
+msgid "Cout Presta."
+msgstr "Coût de prestation"
+
+#. module: ptr
+#: view:ptr.personnel:0
+msgid "personnel"
+msgstr "Personnel"
+
+#. module: ptr
+#: selection:ptr.inv,state:0
+msgid "Designation de l equipe d inventaire"
+msgstr "Désignation de l'équipe d inventaire"
+
+#. module: ptr
+#: field:ptr.patrimoineactif,etatactu:0
+msgid "Etat Actuel"
+msgstr "Etat actuel"
+
+#. module: ptr
+#: field:ptr.detailinventaire,existe:0
+msgid "Existant"
+msgstr "Existant"
+
+#. module: ptr
+#: model:ir.actions.act_window,name:ptr.ptr_famille_act
+#: field:ptr.sousfamille,famille:0
+msgid "Famille"
+msgstr "Famille"
+
+#. module: ptr
+#: view:ptr.etablissement:0
+msgid "Departements"
+msgstr "Départements"
+
+#. module: ptr
+#: model:ir.ui.menu,name:ptr.ptr_main_menu
+msgid "Gestion Patrimoines"
+msgstr "Gestion Patrimoines"

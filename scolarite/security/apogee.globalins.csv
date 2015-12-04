@@ -1,0 +1,996 @@
+id,nbr,cod_cmp,lic_tpd,lib_dip,province,pays,univ,annee
+apogee_globalins_46118958,3,FDM,Licence U,L.U.en Technico-commercial,RABAT,MAROC,UH2M,2011
+apogee_globalins_46118959,1,FDM,Licence U,L.U.en Technico-commercial,SETTAT,MAROC,UH2M,2011
+apogee_globalins_46118960,1,FDM,Licence U,L.U.en Technico-commercial,KENITRA,MAROC,UH2M,2011
+apogee_globalins_46118961,1,FDM,Licence U,L.U.en Technico-commercial,KHENIFRA,MAROC,UH2M,2011
+apogee_globalins_46118962,2,FDM,Licence U,L.U.en Technico-commercial,EL JADIDA,MAROC,UH2M,2011
+apogee_globalins_46118963,1,FDM,Licence U,L.U.en Technico-commercial,KHOURIBGA,MAROC,UH2M,2011
+apogee_globalins_46118964,1,FDM,Licence U,L.U.en Technico-commercial,BENSLIMANE,MAROC,UH2M,2011
+apogee_globalins_46118965,2,FDM,Licence U,L.U.en Technico-commercial,MOHAMMADIA,MAROC,UH2M,2011
+apogee_globalins_46118966,2,FDM,Licence U,L.U.en Technico-commercial,SALE BOUKNADEL,MAROC,UH2M,2011
+apogee_globalins_46118967,4,FDM,Licence U,L.U.en Technico-commercial,CASABLANCA ANFA,MAROC,UH2M,2011
+apogee_globalins_46118968,1,FDM,Licence U,L.U.en Technico-commercial,SKHIRATE-TEMARA,MAROC,UH2M,2011
+apogee_globalins_46118969,1,FDM,Licence U,L.U.en Technico-commercial,AL FIDA DERB SULTAN,MAROC,UH2M,2011
+apogee_globalins_46118970,2,FDM,Licence U,L.U.en Technico-commercial,AIN CHOCK HAY HASSANI,MAROC,UH2M,2011
+apogee_globalins_46118971,2,FDM,Licence U,L.U.en Technico-commercial,SIDI BERNOUSSI ZENATA,MAROC,UH2M,2011
+apogee_globalins_46118972,6,FDM,Licence U,L.U.en Technico-commercial,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2M,2011
+apogee_globalins_46118973,7,FDM,Licence U,L.U.en Gestion administrative,RABAT,MAROC,UH2M,2011
+apogee_globalins_46118974,1,FDM,Licence U,L.U.en Gestion administrative,AZILAL,MAROC,UH2M,2011
+apogee_globalins_46118975,1,FDM,Licence U,L.U.en Gestion administrative,SETTAT,MAROC,UH2M,2011
+apogee_globalins_46118976,4,FDM,Licence U,L.U.en Gestion administrative,KHOURIBGA,MAROC,UH2M,2011
+apogee_globalins_46118977,1,FDM,Licence U,L.U.en Gestion administrative,BENSLIMANE,MAROC,UH2M,2011
+apogee_globalins_46118978,1,FDM,Licence U,L.U.en Gestion administrative,FES-MEDINA,MAROC,UH2M,2011
+apogee_globalins_46118979,3,FDM,Licence U,L.U.en Gestion administrative,MOHAMMADIA,MAROC,UH2M,2011
+apogee_globalins_46118980,1,FDM,Licence U,L.U.en Gestion administrative,OUARZAZATE,MAROC,UH2M,2011
+apogee_globalins_46118981,2,FDM,Licence U,L.U.en Gestion administrative,BENI MELLAL,MAROC,UH2M,2011
+apogee_globalins_46118982,1,FDM,Licence U,L.U.en Gestion administrative,SALE BOUKNADEL,MAROC,UH2M,2011
+apogee_globalins_46118983,3,FDM,Licence U,L.U.en Gestion administrative,CASABLANCA ANFA,MAROC,UH2M,2011
+apogee_globalins_46118984,1,FDM,Licence U,L.U.en Gestion administrative,SIDI BERNOUSSI ZENATA,MAROC,UH2M,2011
+apogee_globalins_46118985,1,FDM,Licence U,L.U.en Gestion administrative,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2M,2011
+apogee_globalins_46118986,1,FDM,Licence U,L.U.en Gestion administrative,MOULAY RCHID SIDI OTMANE,MAROC,UH2M,2011
+apogee_globalins_46118987,1,FDM,Licence U,L.U.en Logistique et commerce,SAFI,MAROC,UH2M,2011
+apogee_globalins_46118988,3,FDM,Licence U,L.U.en Logistique et commerce,RABAT,MAROC,UH2M,2011
+apogee_globalins_46118989,1,FDM,Licence U,L.U.en Logistique et commerce,SETTAT,MAROC,UH2M,2011
+apogee_globalins_46118990,1,FDM,Licence U,L.U.en Logistique et commerce,KENITRA,MAROC,UH2M,2011
+apogee_globalins_46118991,5,FDM,Licence U,actuariat et techniques d assurance,RABAT,MAROC,UH2M,2011
+apogee_globalins_46118992,1,FDM,Licence U,L.U.en Logistique et commerce,KHENIFRA,MAROC,UH2M,2011
+apogee_globalins_46118993,2,FDM,Licence U,L.U.en Logistique et commerce,FES-MEDINA,MAROC,UH2M,2011
+apogee_globalins_46118994,4,FDM,Licence U,L.U.en Logistique et commerce,MOHAMMADIA,MAROC,UH2M,2011
+apogee_globalins_46118995,1,FDM,Licence U,L.U.en Logistique et commerce,BENI MELLAL,MAROC,UH2M,2011
+apogee_globalins_46118996,1,FDM,Licence U,L.U.en Logistique et commerce,BEN MSICK MEDIOUNA,MAROC,UH2M,2011
+apogee_globalins_46118997,2,FDM,Licence U,L.U.en Logistique et commerce,AIN CHOCK HAY HASSANI,MAROC,UH2M,2011
+apogee_globalins_46118998,1,FDM,Licence U,L.U.en Logistique et commerce,SIDI BERNOUSSI ZENATA,MAROC,UH2M,2011
+apogee_globalins_46118999,2,FDM,Licence U,L.U.en Logistique et commerce,MOULAY RCHID SIDI OTMANE,MAROC,UH2M,2011
+apogee_globalins_46119000,1,FDM,Licence U,L.U.en Management Comptable et Financier,BENI MELLAL,MAROC,UH2M,2011
+apogee_globalins_46119001,1,FDM,Licence U,L.U.en Management Comptable et Financier,SIDI KACEM,MAROC,UH2M,2011
+apogee_globalins_46119002,1,FDM,Licence U,L.U.en Management Comptable et Financier,MOHAMMADIA,MAROC,UH2M,2011
+apogee_globalins_46119003,1,FDM,Licence U,L.U.en Management Comptable et Financier,BENSLIMANE,MAROC,UH2M,2011
+apogee_globalins_46119004,1,FDM,Licence U,L.U.en Management Comptable et Financier,EL JADIDA,MAROC,UH2M,2011
+apogee_globalins_46119005,1,FDM,Licence U,L.U.en Management Comptable et Financier,KHENIFRA,MAROC,UH2M,2011
+apogee_globalins_46119006,1,FDM,Licence U,L.U.en Management Comptable et Financier,RABAT,MAROC,UH2M,2011
+apogee_globalins_46119007,2,FDM,Licence U,L.U.en Management Comptable et Financier,SAFI,MAROC,UH2M,2011
+apogee_globalins_46119008,1,FDM,Licence U,actuariat et techniques d assurance,MOHAMMADIA,MAROC,UH2M,2011
+apogee_globalins_46119009,2,FDM,Licence U,L.U.en Gestionnaires comptables et financiers,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2M,2011
+apogee_globalins_46119010,9,FDM,Licence U,L.U.en Gestionnaires comptables et financiers,SIDI BERNOUSSI ZENATA,MAROC,UH2M,2011
+apogee_globalins_46119011,2,FDM,Licence U,L.U.en Gestionnaires comptables et financiers,AIN CHOCK HAY HASSANI,MAROC,UH2M,2011
+apogee_globalins_46119012,2,FDM,Licence U,L.U.en Gestionnaires comptables et financiers,AL FIDA DERB SULTAN,MAROC,UH2M,2011
+apogee_globalins_46119013,5,FDM,Licence U,L.U.en Gestionnaires comptables et financiers,BEN MSICK MEDIOUNA,MAROC,UH2M,2011
+apogee_globalins_46119014,1,FDM,Licence U,L.U.en Gestionnaires comptables et financiers,CASABLANCA ANFA,MAROC,UH2M,2011
+apogee_globalins_46119015,1,FDM,Licence U,L.U.en Gestionnaires comptables et financiers,BENI MELLAL,MAROC,UH2M,2011
+apogee_globalins_46119016,3,FDM,Licence U,L.U.en Gestionnaires comptables et financiers,MOHAMMADIA,MAROC,UH2M,2011
+apogee_globalins_46119017,1,FDM,Licence U,L.U.en Gestionnaires comptables et financiers,KHOURIBGA,MAROC,UH2M,2011
+apogee_globalins_46119018,3,FDM,Licence U,L.U.en Gestionnaires comptables et financiers,MOULAY RCHID SIDI OTMANE,MAROC,UH2M,2011
+apogee_globalins_46119019,3,FDM,Licence U,L.U.en Gestionnaires comptables et financiers,EL JADIDA,MAROC,UH2M,2011
+apogee_globalins_46119020,1,FDM,Licence U,L.U.en Gestionnaires comptables et financiers,SETTAT,MAROC,UH2M,2011
+apogee_globalins_46119021,1,FDM,Licence U,L.U.en Gestionnaires comptables et financiers,IFRANE,MAROC,UH2M,2011
+apogee_globalins_46119022,1,FDM,Licence U,L.U.en Management Comptable et Financier,SIDI BERNOUSSI ZENATA,MAROC,UH2M,2011
+apogee_globalins_46119023,4,FDM,Licence U,L.U.en Management Comptable et Financier,AIN CHOCK HAY HASSANI,MAROC,UH2M,2011
+apogee_globalins_46119024,1,FDM,Licence U,L.U.en Management Comptable et Financier,AL FIDA DERB SULTAN,MAROC,UH2M,2011
+apogee_globalins_46119025,1,FDM,Licence U,L.U.en Management Comptable et Financier,MEKNES-EL-MENZEH,MAROC,UH2M,2011
+apogee_globalins_46119026,3,FDM,Licence U,L.U.en Management Comptable et Financier,CASABLANCA ANFA,MAROC,UH2M,2011
+apogee_globalins_46119027,5,FDM,Licence U,L.U.en Informatique de Gestion,MOHAMMADIA,MAROC,UH2M,2011
+apogee_globalins_46119028,1,FDM,Licence U,L.U.en Informatique de Gestion,SALE BOUKNADEL,MAROC,UH2M,2011
+apogee_globalins_46119029,3,FDM,Licence U,L.U.en Informatique de Gestion,CASABLANCA ANFA,MAROC,UH2M,2011
+apogee_globalins_46119030,2,FDM,Licence U,L.U.en Informatique de Gestion,AL FIDA DERB SULTAN,MAROC,UH2M,2011
+apogee_globalins_46119031,2,FDM,Licence U,L.U.en Informatique de Gestion,AIN CHOCK HAY HASSANI,MAROC,UH2M,2011
+apogee_globalins_46119032,1,FDM,Licence U,L.U.en Informatique de Gestion,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2M,2011
+apogee_globalins_46119033,1,NST,Licence U,L.U. en Administration des systèmes et logiciels,SAFI,MAROC,UH2M,2011
+apogee_globalins_46119034,2,NST,Licence U,L.U. en Administration des systèmes et logiciels,MOHAMMADIA,MAROC,UH2M,2011
+apogee_globalins_46119035,1,NST,Licence U,L.U. en Administration des systèmes et logiciels,MOULAY RCHID SIDI OTMANE,MAROC,UH2M,2011
+apogee_globalins_46119036,2,NST,Licence U,L.U. en Administration des systèmes et logiciels,SIDI BERNOUSSI ZENATA,MAROC,UH2M,2011
+apogee_globalins_46119037,2,NST,Licence U,L.U. en Administration des systèmes et logiciels,SALE BOUKNADEL,MAROC,UH2M,2011
+apogee_globalins_46119038,1,NST,Licence U,L.U. en Administration des systèmes et logiciels,BENI MELLAL,MAROC,UH2M,2011
+apogee_globalins_46119039,1,NST,Licence U,L.U. en Administration des systèmes et logiciels,MOHAMMADIA,FRANCE,UH2M,2011
+apogee_globalins_46119040,1,NST,Licence U,L.U. en Administration des systèmes et logiciels,MOHAMMADIA,CONGO,UH2M,2011
+apogee_globalins_46119041,1,NST,Licence U,L.U. en Administration des systèmes et logiciels,RABAT,MAROC,UH2M,2011
+apogee_globalins_46119042,1,NST,Licence U,L.U. en Administration des systèmes et logiciels,BERKANE,MAROC,UH2M,2011
+apogee_globalins_46119043,1,NST,Licence U,L.U. en Administration des systèmes et logiciels,EL JADIDA,MAROC,UH2M,2011
+apogee_globalins_46119044,1,NST,Licence U,L.U. en Administration des systèmes et logiciels,ESSAOUIRA,MAROC,UH2M,2011
+apogee_globalins_46119045,4,NST,Licence U,L.U. en Administration des systèmes et logiciels,SETTAT,MAROC,UH2M,2011
+apogee_globalins_46119046,3,UHM,Licence U,L.U.en Chargé de Clientèle Banque,TAZA,MAROC,UH2M,2011
+apogee_globalins_46119047,1,UHM,Licence U,L.U.en Chargé de Clientèle Banque,MAROC,MAROC,UH2M,2011
+apogee_globalins_46119048,8,UHM,Licence U,L.U.en Chargé de Clientèle Banque,NADOR,MAROC,UH2M,2011
+apogee_globalins_46119049,3,UHM,Licence U,L.U.en Chargé de Clientèle Banque,RABAT,MAROC,UH2M,2011
+apogee_globalins_46119050,2,UHM,Licence U,L.U.en Chargé de Clientèle Banque,SETTAT,MAROC,UH2M,2011
+apogee_globalins_46119051,1,UHM,Licence U,L.U.en Chargé de Clientèle Banque,BERKANE,MAROC,UH2M,2011
+apogee_globalins_46119052,4,UHM,Licence U,L.U.en Chargé de Clientèle Banque,KENITRA,MAROC,UH2M,2011
+apogee_globalins_46119053,2,UHM,Licence U,L.U.en Chargé de Clientèle Banque,TETOUAN,MAROC,UH2M,2011
+apogee_globalins_46119054,1,UHM,Licence U,L.U.en Chargé de Clientèle Banque,KHOURIBGA,MAROC,UH2M,2011
+apogee_globalins_46119055,1,UHM,Licence U,L.U.en Chargé de Clientèle Banque,MOHAMMADIA,MAROC,UH2M,2011
+apogee_globalins_46119056,2,UHM,Licence U,L.U.en Chargé de Clientèle Banque,BENI MELLAL,MAROC,UH2M,2011
+apogee_globalins_46119057,6,UHM,Licence U,L.U.en Chargé de Clientèle Banque,OUJDA-ANGAD,MAROC,UH2M,2011
+apogee_globalins_46119058,4,UHM,Licence U,L.U.en Chargé de Clientèle Banque,SALE BOUKNADEL,MAROC,UH2M,2011
+apogee_globalins_46119059,7,UHM,Licence U,L.U.en Chargé de Clientèle Banque,CASABLANCA ANFA,MAROC,UH2M,2011
+apogee_globalins_46119060,5,UHM,Licence U,L.U.en Chargé de Clientèle Banque,MARRAKECH-MEDINA,MAROC,UH2M,2011
+apogee_globalins_46119061,2,UHM,Licence U,L.U.en Chargé de Clientèle Banque,MEKNES-EL-MENZEH,MAROC,UH2M,2011
+apogee_globalins_46119062,1,UHM,Licence U,L.U.en Chargé de Clientèle Banque,BEN MSICK MEDIOUNA,MAROC,UH2M,2011
+apogee_globalins_46119063,2,UHM,Licence U,L.U.en Chargé de Clientèle Banque,AL FIDA DERB SULTAN,MAROC,UH2M,2011
+apogee_globalins_46119064,1,UHM,Licence U,L.U.en Chargé de Clientèle Banque,INZEGANE-AIT-MELLOUL,MAROC,UH2M,2011
+apogee_globalins_46119065,3,UHM,Licence U,L.U.en Chargé de Clientèle Banque,AIN CHOCK HAY HASSANI,MAROC,UH2M,2011
+apogee_globalins_46119066,7,UHM,Licence U,L.U.en Chargé de Clientèle Banque,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2M,2011
+apogee_globalins_46119067,1,FDM,master Uni,M.U.en Droit des contentieux,SETTAT,MAROC,UH2M,2011
+apogee_globalins_46119068,1,FDM,master Uni,M.U.en Droit des contentieux,KHENIFRA,MAROC,UH2M,2011
+apogee_globalins_46119069,1,FDM,master Uni,M.U.en Droit des contentieux,KHEMISSET,MAROC,UH2M,2011
+apogee_globalins_46119070,4,FDM,master Uni,M.U.en Droit des contentieux,MOHAMMADIA,MAROC,UH2M,2011
+apogee_globalins_46119071,1,FDM,master Uni,M.U.en Droit des contentieux,MARRAKECH-MENARA,MAROC,UH2M,2011
+apogee_globalins_46119072,1,FDM,master Uni,M.U.en Droit des contentieux,MEKNES-EL-MENZEH,MAROC,UH2M,2011
+apogee_globalins_46119073,1,FDM,master Uni,M.U.en Droit des contentieux,AL FIDA DERB SULTAN,MAROC,UH2M,2011
+apogee_globalins_46119074,1,FDM,master Uni,M.U.en Droit des contentieux,SIDI BERNOUSSI ZENATA,MAROC,UH2M,2011
+apogee_globalins_46119075,2,FDM,master Uni,M.U.en Audit et contrôle de gestion,MAROC,MAROC,UH2M,2011
+apogee_globalins_46119076,2,FDM,master Uni,M.U.en Audit et contrôle de gestion,RABAT,MAROC,UH2M,2011
+apogee_globalins_46119077,1,FDM,master Uni,M.U.en Audit et contrôle de gestion,KHENIFRA,MAROC,UH2M,2011
+apogee_globalins_46119078,1,FDM,master Uni,M.U.en Audit et contrôle de gestion,KHEMISSET,MAROC,UH2M,2011
+apogee_globalins_46119079,3,FDM,master Uni,M.U.en Audit et contrôle de gestion,MOHAMMADIA,MAROC,UH2M,2011
+apogee_globalins_46119080,1,FDM,master Uni,M.U.en Audit et contrôle de gestion,TAROUDANNT,MAROC,UH2M,2011
+apogee_globalins_46119081,2,FDM,master Uni,M.U.en Audit et contrôle de gestion,CASABLANCA ANFA,MAROC,UH2M,2011
+apogee_globalins_46119082,1,FDM,master Uni,M.U.en Audit et contrôle de gestion,KELAAT  ESSRAGHNA,MAROC,UH2M,2011
+apogee_globalins_46119083,1,FDM,master Uni,M.U.en Audit et contrôle de gestion,SIDI BERNOUSSI ZENATA,MAROC,UH2M,2011
+apogee_globalins_46119084,1,FDM,master Uni,M.U.en Management logistique appliquée,KENITRA,MAROC,UH2M,2011
+apogee_globalins_46119085,2,FDM,master Uni,M.U.en Management logistique appliquée,BENSLIMANE,MAROC,UH2M,2011
+apogee_globalins_46119086,1,FDM,master Uni,M.U.en Management logistique appliquée,FES-MEDINA,MAROC,UH2M,2011
+apogee_globalins_46119087,3,FDM,master Uni,M.U.en Management logistique appliquée,MOHAMMADIA,MAROC,UH2M,2011
+apogee_globalins_46119088,1,FDM,master Uni,M.U.en Management logistique appliquée,SALE BOUKNADEL,MAROC,UH2M,2011
+apogee_globalins_46119089,4,FDM,master Uni,M.U.en Management logistique appliquée,CASABLANCA ANFA,MAROC,UH2M,2011
+apogee_globalins_46119090,1,FDM,master Uni,M.U.en Management logistique appliquée,MARRAKECH-MEDINA,MAROC,UH2M,2011
+apogee_globalins_46119091,1,FDM,master Uni,M.U.en Management logistique appliquée,MEKNES-EL-MENZEH,MAROC,UH2M,2011
+apogee_globalins_46119092,2,FDM,master Uni,M.U.en Management logistique appliquée,BEN MSICK MEDIOUNA,MAROC,UH2M,2011
+apogee_globalins_46119093,1,FDM,master Uni,M.U.en Management logistique appliquée,AL FIDA DERB SULTAN,MAROC,UH2M,2011
+apogee_globalins_46119094,1,FDM,master Uni,M.U.en Management logistique appliquée,INZEGANE-AIT-MELLOUL,MAROC,UH2M,2011
+apogee_globalins_46119095,3,FDM,master Uni,M.U.en Management logistique appliquée,AIN CHOCK HAY HASSANI,MAROC,UH2M,2011
+apogee_globalins_46119096,3,FDM,master Uni,M.U.en Intelligence marketing et veille commerciale,RABAT,MAROC,UH2M,2011
+apogee_globalins_46119097,2,FDM,master Uni,M.U.en Management logistique appliquée,SIDI BERNOUSSI ZENATA,MAROC,UH2M,2011
+apogee_globalins_46119098,1,FDM,master Uni,M.U.en Management logistique appliquée,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2M,2011
+apogee_globalins_46119099,4,FDM,master Uni,M.U.en Ingénierie bancaire et financière,TAZA,MAROC,UH2M,2011
+apogee_globalins_46119100,17,FDM,master Uni,M.U.en Ingénierie bancaire et financière,NADOR,MAROC,UH2M,2011
+apogee_globalins_46119101,4,FDM,master Uni,M.U.en Ingénierie bancaire et financière,RABAT,MAROC,UH2M,2011
+apogee_globalins_46119102,1,FDM,master Uni,M.U.en Ingénierie bancaire et financière,KENITRA,MAROC,UH2M,2011
+apogee_globalins_46119103,2,FDM,master Uni,M.U.en Ingénierie bancaire et financière,LARACHE,MAROC,UH2M,2011
+apogee_globalins_46119104,1,FDM,master Uni,M.U.en Ingénierie bancaire et financière,KHOURIBGA,MAROC,UH2M,2011
+apogee_globalins_46119105,1,FDM,master Uni,M.U.en Management des organisations et développement social,SIDI KACEM,MAROC,UH2M,2011
+apogee_globalins_46119106,1,FDM,master Uni,M.U.en Management des organisations et développement social,OUARZAZATE,MAROC,UH2M,2011
+apogee_globalins_46119107,2,FDM,master Uni,M.U.en Management des organisations et développement social,RABAT,MAROC,UH2M,2011
+apogee_globalins_46119108,1,FDM,master Uni,M.U.en Techniques de modélisation économique et économétrie,MARRAKECH-MEDINA,MAROC,UH2M,2011
+apogee_globalins_46119109,2,FDM,master Uni,M.U.en Techniques de modélisation économique et économétrie,MOHAMMADIA,MAROC,UH2M,2011
+apogee_globalins_46119110,1,FDM,master Uni,M.U.en Techniques de modélisation économique et économétrie,KHEMISSET,MAROC,UH2M,2011
+apogee_globalins_46119111,1,FDM,master Uni,M.U.en Techniques de modélisation économique et économétrie,KHENIFRA,MAROC,UH2M,2011
+apogee_globalins_46119112,1,FDM,master Uni,M.U.en Techniques de modélisation économique et économétrie,RABAT,MAROC,UH2M,2011
+apogee_globalins_46119113,1,FDM,master Uni,M.U.en Intelligence marketing et veille commerciale,SIDI BERNOUSSI ZENATA,MAROC,UH2M,2011
+apogee_globalins_46119114,1,FDM,master Uni,M.U.en Management des organisations et développement social,FES-EL-JADID-DAR DBIBAGH,MAROC,UH2M,2011
+apogee_globalins_46119115,1,FDM,master Uni,M.U.en Management des organisations et développement social,AIN CHOCK HAY HASSANI,MAROC,UH2M,2011
+apogee_globalins_46119116,1,FDM,master Uni,M.U.en Management des organisations et développement social,MARRAKECH-MEDINA,MAROC,UH2M,2011
+apogee_globalins_46119117,1,FDM,master Uni,M.U.en Management des organisations et développement social,CASABLANCA ANFA,MAROC,UH2M,2011
+apogee_globalins_46119118,3,FDM,master Uni,M.U.en Intelligence marketing et veille commerciale,CASABLANCA ANFA,MAROC,UH2M,2011
+apogee_globalins_46119119,3,FDM,master Uni,M.U.en Intelligence marketing et veille commerciale,SALE BOUKNADEL,MAROC,UH2M,2011
+apogee_globalins_46119120,2,FDM,master Uni,M.U.en Intelligence marketing et veille commerciale,SIDI KACEM,MAROC,UH2M,2011
+apogee_globalins_46119121,4,FDM,master Uni,M.U.en Intelligence marketing et veille commerciale,MOHAMMADIA,MAROC,UH2M,2011
+apogee_globalins_46119122,1,FDM,master Uni,M.U.en Intelligence marketing et veille commerciale,ERRACHIDIA,MAROC,UH2M,2011
+apogee_globalins_46119123,2,FDM,master Uni,M.U.en Intelligence marketing et veille commerciale,KHOURIBGA,MAROC,UH2M,2011
+apogee_globalins_46119124,2,FDM,master Uni,M.U.en Intelligence marketing et veille commerciale,KENITRA,MAROC,UH2M,2011
+apogee_globalins_46119125,1,FDM,master Uni,M.U.en Intelligence marketing et veille commerciale,SETTAT,MAROC,UH2M,2011
+apogee_globalins_46119126,5,FDM,master Uni,M.U.en Ingénierie bancaire et financière,AL HOCEIMA,MAROC,UH2M,2011
+apogee_globalins_46119127,1,FDM,master Uni,M.U.en Ingénierie bancaire et financière,BENSLIMANE,MAROC,UH2M,2011
+apogee_globalins_46119128,5,FDM,master Uni,M.U.en Ingénierie bancaire et financière,FES-MEDINA,MAROC,UH2M,2011
+apogee_globalins_46119129,4,FDM,master Uni,M.U.en Ingénierie bancaire et financière,MOHAMMADIA,MAROC,UH2M,2011
+apogee_globalins_46119130,1,FDM,master Uni,M.U.en Ingénierie bancaire et financière,OUJDA-ANGAD,MAROC,UH2M,2011
+apogee_globalins_46119131,2,FDM,master Uni,M.U.en Ingénierie bancaire et financière,SALE BOUKNADEL,MAROC,UH2M,2011
+apogee_globalins_46119132,6,FDM,master Uni,M.U.en Ingénierie bancaire et financière,CASABLANCA ANFA,MAROC,UH2M,2011
+apogee_globalins_46119133,2,FDM,master Uni,M.U.en Ingénierie bancaire et financière,MEKNES-EL-MENZEH,MAROC,UH2M,2011
+apogee_globalins_46119134,1,FDM,master Uni,M.U.en Ingénierie bancaire et financière,BEN MSICK MEDIOUNA,MAROC,UH2M,2011
+apogee_globalins_46119135,2,FDM,master Uni,M.U.en Ingénierie bancaire et financière,MEKNES-AL-ISMAILIA,MAROC,UH2M,2011
+apogee_globalins_46119136,2,FDM,master Uni,M.U.en Ingénierie bancaire et financière,AL FIDA DERB SULTAN,MAROC,UH2M,2011
+apogee_globalins_46119137,2,FDM,master Uni,M.U.en Ingénierie bancaire et financière,SIDI BERNOUSSI ZENATA,MAROC,UH2M,2011
+apogee_globalins_46119138,1,FDM,master Uni,M.U.en Ingénierie bancaire et financière,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2M,2011
+apogee_globalins_46119139,1,FDM,master Uni,M.U.en Ingénierie bancaire et financière,FES-EL-JADID-DAR DBIBAGH,MAROC,UH2M,2011
+apogee_globalins_46119140,2,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,RABAT,MAROC,UH2M,2011
+apogee_globalins_46119141,2,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,SETTAT,MAROC,UH2M,2011
+apogee_globalins_46119142,2,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,BOULEMANE,MAROC,UH2M,2011
+apogee_globalins_46119143,2,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,EL JADIDA,MAROC,UH2M,2011
+apogee_globalins_46119144,1,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,KHOURIBGA,MAROC,UH2M,2011
+apogee_globalins_46119145,2,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,MOHAMMADIA,MAROC,UH2M,2011
+apogee_globalins_46119146,1,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,CHEFCHAOUEN,MAROC,UH2M,2011
+apogee_globalins_46119147,1,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,Sidi Slimane,MAROC,UH2M,2011
+apogee_globalins_46119148,3,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,CASABLANCA ANFA,MAROC,UH2M,2011
+apogee_globalins_46119149,1,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,MARRAKECH-MEDINA,MAROC,UH2M,2011
+apogee_globalins_46119150,1,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,MEKNES-EL-MENZEH,MAROC,UH2M,2011
+apogee_globalins_46119151,1,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,BEN MSICK MEDIOUNA,MAROC,UH2M,2011
+apogee_globalins_46119152,1,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,AL FIDA DERB SULTAN,MAROC,UH2M,2011
+apogee_globalins_46119153,9,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,AIN CHOCK HAY HASSANI,MAROC,UH2M,2011
+apogee_globalins_46119154,8,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,SIDI BERNOUSSI ZENATA,MAROC,UH2M,2011
+apogee_globalins_46119155,6,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2M,2011
+apogee_globalins_46119156,2,NCG,master Uni,M.U.en Comptabilité  contrôle de gestion et audit,MOULAY RCHID SIDI OTMANE,MAROC,UH2M,2011
+apogee_globalins_47829382,2,FMC,DESS,DIPLOMES DES SPECIALITES MEDICALES,SALE,MAROC,UH2C,2012
+apogee_globalins_47829383,14,FMC,DESS,DIPLOMES DES SPECIALITES MEDICALES,RABAT,MAROC,UH2C,2012
+apogee_globalins_47829384,1,FMC,DESS,DIPLOMES DES SPECIALITES MEDICALES,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829385,1,FMC,DESS,DIPLOMES DES SPECIALITES MEDICALES,BERCHID,MAROC,UH2C,2012
+apogee_globalins_47829386,3,FMC,DESS,DIPLOMES DES SPECIALITES MEDICALES,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829387,2,FMC,DESS,DIPLOMES DES SPECIALITES MEDICALES,MARRAKECH,MAROC,UH2C,2012
+apogee_globalins_47829388,1,FMC,DESS,DIPLOMES DES SPECIALITES MEDICALES,TAOUNATE,MAROC,UH2C,2012
+apogee_globalins_47829389,1,FMC,DESS,DIPLOMES DES SPECIALITES MEDICALES,TINGHIR,ISLANDE,UH2C,2012
+apogee_globalins_47829390,3,EEM,DIE,GENIE INDUSTRIEL,SAFI,MAROC,UH2C,2012
+apogee_globalins_47829391,2,EEM,DIE,GENIE INDUSTRIEL,MAROC,MAROC,UH2C,2012
+apogee_globalins_47829392,1,EEM,DIE,GENIE INDUSTRIEL,MAROC,COTE D IVOIRE,UH2C,2012
+apogee_globalins_47829393,1,EEM,DIE,GENIE INDUSTRIEL,NADOR,MAROC,UH2C,2012
+apogee_globalins_47829394,2,EEM,DIE,GENIE INDUSTRIEL,RABAT,MAROC,UH2C,2012
+apogee_globalins_47829395,2,EEM,DIE,GENIE INDUSTRIEL,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829396,1,EEM,DIE,GENIE INDUSTRIEL,TANGER,MAROC,UH2C,2012
+apogee_globalins_47829397,2,EEM,DIE,GENIE INDUSTRIEL,KENITRA,MAROC,UH2C,2012
+apogee_globalins_47829398,1,EEM,DIE,GENIE INDUSTRIEL,TAN-TAN,MAROC,UH2C,2012
+apogee_globalins_47829399,1,EEM,DIE,GENIE INDUSTRIEL,AL HAOUZ,MAROC,UH2C,2012
+apogee_globalins_47829400,1,EEM,DIE,GENIE INDUSTRIEL,ETRANGER,BURKINA FASO,UH2C,2012
+apogee_globalins_47829401,2,EEM,DIE,GENIE INDUSTRIEL,LAAYOUNE,MAROC,UH2C,2012
+apogee_globalins_47829402,3,EEM,DIE,GENIE INDUSTRIEL,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47829403,1,EEM,DIE,GENIE INDUSTRIEL,EL JADIDA,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829404,1,EEM,DIE,GENIE INDUSTRIEL,ES-SEMARA,MAROC,UH2C,2012
+apogee_globalins_47829405,1,EEM,DIE,GENIE INDUSTRIEL,KHOURIBGA,MAROC,UH2C,2012
+apogee_globalins_47829406,1,EEM,DIE,GENIE INDUSTRIEL,MARRAKECH,MAROC,UH2C,2012
+apogee_globalins_47829407,1,EEM,DIE,GENIE INDUSTRIEL,ERRACHIDIA,MAROC,UH2C,2012
+apogee_globalins_47829408,1,EEM,DIE,GENIE INDUSTRIEL,MOHAMMADIA,MAROC,UH2C,2012
+apogee_globalins_47829409,2,EEM,DIE,GENIE INDUSTRIEL,OUJDA-ANGAD,MAROC,UH2C,2012
+apogee_globalins_47829410,1,EEM,DIE,GENIE INDUSTRIEL,OUED ED DAHAB,MAROC,UH2C,2012
+apogee_globalins_47829411,1,EEM,DIE,GENIE INDUSTRIEL,SALE BOUKNADEL,MAROC,UH2C,2012
+apogee_globalins_47829412,5,EEM,DIE,GENIE INDUSTRIEL,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829413,1,EEM,DIE,GENIE INDUSTRIEL,CASABLANCA ANFA,MEXIQUE,UH2C,2012
+apogee_globalins_47829414,1,EEM,DIE,GENIE INDUSTRIEL,SKHIRATE-TEMARA,MAROC,UH2C,2012
+apogee_globalins_47829415,1,EEM,DIE,GENIE INDUSTRIEL,AGADIR IDA-TANANE,MAROC,UH2C,2012
+apogee_globalins_47829416,1,EEM,DIE,GENIE INDUSTRIEL,BEN MSICK MEDIOUNA,MAROC,UH2C,2012
+apogee_globalins_47829417,3,EEM,DIE,GENIE INDUSTRIEL,MEKNES-AL-ISMAILIA,MAROC,UH2C,2012
+apogee_globalins_47829418,3,EEM,DIE,GENIE INDUSTRIEL,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47829419,1,EEM,DIE,GENIE INDUSTRIEL,INZEGANE-AIT-MELLOUL,MAROC,UH2C,2012
+apogee_globalins_47829420,4,EEM,DIE,GENIE INDUSTRIEL,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829421,2,EEM,DIE,GENIE INDUSTRIEL,SIDI BERNOUSSI ZENATA,MAROC,UH2C,2012
+apogee_globalins_47829422,1,EEM,DIE,GENIE INDUSTRIEL,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2C,2012
+apogee_globalins_47829423,4,EEM,DIE,GENIE INDUSTRIEL,FES-EL-JADID-DAR DBIBAGH,MAROC,UH2C,2012
+apogee_globalins_47829424,1,EEM,DIE,ING D ETAT G. SYST M,FES,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829425,7,EEM,DIE,ING D ETAT G. SYST M,SAFI,MAROC,UH2C,2012
+apogee_globalins_47829426,1,EEM,DIE,ING D ETAT G. SYST M,TATA,MAROC,UH2C,2012
+apogee_globalins_47829427,1,EEM,DIE,ING D ETAT G. SYST M,TAZA,MAROC,UH2C,2012
+apogee_globalins_47829428,5,EEM,DIE,ING D ETAT G. SYST M,MAROC,MAROC,UH2C,2012
+apogee_globalins_47829429,4,EEM,DIE,ING D ETAT G. SYST M,RABAT,MAROC,UH2C,2012
+apogee_globalins_47829430,1,EEM,DIE,ING D ETAT G. SYST M,AZILAL,MAROC,UH2C,2012
+apogee_globalins_47829431,1,EEM,DIE,ING D ETAT G. SYST M,FIGUIG,MAROC,UH2C,2012
+apogee_globalins_47829432,2,EEM,DIE,ING D ETAT G. SYST M,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829433,2,EEM,DIE,ING D ETAT G. SYST M,TANGER,MAROC,UH2C,2012
+apogee_globalins_47829434,2,EEM,DIE,ING D ETAT G. SYST M,TIZNIT,MAROC,UH2C,2012
+apogee_globalins_47829435,1,EEM,DIE,ING D ETAT G. SYST M,ZAGORA,MAROC,UH2C,2012
+apogee_globalins_47829436,2,EEM,DIE,ING D ETAT G. SYST M,GUELMIM,MAROC,UH2C,2012
+apogee_globalins_47829437,3,EEM,DIE,ING D ETAT G. SYST M,KENITRA,MAROC,UH2C,2012
+apogee_globalins_47829438,2,EEM,DIE,ING D ETAT G. SYST M,LARACHE,MAROC,UH2C,2012
+apogee_globalins_47829439,2,EEM,DIE,ING D ETAT G. SYST M,KHENIFRA,MAROC,UH2C,2012
+apogee_globalins_47829440,1,EEM,DIE,ING D ETAT G. SYST M,BOULEMANE,MAROC,UH2C,2012
+apogee_globalins_47829441,10,EEM,DIE,ING D ETAT G. SYST M,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47829442,1,EEM,DIE,ING D ETAT G. SYST M,ESSAOUIRA,MAROC,UH2C,2012
+apogee_globalins_47829443,1,EEM,DIE,ING D ETAT G. SYST M,KHOURIBGA,MAROC,UH2C,2012
+apogee_globalins_47829444,4,EEM,DIE,ING D ETAT G. SYST M,FES-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829445,1,EEM,DIE,ING D ETAT G. SYST M,MAURITANIE,MAROC,UH2C,2012
+apogee_globalins_47829446,1,EEM,DIE,ING D ETAT G. SYST M,MAURITANIE,MAURITANIE,UH2C,2012
+apogee_globalins_47829447,2,EEM,DIE,ING D ETAT G. SYST M,MOHAMMADIA,MAROC,UH2C,2012
+apogee_globalins_47829448,1,EEM,DIE,ING D ETAT G. SYST M,OUARZAZATE,MAROC,UH2C,2012
+apogee_globalins_47829449,1,EEM,DIE,ING D ETAT G. SYST M,SIDI KACEM,MAROC,UH2C,2012
+apogee_globalins_47829450,1,EEM,DIE,ING D ETAT G. SYST M,TAROUDANNT,MAROC,UH2C,2012
+apogee_globalins_47829451,1,EEM,DIE,ING D ETAT G. SYST M,BENI MELLAL,MAROC,UH2C,2012
+apogee_globalins_47829452,3,EEM,DIE,ING D ETAT G. SYST M,OUJDA-ANGAD,MAROC,UH2C,2012
+apogee_globalins_47829453,2,EEM,DIE,ING D ETAT G. SYST M,SALA ALJADIDA,MAROC,UH2C,2012
+apogee_globalins_47829454,9,EEM,DIE,ING D ETAT G. SYST M,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829455,1,EEM,DIE,ING D ETAT G. SYST M,CASABLANCA ANFA,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829456,3,EEM,DIE,ING D ETAT G. SYST M,FAHS BNI MAKADA,MAROC,UH2C,2012
+apogee_globalins_47829457,2,EEM,DIE,ING D ETAT G. SYST M,SKHIRATE-TEMARA,MAROC,UH2C,2012
+apogee_globalins_47829458,3,EEM,DIE,ING D ETAT G. SYST M,MARRAKECH-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829459,3,EEM,DIE,ING D ETAT G. SYST M,MARRAKECH-MENARA,MAROC,UH2C,2012
+apogee_globalins_47829460,4,EEM,DIE,ING D ETAT G. SYST M,AGADIR IDA-TANANE,MAROC,UH2C,2012
+apogee_globalins_47829apogee_globalins_461,2,EEM,DIE,ING D ETAT G. SYST M,KELAAT  ESSRAGHNA,MAROC,UH2C,2012
+apogee_globalins_47829462,1,EEM,DIE,ING D ETAT G. SYST M,BEN MSICK MEDIOUNA,MAROC,UH2C,2012
+apogee_globalins_47829463,1,EEM,DIE,ING D ETAT G. SYST M,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47829464,1,EEM,DIE,ING D ETAT G. SYST M,INZEGANE-AIT-MELLOUL,MAROC,UH2C,2012
+apogee_globalins_47829465,1,EEM,DIE,ING D ETAT G. SYST M,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2C,2012
+apogee_globalins_47829466,1,EEM,DIE,ING D ETAT G. SYST M,AIN SEBAA HAY MOHAMMEDI,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829467,2,EEM,DIE,ING D ETAT G. SYST M,FES-EL-JADID-DAR DBIBAGH,MAROC,UH2C,2012
+apogee_globalins_47829468,1,EEM,DIE,ING D ETAT G. SYST M,FES-EL-JADID-DAR DBIBAGH,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829469,1,EEM,DIE,ING D ETAT G. SYST M,MOULAY RCHID SIDI OTMANE,MAROC,UH2C,2012
+apogee_globalins_47829470,12,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,SAFI,MAROC,UH2C,2012
+apogee_globalins_47829471,10,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,MAROC,MAROC,UH2C,2012
+apogee_globalins_47829472,4,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,RABAT,MAROC,UH2C,2012
+apogee_globalins_47829473,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,AZILAL,MAROC,UH2C,2012
+apogee_globalins_47829474,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,IFRANE,MAROC,UH2C,2012
+apogee_globalins_47829475,4,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829476,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,TANGER,MAROC,UH2C,2012
+apogee_globalins_47829477,2,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,TIZNIT,MAROC,UH2C,2012
+apogee_globalins_47829apogee_globalins_478,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,GUELMIM,MAROC,UH2C,2012
+apogee_globalins_47829479,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,TAN-TAN,MAROC,UH2C,2012
+apogee_globalins_47829480,6,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,LAAYOUNE,MAROC,UH2C,2012
+apogee_globalins_47829481,2,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,TAOUNATE,MAROC,UH2C,2012
+apogee_globalins_47829482,2,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,TAOURIRT,MAROC,UH2C,2012
+apogee_globalins_47829483,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,AIN CHOCK,MAROC,UH2C,2012
+apogee_globalins_47829484,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,CHICHAOUA,MAROC,UH2C,2012
+apogee_globalins_47829485,6,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47829486,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,ES-SEMARA,MAROC,UH2C,2012
+apogee_globalins_47829487,2,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,ESSAOUIRA,MAROC,UH2C,2012
+apogee_globalins_47829488,2,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,KHEMISSET,MAROC,UH2C,2012
+apogee_globalins_47829489,6,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,KHOURIBGA,MAROC,UH2C,2012
+apogee_globalins_47829490,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,AL HOCEIMA,MAROC,UH2C,2012
+apogee_globalins_47829491,3,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,ERRACHIDIA,MAROC,UH2C,2012
+apogee_globalins_47829492,4,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,FES-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829493,2,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,MOHAMMADIA,MAROC,UH2C,2012
+apogee_globalins_47829494,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,OUARZAZATE,MAROC,UH2C,2012
+apogee_globalins_47829495,2,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,BENI MELLAL,MAROC,UH2C,2012
+apogee_globalins_47829496,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829497,6,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,OUJDA-ANGAD,MAROC,UH2C,2012
+apogee_globalins_47829498,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,OUJDA-ANGAD,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829499,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,OUED ED DAHAB,MAROC,UH2C,2012
+apogee_globalins_47829500,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,SALA ALJADIDA,MAROC,UH2C,2012
+apogee_globalins_47829501,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,SALE BOUKNADEL,MAROC,UH2C,2012
+apogee_globalins_47829502,12,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829503,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,CASABLANCA ANFA,AUTRES pays,UH2C,2012
+apogee_globalins_47829504,7,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,FAHS BNI MAKADA,MAROC,UH2C,2012
+apogee_globalins_47829505,2,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,SKHIRATE-TEMARA,MAROC,UH2C,2012
+apogee_globalins_47829506,7,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,MARRAKECH-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829507,5,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,MARRAKECH-MENARA,MAROC,UH2C,2012
+apogee_globalins_47829508,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,MEKNES-EL-MENZEH,MAROC,UH2C,2012
+apogee_globalins_47829509,5,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,AGADIR IDA-TANANE,MAROC,UH2C,2012
+apogee_globalins_47829510,2,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,BEN MSICK MEDIOUNA,MAROC,UH2C,2012
+apogee_globalins_47829511,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,MEKNES-AL-ISMAILIA,MAROC,UH2C,2012
+apogee_globalins_47829512,6,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47829513,2,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,INZEGANE-AIT-MELLOUL,MAROC,UH2C,2012
+apogee_globalins_47829514,10,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829515,3,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,SIDI BERNOUSSI ZENATA,MAROC,UH2C,2012
+apogee_globalins_47829516,3,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2C,2012
+apogee_globalins_47829517,5,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,FES-EL-JADID-DAR DBIBAGH,MAROC,UH2C,2012
+apogee_globalins_47829518,1,EEM,DIE,INGENIEUR D ETAT GENIE INFORMATIQUE,MOULAY RCHID SIDI OTMANE,MAROC,UH2C,2012
+apogee_globalins_47829519,4,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,SAFI,MAROC,UH2C,2012
+apogee_globalins_47829520,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,TAZA,MAROC,UH2C,2012
+apogee_globalins_47829521,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,CONGO,MAROC,UH2C,2012
+apogee_globalins_47829522,4,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,MAROC,MAROC,UH2C,2012
+apogee_globalins_47829523,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,MAROC,MAURITANIE,UH2C,2012
+apogee_globalins_47829524,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,AZILAL,MAROC,UH2C,2012
+apogee_globalins_47829525,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,SEFROU,MAROC,UH2C,2012
+apogee_globalins_47829526,2,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829527,3,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,TANGER,MAROC,UH2C,2012
+apogee_globalins_47829528,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,BERKANE,MAROC,UH2C,2012
+apogee_globalins_47829529,3,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,GUELMIM,MAROC,UH2C,2012
+apogee_globalins_47829530,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,KENITRA,MAROC,UH2C,2012
+apogee_globalins_47829531,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,AL HAOUZ,MAROC,UH2C,2012
+apogee_globalins_47829532,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,AL HAOUZ,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829533,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,ETRANGER,BENIN,UH2C,2012
+apogee_globalins_47829534,4,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,KHENIFRA,MAROC,UH2C,2012
+apogee_globalins_47829535,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,TAOURIRT,MAROC,UH2C,2012
+apogee_globalins_47829536,8,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47829537,2,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,KHOURIBGA,MAROC,UH2C,2012
+apogee_globalins_47829538,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,AL HOCEIMA,MAROC,UH2C,2012
+apogee_globalins_47829539,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,BENSLIMANE,MAROC,UH2C,2012
+apogee_globalins_47829540,5,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,ERRACHIDIA,MAROC,UH2C,2012
+apogee_globalins_47829541,3,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,FES-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829542,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,MOHAMMADIA,MAROC,UH2C,2012
+apogee_globalins_47829543,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,OUARZAZATE,MAROC,UH2C,2012
+apogee_globalins_47829544,7,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,BENI MELLAL,MAROC,UH2C,2012
+apogee_globalins_47829545,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,BENI MELLAL,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829546,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,SALA ALJADIDA,MAROC,UH2C,2012
+apogee_globalins_47829547,3,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,SALE BOUKNADEL,MAROC,UH2C,2012
+apogee_globalins_47829548,9,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829549,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,CASABLANCA ANFA,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829550,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,FAHS BNI MAKADA,MAROC,UH2C,2012
+apogee_globalins_47829551,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,CHTOUKA-AIT-BAHA,MAROC,UH2C,2012
+apogee_globalins_47829552,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,MARRAKECH-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829553,4,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,MARRAKECH-MENARA,MAROC,UH2C,2012
+apogee_globalins_47829554,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,AGADIR IDA-TANANE,MAROC,UH2C,2012
+apogee_globalins_47829555,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,KELAAT  ESSRAGHNA,MAROC,UH2C,2012
+apogee_globalins_47829556,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,BEN MSICK MEDIOUNA,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829557,3,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,MEKNES-AL-ISMAILIA,MAROC,UH2C,2012
+apogee_globalins_47829558,3,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47829559,4,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829560,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,AIN CHOCK HAY HASSANI,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829561,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,AIN CHOCK HAY HASSANI,AUTRES pays,UH2C,2012
+apogee_globalins_47829562,2,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2C,2012
+apogee_globalins_47829563,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES ELECTRIQUES,FES-EL-JADID-DAR DBIBAGH,MAROC,UH2C,2012
+apogee_globalins_47829564,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,SAFI,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829565,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,TATA,MAROC,UH2C,2012
+apogee_globalins_47829566,2,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,TAZA,MAROC,UH2C,2012
+apogee_globalins_47829567,5,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,MAROC,MAROC,UH2C,2012
+apogee_globalins_47829568,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,NADOR,MAROC,UH2C,2012
+apogee_globalins_47829569,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,GUINEE,GUINEE,UH2C,2012
+apogee_globalins_47829570,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,SEFROU,MAROC,UH2C,2012
+apogee_globalins_47829571,2,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829572,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,TANGER,MAROC,UH2C,2012
+apogee_globalins_47829573,2,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,TIZNIT,MAROC,UH2C,2012
+apogee_globalins_47829574,3,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,GUELMIM,MAROC,UH2C,2012
+apogee_globalins_47829575,2,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,TETOUAN,MAROC,UH2C,2012
+apogee_globalins_47829576,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,EL-HAJEB,MAROC,UH2C,2012
+apogee_globalins_47829577,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,KHENIFRA,MAROC,UH2C,2012
+apogee_globalins_47829578,2,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,TAOURIRT,MAROC,UH2C,2012
+apogee_globalins_47829579,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,BOULEMANE,MAROC,UH2C,2012
+apogee_globalins_47829580,2,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47829581,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,ERRACHIDIA,MAROC,UH2C,2012
+apogee_globalins_47829582,2,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,FES-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829583,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,MOHAMMADIA,MAROC,UH2C,2012
+apogee_globalins_47829584,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,TAROUDANNT,MAROC,UH2C,2012
+apogee_globalins_47829585,3,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,BENI MELLAL,MAROC,UH2C,2012
+apogee_globalins_47829586,4,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,OUJDA-ANGAD,MAROC,UH2C,2012
+apogee_globalins_47829587,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,OUED ED DAHAB,MAROC,UH2C,2012
+apogee_globalins_47829588,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,SALA ALJADIDA,MAROC,UH2C,2012
+apogee_globalins_47829589,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,MECHOUAR(CASA),MAROC,UH2C,2012
+apogee_globalins_47829590,9,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829591,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,CASABLANCA ANFA,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829592,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,FAHS BNI MAKADA,MAROC,UH2C,2012
+apogee_globalins_47829593,4,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,MARRAKECH-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829594,3,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,MARRAKECH-MENARA,MAROC,UH2C,2012
+apogee_globalins_47829595,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,MEKNES-EL-MENZEH,MAROC,UH2C,2012
+apogee_globalins_47829596,5,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,AGADIR IDA-TANANE,MAROC,UH2C,2012
+apogee_globalins_47829597,1,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,MEKNES-AL-ISMAILIA,MAROC,UH2C,2012
+apogee_globalins_47829598,7,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47829599,2,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,INZEGANE-AIT-MELLOUL,MAROC,UH2C,2012
+apogee_globalins_47829600,6,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829601,3,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,SIDI BERNOUSSI ZENATA,MAROC,UH2C,2012
+apogee_globalins_47829602,3,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2C,2012
+apogee_globalins_47829603,3,EEM,DIE,INGENIEUR D ETAT GENIE ELECTRIQUE ET TELECOMMUNICATIONS,FES-EL-JADID-DAR DBIBAGH,MAROC,UH2C,2012
+apogee_globalins_47829604,2,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,SAFI,MAROC,UH2C,2012
+apogee_globalins_47829605,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,TOGO,TOGO,UH2C,2012
+apogee_globalins_47829606,6,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,MAROC,MAROC,UH2C,2012
+apogee_globalins_47829607,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,RABAT,MAROC,UH2C,2012
+apogee_globalins_47829608,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,GUINEE,GUINEE,UH2C,2012
+apogee_globalins_47829609,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,SEFROU,MAROC,UH2C,2012
+apogee_globalins_47829610,2,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829611,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,TIZNIT,MAROC,UH2C,2012
+apogee_globalins_47829612,4,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,KENITRA,MAROC,UH2C,2012
+apogee_globalins_47829613,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,SENEGAL,SENEGAL,UH2C,2012
+apogee_globalins_47829614,2,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,TAN-TAN,MAROC,UH2C,2012
+apogee_globalins_47829615,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,TETOUAN,MAROC,UH2C,2012
+apogee_globalins_47829616,3,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,KHENIFRA,MAROC,UH2C,2012
+apogee_globalins_47829617,2,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,LAAYOUNE,MAROC,UH2C,2012
+apogee_globalins_47829618,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,TAOUNATE,MAROC,UH2C,2012
+apogee_globalins_47829619,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,AIN CHOCK,MAROC,UH2C,2012
+apogee_globalins_47829620,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,BOULEMANE,MAROC,UH2C,2012
+apogee_globalins_47829621,5,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47829622,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,KHOURIBGA,MAROC,UH2C,2012
+apogee_globalins_47829623,2,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,ERRACHIDIA,MAROC,UH2C,2012
+apogee_globalins_47829624,5,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,FES-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829625,2,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,MOHAMMADIA,MAROC,UH2C,2012
+apogee_globalins_47829626,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,OUARZAZATE,MAROC,UH2C,2012
+apogee_globalins_47829627,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,AUTRES pays,AUTRES pays,UH2C,2012
+apogee_globalins_47829628,3,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,BENI MELLAL,MAROC,UH2C,2012
+apogee_globalins_47829629,3,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,OUJDA-ANGAD,MAROC,UH2C,2012
+apogee_globalins_47829630,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,OUED ED DAHAB,MAROC,UH2C,2012
+apogee_globalins_47829631,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,SALA ALJADIDA,MAROC,UH2C,2012
+apogee_globalins_47829632,5,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829633,3,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,FAHS BNI MAKADA,MAROC,UH2C,2012
+apogee_globalins_47829634,3,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,MARRAKECH-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829635,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,MARRAKECH-MENARA,MAROC,UH2C,2012
+apogee_globalins_47829636,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,MEKNES-EL-MENZEH,MAROC,UH2C,2012
+apogee_globalins_47829637,5,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,AGADIR IDA-TANANE,MAROC,UH2C,2012
+apogee_globalins_47829638,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,KELAAT  ESSRAGHNA,MAROC,UH2C,2012
+apogee_globalins_47829639,3,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,MEKNES-AL-ISMAILIA,MAROC,UH2C,2012
+apogee_globalins_47829640,2,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47829641,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,INZEGANE-AIT-MELLOUL,MAROC,UH2C,2012
+apogee_globalins_47829642,3,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829643,3,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,SIDI BERNOUSSI ZENATA,MAROC,UH2C,2012
+apogee_globalins_47829644,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,ZOUAGHA - MOULAY-YACOUB,MAROC,UH2C,2012
+apogee_globalins_47829645,3,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,FES-EL-JADID-DAR DBIBAGH,MAROC,UH2C,2012
+apogee_globalins_47829646,1,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,FES-EL-JADID-DAR DBIBAGH,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829647,2,EEM,DIE,INGENIEUR D ETAT CONSTRUCTION MECANIQUE ET PRODUCTION INTEGR,MOULAY RCHID SIDI OTMANE,MAROC,UH2C,2012
+apogee_globalins_47829648,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,SAFI,MAROC,UH2C,2012
+apogee_globalins_47829649,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,RABAT,MAROC,UH2C,2012
+apogee_globalins_47829650,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,IFRANE,MAROC,UH2C,2012
+apogee_globalins_47829651,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829652,3,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,TANGER,MAROC,UH2C,2012
+apogee_globalins_47829653,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,TETOUAN,MAROC,UH2C,2012
+apogee_globalins_47829654,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,ERRACHIDIA,MAROC,UH2C,2012
+apogee_globalins_47829655,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,OUARZAZATE,MAROC,UH2C,2012
+apogee_globalins_47829656,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,TAROUDANNT,MAROC,UH2C,2012
+apogee_globalins_47829657,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,OUJDA-ANGAD,MAROC,UH2C,2012
+apogee_globalins_47829658,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,Sidi Slimane,MAROC,UH2C,2012
+apogee_globalins_47829659,2,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829660,5,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,MARRAKECH-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829661,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,KELAAT  ESSRAGHNA,MAROC,UH2C,2012
+apogee_globalins_47829662,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,BEN MSICK MEDIOUNA,MAROC,UH2C,2012
+apogee_globalins_47829663,1,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,SIDI BERNOUSSI ZENATA,MAROC,UH2C,2012
+apogee_globalins_47829664,2,EEM,DIE,INGENIEUR D ETAT GENIE DES SYSTEMES AUTOMATIQUES INDUSTRIELS,FES-EL-JADID-DAR DBIBAGH,MAROC,UH2C,2012
+apogee_globalins_47829665,6,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,SAFI,MAROC,UH2C,2012
+apogee_globalins_47829666,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,TATA,MAROC,UH2C,2012
+apogee_globalins_47829667,3,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,MAROC,MAROC,UH2C,2012
+apogee_globalins_47829668,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,NADOR,MAROC,UH2C,2012
+apogee_globalins_47829669,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,RABAT,MAROC,UH2C,2012
+apogee_globalins_47829670,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,IFRANE,MAROC,UH2C,2012
+apogee_globalins_47829671,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,SEFROU,MAROC,UH2C,2012
+apogee_globalins_47829672,3,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829673,4,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,KENITRA,MAROC,UH2C,2012
+apogee_globalins_47829674,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,LARACHE,MAROC,UH2C,2012
+apogee_globalins_47829675,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,TAN-TAN,MAROC,UH2C,2012
+apogee_globalins_47829676,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,BOUJDOUR,MAROC,UH2C,2012
+apogee_globalins_47829677,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,KHENIFRA,MAROC,UH2C,2012
+apogee_globalins_47829678,4,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,LAAYOUNE,MAROC,UH2C,2012
+apogee_globalins_47829679,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,TAOURIRT,MAROC,UH2C,2012
+apogee_globalins_47829680,3,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47829681,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,KHOURIBGA,MAROC,UH2C,2012
+apogee_globalins_47829682,3,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,ERRACHIDIA,MAROC,UH2C,2012
+apogee_globalins_47829683,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,FES-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829684,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,OUARZAZATE,MAROC,UH2C,2012
+apogee_globalins_47829685,2,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,TAROUDANNT,MAROC,UH2C,2012
+apogee_globalins_47829686,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,BENI MELLAL,MAROC,UH2C,2012
+apogee_globalins_47829687,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,BENI MELLAL,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829688,2,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,OUJDA-ANGAD,MAROC,UH2C,2012
+apogee_globalins_47829689,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,OUED ED DAHAB,MAROC,UH2C,2012
+apogee_globalins_47829690,6,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829691,3,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,FAHS BNI MAKADA,MAROC,UH2C,2012
+apogee_globalins_47829692,4,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,MARRAKECH-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829693,5,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,MARRAKECH-MENARA,MAROC,UH2C,2012
+apogee_globalins_47829694,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,MEKNES-EL-MENZEH,MAROC,UH2C,2012
+apogee_globalins_47829695,6,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,AGADIR IDA-TANANE,MAROC,UH2C,2012
+apogee_globalins_47829696,2,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,KELAAT  ESSRAGHNA,MAROC,UH2C,2012
+apogee_globalins_47829697,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,BEN MSICK MEDIOUNA,MAROC,UH2C,2012
+apogee_globalins_47829698,2,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,MEKNES-AL-ISMAILIA,MAROC,UH2C,2012
+apogee_globalins_47829699,2,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47829700,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,INZEGANE-AIT-MELLOUL,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829701,5,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829702,1,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,AIN CHOCK HAY HASSANI,AFGHANISTAN,UH2C,2012
+apogee_globalins_47829703,2,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,SIDI BERNOUSSI ZENATA,MAROC,UH2C,2012
+apogee_globalins_47829704,3,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2C,2012
+apogee_globalins_47829705,2,EEM,DIE,INGENIEUR D ETAT QUALITE MAINTENANCE ET SECURITE INDUSTRIELL,FES-EL-JADID-DAR DBIBAGH,MAROC,UH2C,2012
+apogee_globalins_47829706,1,FOC,Doct dent,Doctorat en Médecine Dentaire,MALI,MALI,UH2C,2012
+apogee_globalins_47829707,7,FOC,Doct dent,Doctorat en Médecine Dentaire,SAFI,MAROC,UH2C,2012
+apogee_globalins_47829708,1,FOC,Doct dent,Doctorat en Médecine Dentaire,CONGO,CONGO,UH2C,2012
+apogee_globalins_47829709,1,FOC,Doct dent,Doctorat en Médecine Dentaire,MAROC,FRANCE,UH2C,2012
+apogee_globalins_47829710,1,FOC,Doct dent,Doctorat en Médecine Dentaire,MAROC,MAURITANIE,UH2C,2012
+apogee_globalins_47829711,2,FOC,Doct dent,Doctorat en Médecine Dentaire,autres,MAROC,UH2C,2012
+apogee_globalins_47829712,5,FOC,Doct dent,Doctorat en Médecine Dentaire,TIZNIT,MAROC,UH2C,2012
+apogee_globalins_47829713,1,FOC,Doct dent,Doctorat en Médecine Dentaire,TANGER,MAROC,UH2C,2012
+apogee_globalins_47829714,39,FOC,Doct dent,Doctorat en Médecine Dentaire,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829715,1,FOC,Doct dent,Doctorat en Médecine Dentaire,RHAMNA,MAROC,UH2C,2012
+apogee_globalins_47829716,1,FOC,Doct dent,Doctorat en Médecine Dentaire,MEKNES,PALESTINE,UH2C,2012
+apogee_globalins_47829717,1,FOC,Doct dent,Doctorat en Médecine Dentaire,FRANCE,MAROC,UH2C,2012
+apogee_globalins_47829718,2,FOC,Doct dent,Doctorat en Médecine Dentaire,AZILAL,MAROC,UH2C,2012
+apogee_globalins_47829719,1,FOC,Doct dent,Doctorat en Médecine Dentaire,RABAT,MAROC,UH2C,2012
+apogee_globalins_47829720,1,FOC,Doct dent,Doctorat en Médecine Dentaire,NOUASSER,MAROC,UH2C,2012
+apogee_globalins_47829721,3,FOC,Doct dent,Doctorat en Médecine Dentaire,LAAYOUNE,MAROC,UH2C,2012
+apogee_globalins_47829722,1,FOC,Doct dent,Doctorat en Médecine Dentaire,JORDANIE,JORDANIE,UH2C,2012
+apogee_globalins_47829723,1,FOC,Doct dent,Doctorat en Médecine Dentaire,DJIBOUTI,DJIBOUTI,UH2C,2012
+apogee_globalins_47829724,11,FOC,Doct dent,Doctorat en Médecine Dentaire,TUNISIE,TUNISIE,UH2C,2012
+apogee_globalins_47829725,1,FOC,Doct dent,Doctorat en Médecine Dentaire,TAN-TAN,MAROC,UH2C,2012
+apogee_globalins_47829726,1,FOC,Doct dent,Doctorat en Médecine Dentaire,SENEGAL,SENEGAL,UH2C,2012
+apogee_globalins_47829727,2,FOC,Doct dent,Doctorat en Médecine Dentaire,GUELMIM,MAROC,UH2C,2012
+apogee_globalins_47829728,1,FOC,Doct dent,Doctorat en Médecine Dentaire,BURUNDI,BURUNDI,UH2C,2012
+apogee_globalins_47829729,3,FOC,Doct dent,Doctorat en Médecine Dentaire,PALESTINE,PALESTINE,UH2C,2012
+apogee_globalins_47829730,1,FOC,Doct dent,Doctorat en Médecine Dentaire,MARRAKECH,FRANCE,UH2C,2012
+apogee_globalins_47829731,22,FOC,Doct dent,Doctorat en Médecine Dentaire,MARRAKECH,MAROC,UH2C,2012
+apogee_globalins_47829732,18,FOC,Doct dent,Doctorat en Médecine Dentaire,KHOURIBGA,MAROC,UH2C,2012
+apogee_globalins_47829733,4,FOC,Doct dent,Doctorat en Médecine Dentaire,ESSAOUIRA,MAROC,UH2C,2012
+apogee_globalins_47829734,20,FOC,Doct dent,Doctorat en Médecine Dentaire,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47829735,1,FOC,Doct dent,Doctorat en Médecine Dentaire,CHICHAOUA,MAROC,UH2C,2012
+apogee_globalins_47829736,13,FOC,Doct dent,Doctorat en Médecine Dentaire,BEN MSICK,MAROC,UH2C,2012
+apogee_globalins_47829737,48,FOC,Doct dent,Doctorat en Médecine Dentaire,AIN CHOCK,MAROC,UH2C,2012
+apogee_globalins_47829738,4,FOC,Doct dent,Doctorat en Médecine Dentaire,MOULAY RCHID SIDI OTMANE,MAROC,UH2C,2012
+apogee_globalins_47829739,1,FOC,Doct dent,Doctorat en Médecine Dentaire,AIN SEBAA HAY MOHAMMEDI,SYRIE,UH2C,2012
+apogee_globalins_47829740,39,FOC,Doct dent,Doctorat en Médecine Dentaire,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2C,2012
+apogee_globalins_47829741,17,FOC,Doct dent,Doctorat en Médecine Dentaire,SIDI BERNOUSSI ZENATA,MAROC,UH2C,2012
+apogee_globalins_47829742,38,FOC,Doct dent,Doctorat en Médecine Dentaire,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829743,3,FOC,Doct dent,Doctorat en Médecine Dentaire,INZEGANE-AIT-MELLOUL,MAROC,UH2C,2012
+apogee_globalins_47829744,17,FOC,Doct dent,Doctorat en Médecine Dentaire,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47829745,8,FOC,Doct dent,Doctorat en Médecine Dentaire,BEN MSICK MEDIOUNA,MAROC,UH2C,2012
+apogee_globalins_47829746,1,FOC,Doct dent,Doctorat en Médecine Dentaire,KELAAT  ESSRAGHNA,MAROC,UH2C,2012
+apogee_globalins_47829747,34,FOC,Doct dent,Doctorat en Médecine Dentaire,AGADIR IDA-TANANE,MAROC,UH2C,2012
+apogee_globalins_47829748,6,FOC,Doct dent,Doctorat en Médecine Dentaire,MARRAKECH-MENARA,MAROC,UH2C,2012
+apogee_globalins_47829749,7,FOC,Doct dent,Doctorat en Médecine Dentaire,MARRAKECH-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829750,3,FOC,Doct dent,Doctorat en Médecine Dentaire,CHTOUKA-AIT-BAHA,MAROC,UH2C,2012
+apogee_globalins_47829751,1,FOC,Doct dent,Doctorat en Médecine Dentaire,CASABLANCA ANFA,ALGERIE,UH2C,2012
+apogee_globalins_47829752,90,FOC,Doct dent,Doctorat en Médecine Dentaire,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829753,3,FOC,Doct dent,Doctorat en Médecine Dentaire,FQIH BEN SALEH,DANEMARK,UH2C,2012
+apogee_globalins_47829754,3,FOC,Doct dent,Doctorat en Médecine Dentaire,SIDI BENNOUR,MAROC,UH2C,2012
+apogee_globalins_47829755,4,FOC,Doct dent,Doctorat en Médecine Dentaire,MOULAY RCHID,MAROC,UH2C,2012
+apogee_globalins_47829756,13,FOC,Doct dent,Doctorat en Médecine Dentaire,HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829757,13,FOC,Doct dent,Doctorat en Médecine Dentaire,BENI MELLAL,MAROC,UH2C,2012
+apogee_globalins_47829758,4,FOC,Doct dent,Doctorat en Médecine Dentaire,TAROUDANNT,MAROC,UH2C,2012
+apogee_globalins_47829759,2,FOC,Doct dent,Doctorat en Médecine Dentaire,OUARZAZATE,MAROC,UH2C,2012
+apogee_globalins_47829760,16,FOC,Doct dent,Doctorat en Médecine Dentaire,MOHAMMADIA,MAROC,UH2C,2012
+apogee_globalins_47829761,1,FOC,Doct dent,Doctorat en Médecine Dentaire,MOHAMMADIA,IRAK,UH2C,2012
+apogee_globalins_47829762,13,FOC,Doct dent,Doctorat en Médecine Dentaire,MAURITANIE,MAURITANIE,UH2C,2012
+apogee_globalins_47829763,8,FOC,Doct dent,Doctorat en Médecine Dentaire,BENSLIMANE,MAROC,UH2C,2012
+apogee_globalins_47829764,2,FOC,Doct dent,Doctorat en Médecine Dentaire,YOUSOUFIA,MAROC,UH2C,2012
+apogee_globalins_47829765,1,FOC,Doct dent,Doctorat en Médecine Dentaire,MAROC,DANEMARK,UH2C,2012
+apogee_globalins_47829766,72,FOC,Doct dent,Doctorat en Médecine Dentaire,MAROC,MAROC,UH2C,2012
+apogee_globalins_47829767,1,FOC,Doct dent,Doctorat en Médecine Dentaire,TATA,MAROC,UH2C,2012
+apogee_globalins_47829768,1,FMC,Doct Phar,Docteur en Pharmacie,SAFI,MAROC,UH2C,2012
+apogee_globalins_47829769,1,FMC,Doct Phar,Docteur en Pharmacie,TOGO,TOGO,UH2C,2012
+apogee_globalins_47829770,1,FMC,Doct Phar,Docteur en Pharmacie,MAROC,AUTRES pays,UH2C,2012
+apogee_globalins_47829771,1,FMC,Doct Phar,Docteur en Pharmacie,MEKNES,MAROC,UH2C,2012
+apogee_globalins_47829772,1,FMC,Doct Phar,Docteur en Pharmacie,TIZNIT,MAROC,UH2C,2012
+apogee_globalins_47829773,58,FMC,Doct Phar,Docteur en Pharmacie,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829774,1,FMC,Doct Phar,Docteur en Pharmacie,MOULAY RCHID,MAROC,UH2C,2012
+apogee_globalins_47829775,7,FMC,Doct Phar,Docteur en Pharmacie,MOHAMMADIA,MAROC,UH2C,2012
+apogee_globalins_47829776,4,FMC,Doct Phar,Docteur en Pharmacie,BENSLIMANE,MAROC,UH2C,2012
+apogee_globalins_47829777,1,FMC,Doct Phar,Docteur en Pharmacie,KHOURIBGA,MAROC,UH2C,2012
+apogee_globalins_47829778,1,FMC,Doct Phar,Docteur en Pharmacie,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47829779,3,FMC,Doct Phar,Docteur en Pharmacie,BEN MSICK,MAROC,UH2C,2012
+apogee_globalins_47829780,1,FMC,Doct Phar,Docteur en Pharmacie,MEDIOUNA,MAROC,UH2C,2012
+apogee_globalins_47829781,1,FMC,Doct Phar,Docteur en Pharmacie,ZAGORA,MAROC,UH2C,2012
+apogee_globalins_47829782,1,FMC,Doct Phar,Docteur en Pharmacie,MOULAY RCHID SIDI OTMANE,MAROC,UH2C,2012
+apogee_globalins_47829783,8,FMC,Doct Phar,Docteur en Pharmacie,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2C,2012
+apogee_globalins_47829784,2,FMC,Doct Phar,Docteur en Pharmacie,SIDI BERNOUSSI ZENATA,MAROC,UH2C,2012
+apogee_globalins_47829785,21,FMC,Doct Phar,Docteur en Pharmacie,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829786,1,FMC,Doct Phar,Docteur en Pharmacie,AL FIDA DERB SULTAN,AUTRES pays,UH2C,2012
+apogee_globalins_47829787,13,FMC,Doct Phar,Docteur en Pharmacie,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47829788,9,FMC,Doct Phar,Docteur en Pharmacie,BEN MSICK MEDIOUNA,MAROC,UH2C,2012
+apogee_globalins_47829789,1,FMC,Doct Phar,Docteur en Pharmacie,CASABLANCA ANFA,GUINEE,UH2C,2012
+apogee_globalins_47829790,2,FMC,Doct Phar,Docteur en Pharmacie,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829791,1,FMC,Doct Phar,Docteur en Pharmacie,AZILAL,MAROC,UH2C,2012
+apogee_globalins_47829792,1,FMC,Doct Phar,Docteur en Pharmacie,MAROC,TOGO,UH2C,2012
+apogee_globalins_47829793,2,FMC,Doctor Med,Diplôme Médecine Générale,MALI,MALI,UH2C,2012
+apogee_globalins_47829794,2,FMC,Doctor Med,Diplôme Médecine Générale,SAFI,MAROC,UH2C,2012
+apogee_globalins_47829795,1,FMC,Doctor Med,Diplôme Médecine Générale,TOGO,TOGO,UH2C,2012
+apogee_globalins_47829796,2,FMC,Doctor Med,Diplôme Médecine Générale,CONGO,CONGO,UH2C,2012
+apogee_globalins_47829797,1,FMC,Doctor Med,Diplôme Médecine Générale,LIBAN,LIBAN,UH2C,2012
+apogee_globalins_47829798,200,FMC,Doctor Med,Diplôme Médecine Générale,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829799,1,FMC,Doctor Med,Diplôme Médecine Générale,SEFROU,MAROC,UH2C,2012
+apogee_globalins_47829800,1,FMC,Doctor Med,Diplôme Médecine Générale,MEKNES,MAROC,UH2C,2012
+apogee_globalins_47829801,8,FMC,Doctor Med,Diplôme Médecine Générale,GUINEE,GUINEE,UH2C,2012
+apogee_globalins_47829802,1,FMC,Doctor Med,Diplôme Médecine Générale,GUINEE,MAROC,UH2C,2012
+apogee_globalins_47829803,1,FMC,Doctor Med,Diplôme Médecine Générale,FRANCE,AUTRES pays,UH2C,2012
+apogee_globalins_47829804,1,FMC,Doctor Med,Diplôme Médecine Générale,FRANCE,FRANCE,UH2C,2012
+apogee_globalins_47829805,8,FMC,Doctor Med,Diplôme Médecine Générale,FRANCE,MAROC,UH2C,2012
+apogee_globalins_47829806,2,FMC,Doctor Med,Diplôme Médecine Générale,CANADA,MAROC,UH2C,2012
+apogee_globalins_47829807,104,FMC,Doctor Med,Diplôme Médecine Générale,MOULAY RCHID SIDI OTMANE,MAROC,UH2C,2012
+apogee_globalins_47829808,245,FMC,Doctor Med,Diplôme Médecine Générale,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2C,2012
+apogee_globalins_47829809,177,FMC,Doctor Med,Diplôme Médecine Générale,SIDI BERNOUSSI ZENATA,MAROC,UH2C,2012
+apogee_globalins_47829810,1,FMC,Doctor Med,Diplôme Médecine Générale,AIN CHOCK HAY HASSANI,ALGERIE,UH2C,2012
+apogee_globalins_47829811,1,FMC,Doctor Med,Diplôme Médecine Générale,AIN CHOCK HAY HASSANI,SYRIE,UH2C,2012
+apogee_globalins_47829812,422,FMC,Doctor Med,Diplôme Médecine Générale,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829813,150,FMC,Doctor Med,Diplôme Médecine Générale,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47829814,1,FMC,Doctor Med,Diplôme Médecine Générale,MEKNES-AL-ISMAILIA,MAROC,UH2C,2012
+apogee_globalins_47829815,162,FMC,Doctor Med,Diplôme Médecine Générale,BEN MSICK MEDIOUNA,MAROC,UH2C,2012
+apogee_globalins_47829816,1,FMC,Doctor Med,Diplôme Médecine Générale,KELAAT  ESSRAGHNA,MAROC,UH2C,2012
+apogee_globalins_47829817,4,FMC,Doctor Med,Diplôme Médecine Générale,AGADIR IDA-TANANE,MAROC,UH2C,2012
+apogee_globalins_47829818,1,FMC,Doctor Med,Diplôme Médecine Générale,MARRAKECH-MENARA,MAROC,UH2C,2012
+apogee_globalins_47829819,1,FMC,Doctor Med,Diplôme Médecine Générale,MARRAKECH-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829820,1,FMC,Doctor Med,Diplôme Médecine Générale,CHTOUKA-AIT-BAHA,MAROC,UH2C,2012
+apogee_globalins_47829821,2,FMC,Doctor Med,Diplôme Médecine Générale,CASABLANCA ANFA,ARABIE SAOUDITE,UH2C,2012
+apogee_globalins_47829822,1,FMC,Doctor Med,Diplôme Médecine Générale,CASABLANCA ANFA,PALESTINE,UH2C,2012
+apogee_globalins_47829823,1,FMC,Doctor Med,Diplôme Médecine Générale,CASABLANCA ANFA,BELGIQUE,UH2C,2012
+apogee_globalins_47829824,2,FMC,Doctor Med,Diplôme Médecine Générale,CASABLANCA ANFA,TUNISIE,UH2C,2012
+apogee_globalins_47829825,2,FMC,Doctor Med,Diplôme Médecine Générale,CASABLANCA ANFA,ALGERIE,UH2C,2012
+apogee_globalins_47829826,1,FMC,Doctor Med,Diplôme Médecine Générale,CASABLANCA ANFA,FRANCE,UH2C,2012
+apogee_globalins_47829827,2,FMC,Doctor Med,Diplôme Médecine Générale,CASABLANCA ANFA,SYRIE,UH2C,2012
+apogee_globalins_47829828,1101,FMC,Doctor Med,Diplôme Médecine Générale,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829829,5,FMC,Doctor Med,Diplôme Médecine Générale,CASABLANCA ANFA,IRAK,UH2C,2012
+apogee_globalins_47829830,1,FMC,Doctor Med,Diplôme Médecine Générale,ARABIE SAOUDITE,ARABIE SAOUDITE,UH2C,2012
+apogee_globalins_47829831,1,FMC,Doctor Med,Diplôme Médecine Générale,GUINEE BISSAU,GUINEE,UH2C,2012
+apogee_globalins_47829832,5,FMC,Doctor Med,Diplôme Médecine Générale,COTE D IVOIRE,COTE D IVOIRE,UH2C,2012
+apogee_globalins_47829833,9,FMC,Doctor Med,Diplôme Médecine Générale,SIDI BENNOUR,MAROC,UH2C,2012
+apogee_globalins_47829834,4,FMC,Doctor Med,Diplôme Médecine Générale,BURKINA FASO,BURKINA FASO,UH2C,2012
+apogee_globalins_47829835,13,FMC,Doctor Med,Diplôme Médecine Générale,HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829836,8,FMC,Doctor Med,Diplôme Médecine Générale,BENI MELLAL,MAROC,UH2C,2012
+apogee_globalins_47829837,4,FMC,Doctor Med,Diplôme Médecine Générale,AUTRES pays,AUTRES pays,UH2C,2012
+apogee_globalins_47829838,1,FMC,Doctor Med,Diplôme Médecine Générale,AUTRES pays,MAROC,UH2C,2012
+apogee_globalins_47829839,1,FMC,Doctor Med,Diplôme Médecine Générale,TAROUDANNT,MAROC,UH2C,2012
+apogee_globalins_47829840,5,FMC,Doctor Med,Diplôme Médecine Générale,OUARZAZATE,MAROC,UH2C,2012
+apogee_globalins_47829841,1,FMC,Doctor Med,Diplôme Médecine Générale,MOHAMMADIA,ARABIE SAOUDITE,UH2C,2012
+apogee_globalins_47829842,79,FMC,Doctor Med,Diplôme Médecine Générale,MOHAMMADIA,MAROC,UH2C,2012
+apogee_globalins_47829843,29,FMC,Doctor Med,Diplôme Médecine Générale,MAURITANIE,MAURITANIE,UH2C,2012
+apogee_globalins_47829844,3,FMC,Doctor Med,Diplôme Médecine Générale,MAURITANIE,MAROC,UH2C,2012
+apogee_globalins_47829845,1,FMC,Doctor Med,Diplôme Médecine Générale,MADAGASCAR,MADAGASCAR,UH2C,2012
+apogee_globalins_47829846,3,FMC,Doctor Med,Diplôme Médecine Générale,MADAGASCAR,MAROC,UH2C,2012
+apogee_globalins_47829847,2,FMC,Doctor Med,Diplôme Médecine Générale,FES-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829848,60,FMC,Doctor Med,Diplôme Médecine Générale,BENSLIMANE,MAROC,UH2C,2012
+apogee_globalins_47829849,3,FMC,Doctor Med,Diplôme Médecine Générale,AL HOCEIMA,MAROC,UH2C,2012
+apogee_globalins_47829850,9,FMC,Doctor Med,Diplôme Médecine Générale,PALESTINE,PALESTINE,UH2C,2012
+apogee_globalins_47829851,2,FMC,Doctor Med,Diplôme Médecine Générale,MARRAKECH,MAROC,UH2C,2012
+apogee_globalins_47829852,198,FMC,Doctor Med,Diplôme Médecine Générale,KHOURIBGA,MAROC,UH2C,2012
+apogee_globalins_47829853,1,FMC,Doctor Med,Diplôme Médecine Générale,KHOURIBGA,IRAK,UH2C,2012
+apogee_globalins_47829854,2,FMC,Doctor Med,Diplôme Médecine Générale,KHEMISSET,MAROC,UH2C,2012
+apogee_globalins_47829855,203,FMC,Doctor Med,Diplôme Médecine Générale,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47829856,7,FMC,Doctor Med,Diplôme Médecine Générale,BEN MSICK,MAROC,UH2C,2012
+apogee_globalins_47829857,24,FMC,Doctor Med,Diplôme Médecine Générale,AIN CHOCK,MAROC,UH2C,2012
+apogee_globalins_47829858,1,FMC,Doctor Med,Diplôme Médecine Générale,AIN CHOCK,OMAN,UH2C,2012
+apogee_globalins_47829859,1,FMC,Doctor Med,Diplôme Médecine Générale,Ouezzane,MAROC,UH2C,2012
+apogee_globalins_47829860,15,FMC,Doctor Med,Diplôme Médecine Générale,NOUASSER,MAROC,UH2C,2012
+apogee_globalins_47829861,1,FMC,Doctor Med,Diplôme Médecine Générale,LAAYOUNE,MAROC,UH2C,2012
+apogee_globalins_47829862,5,FMC,Doctor Med,Diplôme Médecine Générale,JORDANIE,JORDANIE,UH2C,2012
+apogee_globalins_47829863,1,FMC,Doctor Med,Diplôme Médecine Générale,ETRANGER,MAROC,UH2C,2012
+apogee_globalins_47829864,1,FMC,Doctor Med,Diplôme Médecine Générale,ETRANGER,KENYA,UH2C,2012
+apogee_globalins_47829865,5,FMC,Doctor Med,Diplôme Médecine Générale,DJIBOUTI,DJIBOUTI,UH2C,2012
+apogee_globalins_47829866,1,FMC,Doctor Med,Diplôme Médecine Générale,DJIBOUTI,MAROC,UH2C,2012
+apogee_globalins_47829867,5,FMC,Doctor Med,Diplôme Médecine Générale,CAMEROUN,CAMEROUN,UH2C,2012
+apogee_globalins_47829868,1,FMC,Doctor Med,Diplôme Médecine Générale,BELGIQUE,MAROC,UH2C,2012
+apogee_globalins_47829869,28,FMC,Doctor Med,Diplôme Médecine Générale,TUNISIE,TUNISIE,UH2C,2012
+apogee_globalins_47829870,3,FMC,Doctor Med,Diplôme Médecine Générale,TUNISIE,MAROC,UH2C,2012
+apogee_globalins_47829871,5,FMC,Doctor Med,Diplôme Médecine Générale,SENEGAL,SENEGAL,UH2C,2012
+apogee_globalins_47829872,1,FMC,Doctor Med,Diplôme Médecine Générale,NIGERIA,NIGERIA,UH2C,2012
+apogee_globalins_47829873,1,FMC,Doctor Med,Diplôme Médecine Générale,KENITRA,MAROC,UH2C,2012
+apogee_globalins_47829874,1,FMC,Doctor Med,Diplôme Médecine Générale,BURUNDI,BURUNDI,UH2C,2012
+apogee_globalins_47829875,9,FMC,Doctor Med,Diplôme Médecine Générale,BERCHID,MAROC,UH2C,2012
+apogee_globalins_47829876,6,FMC,Doctor Med,Diplôme Médecine Générale,ALGERIE,ALGERIE,UH2C,2012
+apogee_globalins_47829877,1,FMC,Doctor Med,Diplôme Médecine Générale,autres,AUTRES pays,UH2C,2012
+apogee_globalins_47829878,3,FMC,Doctor Med,Diplôme Médecine Générale,autres,MAURITANIE,UH2C,2012
+apogee_globalins_47829879,1,FMC,Doctor Med,Diplôme Médecine Générale,autres,LIBERIA,UH2C,2012
+apogee_globalins_47829880,1,FMC,Doctor Med,Diplôme Médecine Générale,autres,ALGERIE,UH2C,2012
+apogee_globalins_47829881,1,FMC,Doctor Med,Diplôme Médecine Générale,autres,GUINEE,UH2C,2012
+apogee_globalins_47829882,84,FMC,Doctor Med,Diplôme Médecine Générale,autres,MAROC,UH2C,2012
+apogee_globalins_47829883,1,FMC,Doctor Med,Diplôme Médecine Générale,autres,TOGO,UH2C,2012
+apogee_globalins_47829884,1,FMC,Doctor Med,Diplôme Médecine Générale,TIZNIT,MAROC,UH2C,2012
+apogee_globalins_47829885,1,FMC,Doctor Med,Diplôme Médecine Générale,TANGER,MAROC,UH2C,2012
+apogee_globalins_47829886,2,FMC,Doctor Med,Diplôme Médecine Générale,SOUDAN,SOUDAN,UH2C,2012
+apogee_globalins_47829887,3,FMC,Doctor Med,Diplôme Médecine Générale,AZILAL,MAROC,UH2C,2012
+apogee_globalins_47829888,1,FMC,Doctor Med,Diplôme Médecine Générale,AZILAL,LIBAN,UH2C,2012
+apogee_globalins_47829889,1,FMC,Doctor Med,Diplôme Médecine Générale,ANGOLA,ANGOLA,UH2C,2012
+apogee_globalins_47829890,1,FMC,Doctor Med,Diplôme Médecine Générale,ANGOLA,MAROC,UH2C,2012
+apogee_globalins_47829891,4,FMC,Doctor Med,Diplôme Médecine Générale,SYRIE,SYRIE,UH2C,2012
+apogee_globalins_47829892,8,FMC,Doctor Med,Diplôme Médecine Générale,RABAT,MAROC,UH2C,2012
+apogee_globalins_47829893,1,FMC,Doctor Med,Diplôme Médecine Générale,NIGER,NIGERIA,UH2C,2012
+apogee_globalins_47829894,1,FMC,Doctor Med,Diplôme Médecine Générale,NIGER,NIGER,UH2C,2012
+apogee_globalins_47829895,2,FMC,Doctor Med,Diplôme Médecine Générale,NIGER,MAROC,UH2C,2012
+apogee_globalins_47829896,1,FMC,Doctor Med,Diplôme Médecine Générale,MAROC,MAURITANIE,UH2C,2012
+apogee_globalins_47829897,8,FMC,Doctor Med,Diplôme Médecine Générale,MAROC,TUNISIE,UH2C,2012
+apogee_globalins_47829898,1,FMC,Doctor Med,Diplôme Médecine Générale,MAROC,TCHAD,UH2C,2012
+apogee_globalins_47829899,1,FMC,Doctor Med,Diplôme Médecine Générale,MAROC,NIGER,UH2C,2012
+apogee_globalins_47829900,814,FMC,Doctor Med,Diplôme Médecine Générale,MAROC,MAROC,UH2C,2012
+apogee_globalins_47829901,1,FMC,Doctor Med,Diplôme Médecine Générale,MAROC,KENYA,UH2C,2012
+apogee_globalins_47829902,2,FMC,Doctor Med,Diplôme Médecine Générale,LIBAN,MAROC,UH2C,2012
+apogee_globalins_47829903,3,FMC,Doctor Med,Diplôme Médecine Générale,GABON,GABON,UH2C,2012
+apogee_globalins_47829904,5,FMC,Doctor Med,Diplôme Médecine Générale,BENIN,BENIN,UH2C,2012
+apogee_globalins_47829905,1,FMC,Doctor Med,Diplôme Médecine Générale,SALE,MAROC,UH2C,2012
+apogee_globalins_47829906,1,EEM,Doctorat,Doctorant-Ensem,FES,MAROC,UH2C,2012
+apogee_globalins_47829907,2,EEM,Doctorat,Doctorant-Ensem,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829908,1,EEM,Doctorat,Doctorant-Ensem,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829909,1,FMC,Doctorat,diplôme de Doctorat es-science,FES,MAROC,UH2C,2012
+apogee_globalins_47829910,3,FMC,Doctorat,diplôme de Doctorat es-science,MAROC,MAROC,UH2C,2012
+apogee_globalins_47829911,1,FMC,Doctorat,diplôme de Doctorat es-science,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47829912,1,FMC,Doctorat,diplôme de Doctorat es-science,BEN MSICK MEDIOUNA,MAROC,UH2C,2012
+apogee_globalins_47829913,5,FMC,Doctorat,diplôme de Doctorat es-science,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829914,1,FMC,Doctorat,diplôme de Doctorat es-science,CENTRAFRIQUE,MAROC,UH2C,2012
+apogee_globalins_47829915,1,FMC,Doctorat,diplôme de Doctorat es-science,MAURITANIE,MAURITANIE,UH2C,2012
+apogee_globalins_47829916,1,FMC,Doctorat,diplôme de Doctorat es-science,BENSLIMANE,MAROC,UH2C,2012
+apogee_globalins_47829917,1,FMC,Doctorat,diplôme de Doctorat es-science,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47829918,1,FMC,Doctorat,diplôme de Doctorat es-science,AIN CHOCK,MAROC,UH2C,2012
+apogee_globalins_47829919,3,FMC,Doctorat,diplôme de Doctorat es-science,TETOUAN,MAROC,UH2C,2012
+apogee_globalins_47829920,1,FMC,Doctorat,diplôme de Doctorat es-science,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829921,1,FMC,Doctorat,diplôme de Doctorat es-science,MEKNES,MAROC,UH2C,2012
+apogee_globalins_47829922,1,FMC,Doctorat,diplôme de Doctorat es-science,RABAT,MAROC,UH2C,2012
+apogee_globalins_47829923,1,FMC,Doctorat,diplôme de Doctorat es-science,CONGO,MAROC,UH2C,2012
+apogee_globalins_47829924,1,FMC,Doctorat,diplôme de Doctorat es-science,MALI,MALI,UH2C,2012
+apogee_globalins_47829925,1,FMC,Doctorat,diplôme de Doctorat es-science,TAZA,MAROC,UH2C,2012
+apogee_globalins_47829926,1,FSC,Doctorat,Géosciences,MAROC,MAROC,UH2C,2012
+apogee_globalins_47829927,2,FSC,Doctorat,Géosciences,RABAT,MAROC,UH2C,2012
+apogee_globalins_47829928,1,FSC,Doctorat,Géosciences,autres,MAROC,UH2C,2012
+apogee_globalins_47829929,1,FSC,Doctorat,Géosciences,TAROUDANNT,MAROC,UH2C,2012
+apogee_globalins_47829930,1,FSC,Doctorat,Géosciences,MARRAKECH-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829931,1,FSC,Doctorat,Sciences Physiques,MARRAKECH,MAROC,UH2C,2012
+apogee_globalins_47829932,4,FSC,Doctorat,Sciences Physiques,KHOURIBGA,MAROC,UH2C,2012
+apogee_globalins_47829933,1,FSC,Doctorat,Sciences Physiques,KENITRA,MAROC,UH2C,2012
+apogee_globalins_47829934,1,FSC,Doctorat,Sciences Physiques,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829935,1,FSC,Doctorat,Sciences Physiques,AZILAL,MAROC,UH2C,2012
+apogee_globalins_47829936,1,FSC,Doctorat,Sciences Physiques,RABAT,MAROC,UH2C,2012
+apogee_globalins_47829937,4,FSC,Doctorat,Sciences Physiques,MAROC,MAROC,UH2C,2012
+apogee_globalins_47829938,1,FSC,Doctorat,Géosciences,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2C,2012
+apogee_globalins_47829939,2,FSC,Doctorat,Géosciences,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829940,1,FSC,Doctorat,Sciences Biologiques,NOUASSER,MAROC,UH2C,2012
+apogee_globalins_47829941,1,FSC,Doctorat,Sciences Biologiques,IFRANE,MAROC,UH2C,2012
+apogee_globalins_47829942,1,FSC,Doctorat,Sciences Biologiques,RABAT,MAROC,UH2C,2012
+apogee_globalins_47829943,4,FSC,Doctorat,Sciences Biologiques,MAROC,MAROC,UH2C,2012
+apogee_globalins_47829944,1,FSC,Doctorat,Sciences Biologiques,BENIN,BENIN,UH2C,2012
+apogee_globalins_47829945,1,FSC,Doctorat,Sciences Biologiques,SALE,MAROC,UH2C,2012
+apogee_globalins_47829946,1,FSC,Doctorat,Sciences Biologiques,SAFI,MAROC,UH2C,2012
+apogee_globalins_47829947,1,FSC,Doctorat,Sciences Physiques,SIDI BERNOUSSI ZENATA,MAROC,UH2C,2012
+apogee_globalins_47829948,7,FSC,Doctorat,Sciences Physiques,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829949,9,FSC,Doctorat,Sciences Mathématiques & Informatique,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829950,2,FSC,Doctorat,Sciences Mathématiques & Informatique,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47829951,1,FSC,Doctorat,Sciences Mathématiques & Informatique,BEN MSICK MEDIOUNA,MAROC,UH2C,2012
+apogee_globalins_47829952,14,FSC,Doctorat,Sciences Mathématiques & Informatique,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829953,1,FSC,Doctorat,Sciences Mathématiques & Informatique,SIDI BENNOUR,MAROC,UH2C,2012
+apogee_globalins_47829954,1,FSC,Doctorat,Sciences Mathématiques & Informatique,MOHAMMADIA,MAROC,UH2C,2012
+apogee_globalins_47829955,1,FSC,Doctorat,Sciences Mathématiques & Informatique,ERRACHIDIA,MAROC,UH2C,2012
+apogee_globalins_47829956,1,FSC,Doctorat,Sciences Mathématiques & Informatique,AL HOCEIMA,MAROC,UH2C,2012
+apogee_globalins_47829957,1,FSC,Doctorat,Sciences Mathématiques & Informatique,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47829958,1,FSC,Doctorat,Sciences Mathématiques & Informatique,KHENIFRA,MAROC,UH2C,2012
+apogee_globalins_47829959,1,FSC,Doctorat,Sciences Mathématiques & Informatique,TETOUAN,MAROC,UH2C,2012
+apogee_globalins_47829960,1,FSC,Doctorat,Sciences Mathématiques & Informatique,RABAT,MAROC,UH2C,2012
+apogee_globalins_47829961,2,FSC,Doctorat,Sciences Mathématiques & Informatique,MAROC,MAROC,UH2C,2012
+apogee_globalins_47829962,1,FSC,Doctorat,Sciences Mathématiques & Informatique,SALE,MAROC,UH2C,2012
+apogee_globalins_47829963,1,FSC,Doctorat,Sciences Mathématiques & Informatique,FES,MAROC,UH2C,2012
+apogee_globalins_47829964,5,FSC,Doctorat,Chimie et Valorisation,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829965,1,FSC,Doctorat,Chimie et Valorisation,BENI MELLAL,MAROC,UH2C,2012
+apogee_globalins_47829966,1,FSC,Doctorat,Chimie et Valorisation,SIDI KACEM,MAROC,UH2C,2012
+apogee_globalins_47829967,1,FSC,Doctorat,Chimie et Valorisation,BENSLIMANE,MAROC,UH2C,2012
+apogee_globalins_47829968,2,FSC,Doctorat,Chimie et Valorisation,KHOURIBGA,MAROC,UH2C,2012
+apogee_globalins_47829969,1,FSC,Doctorat,Chimie et Valorisation,KENITRA,MAROC,UH2C,2012
+apogee_globalins_47829970,1,FSC,Doctorat,Chimie et Valorisation,TIZNIT,MAROC,UH2C,2012
+apogee_globalins_47829971,1,FSC,Doctorat,Chimie et Valorisation,RABAT,MAROC,UH2C,2012
+apogee_globalins_47829972,4,FSC,Doctorat,Chimie et Valorisation,MAROC,MAROC,UH2C,2012
+apogee_globalins_47829973,7,FSC,Doctorat,Chimie et Valorisation,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829974,2,FSC,Doctorat,Chimie et Valorisation,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47829975,1,FSC,Doctorat,Sciences Biologiques,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2C,2012
+apogee_globalins_47829976,4,FSC,Doctorat,Sciences Biologiques,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47829977,1,FSC,Doctorat,Sciences Biologiques,AL FIDA DERB SULTAN,ALGERIE,UH2C,2012
+apogee_globalins_47829978,2,FSC,Doctorat,Sciences Biologiques,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47829979,1,FSC,Doctorat,Sciences Biologiques,BEN MSICK MEDIOUNA,MAROC,UH2C,2012
+apogee_globalins_47829980,6,FSC,Doctorat,Sciences Biologiques,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829981,1,FSC,Doctorat,Sciences Biologiques,OUARZAZATE,MAROC,UH2C,2012
+apogee_globalins_47829982,1,FSC,Doctorat,Sciences Biologiques,BENSLIMANE,MAROC,UH2C,2012
+apogee_globalins_47829983,3,FSC,Doctorat,Sciences Physiques,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47829984,4,FSC,Doctorat,Sciences Physiques,BEN MSICK MEDIOUNA,MAROC,UH2C,2012
+apogee_globalins_47829985,1,FSC,Doctorat,Sciences Physiques,MARRAKECH-MENARA,MAROC,UH2C,2012
+apogee_globalins_47829986,11,FSC,Doctorat,Sciences Physiques,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829987,1,FSC,Doctorat,Sciences Physiques,BENI MELLAL,MAROC,UH2C,2012
+apogee_globalins_47829988,1,FSC,Doctorat,Sciences Physiques,MOHAMMADIA,MAROC,UH2C,2012
+apogee_globalins_47829989,2,FSC,Doctorat,Sciences Physiques,FES-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47829990,2,FSC,Doctorat,Sciences Physiques,BENSLIMANE,MAROC,UH2C,2012
+apogee_globalins_47829991,5,FSC,Doctorat,Géosciences,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47829992,1,FSC,Doctorat,Géosciences,KHOURIBGA,MAROC,UH2C,2012
+apogee_globalins_47829993,2,FSC,Doctorat,Géosciences,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829994,2,EST,DUT,Génie Electrique,SAFI,MAROC,UH2C,2012
+apogee_globalins_47829995,49,EST,DUT,Génie Electrique,MAROC,MAROC,UH2C,2012
+apogee_globalins_47829996,1,EST,DUT,Génie Electrique,MAROC,NIGER,UH2C,2012
+apogee_globalins_47829997,1,EST,DUT,Génie Electrique,MAROC,BURKINA FASO,UH2C,2012
+apogee_globalins_47829998,1,EST,DUT,Génie Electrique,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47829999,52,EST,DUT,DUT Techniques de Commercialisation,MAROC,MAROC,UH2C,2012
+apogee_globalins_47830000,1,EST,DUT,Génie Electrique,TANGER,MAROC,UH2C,2012
+apogee_globalins_47830001,1,EST,DUT,Génie Electrique,autres,BURKINA FASO,UH2C,2012
+apogee_globalins_47830002,5,EST,DUT,Génie Electrique,AIN CHOCK,MAROC,UH2C,2012
+apogee_globalins_47830003,1,EST,DUT,Génie Electrique,CHICHAOUA,MAROC,UH2C,2012
+apogee_globalins_47830004,4,EST,DUT,Génie Electrique,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47830005,2,EST,DUT,Génie Electrique,BENSLIMANE,MAROC,UH2C,2012
+apogee_globalins_47830006,1,EST,DUT,Génie Electrique,BENI MELLAL,MAROC,UH2C,2012
+apogee_globalins_47830007,2,EST,DUT,Génie Electrique,HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830008,1,EST,DUT,Gestion et Administration des Entreprises,SIDI BERNOUSSI ZENATA,MAROC,UH2C,2012
+apogee_globalins_47830009,1,EST,DUT,Gestion et Administration des Entreprises,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830010,3,EST,DUT,Gestion et Administration des Entreprises,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47830011,52,EST,DUT,Gestion et Administration des Entreprises,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47830012,2,EST,DUT,Gestion et Administration des Entreprises,HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830013,3,EST,DUT,Gestion et Administration des Entreprises,BEN MSICK,MAROC,UH2C,2012
+apogee_globalins_47830014,3,EST,DUT,Gestion et Administration des Entreprises,AIN CHOCK,MAROC,UH2C,2012
+apogee_globalins_47830015,68,EST,DUT,Gestion et Administration des Entreprises,MAROC,MAROC,UH2C,2012
+apogee_globalins_47830016,1,EST,DUT,DUT Techniques de Commercialisation,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830017,2,EST,DUT,DUT Techniques de Commercialisation,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47830018,43,EST,DUT,DUT Techniques de Commercialisation,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47830019,4,EST,DUT,DUT Techniques de Commercialisation,HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830020,3,EST,DUT,DUT Techniques de Commercialisation,BEN MSICK,MAROC,UH2C,2012
+apogee_globalins_47830021,1,EST,DUT,DUT Techniques de Commercialisation,AIN CHOCK,MAROC,UH2C,2012
+apogee_globalins_47830022,1,EST,DUT,Génie Electrique,BURKINA FASO,BURKINA FASO,UH2C,2012
+apogee_globalins_47830023,57,EST,DUT,Génie Electrique,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47830024,2,EST,DUT,Génie Electrique,MARRAKECH-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47830025,2,EST,DUT,Génie Electrique,AGADIR IDA-TANANE,MAROC,UH2C,2012
+apogee_globalins_47830026,1,EST,DUT,Génie Electrique,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47830027,1,EST,DUT,Génie Electrique,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830028,41,EST,DUT,Génie Informatique,MAROC,MAROC,UH2C,2012
+apogee_globalins_47830029,6,EST,DUT,Génie Informatique,AIN CHOCK,MAROC,UH2C,2012
+apogee_globalins_47830030,1,EST,DUT,Génie Informatique,BENSLIMANE,MAROC,UH2C,2012
+apogee_globalins_47830031,9,EST,DUT,Génie Informatique,HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830032,61,EST,DUT,Génie Informatique,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47830033,4,EST,DUT,Génie Informatique,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47830034,3,EST,DUT,Génie Informatique,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830035,2,EST,DUT,Génie Informatique,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2C,2012
+apogee_globalins_47830036,32,EST,DUT,Génie des Procédés,MAROC,MAROC,UH2C,2012
+apogee_globalins_47830037,1,EST,DUT,Génie des Procédés,ZAGORA,MAROC,UH2C,2012
+apogee_globalins_47830038,3,EST,DUT,Génie des Procédés,AIN CHOCK,MAROC,UH2C,2012
+apogee_globalins_47830039,1,EST,DUT,Génie des Procédés,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47830040,1,EST,DUT,Génie des Procédés,KHOURIBGA,MAROC,UH2C,2012
+apogee_globalins_47830041,10,EST,DUT,Génie des Procédés,HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830042,62,EST,DUT,Génie des Procédés,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47830043,5,EST,DUT,Génie des Procédés,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47830044,1,EST,DUT,DUT Génie Mécanique,SAFI,MAROC,UH2C,2012
+apogee_globalins_47830045,70,EST,DUT,DUT Génie Mécanique,MAROC,MAROC,UH2C,2012
+apogee_globalins_47830046,3,EST,DUT,DUT Génie Mécanique,MAROC,NIGER,UH2C,2012
+apogee_globalins_47830047,1,EST,DUT,DUT Génie Mécanique,MAROC,COMORES,UH2C,2012
+apogee_globalins_47830048,1,EST,DUT,DUT Génie Mécanique,TIZNIT,MAROC,UH2C,2012
+apogee_globalins_47830049,1,EST,DUT,DUT Génie Mécanique,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47830050,1,EST,DUT,DUT Génie Mécanique,MOHAMMADIA,MAROC,UH2C,2012
+apogee_globalins_47830051,1,EST,DUT,DUT Génie Mécanique,HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830052,1,EST,DUT,DUT Génie Mécanique,BURKINA FASO,BURKINA FASO,UH2C,2012
+apogee_globalins_47830053,63,EST,DUT,DUT Génie Mécanique,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47830054,1,EST,DUT,DUT Génie Mécanique,MARRAKECH-MEDINA,MAROC,UH2C,2012
+apogee_globalins_47830055,3,EST,DUT,DUT Génie Mécanique,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47830056,59,EST,DUT,DUT Finance Comptabilité,MAROC,MAROC,UH2C,2012
+apogee_globalins_47830057,1,EST,DUT,DUT Finance Comptabilité,NADOR,MAROC,UH2C,2012
+apogee_globalins_47830058,1,EST,DUT,DUT Finance Comptabilité,AIN CHOCK,MAROC,UH2C,2012
+apogee_globalins_47830059,1,EST,DUT,DUT Finance Comptabilité,BEN MSICK,MAROC,UH2C,2012
+apogee_globalins_47830060,1,EST,DUT,DUT Finance Comptabilité,MOHAMMADIA,MAROC,UH2C,2012
+apogee_globalins_47830061,1,EST,DUT,DUT Finance Comptabilité,HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830062,58,EST,DUT,DUT Finance Comptabilité,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47830063,1,EST,DUT,DUT Finance Comptabilité,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830064,1,FOC,DUT,Diplome Assistante Dentaire,MAROC,MAROC,UH2C,2012
+apogee_globalins_47830065,1,FOC,DUT,Diplome Assistante Dentaire,BERCHID,MAROC,UH2C,2012
+apogee_globalins_47830066,1,FOC,DUT,Diplome Assistante Dentaire,NOUASSER,MAROC,UH2C,2012
+apogee_globalins_47830067,1,FOC,DUT,Diplome Assistante Dentaire,BEN MSICK,MAROC,UH2C,2012
+apogee_globalins_47830068,4,FOC,DUT,Diplome Assistante Dentaire,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47830069,2,FOC,DUT,Diplome de Technologie de Laboratoire de Prothèse Dentaire,SAFI,MAROC,UH2C,2012
+apogee_globalins_47830070,4,FOC,DUT,Diplome de Technologie de Laboratoire de Prothèse Dentaire,MOULAY RCHID,MAROC,UH2C,2012
+apogee_globalins_47830071,1,FOC,DUT,Diplome de Technologie de Laboratoire de Prothèse Dentaire,HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830072,1,FOC,DUT,Diplome de Technologie de Laboratoire de Prothèse Dentaire,SIDI IFNI,NORVEGE,UH2C,2012
+apogee_globalins_47830073,1,FOC,DUT,Diplome de Technologie de Laboratoire de Prothèse Dentaire,SIDI IFNI,MAROC,UH2C,2012
+apogee_globalins_47830074,1,FOC,DUT,Diplome de Technologie de Laboratoire de Prothèse Dentaire,MARRAKECH,MAROC,UH2C,2012
+apogee_globalins_47830075,3,FOC,DUT,Diplome de Technologie de Laboratoire de Prothèse Dentaire,KHOURIBGA,MAROC,UH2C,2012
+apogee_globalins_47830076,2,FOC,DUT,Diplome de Technologie de Laboratoire de Prothèse Dentaire,BEN MSICK,MAROC,UH2C,2012
+apogee_globalins_47830077,1,FOC,DUT,Diplome de Technologie de Laboratoire de Prothèse Dentaire,NOUASSER,MAROC,UH2C,2012
+apogee_globalins_47830078,1,FOC,DUT,Diplome de Technologie de Laboratoire de Prothèse Dentaire,TAN-TAN,MAROC,UH2C,2012
+apogee_globalins_47830079,3,FOC,DUT,Diplome de Technologie de Laboratoire de Prothèse Dentaire,SIDI BERNOUSSI ZENATA,MAROC,UH2C,2012
+apogee_globalins_47830080,1,FOC,DUT,Diplome de Technologie de Laboratoire de Prothèse Dentaire,AGADIR IDA-TANANE,MAROC,UH2C,2012
+apogee_globalins_47830081,2,FOC,DUT,Diplome de Technologie de Laboratoire de Prothèse Dentaire,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47830082,1,FOC,DUT,Diplome de Technologie de Laboratoire de Prothèse Dentaire,FES,MAROC,UH2C,2012
+apogee_globalins_47830083,2,FOC,DUT,Diplome Assistante Dentaire,KHEMISSET,MAROC,UH2C,2012
+apogee_globalins_47830084,4,FOC,DUT,Diplome Assistante Dentaire,KHOURIBGA,MAROC,UH2C,2012
+apogee_globalins_47830085,1,FOC,DUT,Diplome Assistante Dentaire,HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830086,5,FOC,DUT,Diplome Assistante Dentaire,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47830087,3,FOC,DUT,Diplome Assistante Dentaire,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47830088,1,FOC,DUT,Diplome Assistante Dentaire,AIN SEBAA HAY MOHAMMEDI,MAROC,UH2C,2012
+apogee_globalins_47830089,1,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,TATA,MAROC,UH2C,2012
+apogee_globalins_47830090,2,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,TAZA,MAROC,UH2C,2012
+apogee_globalins_47830091,1,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,MAROC,MAROC,UH2C,2012
+apogee_globalins_47830092,1,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,RABAT,MAROC,UH2C,2012
+apogee_globalins_47830093,1,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,FIGUIG,MAROC,UH2C,2012
+apogee_globalins_47830094,1,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47830095,4,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47830096,3,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830097,1,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,ERRACHIDIA,MAROC,UH2C,2012
+apogee_globalins_47830098,1,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47830099,2,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,KHENIFRA,MAROC,UH2C,2012
+apogee_globalins_47830100,1,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,AL HAOUZ,MAROC,UH2C,2012
+apogee_globalins_47830101,1,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,TETOUAN,MAROC,UH2C,2012
+apogee_globalins_47830102,1,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,TAN-TAN,MAROC,UH2C,2012
+apogee_globalins_47830103,1,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,TANGER,MAROC,UH2C,2012
+apogee_globalins_47830104,1,ENS,Lic Prof,licence professionnelle de l enseignement de Mathématiques,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830105,2,ENS,Lic Prof,licence professionnelle de l enseignement de Mathématiques,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47830106,2,ENS,Lic Prof,licence professionnelle de l enseignement de Mathématiques,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47830107,2,ENS,Lic Prof,licence professionnelle de l enseignement de Mathématiques,BENSLIMANE,MAROC,UH2C,2012
+apogee_globalins_47830108,11,ENS,Lic Prof,licence professionnelle de l enseignement de Mathématiques,MAROC,MAROC,UH2C,2012
+apogee_globalins_47830109,14,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830110,2,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,MEKNES,MAROC,UH2C,2012
+apogee_globalins_47830111,2,ENS,Lic Prof,Licence Professionnelle en Sport et loisir,AZILAL,MAROC,UH2C,2012
+apogee_globalins_47830112,30,EST,Lic Prof,LPU GI,AIN CHOCK,MAROC,UH2C,2012
+apogee_globalins_47830113,1,FDC,Lic Prof,Licence Professionnelle T.D.C.E,SAFI,MAROC,UH2C,2012
+apogee_globalins_47830114,51,FDC,Lic Prof,Licence Professionnelle T.D.C.E,MAROC,MAROC,UH2C,2012
+apogee_globalins_47830115,1,FDC,Lic Prof,Licence Professionnelle T.D.C.E,autres,MAROC,UH2C,2012
+apogee_globalins_47830116,1,FDC,Lic Prof,Licence Professionnelle T.D.C.E,OUARZAZATE,MAROC,UH2C,2012
+apogee_globalins_47830117,3,FDC,Lic Prof,Licence Professionnelle T.D.C.E,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47830118,2,FDC,Lic Prof,Licence Professionnelle Management des Org,KHENIFRA,MAROC,UH2C,2012
+apogee_globalins_47830119,1,FDC,Lic Prof,Licence Professionnelle Management des Org,EL-HAJEB,MAROC,UH2C,2012
+apogee_globalins_47830120,1,FDC,Lic Prof,Licence Professionnelle Management des Org,autres,MAROC,UH2C,2012
+apogee_globalins_47830121,1,FDC,Lic Prof,Licence Professionnelle Management des Org,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47830122,5,FDC,Lic Prof,Licence Professionnelle Management des Org,MEKNES,MAROC,UH2C,2012
+apogee_globalins_47830123,5,FDC,Lic Prof,Licence Professionnelle Management des Org,RABAT,MAROC,UH2C,2012
+apogee_globalins_47830124,1,FDC,Lic Prof,Licence Professionnelle Management des Org,MAROC,AFGHANISTAN,UH2C,2012
+apogee_globalins_47830125,98,FDC,Lic Prof,Licence Professionnelle Management des Org,MAROC,MAROC,UH2C,2012
+apogee_globalins_47830126,2,FDC,Lic Prof,Licence Professionnelle Management des Org,SAFI,MAROC,UH2C,2012
+apogee_globalins_47830127,2,FDC,Lic Prof,Licence Professionnelle Techniques Bancaires et Financières,MOULAY RCHID SIDI OTMANE,MAROC,UH2C,2012
+apogee_globalins_47830128,3,FDC,Lic Prof,Licence Professionnelle Techniques Bancaires et Financières,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830129,1,FDC,Lic Prof,Licence Professionnelle Techniques Bancaires et Financières,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47830130,50,FDC,Lic Prof,Licence Professionnelle Techniques Bancaires et Financières,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47830131,4,FDC,Lic Prof,Licence Professionnelle Techniques Bancaires et Financières,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47830132,1,FDC,Lic Prof,Licence Professionnelle Techniques Bancaires et Financières,ETRANGER,MAROC,UH2C,2012
+apogee_globalins_47830133,1,FDC,Lic Prof,Licence Professionnelle Techniques Bancaires et Financières,LARACHE,MAROC,UH2C,2012
+apogee_globalins_47830134,1,FDC,Lic Prof,Licence Professionnelle Techniques Bancaires et Financières,KENITRA,MAROC,UH2C,2012
+apogee_globalins_47830135,2,FDC,Lic Prof,Licence Professionnelle Techniques Bancaires et Financières,AZILAL,MAROC,UH2C,2012
+apogee_globalins_47830136,2,FDC,Lic Prof,Licence Professionnelle Techniques Bancaires et Financières,RABAT,MAROC,UH2C,2012
+apogee_globalins_47830137,4,FDC,Lic Prof,Licence Professionnelle Techniques Bancaires et Financières,MAROC,MAROC,UH2C,2012
+apogee_globalins_47830138,1,FDC,Lic Prof,Licence Professionnelle Techniques Bancaires et Financières,FES,MAROC,UH2C,2012
+apogee_globalins_47830139,19,FDC,Lic Prof,Licence Professionnelle Management du Système d information,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47830140,1,FDC,Lic Prof,Licence Professionnelle Management du Système d information,OUJDA-ANGAD,MAROC,UH2C,2012
+apogee_globalins_47830141,2,FDC,Lic Prof,Licence Professionnelle Management du Système d information,HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830142,1,FDC,Lic Prof,Licence Professionnelle Management du Système d information,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47830143,1,FDC,Lic Prof,Licence Professionnelle Management du Système d information,LAAYOUNE,MAROC,UH2C,2012
+apogee_globalins_47830144,1,FDC,Lic Prof,Licence Professionnelle Management du Système d information,SETTAT,MAROC,UH2C,2012
+apogee_globalins_47830151,1,FDC,Lic Prof,Master Economie et Gestion - Entreprenariat,AIN CHOCK HAY HASSANI,AUTRES pays,UH2C,2012
+apogee_globalins_47830152,1,FDC,Lic Prof,Master Economie et Gestion - Entreprenariat,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830153,1,FDC,Lic Prof,Master Economie et Gestion - Entreprenariat,AL FIDA DERB SULTAN,AUTRES pays,UH2C,2012
+apogee_globalins_47830154,1,FDC,Lic Prof,Master Economie et Gestion - Entreprenariat,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47830155,1,FDC,Lic Prof,Master Economie et Gestion - Entreprenariat,BEN MSICK MEDIOUNA,MAROC,UH2C,2012
+apogee_globalins_47830156,3,FDC,Lic Prof,Master Economie et Gestion - Entreprenariat,CASABLANCA ANFA,AUTRES pays,UH2C,2012
+apogee_globalins_47830157,8,FDC,Lic Prof,Master Economie et Gestion - Entreprenariat,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47830158,2,FDC,Lic Prof,Master Economie et Gestion - Entreprenariat,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47830159,1,FDC,Lic Prof,Master Economie et Gestion - Entreprenariat,AIN CHOCK,MAROC,UH2C,2012
+apogee_globalins_47830160,1,FDC,Lic Prof,Master Economie et Gestion - Entreprenariat,TETOUAN,MAROC,UH2C,2012
+apogee_globalins_47830161,4,FDC,Lic Prof,Master Economie et Gestion - Entreprenariat,RABAT,MAROC,UH2C,2012
+apogee_globalins_47830162,4,FDC,Lic Prof,Master Economie et Gestion - Entreprenariat,MAROC,MAROC,UH2C,2012
+apogee_globalins_47830163,1,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,MOULAY RCHID SIDI OTMANE,MAROC,UH2C,2012
+apogee_globalins_47830164,1,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,SIDI BERNOUSSI ZENATA,MAROC,UH2C,2012
+apogee_globalins_47830165,6,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,AIN CHOCK HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830166,11,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,AL FIDA DERB SULTAN,MAROC,UH2C,2012
+apogee_globalins_47830167,3,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,BEN MSICK MEDIOUNA,MAROC,UH2C,2012
+apogee_globalins_47830168,1,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,AGADIR IDA-TANANE,MAROC,UH2C,2012
+apogee_globalins_47830169,30,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,CASABLANCA ANFA,MAROC,UH2C,2012
+apogee_globalins_47830170,2,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,MOULAY RCHID,MAROC,UH2C,2012
+apogee_globalins_47830171,1,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,OUJDA-ANGAD,MAROC,UH2C,2012
+apogee_globalins_47830172,6,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,HAY HASSANI,MAROC,UH2C,2012
+apogee_globalins_47830173,1,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,OUARZAZATE,MAROC,UH2C,2012
+apogee_globalins_47830174,1,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,YOUSOUFIA,MAROC,UH2C,2012
+apogee_globalins_47830175,1,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,MARRAKECH,MAROC,UH2C,2012
+apogee_globalins_47830176,1,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,EL JADIDA,MAROC,UH2C,2012
+apogee_globalins_47830177,1,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,BEN MSICK,MAROC,UH2C,2012
+apogee_globalins_47830178,1,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,MEDIOUNA,MAROC,UH2C,2012
+apogee_globalins_47830179,1,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,GUELMIM,MAROC,UH2C,2012
+apogee_globalins_47830180,1,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,autres,MAROC,UH2C,2012
+apogee_globalins_47830181,2,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,RABAT,MAROC,UH2C,2012
+apogee_globalins_47830182,1,FDC,Lic Prof,Licence Professionnelle Techniques de Vente,MAROC,AUTRES pays,UH2C,2012
+

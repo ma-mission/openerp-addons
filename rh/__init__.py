@@ -1,0 +1,13 @@
+import rh_autres_tables
+import rh_fonction_tables
+import rh_etablissement
+import rh_departement
+import rh_ptrgeo
+import rh_employe
+import rh_fonction
+import rh_salary
+import rh_study
+import rh_demande
+import rh_ordre_mission
+import wizards
+#import rh_kpi

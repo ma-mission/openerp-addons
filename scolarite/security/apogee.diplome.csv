@@ -1,0 +1,5 @@
+id,code,name,etablissement_id:id
+apogee_diplome_1,LEF,License dEtudes Fondamentales,apogee_etablissement_1
+apogee_diplome_2,M,Master,apogee_etablissement_1
+apogee_diplome_3,MS,Master Spécialisé,apogee_etablissement_2
+apogee_diplome_4,Doc,Doctorat,apogee_etablissement_2

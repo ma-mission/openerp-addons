@@ -1,0 +1,64 @@
+<openerp>
+	<data>
+		<record id="ptr_reglement_form_view" model="ir.ui.view">
+            <field name="name">ptr.reglement.form</field>
+            <field name="model">ptr.reglement</field>
+            <field name="arch" type="xml">
+                <form string="Reglements Prestation" version="7.0">
+					<sheet>
+						<div class="oe_title">
+							<h2> 
+								<label for="code" class="oe_edit_only" />
+								<field name="code"/> 
+							</h2>
+						</div>
+						<notebook >
+							<page string="Informations">
+								<group>
+										<field name="datereglement"/>
+										<field name="neffet"/>
+										<field name="dateeffet"/>
+										<field name="montant"/> 
+										<field name="modepaiement"/> 
+										<field name="banque"/>  
+								</group>
+							</page>
+						</notebook> 
+					</sheet>     
+                </form>
+            </field>
+        </record>
+		
+		<record id="ptr_reglement_tree_view" model="ir.ui.view">
+            <field name="name">ptr.reglement.tree</field>
+            <field name="model">ptr.reglement</field>
+            <field name="arch" type="xml">
+                <tree string="Reglement"  toolbar="1"  version="7.0" editable="bottom" create="0" write="0" unlink="0">
+					<field name="code" /> 
+					<field name="neffet"/>
+					<field name="dateeffet"/>
+					<field name="datereglement"/>   
+					<field name="modepaiement"/> 
+					<field name="banque"/>
+					<field name="montant" sum="Montant Total ttc" />  
+                </tree>
+            </field>
+        </record>
+		
+
+
+		<record model ="ir.actions.act_window" id="ptr_reglement_act">
+			<field name="name">Reglement</field>
+			<field name="res_model">ptr.reglement</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree</field>
+			<field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to add a new record.
+              </p>
+            </field>
+		</record>
+
+		<menuitem id="ptr_reglement_menu" name="Reglement" parent="ptr_recapitul_menu" action="ptr_reglement_act"/>		
+	</data>
+</openerp>

@@ -1,0 +1,909 @@
+id;province_id/id;code;name
+ville700;province24;700;RABAT
+ville777;province46;777;SALE
+ville783;province46;783;SIDI BOUKNADEL
+ville793;province46;793;SHOUL -ARBA-
+ville706;province47;706;AIN ATTIG
+ville707;province47;707;AIN EL-AOUDA
+ville784;province47;784;SIDI YAHYA ZAER
+ville792;province47;792;SKHIRATE
+ville798;province47;798;TEMARA
+ville710;province9;710;AIT OURIBEL
+ville725;province9;725;ROMMANI
+ville726;province9;726;SIDI ALLAL EL BAHRAOUI
+ville727;province9;727;MOULAY DRISS AGHBAL
+ville752;province9;752;KHEMISSET
+ville755;province9;755;MAAZIZ
+ville757;province9;757;SFASSIF
+ville758;province9;758;SIDI ALLAL LAMSADDER
+ville760;province9;760;BOUQACHMIR
+ville761;province9;761;AIT YADINE
+ville765;province9;765;AIT IKKOU
+ville766;province9;766;LAGHOUALEM
+ville772;province9;772;OULMES
+ville795;province9;795;AIT MIMOUNE
+ville797;province9;797;TIDDAS
+ville800;province9;800;TIFLET
+ville801;province9;801;M'QAM TOLBA
+ville803;province9;803;KHEMIS SIDI YAHYA
+ville814;province9;814;EZZHILIGA
+ville822;province9;822;BRACHOUA
+ville842;province9;842;MARCHOUCH
+ville1;province25;1;CASABLANCA
+ville127;province25;127;CASA-ANFA
+ville132;province42;132;CASA-BEN MSIK SIDI OTHMANE
+ville57;province42;57;MEDIOUNA
+ville131;province43;131;CASA-AIN SBAA HAY MOHAMMADI
+ville133;province44;133;CASA AIN CHOK HAY HASSANI
+ville33;province44;33;BOUSKOURA
+ville36;province44;36;DAR BOUAZZA
+ville506;province44;506;AIN GUEDDID
+ville893;province44;893;NOUACEUR
+ville45;province45;45;MOHAMMEDIA
+ville178;province48;178;EL FIDA
+ville242;province53;242;CASA-SIDI EL BERNOUSSI ZENATA
+ville4;province53;4;AIN HARROUDA
+ville91;province53;91;TIT MELLIL
+ville900;province1;900;AGADIR
+ville919;province1;919;BENSERGAOU
+ville932;province1;932;IMMOUZER IDA-OU-TANANE
+ville942;province1;942;TAMRI
+ville971;province1;971;TIKIOUINE
+ville303;province16;303;AGDZ
+ville321;province16;321;AMERZGANE
+ville330;province16;330;BOUMALNE-DADES
+ville341;province16;341;KELAAT M'GOUNA
+ville350;province16;350;IKNIOUEN
+ville351;province16;351;TINZOULINE
+ville355;province16;355;TAGHZOUTE N'AIT ATTA
+ville363;province16;363;MHAMID EL GHIZLANE
+ville366;province16;366;OUARZAZATE
+ville374;province16;374;TILMI
+ville377;province16;377;M'SEMRIR
+ville383;province16;383;SKOURA
+ville385;province16;385;TOUNDOUTE
+ville389;province16;389;IMIN-N-OULAOUEN
+ville391;province16;391;TAGOUNITE
+ville400;province16;400;TELOUET
+ville404;province16;404;TAZARINE
+ville405;province16;405;TAZNAKHT
+ville414;province16;414;TINGHIR
+ville425;province16;425;ZAGORA
+ville119;province30;119;TINE AMELLOU
+ville120;province30;120;SBOUYA
+ville139;province30;139;IRIGH N'TAHALA
+ville140;province30;140;AFFELA IGHIR
+ville142;province30;142;IDA OU GOUGMAR
+ville887;province30;887;ANEZI
+ville902;province30;902;TNINE AGLOU
+ville935;province30;935;EL MAADER EL KABIR
+ville938;province30;938;MIRLEFT
+ville939;province30;939;OUIJJANE
+ville941;province30;941;TAFRAOUT
+ville945;province30;945;LAKHSAS
+ville948;province30;948;TIGHMI
+ville954;province30;954;TIZNIT
+ville961;province30;961;ARBAA SAHEL
+ville972;province30;972;TIGHIRT
+ville978;province30;978;SIDI IFNI
+ville979;province30;979;TASSRIRT
+ville982;province30;982;ARBAA RASMOUKA
+ville10;province41;10;AHMAR LAGLALCHA
+ville318;province41;318;ASKAOUEN
+ville370;province41;370;TIZI N'TEST
+ville394;province41;394;TALIOUINE
+ville5;province41;5;ADAR
+ville907;province41;907;AIT ABDALLAH
+ville913;province41;913;AOULOUZ
+ville915;province41;915;ARGANA
+ville934;province41;934;IRHERM
+ville950;province41;950;TAROUDANNT
+ville956;province41;956;TAFINGOULT
+ville967;province41;967;OULAD TEIMA
+ville968;province41;968;OULAD BERREHIL
+ville974;province41;974;MENIZLA -HAD-
+ville976;province41;976;TALGJOUNT
+ville981;province41;981;TIOUT
+ville984;province41;984;IMOULASS -HAD-
+ville986;province41;986;SIDI MOUSSA
+ville988;province41;988;EL GUERDANE
+ville121;province64;121;TEMSIA
+ville908;province64;908;AIT MELLOUL
+ville933;province64;933;INEZGANE
+ville936;province64;936;OULAD DAHOU
+ville952;province64;952;DCHEIRA EL JIHADIA
+ville373;province65;373;AIT AMIRA
+ville426;province65;426;BELFAA
+ville911;province65;911;AIT OUADRIM
+ville917;province65;917;HILALA
+ville918;province65;918;CHTOUKA AIT BAHA
+ville937;province65;937;MASSA
+ville946;province65;946;TANALT
+ville958;province65;958;IDA-OUGNIDIF
+ville963;province65;963;BIOUGRA
+ville983;province65;983;TARGA-NTOUCHKA
+ville158;province2;158;KETAMA
+ville231;province2;231;BNI BOUAYACH
+ville431;province2;431;BNI GMIL
+ville434;province2;434;ISSAGUEN
+ville436;province2;436;ABDELGHAYA SOUAHEL
+ville438;province2;438;ARBAA TAOURIRT
+ville440;province2;440;BNI ABDELLAH
+ville441;province2;441;TABARRANT
+ville442;province2;442;LOUTA
+ville443;province2;443;IMRABTEN
+ville446;province2;446;AIT YOUSSEF OU ALI
+ville449;province2;449;BNI BOUNSAR
+ville451;province2;451;SENADA
+ville456;province2;456;BNI AMMART
+ville459;province2;459;BNI BOUFRAH
+ville461;province2;461;BNI HADIFA
+ville474;province2;474;AL HOCEIMA
+ville480;province2;480;TAGHZOUT
+ville482;province2;482;TARGUIST
+ville570;province2;570;IMZOUREN
+ville684;province2;684;IZEMMOUREN
+ville691;province2;691;ROUADI
+ville112;province22;112;BNI FTAH ARBAA
+ville113;province22;113;AKNOUL
+ville117;province22;117;BAB EL-MROUJ
+ville122;province22;122;BNI LENT
+ville124;province22;124;BARKINE
+ville130;province22;130;BOURD
+ville150;province22;150;GUERCIF
+ville157;province22;157;KAF EL GHAR
+ville162;province22;162;MATMATA
+ville163;province22;163;MAGHRAOUA
+ville164;province22;164;MEZGUITEM
+ville170;province22;170;OUAD AMLIL
+ville184;province22;184;SAKA
+ville194;province22;194;MAHIRIJA
+ville196;province22;196;AIT SAGHROUCHEN
+ville198;province22;198;ZRARDA
+ville199;province22;199;TAHLA
+ville201;province22;201;TAINASTE
+ville202;province22;202;BAB MARZOUKA
+ville203;province22;203;BOUKELLAL SEBT
+ville207;province22;207;TAZA
+ville216;province22;216;TIZI OUASLI
+ville219;province22;219;MSILA
+ville225;province22;225;BNI FRASSEN
+ville226;province22;226;OULAD ZBAIR
+ville339;province22;339;HOUARA OULAD RAHO
+ville386;province22;386;TADDART
+ville447;province22;447;AJDIR
+ville103;province36;103;AIN AICHA
+ville106;province36;106;MOULAY BOUCHTA
+ville111;province36;111;AIN MEDIOUNA
+ville116;province36;116;TABOUDA
+ville128;province36;128;BOUADEL
+ville149;province36;149;RHOUAZI
+ville155;province36;155;LOULJA
+ville156;province36;156;KARIA BA MOHAMED
+ville160;province36;160;BOUHOUDA
+ville161;province36;161;ZRIZER
+ville166;province36;166;MKANSA
+ville169;province36;169;BOUCHABEL
+ville175;province36;175;OURTZARH
+ville182;province36;182;RATBA
+ville183;province36;183;RHAFSAI
+ville197;province36;197;TAFRANT
+ville200;province36;200;THAR ESSOUK
+ville205;province36;205;TAOUNATE
+ville210;province36;210;OULAD DAOUD
+ville212;province36;212;RAS EL OUED
+ville213;province36;213;TISSA
+ville221;province36;221;BNI OUNJEL TAFRAOUT
+ville224;province36;224;SIDI MOKHFI
+ville230;province36;230;BNI OULID
+ville581;province36;581;OUED JEMAA
+ville11;province26;11;AIT M'HAMED
+ville137;province26;137;TABANT
+ville14;province26;14;ANERGUI
+ville18;province26;18;AZILAL
+ville21;province26;21;TIMOULILT
+ville24;province26;24;BINE EL OUIDANE
+ville338;province26;338;DEMNATE
+ville340;province26;340;FOUM JEMAA
+ville39;province26;39;AIT MAJDEN
+ville44;province26;44;BZOU
+ville65;province26;65;OUAOUIZEGHT
+ville860;province26;860;OUAOULA
+ville861;province26;861;TIFNI
+ville87;province26;87;TAGLEFT
+ville894;province26;894;AFOURAR
+ville899;province26;899;AIT AATAB
+ville90;province26;90;TILOUGGUITE
+ville92;province26;92;ZAOUIAT AHANSAL
+ville96;province26;96;TANANT
+ville15;province3;15;AGHBALA
+ville16;province3;16;FOUM EL ANCEUR
+ville20;province3;20;BENI-MELLAL
+ville23;province3;23;BNI OUKIL
+ville25;province3;25;TIZI N'ISLY
+ville27;province3;27;SIDI JABER
+ville34;province3;34;BRADIA
+ville37;province3;37;DAR OULD ZIDOUH
+ville42;province3;42;EL KSIBA
+ville46;province3;46;TANOUGHA
+ville47;province3;47;FKIH BEN SALAH
+ville50;province3;50;KASBA TADLA
+ville6;province3;6;OULAD SAID LOUED
+ville64;province3;64;OULAD YAICH
+ville7;province3;7;OULAD M'BAREK
+ville77;province3;77;SIDI AISSA BEN ALI
+ville83;province3;83;SEMGUET
+ville85;province3;85;SOUK SEBT OULED NEMMA
+ville881;province3;881;OULAD GNAOU
+ville89;province3;89;TAGHZIRT
+ville892;province3;892;BNI AMIR
+ville93;province3;93;ZAOUIAT CHEIKH
+ville97;province3;97;OULAD BOUMOUSSA-HAD
+ville129;province27;129;BOULEMANE
+ville151;province27;151;GUIGOU
+ville154;province27;154;IMOUZZER MARMOUCHA
+ville159;province27;159;KSABI-MOULOUYA
+ville165;province27;165;MISSOUR
+ville176;province27;176;OUTAT EL-HAJ
+ville193;province27;193;SKOURA M'DAZ
+ville209;province27;209;OULAD ALI YOUSSEF
+ville107;province52;107;OULAD TAYEB
+ville282;province52;282;FES-JDID DAR DBIBEGH
+ville104;province55;104;AIN CHKEF
+ville115;province55;115;LAAJAJRA
+ville118;province55;118;OULAD MIMOUN
+ville167;province55;167;MOULAY YACOUB
+ville168;province55;168;MIKKES
+ville195;province55;195;SEBAA ROUADI
+ville247;province55;247;ZOUARHA MOULAY YAACOUB
+ville102;province56;102;RIBAT EL-KHEIR
+ville126;province56;126;BIR TAMTAM
+ville153;province56;153;IMOUZZER KANDAR
+ville180;province56;180;RAS TABOUDA
+ville185;province56;185;SEFROU
+ville188;province56;188;TAZOUTA
+ville206;province56;206;AZZABA
+ville223;province56;223;BHALIL
+ville229;province56;229;AIN CHEGGAG
+ville100;province6;100;FES
+ville141;province6;141;EL-ADREJ
+ville145;province6;145;EL-MENZEL
+ville186;province6;186;AIOUN SENAME
+ville190;province6;190;SIDI HARAZEM
+ville222;province6;222;AIN KANSERA
+ville922;province21;922;MSEID
+ville927;province21;927;TAN-TAN
+ville947;province21;947;ABTEH
+ville660;province32;660;ES-SEMARA (Zone Sud)
+ville662;province32;662;JDIRIYA (Zone Sud)
+ville663;province32;663;AMGALA (Zone Sud)
+ville664;province32;664;TIFARITI (Zone Sud)
+ville665;province32;665;HAOUZA (Zone Sud)
+ville346;province35;346;FOUM ZGUID
+ville904;province35;904;TAGMOUT
+ville906;province35;906;ISSAFEN
+ville909;province35;909;AKKA
+ville924;province35;924;FAM EL HISN
+ville951;province35;951;TATA
+ville953;province35;953;TISSINT
+ville123;province37;123;FASK
+ville527;province37;527;ASRIR
+ville921;province37;921;BOUIZAKARNE
+ville925;province37;925;GUELMIM
+ville949;province37;949;TAGHJIJT
+ville957;province37;957;IFRANE ATLAS SAGHIR
+ville987;province37;987;KSABI
+ville668;province66;668;TOUIZGUI
+ville808;province66;808;ASSA
+ville923;province66;923;ZAG
+ville417;province40;417;MJAARA
+ville622;province40;622;ZAGGOTA
+ville701;province40;701;TEKNA
+ville703;province40;703;SIDI BOUSBER
+ville705;province40;705;AIN DFALI
+ville709;province40;709;AIN DORIJ
+ville731;province40;731;DAR EL-GUEDDARI
+ville733;province40;733;ZIRARA
+ville735;province40;735;AL HAOUAFATE
+ville745;province40;745;SIDI AMEUR EL HADI
+ville746;province40;746;HAD KOURT
+ville749;province40;749;JORF EL-MALHA
+ville753;province40;753;KHNICHET
+ville756;province40;756;MECHRA BEL KSIRI
+ville763;province40;763;MZEFROUNE
+ville768;province40;768;OUEZZANE
+ville773;province40;773;SIDI KACEM
+ville789;province40;789;SIDI REDOUANE
+ville799;province40;799;TEROUAL
+ville702;province8;702;KCEIBYA
+ville704;province8;704;SIDI BOUBKER EL HADJ
+ville711;province8;711;BENMANSOUR
+ville715;province8;715;ARBAOUA
+ville729;province8;729;DAR BEL AMRI
+ville736;province8;736;SOUK EL ARBAA
+ville737;province8;737;MOGRANE
+ville738;province8;738;KARIA BEN-AOUDA
+ville742;province8;742;TLATA L-RHARB
+ville747;province8;747;HADDADA
+ville750;province8;750;SIDI MOHAMED LAHMAR
+ville754;province8;754;LALLA MIMOUNA
+ville759;province8;759;MEHDYA
+ville774;province8;774;KENITRA
+ville778;province8;778;SIDI ALLAL TAZI
+ville790;province8;790;SIDI SLIMANE
+ville791;province8;791;SIDI YAHIA EL GHARB
+ville817;province8;817;BOUMAIZ
+ville818;province8;818;M'SAADA
+ville832;province8;832;MNASRA
+ville652;province31;652;BOUJDOUR (Zone Sud)
+ville657;province31;657;GUELTAT ZEMMOUR (Zone Sud)
+ville650;province33;650;LAAYOUNE (Zone Sud)
+ville651;province33;651;BOUKRAA (Zone Sud)
+ville653;province33;653;DAOURA (Zone Sud)
+ville654;province33;654;EL HAGOUNIA (Zone Sud)
+ville655;province33;655;DCHEIRA (Zone Sud)
+ville977;province33;977;TARFAYA
+ville300;province13;300;MARRAKECH
+ville304;province13;304;OULAD AHSOUN
+ville929;province13;929;IGOUDAR
+ville323;province29;323;IDA-OU-ZEMZEM
+ville324;province29;324;SMIMOU
+ville328;province29;328;AIT DAOUD
+ville345;province29;345;KORIMATE
+ville364;province29;364;ESSAOUIRA
+ville365;province29;365;EL HANCHANE
+ville387;province29;387;HAD DRAA
+ville396;province29;396;TALMESTE
+ville398;province29;398;TAMANAR
+ville407;province29;407;MRAMER
+ville408;province29;408;TAKATE
+ville147;province5;147;RAS EL AIN - ELKALAA
+ville307;province5;307;MAYATE
+ville310;province5;310;FRAITA
+ville312;province5;312;OULAD YAACOUB
+ville313;province5;313;BOUCHANE
+ville320;province5;320;LOUNASDA
+ville325;province5;325;GAZETT -ARBA-
+ville326;province5;326;BEN GUERIR
+ville327;province5;327;LABRIKIYINE
+ville331;province5;331;SIDI BOU OTHMANE
+ville332;province5;332;SIDI EL HATTAB
+ville336;province5;336;LAATTAOUI ECH-CHAIBIA
+ville337;province5;337;EDDACHRA
+ville342;province5;342;KELAAT SRAGHNA
+ville381;province5;381;SIDI RAHAL DE KELAA
+ville382;province5;382;SKHOUR RHAMNA
+ville399;province5;399;TAMALLALT
+ville402;province5;402;SIDI BOUBKER
+ville406;province5;406;M'ZEM SANHAJA
+ville411;province5;411;ASSAHRIJ
+ville875;province5;875;OULAD BOUALI LOUED
+ville101;province50;101;OUKAIMEDEN
+ville274;province50;274;MARRAKECH-HAOUZ
+ville305;province50;305;ABADOU
+ville314;province50;314;RHMATE
+ville315;province50;315;AIT OURIR
+ville317;province50;317;AMIZMIZ
+ville319;province50;319;ASNI
+ville343;province50;343;SETTI FATMA
+ville349;province50;349;IJOUKAK
+ville367;province50;367;OURIKA -TNINE-
+ville368;province50;368;OUIRGANE
+ville369;province50;369;TIZGINE
+ville371;province50;371;TOUAMA
+ville378;province50;378;ABDALLAH RHIAT
+ville384;province50;384;TAZZARTE
+ville390;province50;390;TAHANNAOUTE
+ville393;province50;393;TALAAT-N-YACOUB
+ville395;province50;395;LALLA TAKARKOUST
+ville410;province50;410;TAMESLOHT
+ville833;province50;833;OUZGUITA
+ville289;province51;289;MARRAKECH-MENARA
+ville301;province51;301;SAADA
+ville356;province51;356;ZAOUIA SIDI ZOUINE
+ville360;province51;360;SOUIHLA
+ville901;province51;901;AGAFAYE
+ville255;province57;255;SIDI YOUSSEF BEN ALI
+ville302;province57;302;OULAD DLIM
+ville309;province58;309;MZOUDA -SEBT-
+ville316;province58;316;LALLA AAZIZA
+ville334;province58;334;CHICHAOUA
+ville352;province58;352;DOUIRANE ARBAA
+ville353;province58;353;IMI-N-TANOUTE
+ville362;province58;362;ADASSIL
+ville380;province58;380;SIDI MOKHTAR
+ville886;province58;886;MJATT -HAD-
+ville501;province10;501;AGUELMOUS
+ville503;province10;503;ARHBALOU-N-SERDOUN
+ville549;province10;549;EL HAMMAM
+ville550;province10;550;EL KBAB
+ville562;province10;562;ITZER
+ville565;province10;565;KERROUCHEN
+ville566;province10;566;KHENIFRA
+ville567;province10;567;MOHA OU HAMOU ZAYANI
+ville571;province10;571;AGOUDIM
+ville572;province10;572;MIBLADEN
+ville573;province10;573;MRIRT
+ville574;province10;574;MIDELT
+ville575;province10;575;MOULAY BOUAZZA
+ville594;province10;594;SIDI YAHYA OU SAAD
+ville612;province10;612;TOUNFITE
+ville621;province10;621;BOUMIA
+ville644;province10;644;AIT ISHAQ
+ville512;province12;512;AIT HANI
+ville520;province12;520;ALNIF
+ville521;province12;521;AMELLAGOU
+ville522;province12;522;AMOUGUER
+ville525;province12;525;AGHBALOU-N'KERDOUS
+ville530;province12;530;ASSOUL
+ville543;province12;543;BOUDNIB
+ville551;province12;551;ARFOUD
+ville553;province12;553;GOULMIMA
+ville554;province12;554;GOURRAMA
+ville557;province12;557;ZAOUIAT SIDI HAMZA
+ville561;province12;561;IMILCHIL
+ville568;province12;568;ERRACHIDIA
+ville579;province12;579;LKHENG
+ville590;province12;590;ER-RICH
+ville591;province12;591;ER-RISSANI
+ville601;province12;601;AOUFOUS
+ville603;province12;603;ET-TAOUS
+ville609;province12;609;TINEJDAD
+ville623;province12;623;JORF
+ville246;province14;246;MEKNES EL MENZEH
+ville500;province14;500;MEKNES
+ville505;province14;505;MHAYA -TNINE-
+ville544;province14;544;BOUFEKRANE
+ville576;province14;576;MOULAY DRISS ZERHOUN
+ville577;province14;577;NZALAT BNI AMAR
+ville580;province14;580;OUAD JDIDA
+ville615;province14;615;VOLUBILIS
+ville631;province14;631;DKHISSA
+ville508;province38;508;AIN-LEUH
+ville531;province38;531;AZROU
+ville532;province38;532;TIMAHDITE
+ville535;province38;535;BEN-SMIM
+ville559;province38;559;IFRANE
+ville260;province59;260;MEKNES ISMAILIYA
+ville507;province59;507;AIN JEMAA
+ville509;province59;509;AIN EL-ORMA
+ville634;province59;634;TOULAL
+ville502;province60;502;AGOURAI
+ville510;province60;510;AIN TAOUJDATE
+ville517;province60;517;AIT YAZEM
+ville548;province60;548;EL-HAJEB
+ville587;province60;587;RAS JERRI
+ville639;province60;639;SEBAA AIOUN
+ville146;province39;146;EL ARGOUB (Zone Sud)
+ville191;province39;191;OUM DREYGA
+ville217;province39;217;TICHLA (Zone Sud)
+ville218;province39;218;AOUSSERD (Zone Sud)
+ville227;province39;227;BIR GANDOUZ
+ville656;province39;656;BIR ANZARANE (Zone Sud)
+ville659;province39;659;DAKHLA (Zone Sud)
+ville667;province39;667;IMLILI (Zone Sud)
+ville12;province15;12;TROUGOUT
+ville208;province15;208;TAZAGHINE
+ville243;province15;243;ZEGHANGHANE
+ville437;province15;437;TIZTOUTINE
+ville445;province15;445;IKSANE
+ville448;province15;448;JBEL (TLETA)
+ville450;province15;450;BNI CHIKER
+ville452;province15;452;TAFERSIT
+ville454;province15;454;KARIAT ARKMANE
+ville460;province15;460;MIDAR
+ville462;province15;462;BEN TAIEB
+ville463;province15;463;DRIOUCH
+ville464;province15;464;ZAIO
+ville465;province15;465;BNI ANSAR
+ville467;province15;467;FARKHANA
+ville470;province15;470;BENI SIDEL
+ville473;province15;473;SELOUANE
+ville484;province15;484;BOUARG
+ville820;province15;820;HASSI BERKANE
+ville824;province15;824;RAS EL-MA
+ville825;province15;825;BOUDINAR
+ville826;province15;826;DAR EL KEBDANI
+ville828;province15;828;NADOR
+ville831;province15;831;EL AAROUI
+ville997;province15;997;TEMSAMANE
+ville192;province61;192;SIDI YAHYA
+ville250;province61;250;OUJDA
+ville253;province61;253;AIN SFA
+ville254;province61;254;MESTFERKI
+ville271;province61;271;NAIMA
+ville292;province61;292;ANGADE
+ville293;province61;293;BNI DRAR
+ville296;province61;296;SIDI MOUSSA
+ville299;province61;299;OUAD ISLY
+ville251;province62;251;AHFIR
+ville261;province62;261;BERKANE
+ville264;province62;264;AKLIM
+ville268;province62;268;EL-AIOUN
+ville273;province62;273;MECHRA HAMMADI
+ville277;province62;277;MESTIGMER
+ville278;province62;278;AIN REGGADA
+ville279;province62;279;SAIDIA
+ville280;province62;280;ARHBAL -SEBT-
+ville281;province62;281;TAFORHALT
+ville283;province62;283;GTETER
+ville284;province62;284;TAOURIRT
+ville297;province62;297;MADARH
+ville252;province63;252;AIN BNI MATHAR
+ville265;province63;265;DEBDOU
+ville267;province63;267;EL-AOUINATE
+ville275;province63;275;MERIJA
+ville287;province63;287;JERADA
+ville290;province63;290;GUENFOUDA
+ville294;province63;294;TOUISSIT
+ville262;province7;262;BOUARFA
+ville269;province7;269;FIGUIG
+ville285;province7;285;TENDRARA
+ville536;province7;536;BNI TADJITE
+ville542;province7;542;BOUANANE
+ville645;province7;645;TALSINT
+ville308;province18;308;NAGGA
+ville311;province18;311;RHIATE -TNINE-
+ville333;province18;333;ECHEMMAIA
+ville344;province18;344;AYIR
+ville358;province18;358;HRARA
+ville361;province18;361;YOUSSOUFIA
+ville375;province18;375;SAFI
+ville376;province18;376;SIDI CHIKER
+ville388;province18;388;SEBT GZOULA
+ville397;province18;397;JEMAAT SHAIM
+ville403;province18;403;KHATTAZAKANE ARBAA
+ville413;province18;413;TOUABET -HAD-
+ville418;province18;418;BOUGUEDRA
+ville110;province4;110;TAMDA
+ville17;province4;17;AZEMMOUR
+ville233;province4;233;JORF LASFAR
+ville26;province4;26;BIR JDID
+ville31;province4;31;BOULAOUANE
+ville348;province4;348;OULAD AMRANE
+ville51;province4;51;ZMAMRA
+ville55;province4;55;EL-JADIDA
+ville59;province4;59;LOUALIDIA
+ville66;province4;66;M'TAL
+ville73;province4;73;LAAOUNATE
+ville75;province4;75;MTOUH -KHMIS-
+ville76;province4;76;SIDI BENNOUR
+ville79;province4;79;LGHARBIA
+ville84;province4;84;SIDI SMAIL
+ville850;province4;850;OULAD HCINE
+ville851;province4;851;OULAD HAMDANE
+ville852;province4;852;BNI HILAL
+ville853;province4;853;SANIAT BERGUIG
+ville88;province4;88;OULAD AISSA
+ville896;province4;896;OULAD AMEUR
+ville95;province4;95;OULAD FREJ
+ville960;province4;960;CHTOUKA DE AZMOUR
+ville105;province11;105;OULAD ABDOUNE
+ville29;province11;29;BEJAAD
+ville30;province11;30;BOUJNIBA
+ville40;province11;40;HATTANE
+ville41;province11;41;MAADNA (ARBAA)
+ville48;province11;48;OULAD FENNANE (HAD)
+ville53;province11;53;KHOURIBGA
+ville62;province11;62;DECHRA BRAKSA
+ville68;province11;68;OUED ZEM
+ville870;province11;870;BNI ZRANTEL
+ville871;province11;871;EL FOQRA
+ville873;province11;873;OULAD BOUGHADI
+ville874;province11;874;OULAD AZZOUZ
+ville884;province11;884;LAGFAF
+ville9;province11;9;CHOUGRANE
+ville99;province11;99;M'FASSIS
+ville125;province19;125;SIDI RAHAL DE SETTAT
+ville22;province19;22;BERRECHID
+ville28;province19;28;EL GARA
+ville35;province19;35;RIAH
+ville357;province19;357;LOULAD -TLATA
+ville38;province19;38;DEROUA
+ville43;province19;43;EL BOROUJ
+ville56;province19;56;MECHRA BEN ABBOU
+ville58;province19;58;BEN AHMED
+ville60;province19;60;BOUGUARGOUH
+ville63;province19;63;M GARTO
+ville67;province19;67;OULAD M'HAMED
+ville69;province19;69;OULAD FARES EL HALLA
+ville70;province19;70;OULAD CEBBAH
+ville72;province19;72;SETTAT
+ville74;province19;74;RAS EL AIN CHAOUIA
+ville78;province19;78;SIDI EL AIDI
+ville8;province19;8;MZOURA
+ville80;province19;80;SIDI HAJJAJ
+ville872;province19;872;SOUALEM
+ville876;province19;876;AIN NZARH
+ville880;province19;880;LAGHNIMYINE
+ville889;province19;889;MRIZIGUE
+ville94;province19;94;OULAD ABBOU
+ville98;province19;98;OULAD SAID
+ville144;province34;144;SIDI MOUSSA BEN ALI
+ville32;province34;32;BENSLIMANE
+ville61;province34;61;MOUALINE EL OUED
+ville71;province34;71;ZIAIDA
+ville723;province34;723;BOUZNIKA
+ville809;province34;809;SIDI BETTACHE
+ville81;province34;81;MOUALINE EL GHABA
+ville82;province34;82;OULAD ALI TOUALAA
+ville86;province34;86;BNI YAKHLEF
+ville890;province34;890;FDALATE
+ville240;province20;240;ASSILAH
+ville475;province20;475;KSAR SGHIR
+ville494;province20;494;DAR CHAOUI
+ville670;province20;670;MALLOUSSA
+ville673;province20;673;LAAOUAMA
+ville674;province20;674;AL BAHRAOYINE
+ville677;province20;677;SIDI LYAMANI
+ville990;province20;990;TANGER
+ville241;province23;241;DAR BNI KARRICH
+ville244;province23;244;ANJRA
+ville245;province23;245;MARTIL
+ville248;province23;248;TAGHRAMT
+ville469;province23;469;MALLALIENNE
+ville478;province23;478;M'DIQ
+ville479;province23;479;OUED LAOU
+ville481;province23;481;FNIDQ
+ville493;province23;493;BNI IDDER
+ville497;province23;497;ZAOUIAT SIDI KACEM
+ville996;province23;996;TETOUAN
+ville249;province28;249;TAMOROT
+ville256;province28;256;TANAQOUB
+ville432;province28;432;M'TIOUA
+ville433;province28;433;BNI ZIAZE
+ville435;province28;435;BNI BOUZRA
+ville476;province28;476;CHEFCHAOUEN
+ville477;province28;477;BAB BERRED
+ville485;province28;485;TALAMBOTE
+ville486;province28;486;FIFI
+ville487;province28;487;JEBHA
+ville489;province28;489;BAB TAZA
+ville498;province28;498;ASSIFANE
+ville680;province28;680;BNI AHMED
+ville683;province28;683;DERKOUL
+ville708;province28;708;AIN BEIDA
+ville718;province28;718;BRIKCHA
+ville719;province28;719;STEHA
+ville762;province28;762;MOQRISSAT
+ville807;province28;807;ZOUMI
+ville439;province49;439;SOUK TOLBA
+ville483;province49;483;ZOUADA
+ville496;province49;496;TATOFT
+ville499;province49;499;BNI GARFETT
+ville675;province49;675;AYACHA
+ville676;province49;676;BNI AROUSS
+ville681;province49;681;KSAR EL KEBIR
+ville682;province49;682;SAHEL
+ville687;province49;687;RISSANA
+ville688;province49;688;LAOUAMRA
+ville993;province49;993;LARACHE
+ville108;province97;108;AIN BEIDA
+ville109;province97;109;AIN ES-SBIT
+ville114;province97;114;ANNOCEUR
+ville13;province97;13;ALI MOUMEN
+ville134;province97;134;KFIFATE SEBT
+ville135;province97;135;ASSADASS ARBAA
+ville136;province97;136;ARAZANE KHMISS
+ville143;province97;143;AIT RBAA
+ville152;province97;152;HADDADA
+ville172;province97;172;OUAD NJA
+ville187;province97;187;SIDI BOUBKER
+ville19;province97;19;TAZERKOUNT
+ville2;province97;2;ADIR
+ville204;province97;204;IZARRA
+ville211;province97;211;TIRHBOULA
+ville214;province97;214;SIDI ABDERRAZA
+ville215;province97;215;BNI AMAR
+ville220;province97;220;ZOUAOUA
+ville232;province97;232;GUERROUAOUA
+ville235;province97;235;SEBTA
+ville236;province97;236;BAB SEBTA
+ville237;province97;237;BERRIA
+ville238;province97;238;BAHRIA
+ville239;province97;239;BOU AHMED
+ville258;province97;258;HASSI BLAL
+ville259;province97;259;BNI OUKIL
+ville272;province97;272;ZOUJ BERHAL
+ville276;province97;276;MECHRA KLILA
+ville286;province97;286;ZENAGA KSAR
+ville288;province97;288;BOUKHOUALI
+ville291;province97;291;ZELLIJA
+ville295;province97;295;IDAOUTANANE
+ville298;province97;298;OUAD EL-HEIMER
+ville3;province97;3;AIT BELFAA
+ville306;province97;306;AIN BEIDA MOULOUYA
+ville322;province97;322;OULAD ABBOU
+ville329;province97;329;IDA-OU- GOUD
+ville335;province97;335;TASSAOUT
+ville347;province97;347;MAKNAFA
+ville354;province97;354;IMFOUT
+ville359;province97;359;SEMLALIA
+ville379;province97;379;SIDI AHMED
+ville401;province97;401;IMINI
+ville409;province97;409;IDA-OU-TROUMA
+ville412;province97;412;EL-MA BARED -JEMAA-
+ville422;province97;422;TOUFLIHTE
+ville444;province97;444;TORRES EL-KELAA
+ville453;province97;453;RIF
+ville455;province97;455;BNI OURIARHEL
+ville457;province97;457;MELILIA
+ville458;province97;458;BNI TOUZINE
+ville466;province97;466;KEBDANA
+ville468;province97;468;SEMSA
+ville471;province97;471;ASMATEN
+ville472;province97;472;MAAZOUZA
+ville488;province97;488;GUELAIA
+ville49;province97;49;RHORM EL-ALEM
+ville490;province97;490;ABDELLATINE
+ville491;province97;491;MESRA
+ville492;province97;492;FAHS
+ville495;province97;495;JBALA
+ville504;province97;504;HAJHOUJ
+ville511;province97;511;AIN LOULA
+ville513;province97;513;AZOUGAR
+ville52;province97;52;KHLOTT
+ville533;province97;533;BNI MERAAZ
+ville537;province97;537;BOU-IZOURANE
+ville54;province97;54;OUAD DERNA
+ville552;province97;552;GUERROUANE
+ville555;province97;555;HAJ KADDOUR
+ville556;province97;556;KAF NSOUR
+ville563;province97;563;MIDKANE
+ville564;province97;564;KERRANDO
+ville569;province97;569;TIGLMAMINE
+ville585;province97;585;OULAD YOUSSEF
+ville586;province97;586;OULAD SLIM
+ville592;province97;592;SAFSAF
+ville624;province97;624;AOULI
+ville626;province97;626;AMZOUJ
+ville643;province97;643;AZROU-N-AIT-LAHCEN
+ville661;province97;661;MAHBES (Zone Sud)
+ville666;province97;666;FARCIA (Zone Sud)
+ville672;province97;672;GZENAYA
+ville679;province97;679;BNI HASSAN
+ville686;province97;686;DAR SELLOUM
+ville764;province97;764;NKHEILA
+ville767;province97;767;OUAD AKRECH
+ville769;province97;769;RHDIR LAKROUCH
+ville771;province97;771;OUTITA
+ville794;province97;794;SOUK JEMAA -TIDDAS-
+ville802;province97;802;TILOUINE
+ville888;province97;888;OUAD EL-HASSAR
+ville903;province97;903;IDA-OU-GARANE
+ville905;province97;905;AIT BA-AMRANE
+ville910;province97;910;OULAD SAID
+ville920;province97;920;DREIDE
+ville926;province97;926;GLALCHA
+ville928;province97;928;IDA-OU-NADIF
+ville930;province97;930;IDA-OU-AISSI
+ville940;province97;940;OULAD AISSA
+ville943;province97;943;TALAINT
+ville944;province97;944;TAMAINT
+ville955;province97;955;TIFERLAL
+ville959;province97;959;TARHZAOUTE
+ville966;province97;966;AIN CHAIB
+ville998;province97;998;BOUGDOUR
+ville138;province98;138;RIAD
+ville148;province98;148;PRAGUE
+ville171;province98;171;BERLIN
+ville173;province98;173;LIMA
+ville174;province98;174;DJAKARTA
+ville177;province98;177;BOGOTA
+ville179;province98;179;CARACAS
+ville181;province98;181;LOUANDA
+ville189;province98;189;DIJON
+ville228;province98;228;BERLIN
+ville234;province98;234;PANTOISE
+ville257;province98;257;PRETORIA
+ville263;province98;263;OSLO
+ville266;province98;266;DUBLIN
+ville270;province98;270;VILLEMOMBLE
+ville372;province98;372;MALESIE
+ville392;province98;392;BANGKOK
+ville415;province98;415;DENBOSCH
+ville416;province98;416;THAILANDE
+ville419;province98;419;GHAZZA
+ville420;province98;420;TEL AVIV
+ville421;province98;421;VATICAN
+ville427;province98;427;MEXICO
+ville428;province98;428;SANTIAGO
+ville514;province98;514;BOLOGNE
+ville515;province98;515;HELSINKI
+ville534;province98;534;BUDAPEST
+ville578;province98;578;JOUHANNESBURG
+ville617;province98;617;SIDI BEL ABBES
+ville712;province98;712;KUALA LUMPUR
+ville713;province98;713;SEOUL
+ville714;province98;714;MANAMA
+ville716;province98;716;DACCA
+ville730;province98;730;BAHRAIN
+ville739;province98;739;SANAA
+ville740;province98;740;BUENOS AIRES
+ville741;province98;741;RENNES
+ville743;province98;743;ATHENES
+ville744;province98;744;STOKHOLM
+ville748;province98;748;BANGUI
+ville751;province98;751;MASQUIT
+ville770;province98;770;VIENNE
+ville775;province98;775;MONTREAL
+ville776;province98;776;RIO DE JANEIRO
+ville779;province98;779;SOFIA
+ville780;province98;780;MILANO
+ville781;province98;781;NIAMEY
+ville782;province98;782;NAIROBI
+ville785;province98;785;GUINEE EQUATORIALE
+ville786;province98;786;DJIBOUTI
+ville787;province98;787;MONTPELLIER
+ville788;province98;788;MONROVIA
+ville796;province98;796;BOUIRAT
+ville804;province98;804;AIN BEN TELLI
+ville805;province98;805;ALGESIRAS
+ville806;province98;806;DOHA
+ville810;province98;810;ABIDJAN
+ville811;province98;811;ABOU DHABI
+ville812;province98;812;ADDIS ABEBA
+ville813;province98;813;ALGER
+ville815;province98;815;AMMAN
+ville816;province98;816;ANKARA
+ville819;province98;819;BAGHDAD
+ville821;province98;821;BAMAKO
+ville823;province98;823;BELGRADE
+ville827;province98;827;BERNE
+ville829;province98;829;BEYROUTH
+ville830;province98;830;BONN
+ville834;province98;834;BRASILIA
+ville835;province98;835;BRUXELLES
+ville836;province98;836;BUCAREST
+ville837;province98;837;CONAKRY
+ville838;province98;838;COPENHAGUE
+ville839;province98;839;DAKAR
+ville840;province98;840;DAMAS
+ville841;province98;841;DJEDDAH
+ville843;province98;843;GENEVE
+ville844;province98;844;ISLAMABAD
+ville845;province98;845;KHARTOUM
+ville846;province98;846;KINSHASSA
+ville847;province98;847;KOWEIT
+ville848;province98;848;LAHAYE
+ville849;province98;849;LA HAVAN
+ville854;province98;854;LAGOS
+ville855;province98;855;LE CAIRE
+ville856;province98;856;LIBREVILLE
+ville857;province98;857;LISBONNE
+ville858;province98;858;LONDRES
+ville859;province98;859;MADRID
+ville862;province98;862;MOSCOU
+ville863;province98;863;NEW DELHI
+ville864;province98;864;NEW WORK
+ville865;province98;865;NOUAKCHOTT
+ville866;province98;866;OTAWA
+ville867;province98;867;PEKIN
+ville868;province98;868;QATAR
+ville869;province98;869;ROME
+ville877;province98;877;TEHERAN
+ville878;province98;878;TOKYO
+ville879;province98;879;TRIPOLI
+ville882;province98;882;TUNIS
+ville883;province98;883;VARSOVIE
+ville885;province98;885;WASHINGTON
+ville891;province98;891;YAOUNDE
+ville895;province98;895;AMESTERDAM
+ville897;province98;897;ANVERS
+ville898;province98;898;BARCELONE
+ville912;province98;912;BASTIA
+ville914;province98;914;BOBIGNY
+ville916;province98;916;BORDEAUX
+ville931;province98;931;DUSSELDORF
+ville962;province98;962;FRANCFORT
+ville964;province98;964;LAS PALMAS
+ville965;province98;965;LIEGE
+ville969;province98;969;LILLE
+ville970;province98;970;LYON
+ville973;province98;973;MALAGA
+ville975;province98;975;MARSEILLE
+ville980;province98;980;PARIS
+ville985;province98;985;NANTERRE
+ville989;province98;989;ORAN
+ville992;province98;992;ROTTERDAM
+ville995;province98;995;STRASBOURG

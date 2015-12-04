@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openerp>
+    <data>
+
+    
+			<!--											 -->
+    		<!-- 			Vue Formulaire / Form			 -->
+			<!--											 -->
+    
+	        
+	        <record model="ir.ui.view" id="newins_tree_view">
+				<field name="name">newins.tree</field>
+				<field name="model">apogee.newins</field>
+				<field name="arch" type="xml">
+					<form string="Effectif Nouveaux Tree">
+						<field name="annee" colspan="4" />
+						<field name="nbr" colspan="4" />
+						<field name="lic_tpd" colspan="4" />
+					</form>
+				</field>
+			</record>
+			
+			<record model="ir.ui.view" id="newins_perdip_graph_view">
+				<field name="name">newins.graph</field>
+				<field name="model">apogee.newins</field>
+				<field name="arch" type="xml">
+					<graph string="Effectif des Nouveaux inscrits par Diplôme" type="pie">
+						<field name="lic_tpd" />
+						<field name="nbr" operator="+"/>
+					</graph>
+
+				</field>
+			</record>
+
+                        <record model="ir.ui.view" id="newins_perfil_graph_view">
+                                <field name="name">newins.graph</field>
+                                <field name="model">apogee.newins</field>
+                                <field name="arch" type="xml">
+                                        <graph string="Effectif des Nouveaux inscrits Par filiére" type="pie">
+                                                <field name="lib_dip" />
+                                                <field name="nbr" operator="+"/>
+                                        </graph>
+
+                                </field>
+                        </record>
+
+                        <record model="ir.ui.view" id="newins_perprov_graph_view">
+                                <field name="name">newins.graph</field>
+                                <field name="model">apogee.newins</field>
+                                <field name="arch" type="xml">
+                                        <graph string="Effectif des Nouveaux inscrits par Province" type="pie">
+                                                <field name="province" />
+                                                <field name="nbr" operator="+"/>
+                                        </graph>
+
+                                </field>
+                        </record>
+
+
+
+
+			<record id="newins_search_view" model="ir.ui.view">
+            		<field name="name">newins.search</field>
+				<field name="model">apogee.newins</field>
+				<field name="arch" type="xml">
+		                	<search string="Search">
+						<field name="annee" string="Annee" />
+					</search>
+	            		</field>
+	        	</record>			
+	        
+	       <record model="ir.actions.act_window" id="newins_perdip_action">
+	            <field name="name">Effectif de Nouveaux inscrits par diplome</field>
+	            <field name="res_model">apogee.newins</field>
+	            <field name="view_type">form</field>
+	            <field name="view_mode">tree,graph</field>
+	            <field name="view_id" ref="newins_perdip_graph_view" />
+	            <field name="context">{'search_default_instructor_filter':1}</field>
+	        </record>
+
+               <record model="ir.actions.act_window" id="newins_perfil_action">
+                    <field name="name">Effectif de Nouveaux inscrits par filiere</field>
+                    <field name="res_model">apogee.newins</field>
+                    <field name="view_type">form</field>
+                    <field name="view_mode">tree,graph</field>
+                    <field name="view_id" ref="newins_perfil_graph_view" />
+                    <field name="context">{'search_default_instructor_filter':1}</field>
+                </record>
+
+               <record model="ir.actions.act_window" id="newins_perprov_action">
+                    <field name="name">Effectif de Nouveaux inscrits par province</field>
+                    <field name="res_model">apogee.newins</field>
+                    <field name="view_type">form</field>
+                    <field name="view_mode">tree,graph</field>
+                    <field name="view_id" ref="newins_perprov_graph_view" />
+                    <field name="context">{'search_default_instructor_filter':1}</field>
+                </record>
+
+
+					<menuitem id="newins_menu" name="Effectif des Nouveaux inscrits" parent="main_apogee_menu" sequence="1"/>
+			    	<menuitem id="newins_dip_menu" name="Par diplôme" parent="newins_menu" action="newins_perdip_action" sequence="2"/>
+			    	<menuitem id="newins_fil_menu" name="Par filière" parent="newins_menu" action="newins_perfil_action" sequence="2"/>
+			    	<menuitem id="newins_prov_menu" name="Par province" parent="newins_menu" action="newins_perprov_action" sequence="2"/>
+			    	<!--menuitem id="newins_prov_menu" name="Par province" parent="newins_menu" action=newins_perprov_action" sequence="2"/-->
+	    		
+			    	<!-- menuitem id="global_dip_menu" name="Par Diplôme" parent="global_menu" action="globaldipfiliere_dip_list_action" sequence="3"/>
+			    	<menuitem id="global_fil_menu" name="Par Filières" parent="global_menu" action="globaldipfiliere_fil_list_action" sequence="4"/>
+			    	<menuitem id="global_pays_menu" name="Par Pays" parent="global_menu" action="globalpays_pays_list_action" sequence="4"/>
+			    	<menuitem id="global_prov_menu" name="Par Province" parent="global_menu" action="globalprov_prov_list_action" sequence="5"/-->
+
+    </data>
+</openerp>

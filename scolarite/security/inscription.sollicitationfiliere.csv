@@ -1,0 +1,34 @@
+id,cod_etab,lib_etab,cod_dip,lib_dip,cod_fil,lib_fil,annee,nbr
+sollicitationfiliere_1,FDA,Faculté de Droit Aïn Sebaa,LEF,License dEtudes Fondamentales,S976,Sc. Economiques et Gestion,2014,6213
+sollicitationfiliere_2,FDM,Faculté de Droit Mohammedia,LEF,License dEtudes Fondamentales,D898,Droit En Arabe,2014,2544
+sollicitationfiliere_3,FDM,Faculté de Droit Mohammedia,LEF,License dEtudes Fondamentales,D340,Droit En Français,2014,1115
+sollicitationfiliere_4,FDM,Faculté de Droit Mohammedia,LEF,License dEtudes Fondamentales,L315,Licence Fondamentale en SCiences Economiques et Gestion,2014,105
+sollicitationfiliere_5,FDM,Faculté de Droit Mohammedia,LEF,License dEtudes Fondamentales,S372,Sciences Economiques et Gestion,2014,3847
+sollicitationfiliere_6,FLB,Faculté des Lettres Ben M'Sik,LEF,License dEtudes Fondamentales,E738,ETUDES ANGLAISES,2014,2807
+sollicitationfiliere_7,FLB,Faculté des Lettres Ben M'Sik,LEF,License dEtudes Fondamentales,E350,ETUDES ARABES,2014,2043
+sollicitationfiliere_8,FLB,Faculté des Lettres Ben M'Sik,LEF,License dEtudes Fondamentales,E590,ETUDES FRANCAISES,2014,3160
+sollicitationfiliere_9,FLB,Faculté des Lettres Ben M'Sik,LEF,License dEtudes Fondamentales,G720,GEOGRAPHIE,2014,298
+sollicitationfiliere_10,FLB,Faculté des Lettres Ben M'Sik,LEF,License dEtudes Fondamentales,H410,HISTOIRE ET CIVILISATION,2014,566
+sollicitationfiliere_11,FLB,Faculté des Lettres Ben M'Sik,LEF,License dEtudes Fondamentales,L393,Licence Fondamentale  Etudes Islamiques,2014,1293
+sollicitationfiliere_12,FLB,Faculté des Lettres Ben M'Sik,LEF,License dEtudes Fondamentales,P740,PHILOSOPHIE,2014,1023
+sollicitationfiliere_13,FLM,Faculté des Lettres Mohammedia,LEF,License dEtudes Fondamentales,L343,Licence  Fondamentale Etudes Anglaises,2014,1163
+sollicitationfiliere_14,FLM,Faculté des Lettres Mohammedia,LEF,License dEtudes Fondamentales,L988,Licence  Fondamentale Etudes Arabes,2014,3115
+sollicitationfiliere_15,FLM,Faculté des Lettres Mohammedia,LEF,License dEtudes Fondamentales,L318,Licence  Fondamentale Etudes Françaises,2014,1517
+sollicitationfiliere_16,FLM,Faculté des Lettres Mohammedia,LEF,License dEtudes Fondamentales,L875,Licence  Fondamentale Etudes Hispaniques,2014,822
+sollicitationfiliere_17,FLM,Faculté des Lettres Mohammedia,LEF,License dEtudes Fondamentales,L363,Licence  Fondamentale Etudes Islamiques,2014,1676
+sollicitationfiliere_18,FLM,Faculté des Lettres Mohammedia,LEF,License dEtudes Fondamentales,L704,Licence  Fondamentale Géographie,2014,803
+sollicitationfiliere_19,FLM,Faculté des Lettres Mohammedia,LEF,License dEtudes Fondamentales,L230,Licence Fondamentale Histoire et Civilisation,2014,259
+sollicitationfiliere_20,FLM,Faculté des Lettres Mohammedia,LEF,License dEtudes Fondamentales,L106,Licence Fondamentale Psychologie,2014,2108
+sollicitationfiliere_21,FLM,Faculté des Lettres Mohammedia,LEF,License dEtudes Fondamentales,L204,Licence Fondamentale Sociologie,2014,667
+sollicitationfiliere_22,FSB,Faculté des Sciences Ben M'Sik,DOC,Doctorat,D877,Doctorat Géologie,2014,120
+sollicitationfiliere_23,FSB,Faculté des Sciences Ben M'Sik,LEF,License dEtudes Fondamentales,L605,Licence Etudes Fondamentales Science Matière Physique,2014,9151
+sollicitationfiliere_24,FSB,Faculté des Sciences Ben M'Sik,LEF,License dEtudes Fondamentales,L362,Licence Fondamentale SMC,2014,7916
+sollicitationfiliere_25,FSB,Faculté des Sciences Ben M'Sik,LEF,License dEtudes Fondamentales,L555,Licence Fondamentales SMA,2014,204
+sollicitationfiliere_26,FSB,Faculté des Sciences Ben M'Sik,LEF,License dEtudes Fondamentales,L904,Licence Fondamentales SMI,2014,1058
+sollicitationfiliere_27,FSB,Faculté des Sciences Ben M'Sik,LEF,License dEtudes Fondamentales,L206,Licence Fondamentales STU,2014,75
+sollicitationfiliere_28,FSB,Faculté des Sciences Ben M'Sik,LEF,License dEtudes Fondamentales,L275,Licence Fondamentales SVI,2014,7887
+sollicitationfiliere_29,FST,Faculté des Sciences et Techniques,DEUT,Diplôme des Etudes Universitaires Techniques,D660,DEUST BCG,2014,3425
+sollicitationfiliere_30,FST,Faculté des Sciences et Techniques,DEUT,Diplôme des Etudes Universitaires Techniques,D530,DEUST MIP,2014,4039
+sollicitationfiliere_31,ENCG,Ecoles Nationales de Commerce et de Gestion,DENCG,Diplôme des Ecoles Nationales de Commerce et de Gestion,D305,Diplôme de l ENCG Casa,2014,1341
+sollicitationfiliere_32,ENCG,Ecoles Nationales de Commerce et de Gestion,DENCG,Diplôme des Ecoles Nationales de Commerce et de Gestion,D673,Diplôme ENCG,2014,105
+sollicitationfiliere_33,ENCG,Ecoles Nationales de Commerce et de Gestion,MS,Master Spé,M654,Master spécialisé Actuariat et Finance de Marché,2014,112

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <record id="b_ligned_appelof_view_search" model="ir.ui.view">
+            <field name="name">b.ligned.appelof.view.search</field>
+            <field name="model">b.ligned.appelof</field>
+            <field name="arch" type="xml">
+                <search string="Devis">
+                   	<field name="code"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="b_ligned_appelof_view_form" model="ir.ui.view">
+            <field name="name">b.ligned.appelof.view.form</field>
+            <field name="model">b.ligned.appelof</field>
+            <field name="arch" type="xml">
+                <form string="Devis" version="7.0">
+                <sheet>
+                        <group>
+                            <field name="code"/>
+                            <field name="devis"/>
+                        </group>
+                </sheet>
+                </form>
+            </field>
+        </record>
+         <record id="b_ligned_appelof_view_tree" model="ir.ui.view">
+            <field name="name">b.ligned.appelof.view.tree</field>
+            <field name="model">b.ligned.appelof</field>
+            <field name="arch" type="xml">
+                <tree string="Devis">
+                    <field name="code"/>
+                    <field name="devis"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_b_ligned_appelof" model="ir.actions.act_window">
+            <field name="name">Devis</field>
+            <field name="res_model">b.ligned.appelof</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem action="action_b_ligned_appelof" id="menu_devis" parent="budget_menu_ajouter" name="Devis" />
+
+    </data>
+</openerp>

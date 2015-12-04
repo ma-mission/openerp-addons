@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openerp>
+    <data>
+
+    
+			<!--											 -->
+    		<!-- 			Vue Formulaire / Form			 -->
+			<!--											 -->
+    
+	        
+			<record model="ir.ui.view" id="home_kanban_view">
+				<field name="name">home.kanban</field>
+				<field name="model">apogee.home</field>
+				<field name="type">kanban</field>
+				<field name="arch" type="xml">
+				        <kanban create="0">
+				            <templates>
+                		   		 <t t-name="kanban-box">
+						 	<!--field name="name"/--> 
+<div id="content"> 
+<br/>
+<div id="wrapper"> 
+<h3>
+	<center>
+		<img src="/home/static/src/img/logo-erp-mission.png" width="205px" height="80px"/>
+		Projet Tempus Mission [530495-TEMPUS-1-2012-1-MA-TEMPUS-SMGR]
+	</center>
+</h3>
+<!--img t-att-src="apogee.home/static/src/img/bg.png" class="oe_kanban_image"/-->
+
+ La mise en oeuvre d'une démarche qualité, le passage aux compétences et responsabilités élargies préconisé par l'ensemble des réformes que connaît le paysage universitaire marocain, l'adoption du concept de la contractualisation et l'approche par projet, exigent des universités l'instauration des mécanismes d'un pilotage efficace. Soutenu par le MESRSFC et l'INEM et le MNC représentant le secteur professionnel , et coordonné par l'UH1, le projet MISSION (durée 3 ans), associera ainsi 22 partenaires universitaires et institutionnelles du Maroc et de l'UE. Il consiste à améliorer la gestion des universités par la mise en place d'un SSIO . Plusieurs résultats sont attendus : -L'institutionnalisation du projet de création du SSI par les conseils des universités marocaines comme hautes instances décisionnelles -La réalisation d'un Schéma directeur du SI basé sur un diagnostic de l'état des lieux et une identification des besoins des universités et du paysage de l'enseignement supérieur marocain - le choix de l'ERP le plus adapté aux spécificités universitaires sur la base d'une étude comparative des ERP opens sources. 
+<table style="width:1100px; height: 170px; top:500px; margin-top:30px;">
+	<tr style=" padding-top: 100px; font-size: 16px; line-height: 1;">
+		<td style="border: 20px solid #EBEBEB; background: #ffeb41; width:200px; text-align: center; padding-top: 0px;"><span class="lettre">S</span><br/><span class="otto">Scolarité</span></td>
+		<td style="border: 20px solid #EBEBEB; background: #5bc2ce; width:200px; text-align: center; padding-top: 0px; "><span class="lettre">F</span><br/><span class="otto">Finance</span></td>
+		<td style="border: 20px solid #EBEBEB; background: #5D7162; width:200px; text-align: center; padding-top: 0px; "><span class="lettre">RH</span><br/><span class="otto">Ressources Humaines</span></td>
+		<td style="border: 20px solid #EBEBEB; background: #db84ad; width:200px; text-align: center; padding-top: 0px; "><span class="lettre">P</span><br/><span class="otto">Patrimoine</span></td>
+		<td style="border: 20px solid #EBEBEB; background: #F09609; width:200px; text-align: center; padding-top: 0px; "><span class="lettre">RS</span><br/><span class="otto">Recherche Scientifique</span></td>
+	</tr>
+</table>
+L'organisation des sessions de formations de stages et d'assistance technique au profit des équipes techniques et fonctionnelles du projet et accompagnant les diverses étapes de sa mise en oeuvre -L'implémentation de l'ERP au niveau de 4 universités pilotes par l'intégration de 4 briques métiers (scolarité, patrimoine, GRH et Gestion financière). -La généralisation du système et son exploitation au niveau de toutes les universités partenaires. Il est à noter que des plans de communication et d'évaluation seront établis afin d'assurer la qualité, la diffusion et la pérennité du projet au delà de sa période de mise en oeuvre. Une charte de bonne conduite sera également conclue pour garantir l'implication de tous les partenaires, le respect des règlements en vigueur et la bonne gestion du projet.
+
+<br/><h3> Partenaires </h3><br/>
+<center>
+		<img src="/home/static/src/img/usms.jpg" />
+		<img src="/home/static/src/img/AUF.jpg" />
+		<img src="/home/static/src/img/kth.png" />
+		<img src="/home/static/src/img/logo_cse.jpg" />
+		<img src="/home/static/src/img/logo_ibn_zohr.jpg" />
+		<img src="/home/static/src/img/logo_UH1_mini.jpg" />
+		<img src="/home/static/src/img/MESRSFC.jpg" />
+		<img src="/home/static/src/img/mnc.jpg" />
+		<img src="/home/static/src/img/UAE.png" />
+		<img src="/home/static/src/img/UCAM.jpg" />
+		<img src="/home/static/src/img/UCD.png" />
+		<img src="/home/static/src/img/UCP.png" />
+		<img src="/home/static/src/img/UGE.png" />
+		<img src="/home/static/src/img/UH2C.jpg" />
+		<img src="/home/static/src/img/UH2MC.jpg" />
+		<img src="/home/static/src/img/UITK.jpg" />
+		<img src="/home/static/src/img/UM1O.jpg" />
+		<img src="/home/static/src/img/UM5S.jpg" />
+		<img src="/home/static/src/img/UMIM.jpg" />
+		<img src="/home/static/src/img/umlm.jpg" />
+		<img src="/home/static/src/img/usmba.jpg" />
+		<img src="/home/static/src/img/UM5A.jpg" />
+
+</center>
+
+</div>
+</div>
+						 </t>
+
+				            </templates>
+				        </kanban>
+				</field>
+			</record>
+
+		   <!--record id="effectif_search_view" model="ir.ui.view">
+	            <field name="name">effectif_inscrit.search</field>
+	            <field name="model">apogee.effectif_inscrit</field>
+	            <field name="arch" type="xml">
+	                <search string="Search">
+						<field name="etablissement_id" string="Code Etab" />
+		                <separator/>
+						<field name="annee" string="Annee" />
+		                <group  string="Regrouper par :">
+		              		<filter string="Etablissement"  context="{'group_by':'etablissement_id'}"/>
+		              		<filter string="Diplome"  context="{'group_by':'diplome_id'}"/>
+		                </group>
+	  				 </search>
+	            </field>
+        	</record-->			
+	        
+	       <record model="ir.actions.act_window" id="home_action">
+	            <field name="name">Projet Mission-ERP</field>
+	            <field name="res_model">apogee.home</field>
+	            <field name="view_type">form</field>
+	            <field name="view_mode">kanban</field>
+	            <field name="context">{'search_default_instructor_filter':1}</field>
+	        </record>
+
+	
+	    	<menuitem id="main_home_menu" name="Accueil" action="home_action" sequence="0" />
+			    	<!--menuitem id="sollicitationeffectif_menu" name="Taux de sollic. des Filiéres" parent="inscription_menu" action="sollicitationfiliere_effectif_list_action" sequence="2"/-->
+	    		
+			    	<!-- menuitem id="global_dip_menu" name="Par Diplôme" parent="global_menu" action="globaldipfiliere_dip_list_action" sequence="3"/>
+			    	<menuitem id="global_fil_menu" name="Par Filières" parent="global_menu" action="globaldipfiliere_fil_list_action" sequence="4"/>
+			    	<menuitem id="global_pays_menu" name="Par Pays" parent="global_menu" action="globalpays_pays_list_action" sequence="4"/>
+			    	<menuitem id="global_prov_menu" name="Par Province" parent="global_menu" action="globalprov_prov_list_action" sequence="5"/-->
+
+    </data>
+</openerp>

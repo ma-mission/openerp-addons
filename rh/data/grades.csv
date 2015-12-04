@@ -1,0 +1,966 @@
+cadre_id/id;id;code;name
+030000;03000001;03000001;Président de la Chambre des Représentants 
+030000;03000002;03000002;Membre de la Chambre des Représentants 
+030100;03010001;03010001;Conseiller
+030101;03010101;03010101;Attachés administratif principal
+030101;03010102;03010102;Attachés administratif
+030102;03010201;03010201;Attaché administratif adjoint 2ème catégorie
+030102;03010202;03010202;Attaché administratif adjoint 1°catégorie
+030103;03010301;03010301;Secrétaire principal
+030103;03010302;03010302;Secrétaire
+030104;03010401;03010401;Agent principal
+030104;03010402;03010402;Agent 
+030105;03010501;03010501;Agent spécialisé 1° catégorie
+030105;03010502;03010502;Agent spécialisé 2° catégorie
+030105;03010503;03010503;Agent spécialisé 3° catégorie
+030105;03010504;03010504;Agent spécialisé 4° catégorie
+030200;03020001;03020001;Président de la chambre des conseillers
+030200;03020002;03020002;Membres de la chambre des conseillers
+040000;04000001;04000001;Premier Ministre 
+040000;04000002;04000002;Ministre d'Etat  
+040000;04000003;04000003;Ministre 
+040000;04000004;04000004;Secrétaire général du gouvernement  
+040000;04000005;04000005;Ministre délégué 
+040000;04000006;04000006;Secrétaire d'Etat 
+040000;04000007;04000007;Sous secrétaire d'Etat 
+040101;04010101;04010101;Chargé d'études 
+040101;04010102;04010102;Chargé de mission 
+050000;05000001;05000001;Président de la cour des comptes 
+050000;05000002;05000002;Emploi de procureur général du Roi  
+050001;05000101;05000101;Magistrat hors grade 
+050001;05000102;05000102;Magistrat du grade exceptionnel
+050001;05000103;05000103;Magistrat du premier grade
+050001;05000104;05000104;Magistrat du 2ème grade
+050001;05000105;05000105;Magistrat du 3ème grade
+060101;06010101;06010101;Commissaire judiciaire divisionnaire en chef
+060101;06010102;06010102;Commissaire judiciaire divisionnaire
+060102;06010201;06010201;Commissaire judiciaire
+060103;06010301;06010301;Rédacteur judiciaire principal
+060103;06010302;06010302;Rédacteur judiciaire
+060104;06010401;06010401;Secrétaire greffier principal
+060104;06010402;06010402;Secrétaire greffier
+060105;06010501;06010501;Agent de bureau principal
+060105;06010502;06010502;Agent de bureau
+060106;06010601;06010601;Huissier principal
+060106;06010602;06010602;Huissier
+060200;06020001;06020001;Magistrat hors grade 
+060200;06020002;06020002;Magistrat de grade exceptionnel
+060200;06020003;06020003;Magistrat de 1er grade
+060200;06020004;06020004;Magistrat de 2ème grade
+060200;06020005;06020005;Magistrat de 3ème grade
+060301;06030101;06030101;Contrôleur général 
+060302;06030201;06030201;Directeur hors classe
+060303;06030301;06030301;Directeur d'établissement de 1ère classe
+060303;06030302;06030302;Directeur d'établissement de 2ème classe
+060303;06030303;06030303;Directeur d'établissement de 3ème classe
+060304;06030401;06030401;Surveillant chef
+060304;06030402;06030402;Surveillant chef adjoint
+060305;06030501;06030501;Surveillant éducateur
+060306;06030601;06030601;Surveillant
+060401;06040101;06040101;Commissaire Judiciaire de grade principal
+060401;06040102;06040102;Commissaire Judiciaire de 1er grade
+060401;06040103;06040103;Commissaire Judiciaire de 2ème grade
+060401;06040104;06040104;Commissaire Judiciaire de 3ème grade
+060402;06040201;06040201;Rédacteur Judiciaire de 1er grade
+060402;06040202;06040202;Rédacteur Judiciaire de 2ème grade
+060402;06040203;06040203;Rédacteur Judiciaire de 3ème grade
+060402;06040204;06040204;Rédacteur Judiciaire de 4ème grade
+060403;06040301;06040301;Secrétaire Greffier de 1er grade
+060403;06040302;06040302;Secrétaire Greffier de 2ème grade
+060403;06040303;06040303;Secrétaire Greffier de 3ème grade
+060403;06040304;06040304;Secrétaire Greffier de grade principal
+070001;07000101;07000101;Emploi d'ambassadeur 
+070001;07000102;07000102;Emploi d'Ambassadeur Itinérant 
+070002;07000201;07000201;Ministre plénipotentiaire
+070002;07000202;07000202;Conseiller des affaires étrangères
+070002;07000203;07000203;Conseiller des affaires étrangères
+070002;07000204;07000204;Premier secretaire des affaires étrangères
+070002;07000205;07000205;Ministre plénipotentiaire
+070003;07000301;07000301;Conseiller économique 
+070004;07000401;07000401;Secrétaire des affaires étrangères
+070004;07000402;07000402;Deuxième secrétaire
+070004;07000403;07000403;Troisième secrétaire
+070005;07000501;07000501;Attaché principal des affaires étrangères
+070005;07000502;07000502;Attaché des affaires étrangères
+070005;07000503;07000503;Premier Attaché
+070005;07000504;07000504;Deuxième Attaché
+070005;07000505;07000505;Troisième Attaché
+070006;07000601;07000601;Chancelier principal
+070006;07000602;07000602;Chancelier
+070006;07000603;07000603;Premier chancelier
+070006;07000604;07000604;Deuxieme chancelier
+070006;07000605;07000605;Troisieme chancelier
+070007;07000701;07000701;Agent local
+070008;07000801;07000801;Ministre plénipotentiaire Général
+070008;07000802;07000802;Ministre plénipotentiaire
+070009;07000901;07000901;Conseiller des affaires étrangères
+070010;07001001;07001001;Secrétaire des affaires étrangères
+070011;07001101;07001101;Premier Attaché
+070011;07001102;07001102;Deuxième Attaché
+070011;07001103;07001103;Troisième Attaché
+070011;07001104;07001104;Quatrième Attaché
+070012;07001201;07001201;Premier chancelier
+070012;07001202;07001202;Deuxieme chancelier
+070012;07001203;07001203;Troisieme chancelier
+070012;07001204;07001204;Quatrième chancelier
+080001;08000101;08000101;Déssinateur projeteur
+080001;08000102;08000102;Déssinateur
+080002;08000201;08000201;Conducteur de travaux principal
+080002;08000202;08000202;Conducteur de travaux
+080101;08010101;08010101;Gouverneur ou wali (Fonction)  
+080102;08010201;08010201;Emploi d'administrateur principal 
+080103;08010301;08010301;Administrateur classe exceptionnelle
+080103;08010302;08010302;Administrateur 1ère classe
+080103;08010303;08010303;Administrateur 2ème classe
+080103;08010304;08010304;Administrateur du Ministère de l'Interieur
+080104;08010401;08010401;Administrateur adjoint classe exceptionnelle
+080104;08010402;08010402;Administrateur adjoint 1ère classe 
+080104;08010403;08010403;Administrateur adjoint 2ème classe 
+080104;08010404;08010404;Administrateur adjoint du Ministère de l'Interieur
+080105;08010501;08010501;Auxiliaire d'autorité 
+080201;08020101;08020101;Emploi supérieur d'inspecteur en chef  
+080201;08020102;08020102;Emploi supérieur d'inspecteur 
+080202;08020201;08020201;Commandant
+080202;08020202;08020202;Capitaine
+080202;08020203;08020203;Lieutenant
+080202;08020204;08020204;Lieutenant Colonel
+080203;08020301;08020301;Adjudant chef
+080203;08020302;08020302;Adjudant
+080203;08020303;08020303;Sergent chef
+080203;08020304;08020304;Sergent
+080204;08020401;08020401;Caporal chef
+080204;08020402;08020402;Caporal
+080204;08020403;08020403;Sapeur pompier de 1ère classe
+080204;08020404;08020404;Sapeur pompier de 2ème classe
+080205;08020501;08020501;Animateurs principal en affaires sociales des sapeurs pompiers
+080205;08020502;08020502;Animateurs en affaires sociales des sapurs pompiers
+080301;08030101;08030101;Contrôleur divisionnaire en chef des prix
+080301;08030102;08030102;Contrôleur divisionnaire des prix
+080302;08030201;08030201;Contrôleur des prix 
+080303;08030301;08030301;Contrôleur adjoint des prix
+080303;08030302;08030302;Contrôleur adjoint principal des prix
+080401;08040101;08040101;Mohtasseb 1ère catégorie 
+080401;08040102;08040102;Mohtasseb 2ème catégorie 
+080501;08050101;08050101;Inspecteur divisionnaire des transmissions en chef 
+080501;08050102;08050102;Inspecteur divisionnaire des transmissions
+080502;08050201;08050201;Inspecteur des transmissions
+080503;08050301;08050301;Inspecteur-adjoint principal des transmissions
+080503;08050302;08050302;Inspecteur-adjoint des transmissions
+080504;08050401;08050401;Contrôleur principal des transmissions
+080504;08050402;08050402;Contrôleur des transmissions
+080505;08050501;08050501;Agent de transmission
+080601;08060101;08060101;Inspecteur général 
+080601;08060102;08060102;Inspecteur général adjoint  
+080601;08060103;08060103;Inspecteur principal de 1ère classe
+080601;08060104;08060104;Inspecteur principal de 2ème classe
+080601;08060105;08060105;Inspecteur principal de 3ème classe
+080602;08060201;08060201;Inspecteur de 1ère classe
+080602;08060202;08060202;Inspecteur de 2ème classe
+080602;08060203;08060203;Inspecteur de 3ème classe
+080603;08060301;08060301;Moussaid de 1ère classe
+080603;08060302;08060302;Moussaid de 2ème classe
+080603;08060303;08060303;Moussaid de 3ème classe
+080603;08060304;08060304;Moussaid de 4ème classe
+080701;08070101;08070101;Mokhazeni
+080702;08070201;08070201;Brigadier
+080703;08070301;08070301;Brigadier chef
+080801;08080101;08080101;Emploi de prefet de police 
+080802;08080201;08080201;Contrôleur général 
+080803;08080301;08080301;Commissaire divisionnaire
+080803;08080302;08080302;Commissaire de police principal
+080803;08080303;08080303;Commissaire de police
+080804;08080401;08080401;Commandant de groupement
+080804;08080402;08080402;Commandant principal des gardiens de la paix 
+080804;08080403;08080403;Commandant des gardiens de la paix
+080804;08080404;08080404;Commandant de groupement de 1ere catégorie
+080804;08080405;08080405;Commandant de groupement de 2eme catégorie
+080805;08080501;08080501;Officier de police principal
+080805;08080502;08080502;Officier de police
+080806;08080601;08080601;Officier de paix principal
+080806;08080602;08080602;Officier de paix
+080807;08080701;08080701;Auxiliaire de police principale
+080807;08080702;08080702;Auxiliaire de police 
+080808;08080801;08080801;Assistante de police principale
+080808;08080802;08080802;Assistante de police 
+080809;08080901;08080901;Inspecteur de police principal
+080809;08080902;08080902;Inspecteur de police
+080810;08081001;08081001;Brigadier chef
+080810;08081002;08081002;Brigadier
+080810;08081003;08081003;Sous brigadier
+080810;08081004;08081004;Gardien de la paix
+080810;08081005;08081005;Gardien de la paix (echelle 5)
+080901;08090101;08090101;Khalifa Urbain 
+080901;08090102;08090102;Khalifa Rural 
+081001;08100101;08100101;Inspecteur général
+081001;08100102;08100102;Inspecteur de grade exceptionnel
+081001;08100103;08100103;Inspecteur-chef de mission
+081001;08100104;08100104;Inspecteur
+081101;08110101;08110101;Caporal de la protection civile
+081102;08110201;08110201;Sergent
+081102;08110202;08110202;Sergent chef
+081102;08110203;08110203;Adjudant
+081102;08110204;08110204;Adjudant chef
+081102;08110205;08110205;Adjudant chef major
+081103;08110301;08110301;Lieutenant
+081103;08110302;08110302;Capitaine
+081104;08110401;08110401;Commandant
+081104;08110402;08110402;Lieutenant Colonel 
+081104;08110403;08110403;Colonel
+081105;08110501;08110501;Animateur en affaires sociales
+081105;08110502;08110502;Animateur en affaires sociales principal
+081201;08120101;08120101;Directeur de centres régional d'investissement
+081301;08130101;08130101;Brigadier chef
+081301;08130102;08130102;Brigadier
+081301;08130103;08130103;Gardien de la paix 
+081302;08130201;08130201;Officier de paix principal
+081302;08130202;08130202;Officier de paix
+081303;08130301;08130301;Inspecteur de police principal
+081303;08130302;08130302;Inspecteur de police 
+081304;08130401;08130401;Officier de police principal
+081304;08130402;08130402;Officier de police 
+081305;08130501;08130501;Commandant de groupement de 1ere catégorie
+081305;08130502;08130502;Commandant de groupement de 2eme catégorie
+081305;08130503;08130503;Commandant principal des gardiens de la paix 
+081305;08130504;08130504;Commandant des gardiens de la paix 
+081306;08130601;08130601;Commissaire divisionnaire
+081306;08130602;08130602;Commissaire de police principal
+081306;08130603;08130603;Commissaire de police 
+081307;08130701;08130701;Controleur géneral
+081308;08130801;08130801;Prefet de police
+081401;08140101;08140101;Gouverneur principal
+081401;08140102;08140102;Gouverneur
+081402;08140201;08140201;Pacha principal
+081402;08140202;08140202;Pacha
+081403;08140301;08140301;Caïd principal
+081403;08140302;08140302;Caïd
+081404;08140401;08140401;Khalifa de Caïd principal
+081404;08140402;08140402;Khalifa de Caïd de 1er Grade
+081404;08140403;08140403;Khalifa de Caïd de 2ème Grade
+081501;08150101;08150101;PREFET DE POLICE (N.S)
+081501;08150102;08150102;CONTROLEUR GENERAL (N.S)
+081502;08150201;08150201;COMMISSAIRE DE POLICE DIVISIONNAIRE (N.S) 
+081502;08150202;08150202;COMMISSAIRE DE POLICE PRINCIPAL (N.S)
+081502;08150203;08150203;COMMISSAIRE DE POLICE (N.S)
+081503;08150301;08150301;OFFICIER DE POLICE PRINCIPAL (N.S)
+081503;08150302;08150302;OFFICIER DE POLICE (N.S)
+081504;08150401;08150401;INSPECTEUR DE POLICE PRINCIPAL (N.S)
+081504;08150402;08150402;INSPECTEUR DE POLICE (N.S)
+081505;08150501;08150501;COLONEL DE POLICE (N.S)
+081505;08150502;08150502;LIEUTENANT-COLONEL DE POLICE (N.S)
+081505;08150503;08150503;COMMANDANT DE POLICE (N.S)
+081506;08150601;08150601;CAPITAINE DE POLICE (N.S)
+081506;08150602;08150602;LIEUTENANT DE POLICE (N.S)
+081507;08150701;08150701;OFFICIER DE PAIX PRINCIPAL (N.S)
+081507;08150702;08150702;OFFICIER DE PAIX (N.S) 
+081508;08150801;08150801;BRIGADIER CHEF (N.S) 
+081508;08150802;08150802;BRIGADIER (N.S)
+081508;08150803;08150803;GARDIEN DE LA PAIX (N.S)
+090001;09000101;09000101;Rédacteur en chef principal
+090002;09000201;09000201;Rédacteur en chef grade principal
+090002;09000202;09000202;Rédacteur en chef premier grade 
+090003;09000301;09000301;Chef de rubrique grade principal
+090003;09000302;09000302;chef de rubrique premier grade
+090100;09010001;09010001;Opérateur en chef
+090100;09010002;09010002;Opérateur principal
+090100;09010003;09010003;Opérateur
+090100;09010004;09010004;Opérateur assistant
+090101;09010101;09010101;Rédacteur en chef de la RTM
+090101;09010102;09010102;Chef de rubrique de la RTM 
+090101;09010103;09010103;Rédacteur de la RTM 
+090102;09010201;09010201;Réalisateur de 1ère catégorie
+090102;09010202;09010202;Réalisateur de 2ème catégorie
+090103;09010301;09010301;Soliste 
+090103;09010302;09010302;Instrumentiste
+090104;09010401;09010401;Comédien et speaker de 1ère catégorie
+090104;09010402;09010402;Comédien et speaker de 2ème catégorie
+090105;09010501;09010501;Agent technique
+090105;09010502;09010502;Agent technique adjoint 
+090201;09020101;09020101;Rédacteur en chef 
+090201;09020102;09020102;Chef de rubrique de la RTM 
+090201;09020103;09020103;Rédacteur de la RTM 
+090201;09020104;09020104;Rédacteur en chef principal
+090201;09020105;09020105;Rédacteur en chef adjoint
+090201;09020106;09020106;Rédacteur principal de la R.T.M 
+090202;09020201;09020201;Réalisateur de 1ère catégorie
+090202;09020202;09020202;Réalisateur de 2ème catégorie
+090202;09020203;09020203;Réalisateur principal
+090203;09020301;09020301;Soliste 
+090203;09020302;09020302;Instrumentiste
+090203;09020303;09020303;Soliste principal
+090204;09020401;09020401;Comédien et speaker de 1ère catégorie
+090204;09020402;09020402;Comédien et speaker de 2ème catégorie
+090204;09020403;09020403;Comédien et speaker principal
+090205;09020501;09020501;Agent technique
+090205;09020502;09020502;agent technique adjoint 
+090301;09030101;09030101;Rédacteur en chef principal
+090301;09030102;09030102;Rédacteur en chef
+090302;09030201;09030201;Chef de rubrique
+090401;09040101;09040101;Rédacteur
+090401;09040102;09040102;rédacteur principal
+090402;09040201;09040201;Rédacteur en chef principal
+090402;09040202;09040202;Rédacteur en chef 
+090402;09040203;09040203;Rédacteur en chef adjoint
+090501;09050101;09050101;Instrumentiste principal
+090501;09050102;09050102;Instrumentiste de 1er grade
+090501;09050103;09050103;Instrumentiste de 2ème grade
+090502;09050201;09050201;Soliste principal
+090502;09050202;09050202;Soliste de 1er grade 
+090502;09050203;09050203;Soliste de 2ème grade
+090503;09050301;09050301;Présentateur principal
+090503;09050302;09050302;Présentateur de 1er grade
+090503;09050303;09050303;Présentateur de 2ème grade
+090504;09050401;09050401;Animateur principal
+090504;09050402;09050402;Animateur de 1er grade
+090504;09050403;09050403;Animateur de 2ème grade
+090505;09050501;09050501;Comédien principal
+090505;09050502;09050502;Comédien de 1er grade
+090505;09050503;09050503;Comédien de 2ème grade
+090506;09050601;09050601;Acteur principal
+090506;09050602;09050602;Acteur de 1er grade 
+090506;09050603;09050603;Acteur de 2ème grade
+090601;09060101;09060101;Assistant de production principal
+090601;09060102;09060102;1er assistant de production
+090601;09060103;09060103;2ème assistant de production
+090602;09060201;09060201;Producteur principal
+090602;09060202;09060202;Producteur
+090602;09060203;09060203;Producteur adjoint
+090603;09060301;09060301;Assistant opérateur principal
+090603;09060302;09060302;Assistant opérateur
+090604;09060401;09060401;Opérateur principal
+090604;09060402;09060402;Opérateur qualifié
+090604;09060403;09060403;Opérateur
+090605;09060501;09060501;Chef opérateur principal
+090605;09060502;09060502;Chef opérateur
+090605;09060503;09060503;Chef opérateur adjoint
+090606;09060601;09060601;Réalisateur principal
+090606;09060602;09060602;Réalisateur
+090606;09060603;09060603;Assistant réalisateur
+100001;10000101;10000101;"Professeur de l'enseignement supérieur du grade ""B"""
+100001;10000102;10000102;"Professeur de l'enseignement supérieur du grade ""A"""
+100002;10000201;10000201;Maître de conférences
+100003;10000301;10000301;"Maître assistant du grade ""C"""
+100003;10000302;10000302;"Maître assistant du grade ""B"""
+100003;10000303;10000303;"Maître assistant du grade ""A"""
+100004;10000401;10000401;"Assistant du grade ""B"""
+100004;10000402;10000402;"Assistant du grade ""A"""
+100101;10010101;10010101;Professeur de médecine, de pharmacie, ou de médecine dentaire 2è grade 
+100101;10010102;10010102;Professeur de médecine, de pharmacie, ou de médecine dentaire 1er grade 
+100102;10010201;10010201;Professeur agrégé de médecine, de pharmacie ou de médecine dentaire
+100103;10010301;10010301;Maître assistant de médecine, de pharmacie ou de médecine dentaire du 3è grade 
+100103;10010302;10010302;Maître assistant de médecine, de pharmacie ou de médecine dentaire 2è grade 
+100103;10010303;10010303;Maître assistant de médecine, de pharmacie ou de médecine dentaire 1er grade
+100201;10020101;10020101;Professeur de l'Enseignement Supérieur grade C
+100201;10020102;10020102;Professeur de l'Enseignement Supérieur Grade B
+100201;10020103;10020103;Professeur de l'Enseignement Supérieur Grade A
+100202;10020201;10020201;Professeur Habilité de l'Enseignement Supérieur Grade C
+100202;10020202;10020202;Professeur Habilité de l'Enseignement Supérieur Grade B
+100202;10020203;10020203;Professeur Habilité de l'Enseignement Supérieur Grade A
+100203;10020301;10020301;Professeur Assistant Grade D
+100203;10020302;10020302;Professeur Assistant Grade C
+100203;10020303;10020303;Professeur Assistant Grade B
+100203;10020304;10020304;Professeur Assistant Grade A
+100301;10030101;10030101;Professeur de l'enseignement supérieur du grade C
+100301;10030102;10030102;Professeur de l'enseignement superieur du grade B
+100301;10030103;10030103;Professeur de l'enseignement supérieur du grade A
+100302;10030201;10030201;Professeurs Agrégés du grade C
+100302;10030202;10030202;Professeurs agrégés du grade B
+100302;10030203;10030203;Professeur Agrégés du grade A
+100303;10030301;10030301;Professeurs Assistants du grade D
+100303;10030302;10030302;Professeurs assistants du grade C
+100303;10030303;10030303;Professeurs Assistants du grade B
+100303;10030304;10030304;Professeurs Assistants du grade A
+110101;11010101;11010101;Inspecteur principal
+110102;11010201;11010201;Inspecteur de l'enseignement secondaire
+110103;11010301;11010301;Inspecteur adjoint de l'enseignement du 1er degré
+110104;11010401;11010401;Inspecteur en chef de l'enseignement primaire
+110104;11010402;11010402;Inspecteur de l'enseignement primaire
+110201;11020101;11020101;Professeur du second cycle du grade principal
+110201;11020102;11020102;Professeur du second cycle du 1er grade
+110201;11020103;11020103;Professeur du second cycle du 2ème grade
+110202;11020201;11020201;Professeur du premier cycle du 1er grade
+110202;11020202;11020202;Professeur du premier cycle du 2ème grade
+110202;11020203;11020203;Professeur du premier cycle du 3ème grade
+110203;11020301;11020301;Instituteur du 1er grade
+110203;11020302;11020302;Instituteur du 2ème grade
+110203;11020303;11020303;Instituteur du 3ème grade
+110203;11020304;11020304;Instituteur du 4ème grade
+110204;11020401;11020401;Conseiller du premier degré
+110204;11020402;11020402;Moniteur
+110301;11030101;11030101;Inspecteur principal des services économiques
+110301;11030102;11030102;Inspecteur des services économiques
+110302;11030201;11030201;Intendant
+110303;11030301;11030301;Econome principal
+110303;11030302;11030302;Econome
+110304;11030401;11030401;Adjoint des services économiques
+110305;11030501;11030501;Secrétaire d'économat principal
+110305;11030502;11030502;Secrétaire d'économat
+110401;11040101;11040101;Inspecteur principal en orientation ou en planification de l'éducation
+110401;11040102;11040102;Inspecteur en orientation ou en planification de l'éducation
+110402;11040201;11040201;Conseiller en orientation ou en planification de l'éducation
+110403;11040301;11040301;Adjoint spécialisé en orientation et planification de l'éducation
+110403;11040302;11040302;Adjoint en orientation et planification de l'éducation
+110501;11050101;11050101;Conservateur principal des bibliothèques et archives
+110501;11050102;11050102;Conservateur des bibliothèques et archives
+110502;11050201;11050201;Conservateur adjoint des bibliothèques et archives
+110503;11050301;11050301;Documentaliste principale
+110503;11050302;11050302;Documentaliste
+110503;11050303;11050303;Documentaliste adjoint 
+110601;11060101;11060101;Surveillant du 1er grade
+110601;11060102;11060102;Surveillant du 2ème grade
+110601;11060103;11060103;Surveillant du 3ème grade
+110601;11060104;11060104;Surveillant du 4ème grade
+110701;11070101;11070101;Préparateur du 1èr grade
+110701;11070102;11070102;Préparateur du 2ème grade
+110701;11070103;11070103;Préparateur du 3ème grade
+110701;11070104;11070104;Préparateur du 4ème grade
+110801;11080101;11080101;Inspecteur pédagogique de l'enseignement primaire grade principal
+110801;11080102;11080102;Inspecteur pédagogique de l'enseignement primaire 1er grade
+110802;11080201;11080201;Inspecteur pédagogique de l'enseignement secondaire grade principal
+110802;11080202;11080202;Inspecteur pédagogique de l'enseignement secondaire 1er grade
+110901;11090101;11090101;Professeur de l'enseignement primaire 1er grade
+110901;11090102;11090102;Professeur de l'enseignement primaire 2eme grade
+110901;11090103;11090103;Professeur de l'enseignement primaire 3eme grade
+110902;11090201;11090201;Professeur de l'enseignement secondaire collégial 1er grade
+110902;11090202;11090202;Professeur de l'enseignement secondaire collégial 2eme grade
+110902;11090203;11090203;Professeur de l'enseignement secondaire collégial 3eme grade
+110903;11090301;11090301;Professeur de l'enseignement secondaire qualifié grade principal
+110903;11090302;11090302;Professeur de l'enseignement secondaire qualifié 1er grade
+110903;11090303;11090303;Professeur de l'enseignement secondaire qualifié 2eme grade
+110904;11090401;11090401;Professeur agrégé de l'enseignement secondaire qualifié grade principal
+110904;11090402;11090402;Professeur agrégé de l'enseignement secondaire qualifié 1er grade
+111001;11100101;11100101;Intendant grade principal
+111001;11100102;11100102;Intendant 1er grade
+111001;11100103;11100103;Intendant 2 eme grade
+111002;11100201;11100201;Inspecteur des services matériels et financiers grade pricipal
+111002;11100202;11100202;Inspecteur des services matériels et financiers 1er grade
+111101;11110101;11110101;Conseillers en orientation de l'education grade principal
+111101;11110102;11110102;Conseillers en orientation de l'education 1er grade
+111101;11110103;11110103;Conseillers en orientation de l'education 2eme grade
+111102;11110201;11110201;Inspecteur en orientation de l'éducation grade principal
+111102;11110202;11110202;Inspecteur en orientation de l'éducation 1er grade
+111103;11110301;11110301;Conseiller en planification de l'éducation grade principal
+111103;11110302;11110302;Conseiller en planification de l'éducation 1er grade
+111103;11110303;11110303;Conseiller en planification de l'éducation 2eme grade
+111104;11110401;11110401;Inspecteur en planification de l'éducation grade principal
+111104;11110402;11110402;Inspecteur en planification de l'éducation 1er grade
+111201;11120101;11120101;Attaché pédagogique 1er grade
+111201;11120102;11120102;Attaché pédagogique 2eme grade
+111201;11120103;11120103;Attaché pédagogique 3eme grade
+111202;11120201;11120201;Attaché d'economie et administration 1er grade
+111202;11120202;11120202;Attaché d'economie et administration 2eme grade
+111202;11120203;11120203;Attaché d'economie et administration 3eme grade
+111203;11120301;11120301;Attaché social 1er grade
+111203;11120302;11120302;Attaché social 2eme grade
+111203;11120303;11120303;Attaché social 3eme grade
+120101;12010101;12010101;Emploi supérieur de médecin inspecteur général 
+120101;12010102;12010102;Médecin hors grade 
+120101;12010103;12010103;Médecin grade exceptionnel
+120101;12010104;12010104;Médecin grade principal
+120101;12010105;12010105;Médecin premier grade
+120102;12010201;12010201;Pharmacien hors grade
+120102;12010202;12010202;Pharmacien grade exceptionnel
+120102;12010203;12010203;Pharmacien grade principal
+120102;12010204;12010204;Pharmacien premier grade
+120103;12010301;12010301;Chirurgien dentiste hors grade 
+120103;12010302;12010302;Chirurgien dentiste grade exceptionnel
+120103;12010303;12010303;Chirurgien dentiste grade principal
+120103;12010304;12010304;Chirurgien dentiste premier grade
+120202;12020201;12020201;Administrateur divisionnaire principal
+120202;12020202;12020202;Administrateur divisionnaire
+120203;12020301;12020301;Administrateur économe
+120204;12020401;12020401;Psychologue
+120204;12020402;12020402;Psychologue assistant
+120204;12020403;12020403;Psychologue Principal
+120205;12020501;12020501;A.S.D.E spécialiste principal
+120205;12020502;12020502;A.S.D.E spécialiste
+120206;12020601;12020601;Econome principal
+120206;12020602;12020602;Econome
+120207;12020701;12020701;Adjoint de santé diplômé d'Etat
+120208;12020801;12020801;Adjoint de santé breveté principal
+120208;12020802;12020802;Adjoint de santé breveté
+120209;12020901;12020901;Sous économe principal
+120209;12020902;12020902;Sous économe
+120210;12021001;12021001;Aide sanitaire
+120210;12021002;12021002;Infirmière
+120210;12021003;12021003;Aide sanitaire principal
+120301;12030101;12030101;Etudiant medecin interne
+120301;12030102;12030102;Etudiant medecin externe
+120401;12040101;12040101;Infirmière religieuse
+120501;12050101;12050101;Médecin, pharmacien, chirurgien, ingénieur conseil chargé de service
+120601;12060101;12060101;Infirmier auxiliaire de grade principal
+120601;12060102;12060102;Infirmier auxiliaire de 1er grade
+120601;12060103;12060103;Infirmier auxiliaire de 2ème grade
+120601;12060104;12060104;INFIRMIER AUXILIAIRE DE GRADE EXCEPTIONNEL
+120602;12060201;12060201;Infirmier diplômé d'etat de grade principal
+120602;12060202;12060202;Infirmier diplômé d'Etat de 1er grade
+120602;12060203;12060203;Infirmier diplômé d'Etat de 2ème grade
+120602;12060204;12060204;INFIRMIER DIPLOME D'ETAT GRADE PRINCIPAL (N.S)
+120603;12060301;12060301;Assistant médical principal
+120603;12060302;12060302;Assistant médical
+120701;12070101;12070101;"Médecin, chirurgien, biologiste, pharmacien et chirurgien dentiste des hôpitaux du grade ""C"""
+120701;12070102;12070102;"Médecin, chirurgien, biologiste, pharmacien et chirurgien dentiste des hôpitaux du grade ""B"""
+120701;12070103;12070103;"Médecin, chirurgien, biologiste, pharmacien et chirurgien dentiste des hôpitaux du grade ""A"" "
+130000;13000001;13000001;Trésorier Général du Royaume 
+130000;13000002;13000002;Contrôleur Général des engagements de dépenses 
+130101;13010101;13010101;Emploi supérieur d'inspecteur général des Finances 
+130101;13010102;13010102;Inspecteur des Finances chef de mission 
+130101;13010103;13010103;Inspecteur des Finances 
+130201;13020101;13020101;Inspecteur divisionnaire en chef 
+130201;13020102;13020102;Inspecteur divisionnaire
+130202;13020201;13020201;Inspecteur 
+130203;13020301;13020301;Inspecteur adjoint principal 
+130203;13020302;13020302;Inspecteur adjoint
+130204;13020401;13020401;Agent technique principal 
+130204;13020402;13020402;Agent technique
+130205;13020501;13020501;Brigadier chef et chef patron
+130205;13020502;13020502;Brigadier et/ou patron
+130206;13020601;13020601;Préposé et/ou matelot
+130301;13030101;13030101;Emploi Supérieur d'Inspecteur Général des Finances 
+130301;13030102;13030102;Inspecteur des Finances de Grade Exceptionnel
+130301;13030103;13030103;Inspecteur des Finances Chef de mission
+130301;13030104;13030104;Inspecteur des Finances
+140001;14000101;14000101;Inspecteur divisionnaire en chef du Tourisme
+140001;14000102;14000102;Inspecteur divisionnaire du Tourisme 
+140002;14000201;14000201;Inspecteur du tourisme 
+140003;14000301;14000301;Contrôleur d'hôtellerie
+140004;14000401;14000401;Animateur 
+140004;14000402;14000402;Agent d'acceuil
+150001;15000101;15000101;Administrateur principal des affaires Maritimes
+150001;15000102;15000102;Administrateur des affaires maritimes
+150002;15000201;15000201;Inspecteur de la marine marchande et des pêches maritimes 
+150003;15000301;15000301;Inspecteur adjoint de la marine marchande et des pêches maritimes
+150003;15000302;15000302;Inspecteur adjoint principal de la marine marchande et des pêches maritimes 
+150004;15000401;15000401;Contrôleur de la marine marchande et des pêches maritimes
+150005;15000501;15000501;Surveillant maritime principal
+150005;15000502;15000502;Surveillant maritime 
+150006;15000601;15000601;Garde maritime principal 
+150006;15000602;15000602;Garde maritime
+160001;16000101;16000101;Chef d'atelier
+160001;16000102;16000102;Chef d'atelier Principal
+160002;16000201;16000201;Contremaître
+160002;16000202;16000202;Agent de maîtrise
+160003;16000301;16000301;Agent spécialisé
+160004;16000401;16000401;Aide imprimeur
+160005;16000501;16000501;Agent de manutention
+160101;16010101;16010101;Conseiller juridique de grade exceptionnel
+160101;16010102;16010102;Conseiller juridique du premier grade
+160101;16010103;16010103;Conseiller juridique du deuxième grade
+170001;17000101;17000101;Commandant de port en chef
+170001;17000102;17000102;Commandant de port 
+170002;17000201;17000201;Capitaine de port
+170003;17000301;17000301;lieutenant de port
+170003;17000302;17000302;Sous-lieutenant de port 
+170004;17000401;17000401;Agent technique
+170005;17000501;17000501;Adjudant maritime principal 
+170005;17000502;17000502;Adjudant maritime
+170006;17000601;17000601;Conducteur de chantier principal
+170006;17000602;17000602;Conducteur de chantier 
+170007;17000701;17000701;Gardien maritime principal 
+170007;17000702;17000702;Gardien maritime
+170008;17000801;17000801;Chef de bureau
+170009;17000901;17000901;Contrôleur maritime 
+180001;18000101;18000101;Contrôleur principal de la circulation aérienne
+180001;18000102;18000102;Contrôleur de la circulation aérienne 1ère classe
+180001;18000103;18000103;Contrôleur de la circulation aérienne 2ème classe
+180002;18000201;18000201;Contrôleur principal des transports et de la circulation routiére
+180002;18000202;18000202;Contrôleur des transports et de la circulation routière
+180003;18000301;18000301;Agent technique
+180004;18000401;18000401;Conducteur de chantier principal
+180004;18000402;18000402;Conducteur de chantier 
+190001;19000101;19000101;Chef de centres techniques hors catégorie 
+190001;19000102;19000102;Chef de centres techniques 1° catégorie 
+190001;19000103;19000103;Chef de centres techniques 2° catégorie 
+190001;19000104;19000104;Chef de centres techniques 3° catégorie 
+190001;19000105;19000105;Chef de centres techniques 4° catégorie 
+190002;19000201;19000201;Receveur hors catégorie 
+190002;19000202;19000202;Receveur 1° catégorie 
+190002;19000203;19000203;Receveur 2° catégorie 
+190002;19000204;19000204;Receveur 3° catégorie 
+190002;19000205;19000205;Receveur 4° catégorie 
+190002;19000206;19000206;Receveur 5° catégorie 
+190002;19000207;19000207;Receveur 6° catégorie 
+190003;19000301;19000301;Emploi supérieur d'ingénieur général des transmissions  
+190003;19000302;19000302;Ingénieur en chef des transmissions
+190003;19000303;19000303;Ingénieur des transmissions
+190004;19000401;19000401;Inspecteur principal en chef des transmissions
+190004;19000402;19000402;Inspecteur principal des transmissions
+190004;19000403;19000403;Inspecteur des transmissions
+190005;19000501;19000501;Administrateur principal des postes et télécommunications
+190005;19000502;19000502;Administrateur des postes et télécommunications
+190006;19000601;19000601;Inspecteur principal en chef des postes et télécommunications
+190006;19000602;19000602;Inspecteur principal des postes et télécommunications
+190006;19000603;19000603;Inspecteur des postes et télécommunications
+190006;19000604;19000604;Inspecteur Principal en Chef
+190006;19000605;19000605;Inspecteur Principal 
+190006;19000606;19000606;Inspecteurs
+190007;19000701;19000701;Contrôleur principal 
+190007;19000702;19000702;Contrôleur 
+190008;19000801;19000801;Agent de contrôle
+190008;19000802;19000802;Agent principal d'exploitation
+190008;19000803;19000803;Agent d'exploitation
+190008;19000804;19000804;Agent principal d'exploitation
+190009;19000901;19000901;Agent d'exécution principal des postes et télécommunications
+190009;19000902;19000902;Agent d'exécution des postes et télécommunications
+190010;19001001;19001001;Contrôleur principal 
+190010;19001002;19001002;Contrôleur 
+190010;19001003;19001003;Contrôleur adjoint
+190011;19001101;19001101;Agent technique principal 
+190011;19001102;19001102;Agent technique
+190011;19001103;19001103;Agent technique-adjoint 
+190012;19001201;19001201;Chef de secteur principal 
+190012;19001202;19001202;Chef de secteur
+190012;19001203;19001203;Chef d'équipe principal 
+190012;19001204;19001204;Chef d'équipe
+190013;19001301;19001301;Agent principal des lignes 
+190013;19001302;19001302;Agent des lignes
+190014;19001401;19001401;Vérificateur principal 
+190014;19001402;19001402;Vérificateur
+190014;19001403;19001403;Agent de surveillance principal 
+190014;19001404;19001404;Agent de surveillance
+190015;19001501;19001501;Facteur principal
+190015;19001502;19001502;Facteur 
+190016;19001601;19001601;Contremaître principal 
+190016;19001602;19001602;Contremaître
+190017;19001701;19001701;Maître ouvrier principal 
+190017;19001702;19001702;Maître ouvrier
+190018;19001801;19001801;Ouvrier principal
+190018;19001802;19001802;Ouvrier 
+190019;19001901;19001901;Agent de manutention pincipal 
+190019;19001902;19001902;Agent de manutention
+200001;20000101;20000101;Conservateur principal de la propriété foncière et des hypothèques
+200001;20000102;20000102;Conservateur de la propriété foncière et des hypothèques
+200002;20000201;20000201;Contrôleur de la propriété foncière
+200003;20000301;20000301;Contrôleur adjoint principal de la propriété foncière
+200003;20000302;20000302;Contrôleur adjoint de la propriété foncière 
+200004;20000401;20000401;Préparateur de laboratoire principal 
+200004;20000402;20000402;Préparateur de laboratoire 
+200005;20000501;20000501;Agent technique principal 
+200005;20000502;20000502;Agent technique
+200006;20000601;20000601;Infirmier vétérinaire principal
+200006;20000602;20000602;Infirmier vétérinaire
+200007;20000701;20000701;Cavalier principal des Eaux et Forêts
+200007;20000702;20000702;Cavalier des Eaux et Forêts
+200007;20000703;20000703;Cavaliers des Eaux et Forêts de 2ème classe 
+200007;20000704;20000704;Cavaliers des Eaux et Forêts de 1ère classe 
+200007;20000705;20000705;Cavalier principal des Eaux et Forêts de 2ème classe
+200007;20000706;20000706;Cavalier principal des Eaux et Forêts de 1ère classe
+200008;20000801;20000801;Préposé des Eaux et Forêts de 2ème grade
+200008;20000802;20000802;Préposé des Eaux et Forêts de 1er grade
+200008;20000803;20000803;Préposé principal des Eaux et Forêts
+200009;20000901;20000901;Assistant scientifique des Eaux et Forêts
+200009;20000902;20000902;Assistant scientifique principal des Eaux et Forêts 
+200010;20001001;20001001;Infirmier vetérinaire spécialisé
+200100;20010001;20010001;Emploi de vétérinaire inspecteur général  
+200101;20010101;20010101;Vétérinaire inspecteur hors grade 
+200101;20010102;20010102;Vétérinaire inspecteur grade exceptionnel
+200101;20010103;20010103;Vétérinaire inspecteur grade principal 
+200101;20010104;20010104;Vétérinaire inspecteur 1er grade 
+210001;21000101;21000101;Inspecteur divisionnaire en chef 
+210001;21000102;21000102;Inspecteur divisionnaire
+210002;21000201;21000201;Inspecteur 
+210003;21000301;21000301;Educateur chef
+210003;21000302;21000302;Educateur 
+210004;21000401;21000401;Instructeur
+210005;21000501;21000501;Agent à contrat
+230000;23000001;23000001;Délegué Régional des Affaires Islamiques 
+260001;26000101;26000101;Inspecteur divisionnaire en chef de l'Artisanat
+260001;26000102;26000102;Inspecteur divisionnaire de l'Artisanat 
+260002;26000201;26000201;Inspecteur de l'Artisanat 
+260003;26000301;26000301;Inspecteur adjoint principal de l'Artisanat 
+260003;26000302;26000302;Inspecteur adjoint de l'Artisanat
+260004;26000401;26000401;Animateur principal des affaires sociales
+260004;26000402;26000402;Animateur en affaires sociales
+260004;26000403;26000403;Assistance sociale
+260005;26000501;26000501;Contrôleur de l'Artisanat 
+260006;26000601;26000601;Agent technique
+260007;26000701;26000701;Maâlem 
+270001;27000101;27000101;Inspecteur divisionnaire en chef 
+270001;27000102;27000102;Inspecteur divisionnaire
+270002;27000201;27000201;Inspecteur de l'Energie et des Mines 
+270003;27000301;27000301;Inspecteur adjoint principal de l'Energie et des Mines 
+270003;27000302;27000302;Inspecteur adjoint de l'Energie et des Mines 
+270004;27000401;27000401;Cartographe
+270004;27000402;27000402;Cartographe principal 
+270005;27000501;27000501;Préparateur de laboratoire 
+270005;27000502;27000502;Préparateur principal de laboratoire 
+270006;27000601;27000601;Agent technique
+280001;28000101;28000101;Inspecteur en chef
+280001;28000102;28000102;Inspecteur divisionnaire du commerce 
+280002;28000201;28000201;Inspecteur du commerce 
+280003;28000301;28000301;Inspecteur adjoint du commerce principal 
+280003;28000302;28000302;Inspecteur adjoint du commerce
+280004;28000401;28000401;Agent technique
+290101;29010101;29010101;Maître de recherche en chef
+290101;29010102;29010102;Maître de recherche en chef de grade B 
+290101;29010103;29010103;Maître de recherche en chef de grade A 
+290102;29010201;29010201;Maître de recherche 
+290103;29010301;29010301;Chargé de recherche 
+290103;29010302;29010302;Chargé de recherche de grade C 
+290103;29010303;29010303;Chargé de recherche de grade B 
+290103;29010304;29010304;Chargé de recherche de grade A 
+290104;29010401;29010401;Attaché de recherche 
+290104;29010402;29010402;Attaché de recherche de grade B
+290104;29010403;29010403;Attaché de recherche de grade A
+290201;29020101;29020101;Conservateur principal des Monuments et Sites 
+290201;29020102;29020102;Conservateurs des Monuments et Sites
+290201;29020103;29020103;Conservateurs adjoints de Monuments et Sites 
+290202;29020201;29020201;Inspecteur principal des monuments historiques
+290202;29020202;29020202;Inspecteur des monuments historiques
+290301;29030101;29030101;Inspecteur de l'enseignement Artistique
+290301;29030102;29030102;Inspecteur principal de l'enseignement artistique
+290302;29030201;29030201;Professeur de l'enseignement artistique
+290302;29030202;29030202;Professeur de l'enseignement artistique de grade principal
+290302;29030203;29030203;Professeur de l'enseignement artistique de 1er Grade
+290302;29030204;29030204;Professeur de l'enseignement artistique de 2ème Grade
+290303;29030301;29030301;Professeur adjoint de l'enseignement Artistique
+290303;29030302;29030302;Professeur adjoint de l'enseignement artistique de 1er Grade
+290303;29030303;29030303;Professeur adjoint de l'enseignement artistique de 2ème Grade
+290303;29030304;29030304;Professeur adjoint de l'enseignement artistique de 3ème Grade
+290304;29030401;29030401;Animateur
+290304;29030402;29030402;Animateur de 1er grade
+290304;29030403;29030403;Animateur de 2ème grade
+290304;29030404;29030404;Animateur de 3ème grade
+290305;29030501;29030501;Maître de l'enseignement artistique de 1er grade
+290305;29030502;29030502;Maître de l'enseignement artistique de 2ème grade
+290305;29030503;29030503;Maître de l'enseignement artistique de 3ème grade
+290305;29030504;29030504;Maître de l'enseignement artistique de 4ème grade
+290305;29030505;29030505;Animateur
+290401;29040101;29040101;Assistant principal de Musée 
+290401;29040102;29040102;Assistant de Musée 
+290402;29040201;29040201;Conservateur principal de Musée 
+290402;29040202;29040202;Conservateur de Musée
+290402;29040203;29040203;Conservateur-adjoint de Musée 
+290501;29050101;29050101;Conservateur principal de bibliothèque et archive
+290501;29050102;29050102;Conservateur de bibliothèques et archives
+290501;29050103;29050103;Conservateur adjoint de bibliothèques et archives
+290501;29050104;29050104;Conservateur de la Bibliothèque générale et archives 
+290601;29060101;29060101;Gardien principal
+290601;29060102;29060102;Gardien de 1er grade 
+290601;29060103;29060103;Gardien de 2eme grade
+290601;29060104;29060104;Gardien de 3eme grade
+310001;31000101;31000101;Inspecteur divisionnaire en chef
+310001;31000102;31000102;Inspecteur divisionnaire du travail
+310002;31000201;31000201;Inspecteur du travail
+310003;31000301;31000301;Inspecteur adjoint principal
+310003;31000302;31000302;Inspecteur adjoint du travail 
+310004;31000401;31000401;Contrôleur principal
+310004;31000402;31000402;Contrôleur
+310005;31000501;31000501;Inspecteur général du travail 
+310005;31000502;31000502;Inspecteur du travail 1er grade
+310005;31000503;31000503;Inspecteur du travail de 2ème grade
+310005;31000504;31000504;Inspecteur du travail de 3 ème grade
+310006;31000601;31000601;Inspecteur adjoint du travail de 1er grade
+310006;31000602;31000602;Inspecteur adjoint du travail de 2ème grade
+310006;31000603;31000603;Inspecteur adjoint du travail de 3ème grade
+310006;31000604;31000604;Inspecteur adjoint du travail de 4ème grade
+340001;34000101;34000101;Général d'armeé
+340001;34000102;34000102;Général de corps d'armée
+340001;34000103;34000103;Général de division
+340001;34000104;34000104;Général de Brigade
+340002;34000201;34000201;Colonel major
+340002;34000202;34000202;Colonel
+340002;34000203;34000203;Lieutenant colonel
+340002;34000204;34000204;Commandant
+340003;34000301;34000301;Capitaine
+340003;34000302;34000302;Lieutenant
+340003;34000303;34000303;Sous-lieutenant
+340004;34000401;34000401;Aspirant
+340004;34000402;34000402;Adjudant chef
+340004;34000403;34000403;Adjudant
+340004;34000404;34000404;Sergent major
+340004;34000405;34000405;Sergent chef
+340004;34000406;34000406;Sergent
+340004;34000407;34000407;Maréchal des logis chef
+340004;34000408;34000408;Gendarme
+340005;34000501;34000501;Caporal chef
+340006;34000601;34000601;Caporal
+340006;34000602;34000602;Soldat de 1ère classe 
+340006;34000603;34000603;Soldat de 2ème classe 
+340006;34000604;34000604;Elève Gendarme
+340007;34000701;34000701;Appeles et rappeles
+340007;34000702;34000702;Réservistes rappelés
+340101;34010101;34010101;Officier général
+340102;34010201;34010201;Colonel major
+340102;34010202;34010202;Colonel
+340102;34010203;34010203;Lieutenant colonel
+340102;34010204;34010204;Commandant
+340103;34010301;34010301;Capitaine
+340103;34010302;34010302;Lieutenant
+340103;34010303;34010303;Sous-lieutenant
+350000;35000001;35000001;Haut commissaire aux anciens résistants et anciens membres de l'armée de libération 
+390000;39000001;39000001;Haut Commissaire aux Personnes Handicapées
+420000;42000001;42000001;Haut Commissaire au Plan 
+450000;45000001;45000001;Haut Commissaire aux Eaux et Forets et à la Lutte contre la désertification  
+510101;51010101;51010101;Commandant Général de Prison 
+510101;51010102;51010102;Commandant Divisionnaire de Prison 
+510101;51010103;51010103;Commandant Principal de Prison 
+510101;51010104;51010104;Commandant de Prison
+510102;51010201;51010201;Surveillant 1ère classe de Prison 
+510102;51010202;51010202;Surveillant 2ème classe de Prison 
+510102;51010203;51010203;Surveillant 3ème classe de Prison 
+510102;51010204;51010204;Surveillant 4ème classe de Prison 
+510103;51010301;51010301;Surveillant éducateur
+960000;96000001;96000001;Chargé d'études 
+970000;97000001;97000001;Secrétaire général 
+970000;97000002;97000002;Directeur général  
+970000;97000003;97000003;Directeur d'administration centrale 
+970000;97000004;97000004;Inspecteur général 
+970000;97000005;97000005;Directeur d'académie de l'éducation nationale 
+970000;97000006;97000006;Inspecteur régional de l'urbanisme, de l'architecture et del'aménagement du territoire
+970000;97000007;97000007;Secrétaire général du conseil supérieur des oulemas 
+970000;97000008;97000008;Directeur de l'Institut Royal pour la recherche sur l'histoire du Maroc 
+970000;97000009;97000009;Directeur de l'Institut Dar El Hadith EL HASSANIA
+980001;98000101;98000101;Administrateur principal 
+980001;98000102;98000102;Administrateur
+980002;98000201;98000201;Administrateur adjoint 
+980003;98000301;98000301;Rédacteur principal 
+980003;98000302;98000302;Rédacteur
+980004;98000401;98000401;Secrétaire principal
+980004;98000402;98000402;Secrétaire
+980005;98000501;98000501;Agent d'exécution principal
+980005;98000502;98000502;Agent d'exécution
+980006;98000601;98000601;Agent de service principal
+980006;98000602;98000602;Agent de service
+980101;98010101;98010101;Adjoint technique hors catégorie
+980101;98010102;98010102;Adjoint technique de 1ère catégorie
+980101;98010103;98010103;Adjoint technique de 2ème catégorie
+980101;98010104;98010104;Adjoint technique de 3ème catégorie
+980101;98010105;98010105;Adjoint technique de 4ème catégorie
+980101;98010106;98010106;Adjoint technique Hors Catégorie Principal 
+980201;98020101;98020101;Chef d'atelier
+980202;98020201;98020201;Contremaître
+980202;98020202;98020202;Agent de maîtrise
+980203;98020301;98020301;Agent spécialisé
+980204;98020401;98020401;Aides imprimeurs
+980205;98020501;98020501;Agents de manutention
+990101;99010101;99010101;Emploi supérieur d'ingénieur général 
+990102;99010201;99010201;Ingénieur en chef
+990103;99010301;99010301;Ingénieur d'Etat grade principal
+990103;99010302;99010302;Ingénieur d'Etat 1er grade
+990104;99010401;99010401;Ingénieur d'application grade principal
+990104;99010402;99010402;Ingénieur d'application 1er grade 
+990105;99010501;99010501;Emploi supérieur d'architecte général 
+990106;99010601;99010601;Architecte en chef 
+990107;99010701;99010701;Architecte grade principal 
+990107;99010702;99010702;Architecte premier grade
+990201;99020101;99020101;Emploi supérieur d'analyste concepteur général 
+990201;99020102;99020102;Analyste concepteur principal 
+990201;99020103;99020103;Analyste concepteur
+990202;99020201;99020201;Analyste 
+990203;99020301;99020301;Programmeur principal
+990203;99020302;99020302;Programmeur
+990203;99020303;99020303;Programmeur analyste
+990204;99020401;99020401;Moniteur
+990205;99020501;99020501;Opérateur principal 
+990205;99020502;99020502;Opérateur
+990301;99030101;99030101;Informatiste principal 
+990301;99030102;99030102;Informatiste spécialisé
+990301;99030103;99030103;Informatiste
+990400;99040001;99040001;Technicien principal
+990400;99040002;99040002;Technicien de 1er grade
+990400;99040003;99040003;Technicien de 2ème grade
+990400;99040004;99040004;Adjoint technique spécialisé
+990400;99040005;99040005;Adjoint technique
+990400;99040006;99040006;Technicien de 1er grade
+990400;99040007;99040007;Technicien de 2ème grade
+990400;99040008;99040008;Technicien de 3ème grade
+990400;99040009;99040009;Technicien de 4ème grade
+990501;99050101;99050101;"Professeur des Etablissements de formation des cadres du grade ""B"" "
+990501;99050102;99050102;"Professeur des Etablissements de formation des cadres du grade ""A"" "
+990502;99050201;99050201;Maître de conférence des Etablissements de formation des cadres 
+990503;99050301;99050301;"Maître assistant des Etablissements de formation des cadres du grade ""C"" "
+990503;99050302;99050302;"Maître assistant des Etablissements de formation des cadres du grade ""B"" "
+990503;99050303;99050303;"Maître assistant des Etablissements de formation des cadres du grade ""A"""
+990504;99050401;99050401;"Assistant des Etablissements de formation des cadres du grade ""B"""
+990504;99050402;99050402;"Assistant des Etablissements de formation des cadres du grade ""A"" "
+990601;99060101;99060101;Directeur de cabinet 
+990601;99060102;99060102;Chef de cabinet
+990601;99060103;99060103;Conseiller technique
+990601;99060104;99060104;Attaché de cabinet 
+990601;99060105;99060105;Chargé de mission
+990601;99060106;99060106;Chef de secrétariat particulier
+990601;99060107;99060107;Conseiller Juridique
+990601;99060108;99060108;Conseiller aux affaires parlementaires
+990601;99060109;99060109;Conseiller à la communication
+990601;99060110;99060110;Attaché de presse 
+990602;99060201;99060201;Secrétaire principal 
+990602;99060202;99060202;Secrétaire
+990602;99060203;99060203;Agent d'exécution
+990602;99060204;99060204;Adjoint technique de 3ème catégorie
+990602;99060205;99060205;Agent de service
+990603;99060301;99060301;Adjoint technique de 1ère catégorie
+990603;99060302;99060302;Adjoint technique de 2ème catégorie
+990603;99060303;99060303;Adjoint technique de 4ème catégorie
+990701;99070101;99070101;Civiliste ( echelle 11) 
+990701;99070102;99070102;Civiliste ( echelle 10) 
+990701;99070103;99070103;Civiliste ( echelle 8) 
+990702;99070201;99070201;Agent à contrat
+990801;99080101;99080101;Agent permanent
+990801;99080102;99080102;Agent permanent personnel technique et de maîtrise 
+990801;99080103;99080103;Personnel ouvrier permanent
+990901;99090101;99090101;Inspecteur 1er grade 
+990901;99090102;99090102;Inspecteur 2ème grade
+990901;99090103;99090103;Inspecteur 3ème grade
+990902;99090201;99090201;Conseiller en orientation et en planification professionnelle
+990903;99090301;99090301;Professeur du 1er grade
+990903;99090302;99090302;Professeur du 2ème grade
+990903;99090303;99090303;Professeur du 3ème grade
+990904;99090401;99090401;Chef de travaux de 1er grade
+990904;99090402;99090402;Chef de travaux de 2ème grade
+990904;99090403;99090403;Chef de travaux de 3ème grade
+991001;99100101;99100101;Professeur de l'Enseignement Supérieur grade C
+991001;99100102;99100102;Professeur de l'Enseignement Supérieur grade B
+991001;99100103;99100103;Professeur de l'Enseignement Supérieur grade A
+991002;99100201;99100201;Professeur Habilité grade C
+991002;99100202;99100202;Professeur Habilité grade B
+991002;99100203;99100203;Professeur Habilité grade A
+991003;99100301;99100301;Professeur Assistant grade D 
+991003;99100302;99100302;Professeur Assistant grade C
+991003;99100303;99100303;Professeur Assistant grade B
+991003;99100304;99100304;Professeur Assistant grade A
+991100;99110001;99110001;Emploi supérieur de médecin général
+991100;99110002;99110002;Emploi supérieur de pharmacien général
+991100;99110003;99110003;Emploi supérieur de chirurgien dentiste général
+991101;99110101;99110101;Medecins hors grade
+991101;99110102;99110102;Medecins grade exceptionnel
+991101;99110103;99110103;Medecins grade principal
+991101;99110104;99110104;Medecins premier grade
+991102;99110201;99110201;Pharmacien hors grade
+991102;99110202;99110202;Pharmacien grade exceptionnel
+991102;99110203;99110203;Pharmacien grade principal
+991102;99110204;99110204;Pharmacien premier grade
+991103;99110301;99110301;Chirurgien dentiste hors grade
+991103;99110302;99110302;Chirurgien dentiste grade exceptionnel
+991103;99110303;99110303;Chirurgien dentiste grade principal
+991103;99110304;99110304;Chirurgien dentiste premier grade
+991200;99120001;99120001;Emploi supérieur de médecin vétérinaire général
+991201;99120101;99120101;Medecins veterinaires hors grade
+991201;99120102;99120102;Medecins veterinaires grade exceptionnel
+991201;99120103;99120103;Medecins veterinaires grade principal
+991201;99120104;99120104;Medecins veterinaires premier grade
+991301;99130101;99130101;Emploi supérieur d’administrateur général
+991302;99130201;99130201;Administrateur premier grade
+991302;99130202;99130202;Administrateur deuxième grade
+991302;99130203;99130203;Administrateur troisième grade
+991401;99140101;99140101;Rédacteur premier grade
+991401;99140102;99140102;Rédacteur deuxième grade
+991401;99140103;99140103;Rédacteur troisième grade
+991401;99140104;99140104;Rédacteur quatrième grade
+991501;99150101;99150101;Adjoint technique premier grade
+991501;99150102;99150102;Adjoint technique deuxième grade
+991501;99150103;99150103;Adjoint technique troisième grade
+991501;99150104;99150104;Adjoint technique quatrième grade
+991601;99160101;99160101;Adjoint administratif premier grade
+991601;99160102;99160102;Adjoint administratif deuxième grade
+991601;99160103;99160103;Adjoint administratif troisième grade
+991601;99160104;99160104;Adjoint administratif quatrième grade
+991701;99170101;99170101;Emploi supérieur d'ingénieur général 
+991702;99170201;99170201;Ingénieur en chef grade principal
+991702;99170202;99170202;Ingénieur en chef premier grade
+991703;99170301;99170301;Ingénieur d'Etat grade principal
+991703;99170302;99170302;Ingénieur d'Etat premier grade
+991704;99170401;99170401;Emploi supérieur d'architecte général 
+991705;99170501;99170501;Architecte en chef grade principal
+991705;99170502;99170502;Architecte en chef premier grade
+991706;99170601;99170601;Architecte grade principal
+991706;99170602;99170602;Architecte premier grade

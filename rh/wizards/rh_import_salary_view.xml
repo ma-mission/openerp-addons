@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+		<record model="ir.ui.view" id="rh_import_salary_wz_form_view">
+            <field name="name">rh.import_salary_wz.form</field>
+            <field name="model">rh.import_salary_wz</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+				<form string="Import employe salary wizard" version="7.0">
+					<group>
+						<field name="fichier" class="oe_import_file"/>
+						<field name="mois" class="oe_inline"/>
+						<field name="annee" class="oe_inline"/>
+					</group>
+					<footer>
+						<button type="special" special="cancel" string="Cancel" icon="gtk-no"/>
+						<button type="object" name="import_salary" string="Import" icon="gtk-yes" confirm="Are you sure you want to import?"/>
+					</footer>
+				</form>
+            </field>
+        </record>
+		<record model="ir.actions.act_window" id="rh_import_salary_wz_action">
+			<field name="name">Import employe salary wizard</field>
+			<field name="res_model">rh.import_salary_wz</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">form</field>
+			<field name="target">new</field>
+		</record>
+		<menuitem name="Import employes salary" id="menu_import_employe_salary" parent="menu_import_data" action="rh_import_salary_wz_action"/>
+		
+    </data>
+</openerp>

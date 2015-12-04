@@ -1,0 +1,174 @@
+<html>
+<head>
+    <style type="text/css">
+        ${css}
+    </style>
+</head>
+<body style="font-family:'Times New Roman';font-size:16pt">
+	<%import datetime%>
+	<%def name="check_grade(obj)">
+		<%
+			for rec in obj:
+				if rec.state == "A":
+					return rec.grade_id.name
+			endfor
+			return False
+		%>
+	</%def>
+	<%def name="check_ville(obj)">
+		<%
+			for rec in obj:
+				if rec.state == "A":
+					return rec.ville_id.name
+			endfor
+			return False
+		%>
+	</%def>
+	<%def name="check_echelon(obj)">
+		<%
+			for rec in obj:
+				if rec.state == "A":
+					return rec.echelon_id.echelon
+			endfor
+			return False
+		%>
+	</%def>
+	<%def name="check_indice(obj)">
+		<%
+			for rec in obj:
+				if rec.state == "A":
+					return rec.echelon_id.code
+			endfor
+			return False
+		%>
+	</%def>
+	<%def name="check_civilite(obj)">
+		<%
+			if obj.gender == "M":
+				return "Monsieur"
+			else:
+				if obj.marital == "C":
+					return "Mademoiselle"
+				else:
+					if obj.marital == "":
+						return ""
+					else:
+						return "Madame"	  
+		%>
+	</%def>
+	<%def get_day():return time.strftime("%d/%m/%Y")%>
+   
+
+   %for employe in objects :
+	<div style="width:200px;align=left">
+		<div style="font-family: 'Free 3 of 9';font-size: 36pt;text-align:center;width:200px;">${data["form"]["doc_ref"]}</div>
+		<div style="text-align:center;width:200px;">${data["form"]["doc_ref"]}</div>
+	</div>
+	</br></br></br></br></br>
+	
+    <h1 style="text-align:center;font-size:36px;">ATTESTATION DE SALAIRE </h1>
+	
+	</br></br>
+	
+	<p style="font-size:18px;">
+	Le président de l'${company.partner_id.name or ""} de ${company.partner_id.city or ""} atteste que les émoulements ci-dessous sont servis à compter du 01/${employe.mois}/${employe.annee_id.annee} au 30/${employe.mois}/${employe.annee_id.annee} sur la base de données fournie par le D.R.P.P:</p>
+	<br/>
+    <table width="100%" class="basic_table">
+	 <tr>
+         <th>Matricule</th>
+         <th>Nom et Prénom</th>
+         <th>Résidence</th>
+      </tr>
+      <tr>
+         <td>${employe.som or ""}</td>
+         <td>${employe.complete_name or ""}</td>
+         <td>${check_ville(employe.fonction_ids) or ""}</td>
+      </tr>
+      <tr>
+         <th>C.I.N</th>
+         <th>Grade</th>
+         <th>Organisme</th>
+      </tr>
+      
+     <tr>
+         <td>${employe.cin or ""}</td>
+         <td>${check_grade(employe.fonction_ids) or ""}</td>
+         <td>${employe.organisme_id or ""}</td>
+      </tr>
+    </table>
+	<br/><br/>
+	<table   width="100%" class="basic_table">
+	 <tr>
+         <th>Date de Naissance</th>
+         <th>Date de Recrutement</th>
+         <th>Echelon</th>
+         <th>Indice</th>
+         <th>Pays</th>
+         <th>Nombre d'enfants</th>
+         <th>Déductions</th>
+      </tr>
+	  <tr>
+         <td>${datetime.datetime.strptime(employe.birthday,"%Y-%m-%d").strftime("%d/%m/%Y") or ""}</td>
+         <td>${datetime.datetime.strptime(employe.recrutement_date,"%Y-%m-%d").strftime("%d/%m/%Y") or ""}</td>
+         <td>${check_echelon(employe.fonction_ids) or ""}</td>
+         <td>${check_indice(employe.fonction_ids)or ""}</td>
+         <td>${employe.pays_id.name or ""}</td>
+         <td>${employe.num_children or ""}</td>
+         <td>${employe.deduction_rel or ""}</td>
+      </tr>
+    </table>
+	<br/><br/>
+	<table   width="100%" border="0">
+		<tr style="font-size:18px;">
+			<th style="text-align:center;">Emoulement Bruts Annuels</th>
+			<th></th>
+			<th style="text-align:center">Retenues</th>
+		</tr>
+		<tr valign="top">
+			<td>
+			<table   width="100%" class="basic_table">
+			%for emoulement in employe.emolument_ids:
+				<tr>
+					<td style="text-align:left;">${emoulement.rubrique_id.name or ''}</td>
+					<td style="text-align:right;">${emoulement.price or 0.00}</td>
+				</tr>
+			%endfor
+			</table>
+			</td>
+			<td>
+			</td>
+			<td>
+			<table   width="100%" class="basic_table">
+			%for retenue in employe.retenue_ids:
+				<tr>
+					<td style="text-align:left;">${retenue.rubrique_id.name or ''}</td>
+					<td style="text-align:right;">${retenue.price or 0.00}</td>
+				</tr>
+			%endfor
+			</table>
+			</td>
+		</tr>
+	</table>
+		
+	<br/><br/>
+	<table   width="100%" class="basic_table">
+		<tr>
+			<th>Brut Annuel</th>
+			<th>Total des Retenues</th>
+			<th>Net Annuel</th>
+			<th>Net Mensuel</th>
+		</tr>
+		<tr>
+			<td>${employe.brut_annuel or 0.00}</td>
+			<td>${employe.retenues or 0.00}</td>
+			<td>${employe.net_annuel or 0.00}</td>
+			<td>${employe.net_mensuel or 0.00}</td>
+		</tr>
+    </table>
+	<br/>
+
+	<div style="text-align:right;font-size:18px;">  ${company.partner_id.city or ""}, le ${ get_day() }</div>
+	<p style="page-break-after:always"></p>
+	%endfor
+</body>
+</html>

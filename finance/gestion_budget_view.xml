@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="b_exercice_view_search" model="ir.ui.view">
+            <field name="name">b.exercice.view.search</field>
+            <field name="model">b.exercice</field>
+            <field name="arch" type="xml">
+                <search string="Exercice">
+                    <field name="year"/>
+                    <group string="State">
+                        <filter name="Draft" domain="[('state','=','draft')]"/>
+                        <filter name="Validated" domain="[('state','=','validate')]"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record id="b_exercice_view_form" model="ir.ui.view">
+            <field name="name">b.exercice.view.form</field>
+            <field name="model">b.exercice</field>
+            <field name="arch" type="xml">
+                <form string="Exercice" version="7.0">
+                <sheet>
+                        <group>
+                            <field name="year"/>
+        
+                        </group>
+                </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_b_exercice" model="ir.actions.act_window">
+            <field name="name">Exercices</field>
+            <field name="res_model">b.exercice</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem action="action_b_exercice" id="menu_exercices" parent="budget_menu_finance" name="Exercices" />
+
+    </data>
+</openerp>

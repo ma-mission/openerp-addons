@@ -1,0 +1,42 @@
+id;Code;name
+03;03;Chambre des Représentants
+04;04;Membres du Gouvernement et Premier Ministère
+05;05;Personnel du premier Ministre-Cour des comptes
+06;06;Personnel du Ministère de la justice
+07;07;Personnel du Ministère des affaires étrangères et de la coopération
+08;08;Personnel du Ministère de l'intérieur et de l'information-intérieur
+09;09;Personnel du Ministère de l'intérieur et de l'information-information
+10;10;Personnel du Ministère de l'Education Nationale-Enseignement supérieur
+11;11;Personnel du Ministère de l'Education nationale-Enseignement primaire et secondaire
+12;12;Personnel du Ministère de la santé publique
+13;13;Personnel du Ministère des Finances
+14;14;Personnel du Ministère du tourisme
+15;15;Personnel du Ministère des pêches maritimes et de la marine marchande
+16;16;Secrétariat Général du Gouvernement
+17;17;Personnel du Ministère des travaux publics de la formation professionnelle et de la formation des cadres
+18;18;Personnel du Ministère des transports
+19;19;Personnel du Ministère des postes et des télécommunications
+20;20;Personnel du Ministère de l'agriculture et de la réforme agraire
+21;21;Personnel du Ministère de la jeunesse et des sports
+22;22;Personnel du Ministère délégué auprés du premier ministre chargé des affaires économiques
+23;23;Personnel du Ministére des habous et des affaires islamiques
+24;24;Personnel du Ministère délégué auprés du premier Ministre chargé du développement des provinces sahariennes
+25;25;Personnel du Ministére délégué auprés du premier Ministre chargé du plan
+26;26;Personnel du Ministère de l'artisanat et des affaires sociales
+27;27;Personnel du Ministère de l'énérgie et des mines
+28;28;Personnel du Ministère du commerce et de l'industrie
+29;29;Personnel du Ministère des affaires culturelles
+30;30;Personnel du Ministère de l'habitat
+31;31;Personnel du Ministère de l'emploi
+32;32;Personnel du Ministère chargé des relations avec le parlement
+33;33;Personnel du Ministère délégué auprés du premier Ministre chargé des affaires administratives
+34;34;Personnel de l'administration de la défense Nationale
+35;35;Personnel du haut commissariat aux anciens résistants et anciens membres de l'armée de libération
+39;39;Personnel du Haut Commissariat aux Personnes Handicapées
+42;42;Personnel du Haut Commissariat au Plan
+45;45;Personnel du Haut Commissariat aux Eaux et Forets et à la Lutte contre la Desertification
+51;51;Personnel de l'administration pénitentiaire et de la réinsertion
+96;96;Fonction supérieur de chargé d'études
+97;97;Fonctions supérieures propres aux départements ministériels
+98;98;Personnel commun aux administrations publiques
+99;99;Personnel interministèriel

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openerp>
+    <data>
+    
+	        <record model="ir.ui.view" id="course_form_view">
+				<field name="name">dipfiliere.form</field>
+				<field name="model">inscrits.dipfiliere</field>
+				<field name="arch" type="xml">
+					<form string="Dipfiliere Form">
+						<field name="cod_etab" colspan="4" />
+						<field name="lib_etab" colspan="4" />
+						<field name="cod_dip" colspan="4" />
+						<field name="lib_dip" colspan="4" />
+						<field name="cod_fil" colspan="4" />
+						<field name="lib_fil" colspan="4" />
+						<field name="annee" colspan="4" />
+						<field name="type" colspan="4" />
+						<field name="nbr" colspan="4" />
+					</form>
+				</field>
+			</record>
+	
+		 	<record model="ir.ui.view" id="course_tree_view">
+				<field name="name">dipfiliere.tree</field>
+				<field name="model">inscrits.dipfiliere</field>
+				<field name="arch" type="xml">
+					<tree string="Dipfiliere Tree">
+						<field name="cod_etab" />
+						<field name="lib_etab" />
+						<field name="cod_dip" />
+						<field name="lib_dip" />
+						<field name="cod_fil" />
+						<field name="lib_fil" />
+						<field name="annee" />
+						<field name="type" />
+						<field name="nbr" />
+					</tree>
+				</field>
+			</record>
+			
+		   <record id="course_search_view" model="ir.ui.view">
+	            <field name="name">dipfiliere.search</field>
+	            <field name="model">inscrits.dipfiliere</field>
+	            <field name="arch" type="xml">
+	                <search string="Search">
+						<field name="cod_etab" string="Code Etab" />
+						<field name="lib_etab" string="Lib Etab" />
+		                <separator/>
+						<field name="cod_dip" string="Code Diplome" />
+						<field name="lib_dip" string="Lib Diplome" />
+		                <separator/>
+						<field name="cod_fil" string="Code Filiere" />
+						<field name="lib_fil" string="Lib Filiere" />
+		                <separator/>
+						<field name="annee" string="Annee" />
+						<field name="type" string="Type"/>
+	  				 </search>
+	            </field>
+        	</record>
+	        
+			<record model="ir.ui.view" id="dip_graph_view">
+				<field name="name">dip.graph</field>
+				<field name="model">inscrits.dipfiliere</field>
+				<field name="arch" type="xml">
+					<graph string="Effectif des inscrits" type="bar">
+						<field name="cod_dip"/>
+						<field name="nbr" operator="+"/>
+						
+					</graph>
+				</field>
+			</record>
+	        
+	       <record model="ir.actions.act_window" id="inscrits_dip_list_action">
+	            <field name="name">Dips</field>
+	            <field name="res_model">inscrits.dipfiliere</field>
+	            <field name="view_type">form</field>
+	            <field name="view_mode">graph,tree,form</field>
+	            <field name="context">{'search_default_instructor_filter':1}</field>
+	        </record>
+	        
+	
+	    	<menuitem id="dip_menu" name="Par Diplôme" parent="mission_menu" action="inscrits_dip_list_action"/>
+
+    </data>
+</openerp>

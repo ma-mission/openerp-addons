@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openerp>
+    <data>
+
+    
+			<!--											 -->
+    		<!-- 			Vue Formulaire / Form			 -->
+			<!--											 -->
+
+    
+	        <record model="ir.ui.view" id="globalprov_form_view">
+				<field name="name">globalprov.form</field>
+				<field name="model">inscrits.globalprov</field>
+				<field name="arch" type="xml">
+					<form string="Global Prov Form">
+						<field name="cod_etab" colspan="4" />
+						<field name="lib_etab" colspan="4" />
+						<field name="cod_prov" colspan="4" />
+						<field name="lib_prov" colspan="4" />
+						<field name="annee" colspan="4" />
+						<field name="nbr" colspan="4" />
+					</form>
+				</field>
+			</record>
+	
+    
+			<!--											 -->
+    		<!-- 				Vue Liste / Tree			 -->
+			<!--											 -->
+
+
+		 	<record model="ir.ui.view" id="globalprov_tree_view">
+				<field name="name">globalprov.tree</field>
+				<field name="model">inscrits.globalprov</field>
+				<field name="arch" type="xml">
+					<tree string="Global Prov Tree">
+						<field name="cod_etab" />
+						<field name="lib_etab" />
+						<field name="cod_prov" />
+						<field name="lib_prov" />
+						<field name="annee" />
+						<field name="nbr" />
+					</tree>
+				</field>
+			</record>
+			
+    
+			<!--											 -->
+    		<!-- 					Vue Search	 			 -->
+			<!--											 -->
+
+		   <record id="globalprov_search_view" model="ir.ui.view">
+	            <field name="name">globalprov.search</field>
+	            <field name="model">inscrits.globalprov</field>
+	            <field name="arch" type="xml">
+	                <search string="Search">
+						<field name="cod_etab" string="Code Etab" />
+						<field name="lib_etab" string="Lib Etab" />
+		                <separator/>
+						<field name="cod_prov" string="Code Province" />
+						<field name="lib_prov" string="Lib Province" />
+		                <separator/>
+						<field name="annee" string="Annee" />
+		                <group  string="Regrouper par :">
+		              		<filter string="Etablissement"  context="{'group_by':'cod_etab'}"/>
+		              		<filter string="Province"  context="{'group_by':'cod_prov'}"/>
+		              		<filter string="Annee"  context="{'group_by':'annee'}"/>
+		                </group>
+	  				 </search>
+	            </field>
+        	</record>
+	        
+    
+			<!--											 -->
+    		<!-- 				Vue Graph / Province			 -->
+			<!--											 -->
+
+			<record model="ir.ui.view" id="globalprov_graph_view">
+				<field name="name">globalprov.graph</field>
+				<field name="model">inscrits.globalprov</field>
+				<field name="arch" type="xml">
+					<graph string="Effectif global des inscrits" type="pie">
+						<field name="lib_prov"/>
+						<field name="nbr" operator="+"/>
+					</graph>
+				</field>
+			</record>
+
+
+	       <record model="ir.actions.act_window" id="globalprov_data_list_action">
+	            <field name="name">Effectif global des inscrits - données</field>
+	            <field name="res_model">inscrits.globalprov</field>
+	            <field name="view_type">form</field>
+	            <field name="view_mode">tree</field>
+	            <field name="context">{'search_default_instructor_filter':1}</field>
+	        </record>
+	        
+	       <record model="ir.actions.act_window" id="globalprov_etab_list_action">
+	            <field name="name">Effectif global des inscrits par Etablissement</field>
+	            <field name="res_model">inscrits.globalprov</field>
+	            <field name="view_type">form</field>
+	            <field name="view_mode">graph</field>
+	            <field name="view_id" ref="globaletab_graph_view" />
+	            <field name="context">{'search_default_instructor_filter':1}</field>
+	        </record>
+	        
+	       <record model="ir.actions.act_window" id="globalprov_prov_list_action">
+	            <field name="name">Effectif global des inscrits par Province</field>
+	            <field name="res_model">inscrits.globalprov</field>
+	            <field name="view_type">form</field>
+	            <field name="view_mode">graph</field>
+	            <field name="view_id" ref="globalprov_graph_view" />
+	            <field name="context">{'search_default_instructor_filter':1}</field>
+	        </record>
+	        
+	
+	    	<menuitem id="main_apogee_menu" name="APOGEE" />
+	    		<menuitem id="globaldipfiliere_menu" name="Effectif global des inscrits" parent="main_apogee_menu"/>
+			    	<menuitem id="globalprov_fil_menu" name="Par Province" parent="globaldipfiliere_menu" action="globalprov_prov_list_action"/>
+
+    </data>
+</openerp>

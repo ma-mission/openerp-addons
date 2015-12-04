@@ -1,0 +1,81 @@
+<openerp>
+	<data>
+	
+		<record id="ptr_itervention_supplier_form" model="ir.ui.view">
+					<field name="name">ptr.intervention.supplier.form</field>
+					<field name="model">ptr.intervention</field>
+					<field name="arch" type="xml">
+						<form string="Intervention" version="7.0">
+							<header>	
+									<button name="Statut_EnCours" string="Statut En cours"  type="object"/>
+									<button name="Statut_Executee"  string="Statut Executee"  type="object"/>		
+							</header>
+
+								<group>
+									<group  col ="4">
+										<separator string ="Generale Info" colspan="4"/>
+												<field name="code"/>
+												<field name="libelle" colspan="1"/> 
+												<field name="unite" colspan="1" on_change="dep_onchange(unite)" widget="selection"/> 
+												<field name="ptrgeo" colspan="1" widget="selection"/> 
+												<field name="ptractif" colspan="1" widget="selection"/> 
+												<field name="personnel" colspan="1" widget="selection"/> 
+												<field name="priorite" colspan="1"/> 
+									</group>
+								</group>
+								<group>
+									<notebook >
+										<page string="Details">
+											<group>
+												<field name="probleme"/> 
+												<field name="diagnostic"/>
+												<field name="solution"/>
+											</group>
+	
+										</page>
+										<page string="Techniciens Internes">
+											<field name="technicien_ids"/> 
+										</page>
+										<page string="Prestations">
+											<field name="prestation_ids"/> 
+										</page>
+									</notebook>
+								</group>    
+						</form>
+					</field>
+		</record>
+			
+		<record id="ptr_intervention_tree_view1" model="ir.ui.view">
+            <field name="name">ptr.intervention</field>
+            <field name="model">ptr.intervention</field>
+            <field name="arch" type="xml">
+                <tree string="Intervention" version="7.0" create="0" colors="blue:statut=='Demande';red:statut=='En Cours';green:statut=='Executee'">
+					<field name="code" /> 
+					<field name="libelle"/>
+					<field name="unite"/> 
+					<field name="ptrgeo"/> 
+					<field name="ptractif"/> 
+					<field name="personnel"/> 
+					<field name="priorite"/> 
+					<field name="statut"/>
+					<field name="datedemande"/>
+					<field name="dateencours"/>
+					<field name="dateexeute"/>
+                </tree>
+            </field>
+        </record>
+		
+		<record model ="ir.actions.act_window" id="ptr_intervention_act">
+			<field name="name">Intervention</field>
+			<field name="res_model">ptr.intervention</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+			<field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to add a new record.
+              </p>
+            </field>
+		</record>
+	<menuitem id="ptr_intervention_menu" name="Intervention" parent="ptr_recapitul_menu" action="ptr_intervention_act"/>	
+	</data>
+</openerp>

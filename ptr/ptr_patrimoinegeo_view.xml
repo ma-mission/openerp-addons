@@ -1,0 +1,68 @@
+<openerp>
+	<data>
+	
+	<record id="ptr_patrimoinegeo_form_view" model="ir.ui.view">
+            <field name="name">ptr.patrimoinegeo.form</field>
+            <field name="model">ptr.patrimoinegeo</field>
+            <field name="arch" type="xml">
+                <form string="Patrimoin Geographique" version="7.0">
+					<sheet>
+						<field name="image" widget="image" class="oe_left oe_avatar" />
+						<div class="oe_title">
+							<h2> 
+								<label for="code" class="oe_edit_only" />
+								<field name="code"/> 
+							</h2>
+						</div>
+						<group  col ="6">
+							<separator string ="Generale Info" colspan="6"/>
+							<field name="designation" colspan="1"/>
+							<field name="type" colspan="1"/>
+							<field name="superficie" colspan="1"/>
+							<field name="capacite_accueil" colspan="1"/>
+							<field name="responsable" colspan="1" widget="selection"/>
+							
+						</group>
+						<notebook >
+							<page string="Attachements">
+								<group>
+									<field name="croquis"/> 
+									<field name="ficheimmeuble"/> 
+									<field name="ficheetage"/> 
+									<field name="fichelocal"/> 	
+								</group>
+							</page>
+							<page string="Personnel Occupant">
+								<field name="personnel_ids" nolabel="1"/>
+							</page>
+						</notebook> 
+					</sheet>     
+                </form>
+            </field>
+        </record>
+
+		<record id="ptr_patrimoinegeo_tree_view" model="ir.ui.view">
+            <field name="name">ptr.patrimoinegeo.tree</field>
+            <field name="model">ptr.patrimoinegeo</field>
+            <field name="arch" type="xml">
+                <tree string="Patrimoin Geographique"   version="7.0">
+					<field name="code" /> 
+					<field name="designation"/> 
+					<field name="type" />
+					<field name="superficie" />
+					<field name="capacite_accueil"/>
+					<field name="responsable" />
+                </tree>
+            </field>
+        </record>
+		<record model ="ir.actions.act_window" id="ptr_patrimoinegeo_act">
+			<field name="name">Patrimoin Geographique</field>
+			<field name="res_model">ptr.patrimoinegeo</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree</field>
+		</record>
+		
+		<menuitem id="ptr_patrimoinegeo_menu" name="Patrimoine Geographique" parent="ptr_recapitul_menu" action="ptr_patrimoinegeo_act"/>
+		
+	</data>
+</openerp>

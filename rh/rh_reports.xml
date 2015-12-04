@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openerp>
+    <data>
+	<!-- webkit -->
+	<report 
+		auto="False" 
+		id="attestation_travail_webkit" 
+		model="rh.employe" 
+		name="rh.employe.attestation_travail_webkit" 
+		file="rh/reports/attestation_travail_webkit.html"
+		menu="False"
+		string="Attestation de Travail" 
+		report_type="webkit"/> 
+	<report 
+		auto="False" 
+		id="autorisation_quittement_territoire_webkit" 
+		model="rh.employe" 
+		name="rh.employe.autorisation_quittement_territoire_webkit" 
+		file="rh/reports/autorisation_quittement_territoire_webkit.html" 
+		menu="False"
+		string="Autorisation de quittement de territoire" 
+		report_type="webkit"/>
+	<report 
+		auto="False" 
+		id="ordre_mission_webkit" 
+		model="rh.ordre_mission" 
+		name="rh.ordre_mission.ordre_mission_webkit" 
+		file="rh/reports/ordre_mission_webkit.html" 
+		menu="False"
+		string="Ordre de mission" 
+		report_type="webkit"/> 
+	 <report 
+		auto="False" 
+		id="attestation_salaire_webkit" 
+		model="rh.employe" 
+		name="rh.employe.attestation_salaire_webkit" 
+		file="rh/reports/attestation_salaire_webkit.html" 
+		menu="False"
+		string="Attestation de salaire" 
+		report_type="webkit"/> 
+	 
+	</data>
+</openerp>

@@ -1,0 +1,100 @@
+<openerp>
+    <data>
+		<!-- Definitions -->
+		<record model="workflow" id="ptr_inv_wkf">
+			<field name="name">ptr.inventaire.wkf</field>
+			<field name="osv">ptr.inventaire</field>
+			<field name="on_create">True</field>
+		</record>
+		
+		<!-- Activities-->		
+		<record model="workflow.activity" id="ptr_inv_wkf_act_saisie">
+			<field name="wkf_id" ref="ptr_inv_wkf" />
+			<field name="name">Saisie des donnees</field>
+			<field name="kind">function</field>
+			<field name="flow_start">True</field>
+			<field name="action">_saisie_fcn()</field>
+		</record>
+		
+		<record model="workflow.activity" id="ptr_inv_wkf_act_validation">
+			<field name="wkf_id" ref="ptr_inv_wkf" />
+			<field name="name">Validation</field>
+			<field name="kind">function</field>
+			<field name="action">_validation_fcn()</field>
+		</record>
+		
+		<record model="workflow.activity" id="ptr_inv_wkf_act_cloture">
+			<field name="wkf_id" ref="ptr_inv_wkf" />
+			<field name="name">Cloture</field>
+			<field name="kind">function</field>
+			<field name="action">_cloture_fcn()</field>
+		</record>
+		
+		<record model="workflow.activity" id="ptr_inv_wkf_act_res_inventaire">
+			<field name="wkf_id" ref="ptr_inv_wkf" />
+			<field name="name">Resultat inventaire</field>
+			<field name="kind">function</field>
+			<field name="action">_res_inventaire_fcn()</field>
+		</record>
+		
+		<record model="workflow.activity" id="ptr_inv_wkf_act_rapport_inventaire">
+			<field name="wkf_id" ref="ptr_inv_wkf" />
+			<field name="name">Rapport inventaire</field>
+			<field name="kind">function</field>
+			<field name="action">_rapport_inventaire_fcn()</field>
+		</record>
+		
+		<record model="workflow.activity" id="ptr_inv_wkf_act_validation_rp">
+			<field name="wkf_id" ref="ptr_inv_wkf" />
+			<field name="name">Validation RP</field>
+			<field name="kind">function</field>
+			<field name="action">_validation_rp_fcn()</field>
+		</record>
+		
+		<record model="workflow.activity" id="ptr_inv_wkf_act_cloture_globale">
+			<field name="wkf_id" ref="ptr_inv_wkf" />
+			<field name="name">Cloture Globale</field>
+			<field name="kind">function</field>
+			<field name="flow_stop">True</field>
+			<field name="action">_cloture_globale_fcn()</field>
+		</record>
+		
+		<!-- transitions -->
+		<record model="workflow.transition" id="ptr_inventaire_wkf_tr1">
+			<field name="act_from" ref="ptr_inv_wkf_act_saisie" />
+			<field name="act_to" ref="ptr_inv_wkf_act_validation" />
+			<field name="signal">validation</field>
+		</record>
+		
+		<record model="workflow.transition" id="ptr_inventaire_wkf_tr2">
+			<field name="act_from" ref="ptr_inv_wkf_act_validation" />
+			<field name="act_to" ref="ptr_inv_wkf_act_cloture" />
+			<field name="signal">cloture</field>
+		</record>
+	
+		<record model="workflow.transition" id="ptr_inventaire_wkf_tr3">
+			<field name="act_from" ref="ptr_inv_wkf_act_cloture" />
+			<field name="act_to" ref="ptr_inv_wkf_act_res_inventaire" />
+			<field name="signal">res_inventaire</field>
+		</record>
+		
+		<record model="workflow.transition" id="ptr_inventaire_wkf_tr4">
+			<field name="act_from" ref="ptr_inv_wkf_act_res_inventaire" />
+			<field name="act_to" ref="ptr_inv_wkf_act_rapport_inventaire" />
+			<field name="signal">rapport_inventaire</field>
+		</record>
+		
+		<record model="workflow.transition" id="ptr_inventaire_wkf_tr5">
+			<field name="act_from" ref="ptr_inv_wkf_act_rapport_inventaire" />
+			<field name="act_to" ref="ptr_inv_wkf_act_validation_rp" />
+			<field name="signal">validation_rp</field>
+		</record>
+		
+		<record model="workflow.transition" id="ptr_inventaire_wkf_tr6">
+			<field name="act_from" ref="ptr_inv_wkf_act_validation_rp" />
+			<field name="act_to" ref="ptr_inv_wkf_act_cloture_globale" />
+			<field name="signal">cloture_globale</field>
+		</record>
+
+   </data>
+</openerp>

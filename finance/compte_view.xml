@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <record id="b_compte_view_search" model="ir.ui.view">
+            <field name="name">b.compte.view.search</field>
+            <field name="model">b.compte</field>
+            <field name="arch" type="xml">
+                <search string="Comptes">
+                    <field name="code"/>
+                    <field name="desig"/>
+           
+                    <group string="State">
+                        <filter name="Draft" domain="[('state','=','draft')]"/>
+                        <filter name="Validated" domain="[('state','=','validate')]"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record id="b_compte_view_form" model="ir.ui.view">
+            <field name="name">b.compte.view.form</field>
+            <field name="model">b.compte</field>
+            <field name="arch" type="xml">
+                <form string="Compte" version="7.0">
+                <sheet>
+                        <group>
+                    		<field name="code"/>
+                    		<field name="desig"/>
+                    	
+                        </group>
+                </sheet>
+                </form>
+            </field>
+        </record>
+ 		<record id="b_compte_view_tree" model="ir.ui.view">
+            <field name="name">b.compte.view.tree</field>
+            <field name="model">b.compte</field>
+            <field name="arch" type="xml">
+                <tree string="Comptes">
+                    <field name="code"/>
+                    <field name="desig"/>
+                </tree>
+            </field>
+        </record>
+        <record id="action_b_compte" model="ir.actions.act_window">
+            <field name="name">Comptes</field>
+            <field name="res_model">b.compte</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem action="action_b_compte" id="_menu_comptes" parent="budget_menu_finance" name="Comptes" />
+
+    </data>
+</openerp>

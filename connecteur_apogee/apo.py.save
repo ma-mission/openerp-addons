@@ -1,0 +1,98 @@
+#! /usr/bin/env python
+# -*- coding:utf-8 -*-
+
+# -*- encoding: utf-8 -*-
+##############################################################################
+#
+#    OpenERP, Open Source Management Solution
+#    Copyright (C) 2004-2010 Tiny SPRL (http://tiny.be). All Rights Reserved
+#    
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see http://www.gnu.org/licenCourse(ses/.
+#
+##############################################################################
+from openerp import pooler
+from openerp import tools
+from tools.translate import _
+from openerp.osv import osv,fields
+import cx_Oracle
+import os
+import ast
+import logging
+
+_logger = logging.getLogger('Test openerp 2')
+
+class apo(osv.osv):
+    
+    _name = 'apogee.filiere' 
+    
+    _description = 'Filieres' 
+
+    os.environ['NLS_LANG'] = 'FRENCH_FRANCE.WE8ISO8859P9'
+
+    def get_config(self, cr, uid):
+
+        config = self.pool.get('apogee.config')
+        ids = config.search(cr, uid, [])
+        cfgs = config.browse(cr, uid, ids, [])
+
+        return cfgs[0] if cfgs else None
+
+
+    def load_data(self, cr, uid, context=None):
+	
+	cfg = self.get_config(cr, uid)
+
+	model = 'apogee.etablissement'
+	
+        conn = cx_Oracle.connect(cfg.username, cfg.password, cfg.address+':1521/'+cfg.sid)
+        cur_etab = conn.cursor()
+	cur_dip = conn.cursor()
+	cur_fil = conn.cursor()
+
+            SELECT COD_CMP, LIB_CMP, LIC_CMP FROM COMPOSANTE
+            ''',)
+
+	old_etabs = self.pool.get('apogee.etablissement')
+	ids = old_etabs.search(cr, uid, [])
+	self.pool.get('apogee.etablissement').unlink(cr, uid, ids, context)
+
+        old_dips = self.pool.get('apogee.diplome')
+        ids = old_dips.search(cr, uid, [])
+        self.pool.get('apogee.diplome').unlink(cr, uid, ids, context)
+
+	etab_id = 1
+
+	for etab in etabs:
+
+		etab_id = self.pool.get('apogee.etablissement').create(cr, uid, {'code': etab[0],'name': etab[1].replace("'", " ").decode('latin1'),})
+		
+		dips = cur_dip.execute('''SELECT distinct tp.cod_tpd_etb,tp.lic_tpd, tp.LIB_TPD, ins.COD_CMP 
+					FROM TYP_DIPLOME tp, DIPLOME dp , INS_ADM_ETP ins
+					where tp.cod_tpd_etb = dp.COD_TPD_ETB and dp.COD_DIP = ins.COD_DIP
+					and ins.COD_ANU = (select max(cod_anu) from ANNEE_UNI)
+					AND ins.ETA_IAE  = 'E' AND ins.COD_CMP = '%s' ''' % (etab[0],) ,)
+		
+		for dip in dips:
+
+			dip_id = self.pool.get('apogee.diplome').create(cr, uid, {'code': dip[1],'name': dip[2].replace("'", " ").decode('latin1'),'etablissement_id': etab_id,})
+
+
+		#print stat
+		#i += 1
+                _logger.info('APOGEE - Etablissement %s - %s est %s:' % (etab_id,etab[0],etab[1],))
+	
+	return ids
+
+apo()

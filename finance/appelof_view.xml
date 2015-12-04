@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+  
+    <record id="b_appelof_form" model="ir.ui.view">
+     <field name="name">b.appelof.form</field>
+     <field name="model">b.appelof</field>
+     <field name="arch" type="xml">
+        <form string="Engagement" version="7.0">  
+        <header>
+         <button name="print_quotation" string="Imprimer" type="object" states="draft" class="oe_highlight" groups="base.group_user"/>
+         <button name="print_quotation" string="Imprimer" type="object" states="sent" groups="base.group_user"/>
+         <button string="Offre reçue" name="received" states="sent" type="workflow" groups="base.group_hr_manager"/>
+         <button string="Confirmer le bon de commande" name="validate" states="received" type="workflow" groups="base.group_hr_manager"/>
+         <button string="Annuler" name="refuse" states="draft,received,sent" type="workflow" groups="base.group_hr_manager"/>
+         <field name="state" widget="statusbar" statusbar_visible="draft,sent,received,validate" statusbar_colors='{"validate":"blue","refuse":"red","sent":"green"}'/>
+       </header>
+    
+     <group>
+            <group>   
+          	<field name="code" />  
+          	<field name="exercice" />  
+            <field name="nature" />
+            <field name="compte" />
+            <field name="axe" />
+            <field name="sousaxe" />  
+          
+            </group>
+       		<group>    
+            <field name="lignef_ids" nolabel="1"> 
+              	<tree string="Lignef_appelof" editable="bottom">
+            		<field name="fournisseur" />
+           		</tree>
+              </field>
+          	</group>
+     </group>
+          	
+             <field name="ligne_ids"> 
+              	<tree string="Ligne_appelof" editable="bottom">
+            		<field name="article" />
+            		<field name="desc" />
+           			<field name="quantite" />
+           			<field name="prixest" />
+           	
+           		</tree>
+              </field>
+              <group class="oe_subtotal_footer oe_right" >
+        	<field name="brut"/>
+        	<field name="taxe"/>
+        	<field name="total"/>	
+        	</group> 
+      
+           <group attrs="{'invisible':[('state','in',('draft','sent'))]}">
+           <group>
+           	 <field name="pv" />
+           	</group>
+             <field name="ligned_ids" nolabel="1"> 
+              	<tree string="Ligned_appelof" editable="bottom">
+            		<field name="devis" />
+           		</tree>
+             </field>
+           </group> 
+        </form>
+    </field>			
+   </record>
+   
+     <record id="b_appelof_view_tree" model="ir.ui.view">
+            <field name="name">b.appelof.view.tree</field>
+            <field name="model">b.appelof</field>
+            <field name="arch" type="xml">
+                <tree string="Bon de commande">
+                    <field name="code"/>
+                    <field name="nature"/>
+                    <field name="compte"/>
+                    <field name="axe"/>
+                    <field name="sousaxe"/>
+                    <field name="state"/>
+                </tree>
+            </field>
+        </record>
+        
+
+      	<!-- <group class="oe_subtotal_footer oe_right">
+           <field name="brut" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+           <field name="amount_tax" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+           <div class="oe_subtotal_footer_separator oe_inline">
+           <label for="amount_total"/>
+           </div>
+           <field name="amount_total" nolabel="1" class="oe_subtotal_footer_separator" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+      </group>     
+          -->
+
+	 <record id="action_b_appelof" model="ir.actions.act_window">
+            <field name="name">Bon de commande</field>
+            <field name="res_model">b.appelof</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+	
+
+	<menuitem action="action_b_appelof"
+        name="Bon de commande" 
+        id="menu_appelof" 
+        parent="budget_menu_engagement" 
+        />
+       
+  </data>
+</openerp>

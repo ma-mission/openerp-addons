@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<search string="Search">
+						<field name="etablissement_id" string="Code Etab"/>
+		                <separator/>
+						<field name="annee" string="Annee"/>
+		                <group string="Regrouper par :">
+		              		<filter string="Etablissement" context="{'group_by':'etablissement_id'}"/>
+		              		<filter string="Diplome" context="{'group_by':'diplome_id'}"/>
+		                </group>
+						<group expand="1" string="Filtres">
+							<filter string="Fac Droit Aïn Sebaa" icon="terp-personnal+" domain="[('etablissement_id','=',6)]" />
+							<filter string="Fac Droit Mohammedia" icon="terp-personnal+" domain="[('etablissement_id','=',7)]" />
+							<filter string="Fac Lettres Ben M'Sik" icon="terp-personnal+" domain="[('etablissement_id','=',8)]" />
+							<filter string="Fac Lettres Mohammedia" icon="terp-personnal+" domain="[('etablissement_id','=',9)]" />
+							<filter string="Fac Sciences Ben M'Sik" icon="terp-personnal+" domain="[('etablissement_id','=',10)]" />
+						</group>
+	  				 </search>
+	            
+				
+											<separator/>
+							<filter string="2013-2014" icon="terp-personnal+" domain="[('annee','=',2013)]" />
+							<filter string="2014-2015" icon="terp-personnal+" domain="[('annee','=',2014)]" />

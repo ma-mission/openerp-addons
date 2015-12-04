@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report auto="False" id="report_bc" model="b.appelof" name="report.bc" file="Brique_Finance/reporting/bc.mako" string="Bon de commande" report_type="webkit"/>
+   
+    </data>
+</openerp>

@@ -1,0 +1,66 @@
+<html>
+<head>
+    <style type="text/css">
+        ${css}
+    </style>
+</head>
+<body style="font-family:'Times New Roman';font-size:16pt">
+	<%import datetime%>
+	<%def name="check_grade(obj)">
+		<%
+			for rec in obj:
+				if rec.state == "A":
+					return rec.grade_id.name
+			endfor
+			return False
+		%>
+	</%def>
+	<%def name="check_civilite(obj)">
+		<%
+			if obj.gender == "M":
+				return "Monsieur"
+			else:
+				return "Madame"	  
+		%>
+	</%def>
+	<%def get_day():return time.strftime("%d/%m/%Y")%>
+   
+
+   %for employe in objects :
+	<div style="width:200px;align=left">
+		<div style="font-family: 'Free 3 of 9';font-size: 36pt;text-align:center;width:200px;">${data["form"]["doc_ref"] or "000000"}</div>
+		<div style="text-align:center;width:200px;">${data["form"]["doc_ref"] or "0000000"}</div>
+	</div>
+	</br></br></br></br></br>
+	
+    <h1 style="text-align:center;font-size:36pt;">ATTESTATION DE TRAVAIL </h1>
+	
+	</br></br></br><br/><br/><br/>
+	
+	<p style="">
+	Le président de l'${company.partner_id.name or ""} de ${company.partner_id.city or ""} atteste que ${check_civilite(employe)} :</p>
+    <table width="100%" border="0">
+	 <tr>
+         <td style="text-align:left;">Nom et Prénom:</td>
+         <td style="text-align:left;">${employe.complete_name or ""}</td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">S.O.M:</td>
+		<td style="text-align:left;">${employe.som or ""}</td>
+      </tr>
+      <tr>
+         <td style="text-align:left;">C.I.N:</td>
+         <td colspan="2" style="text-align:left;">${employe.cin or ""}</td>
+      </tr>
+	</table>
+	<p>
+	Exerce dans l'établissement <b> "${company.partner_id.name or ""}"</b> en qualité de <b>"${check_grade(employe.fonction_ids)}" </b>depuis le ${employe.recrutement_date or ""}</p>
+	<p style="">La présente attestation est délivrée à la demande de l'intéressé pour servir et valoir ce que de droit.
+
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+	<div style="text-align:right;">  ${company.partner_id.city or ""}, le ${ get_day() }</div>
+	<p style="page-break-after:always"></p>
+	%endfor
+</body>
+</html>

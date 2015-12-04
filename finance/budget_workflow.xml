@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<openerp>
+<data>
+
+    <!-- Workflow definition 
+      
+        1.Budget brouillon -> draft
+        2.Budget validé -> accepted
+        3.Budget expiré -> Expired
+ 
+    -->
+	
+	<record model="workflow" id="wkf_vbudget">
+        <field name="name">b.wkf.vbudget</field>
+        <field name="osv">b.vbudget</field>
+        <field name="on_create">True</field>
+    </record>
+
+
+    <record model="workflow.activity" id="act_draft2"> <!-- draft -->
+        <field name="wkf_id" ref="wkf_vbudget" />
+        <field name="flow_start">True</field>
+        <field name="name">Budget brouillon</field>
+    </record>
+    
+     <record model="workflow.activity" id="act_accepted"> <!-- budget accepté -->
+        <field name="wkf_id" ref="wkf_vbudget" />
+        <field name="name">Budget validé</field>
+        <field name="kind">function</field>
+        <field name="action">ao_accepted()</field>
+    </record>
+
+	 <record model="workflow.activity" id="act_expired"> <!-- budget expiré -->
+        <field name="wkf_id" ref="wkf_vbudget" />
+        <field name="name">Budget expiré</field>
+        <field name="kind">function</field>
+        <field name="action">ao_expired()</field>
+    </record>
+
+
+    <record model="workflow.activity" id="act_refuse2"> <!-- budget refusé -->
+        <field name="wkf_id" ref="wkf_vbudget" />
+        <field name="name">Annulé</field>
+        <field name="flow_stop">True</field>
+        <field name="kind">function</field>
+        <field name="action">ao_refuse()</field>
+    </record>
+
+    <!--
+        workflow transition
+
+	--> 
+	  
+    <record model="workflow.transition" id="draft2accepted"> <!-- 2. draft->accepted (validation signal) -->
+        <field name="act_from" ref="act_draft2" />
+        <field name="act_to" ref="act_accepted" />
+        <field name="signal">accepted</field>
+        <field name="condition">True</field>
+      
+    </record>
+
+    <record model="workflow.transition" id="draft2refuse"> <!-- 2. draft->refused (refuse signal) -->
+        <field name="act_from" ref="act_draft2" />
+        <field name="act_to" ref="act_refuse2" />
+        <field name="signal">refused</field>
+        <field name="condition">True</field>
+        
+    </record>
+       
+    <record model="workflow.transition" id="accepted2expired"> <!-- 2. accepted->expired (expiration signal) -->
+        <field name="act_from" ref="act_accepted" />
+        <field name="act_to" ref="act_expired" />
+        <field name="signal">expired</field>
+        <field name="condition">True</field>
+        
+    </record>
+    
+</data>
+</openerp>

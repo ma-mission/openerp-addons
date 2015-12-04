@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+<data>
+	<menuitem name="Referentiel des metiers" id="menu_referentiel_metiers" parent="rh_menu" />
+	<record id="rh_fonction_category_form_view" model="ir.ui.view">
+		<field name="name">rh.fonction.category.form</field>
+		<field name="model">rh.fonction.category</field>
+		<field name="arch" type="xml">
+			<form string="Categories" version="7.0">
+				<notebook>
+					<page string="Category">
+						<group>
+							<field name="name"/>
+							<field name="code"/>
+						</group>
+						<group string="Corps">
+							<field name="corps_ids" nolabel="1"/>
+						</group>
+					</page>
+				</notebook>
+			</form>
+        </field>
+    </record> 
+    <record id="rh_fonction_category_tree_view" model="ir.ui.view" >
+        <field name="name">rh.fonction.category.tree</field>
+        <field name="model">rh.fonction.category</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Categories" >
+				<field name="name"/>
+				<field name="code"/>
+			</tree>
+        </field>
+    </record>
+   	<record id="rh_fonction_category_act_view" model="ir.actions.act_window" >
+        <field name="name">Categories</field>
+        <field name="res_model">rh.fonction.category</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+		<field name="help" type="html"><p class="oe_view_nocontent_create"> Click to define a new record.</p></field>
+	</record>
+    <menuitem name="Categories" id="categories_menu"  parent="menu_referentiel_metiers" action="rh_fonction_category_act_view"/>
+	
+	<record id="rh_fonction_corps_form_view" model="ir.ui.view">
+		<field name="name">rh.fonction.corps.form</field>
+		<field name="model">rh.fonction.corps</field>
+		<field name="arch" type="xml">
+			<form string="Corps" version="7.0">
+				<notebook>
+					<page string="Corps">
+						<group>
+							<field name="name"/>
+							<field name="code"/>
+							<field name="category_id"/>
+						</group>
+						<group string="Cadres">
+							<field name="cadre_ids" nolabel="1"/>
+						</group>
+					</page>
+				</notebook>
+			</form>
+        </field>
+    </record> 
+    <record id="rh_fonction_corps_tree_view" model="ir.ui.view" >
+        <field name="name">rh.fonction.corps.tree</field>
+        <field name="model">rh.fonction.corps</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Corps" >
+				<field name="name"/>
+				<field name="code"/>
+				<field name="category_id"/>
+			</tree>
+        </field>
+    </record>
+    <record id="rh_fonction_corps_act_view" model="ir.actions.act_window" >
+        <field name="name">Corps</field>
+        <field name="res_model">rh.fonction.corps</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+		<field name="help" type="html"><p class="oe_view_nocontent_create"> Click to define a new record.</p></field>
+	</record>
+    <menuitem name="Corps" id="corps_menu"  parent="menu_referentiel_metiers" action="rh_fonction_corps_act_view"/>
+
+    <record id="rh_fonction_cadre_form_view" model="ir.ui.view">
+		<field name="name">rh.fonction.cadre.form</field>
+		<field name="model">rh.fonction.cadre</field>
+		<field name="arch" type="xml">
+			<form string="Cadres" version="7.0">
+				<notebook>
+					<page string="Cadre">
+						<group>
+							<field name="name"/>
+							<field name="code"/>
+							<field name="corps_id"/>
+						</group>
+						<group string="Grades">
+							<field name="grade_ids" nolabel="1"/>
+						</group>
+					</page>
+				</notebook>
+			</form>
+        </field>
+    </record> 
+    <record id="rh_fonction_cadre_tree_view" model="ir.ui.view" >
+        <field name="name">rh.fonction.cadre.tree</field>
+        <field name="model">rh.fonction.cadre</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Cadres" >
+				<field name="name"/>
+				<field name="code"/>
+				<field name="corps_id"/>
+			</tree>
+        </field>
+    </record>
+    <record id="rh_fonction_cadre_act_view" model="ir.actions.act_window" >
+        <field name="name">Cadres</field>
+        <field name="res_model">rh.fonction.cadre</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+		<field name="help" type="html"><p class="oe_view_nocontent_create"> Click to define a new record.</p></field>
+	</record>
+    <menuitem name="Cadres" id="cadre_menu"  parent="menu_referentiel_metiers" action="rh_fonction_cadre_act_view"/>
+
+    <record id="rh_fonction_grade_form_view" model="ir.ui.view">
+		<field name="name">rh.fonction.grade.form</field>
+		<field name="model">rh.fonction.grade</field>
+		<field name="arch" type="xml">
+			<form string="Grades" version="7.0">
+				<notebook>
+					<page string="Cadre">
+						<group>
+							<field name="name"/>
+							<field name="code"/>
+							<field name="scale"/>
+							<field name="cadre_id"/>
+						</group>
+						<group string="Echelons">
+							<field name="echelon_ids" nolabel="1"/>
+						</group>
+					</page>
+				</notebook>
+			</form>
+        </field>
+    </record> 
+    <record id="rh_fonction_grade_tree_view" model="ir.ui.view" >
+        <field name="name">rh.fonction.grade.tree</field>
+        <field name="model">rh.fonction.grade</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Grades" >
+				<field name="name"/>
+				<field name="scale"/>
+				<field name="code"/>
+				<field name="cadre_id"/>
+			</tree>
+        </field>
+    </record>
+    <record id="rh_fonction_grade_act_view" model="ir.actions.act_window" >
+        <field name="name">Grades</field>
+        <field name="res_model">rh.fonction.grade</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+		<field name="help" type="html"><p class="oe_view_nocontent_create"> Click to define a new record.</p></field>
+	</record>
+    <menuitem name="Grades" id="grade_menu"  parent="menu_referentiel_metiers" action="rh_fonction_grade_act_view"/>
+
+    <record id="rh_fonction_echelon_form_view" model="ir.ui.view">
+		<field name="name">rh.fonction.echelon.form</field>
+		<field name="model">rh.fonction.echelon</field>
+		<field name="arch" type="xml">
+			<form string="Echelons" version="7.0">
+				<notebook>
+					<page string="Echelon">
+						<group>
+							<field name="name"/>
+							<field name="code"/>
+							<field name="grade_id"/>
+						</group>
+					</page>
+				</notebook>
+			</form>
+        </field>
+    </record> 
+    <record id="rh_fonction_echelon_tree_view" model="ir.ui.view" >
+        <field name="name">rh.fonction.echelon.tree</field>
+        <field name="model">rh.fonction.echelon</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Echelons" >
+				<field name="name"/>
+				<field name="code"/>
+				<field name="grade_id"/>
+			</tree>
+        </field>
+    </record>
+    <record id="rh_fonction_echelon_act_view" model="ir.actions.act_window" >
+        <field name="name">Echelons</field>
+        <field name="res_model">rh.fonction.echelon</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+		<field name="help" type="html"><p class="oe_view_nocontent_create"> Click to define a new record.</p></field>
+	</record>
+    <menuitem name="Echelons" id="echelon_menu"  parent="menu_referentiel_metiers" action="rh_fonction_echelon_act_view"/>
+
+        
+</data>
+</openerp>

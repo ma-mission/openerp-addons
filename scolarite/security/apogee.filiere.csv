@@ -1,0 +1,29 @@
+id,code,name,diplome_id:id
+apogee_filiere_1,S76,Sc. Economiques et Gestion,apogee_diplome_1
+apogee_filiere_2,D63,Droit En Arabe,apogee_diplome_1
+apogee_filiere_3,D96,Droit En Français,apogee_diplome_1
+apogee_filiere_4,S28,SCiences Economiques et Gestion,apogee_diplome_1
+apogee_filiere_5,S52,Sciences Economiques et Gestion,apogee_diplome_1
+apogee_filiere_6,E36,ETUDES ANGLAISES,apogee_diplome_1
+apogee_filiere_7,E47,ETUDES ARABES,apogee_diplome_1
+apogee_filiere_8,E35,ETUDES FRANCAISES,apogee_diplome_1
+apogee_filiere_9,G89,GEOGRAPHIE,apogee_diplome_4
+apogee_filiere_10,H85,HISTOIRE ET CIVILISATION,apogee_diplome_4
+apogee_filiere_11,E36,Etudes Islamiques,apogee_diplome_2
+apogee_filiere_12,P18,PHILOSOPHIE,apogee_diplome_2
+apogee_filiere_13,E51,Etudes Anglaises,apogee_diplome_2
+apogee_filiere_14,E63,Etudes Arabes,apogee_diplome_2
+apogee_filiere_15,E75,Etudes Françaises,apogee_diplome_2
+apogee_filiere_16,E04,Etudes Hispaniques,apogee_diplome_2
+apogee_filiere_17,E68,Etudes Islamiques,apogee_diplome_2
+apogee_filiere_18,G65,Géographie,apogee_diplome_3
+apogee_filiere_19,H05,Histoire et Civilisation,apogee_diplome_3
+apogee_filiere_20,P18,Psychologie,apogee_diplome_3
+apogee_filiere_21,S65,Sociologie,apogee_diplome_3
+apogee_filiere_22,G87,Doctorat Géologie,apogee_diplome_4
+apogee_filiere_23,SMP,Science Matière Physique,apogee_diplome_3
+apogee_filiere_24,SMC,Science Matière Chimique,apogee_diplome_1
+apogee_filiere_25,SMA,Science Mathématiques Appliquées,apogee_diplome_1
+apogee_filiere_26,SMI,Science Mathématiques Informatiues,apogee_diplome_1
+apogee_filiere_27,STU,Science Terre Univers,apogee_diplome_1
+apogee_filiere_28,SVI,Science de la Vie,apogee_diplome_1

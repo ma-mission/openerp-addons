@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    
+	<menuitem id="menu_finance" name="Finance"/>
+    <menuitem id="budget_menu_finance" parent="menu_finance" name="Budget"/>
+    <menuitem id="budget_menu_engagement" parent="menu_finance" name="Engagement"/>
+    <menuitem id="budget_menu_ajouter" parent="menu_finance" name="Ajouter"/>
+    
+    
+    </data>
+</openerp>

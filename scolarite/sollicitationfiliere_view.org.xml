@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openerp>
+    <data>
+
+    
+			<!--											 -->
+    		<!-- 			Vue Formulaire / Form			 -->
+			<!--											 -->
+
+    
+	        <record model="ir.ui.view" id="sollicitationfiliere_form_view">
+				<field name="name">sollicitationfiliere.form</field>
+				<field name="model">inscription.sollicitationfiliere</field>
+				<field name="arch" type="xml">
+					<form string="sollicitation Filiere Form">
+						<field name="cod_etab" colspan="4" />
+						<field name="lib_etab" colspan="4" />
+						<field name="cod_dip" colspan="4" />
+						<field name="lib_dip" colspan="4" />
+						<field name="cod_fil" colspan="4" />
+						<field name="lib_fil" colspan="4" />
+						<field name="annee" colspan="4" />
+						<field name="nbr" colspan="4" />
+					</form>
+				</field>
+			</record>
+	
+    
+			<!--											 				-->
+    		<!-- 				Vue Liste / Tree / Etab / Dip / Fil			-->
+			<!--											 				-->
+
+
+		 	<record model="ir.ui.view" id="sollicitationfiliere_tree_view">
+				<field name="name">sollicitationfiliere.tree</field>
+				<field name="model">inscription.sollicitationfiliere</field>
+				<field name="arch" type="xml">
+					<tree string="inscription Filiere Tree">
+						<field name="cod_etab" />
+						<field name="lib_etab" />
+						<field name="cod_dip" />
+						<field name="lib_dip" />
+						<field name="cod_fil" />
+						<field name="lib_fil" />
+						<field name="annee" />
+						<field name="nbr" />
+					</tree>
+				</field>
+			</record>
+			
+    
+			<!--											 -->
+    		<!-- 					Vue Search	 			 -->
+			<!--											 -->
+
+		   <record id="sollicitationfiliere_search_view" model="ir.ui.view">
+	            <field name="name">sollicitationfiliere.search</field>
+	            <field name="model">inscription.sollicitationfiliere</field>
+	            <field name="arch" type="xml">
+	                <search string="Search">
+						<field name="cod_etab" string="Code Etab" />
+						<field name="lib_etab" string="Lib Etab" />
+		                <separator/>
+						<field name="cod_dip" string="Code Diplome" />
+						<field name="lib_dip" string="Lib Diplome" />
+		                <separator/>
+						<field name="cod_fil" string="Code Filiere" />
+						<field name="lib_fil" string="Lib Filiere" />
+		                <!-- separator/>
+						<field name="cod_prov" string="Code Province" />
+						<field name="lib_prov" string="Lib Province" /-->
+		                <separator/>
+						<field name="annee" string="Annee" />
+		                <group  string="Regrouper par :">
+		              		<filter string="Etablissement"  context="{'group_by':'cod_etab'}"/>
+		              		<filter string="Diplome"  context="{'group_by':'cod_dip'}"/>
+		              		<filter string="Filiere"  context="{'group_by':'cod_fil'}"/>
+		              		<filter string="Annee"  context="{'group_by':'annee'}"/>
+		                </group>
+	  				 </search>
+	            </field>
+        	</record>
+	        
+    
+			<!--											 -->
+    		<!-- 				Vue Graph / Etab			 -->
+			<!--											 -->
+
+			<record model="ir.ui.view" id="sollicitationfiliere_graph_view">
+				<field name="name">sollicitationfiliere.graph</field>
+				<field name="model">inscription.sollicitationfiliere</field>
+				<field name="arch" type="xml">
+					<graph string="Taux de sollicitation des filières" type="pie">
+						<field name="lib_fil" />
+						<field name="nbr" operator="+"/>
+						
+					</graph>
+				</field>
+			</record>
+	        
+	        
+
+
+	       <!-- record model="ir.actions.act_window" id="globaldipfiliere_data_list_action">
+	            <field name="name">Effectif global des inscrits - données</field>
+	            <field name="res_model">inscrits.globaldipfiliere</field>
+	            <field name="view_type">form</field>
+	            <field name="view_mode">tree</field>
+	            <field name="context">{'search_default_instructor_filter':1}</field>
+	        </record>
+	        
+	       <record model="ir.actions.act_window" id="globalpays_data_list_action">
+	            <field name="name">Effectif global des inscrits - données</field>
+	            <field name="res_model">inscrits.globalpays</field>
+	            <field name="view_type">form</field>
+	            <field name="view_mode">tree</field>
+	            <field name="context">{'search_default_instructor_filter':1}</field>
+	        </record>
+	        
+	       <record model="ir.actions.act_window" id="globalprov_data_list_action">
+	            <field name="name">Effectif des nouveaux inscrits - données</field>
+	            <field name="res_model">inscrits.globalprov</field>
+	            <field name="view_type">form</field>
+	            <field name="view_mode">tree</field>
+	            <field name="context">{'search_default_instructor_filter':1}</field>
+	        </record-->
+	        
+	       <record model="ir.actions.act_window" id="sollicitationfiliere_etab_list_action">
+	            <field name="name">Taux de sollicitation des filières</field>
+	            <field name="res_model">inscription.sollicitationfiliere</field>
+	            <field name="view_type">form</field>
+	            <field name="view_mode">graph</field>
+	            <field name="view_id" ref="sollicitationfiliere_graph_view" />
+	            <field name="context">{'search_default_instructor_filter':1}</field>
+	        </record>
+
+	
+	    	<menuitem id="inscription_menu" name="Inscription" parent="main_apogee_menu" sequence="1"/>
+			    	<menuitem id="sollicitationfiliere_menu" name="Taux de sollicitation des filières" parent="inscription_menu" action="sollicitationfiliere_etab_list_action" sequence="2"/>
+	    		
+	    		<menuitem id="examens_menu" name="Gestion des Examens" parent="main_apogee_menu" sequence="1"/>
+					<menuitem id="respect_date_examen_menu" name="Taux de respect des dates d’examen" parent="examens_menu" action="sollicitationfiliere_etab_list_action" sequence="2"/>
+			    	<menuitem id="delai_correction_menu" name="Délai de corrections des copies" parent="examens_menu" action="sollicitationfiliere_etab_list_action" sequence="2"/>
+			    	<menuitem id="delai_remise_notes_menu" name="Délai de remise des notes" parent="examens_menu" action="sollicitationfiliere_etab_list_action" sequence="2"/>
+			    	
+			    	<!-- menuitem id="global_dip_menu" name="Par Diplôme" parent="global_menu" action="globaldipfiliere_dip_list_action" sequence="3"/>
+			    	<menuitem id="global_fil_menu" name="Par Filières" parent="global_menu" action="globaldipfiliere_fil_list_action" sequence="4"/>
+			    	<menuitem id="global_pays_menu" name="Par Pays" parent="global_menu" action="globalpays_pays_list_action" sequence="4"/>
+			    	<menuitem id="global_prov_menu" name="Par Province" parent="global_menu" action="globalprov_prov_list_action" sequence="5"/-->
+
+    </data>
+</openerp>

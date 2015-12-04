@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openerp>
+    <data>
+    
+	        
+		        <record model="ir.ui.view" id="config_form_view">
+				<field name="name">config.form</field>
+				<field name="model">apogee.config</field>
+				<field name="arch" type="xml">
+					<form string="Configuration de APOGEE">
+						<separator colspan="4" string="Configuration de la synchronisation de APOGEE" />
+						<field name="address" colspan="4"/>
+						<field name="sid" colspan="4"/>
+						<field name="username" colspan="4" />
+						<field name="password" colspan="4" password="True" />
+					</form>
+				</field>
+			</record>
+
+
+	            <record model="ir.ui.view" id="config_tree_view">
+                                <field name="name">config.tree</field>
+                                <field name="model">apogee.config</field>
+                                <field name="arch" type="xml">
+                                        <tree string="Configuration de APOGEE">
+                                                <field name="address"/>
+                                                <field name="sid"/>
+                                                <field name="username" />
+                                        </tree>
+                                </field>
+                        </record>
+
+
+
+
+                        <record model="ir.ui.view" id="config_kanban_view">
+                                <field name="name">config.kanban</field>
+				<field name="model">apogee.config</field>
+                                <field name="type">kanban</field>
+                                <field name="arch" type="xml">
+                                        <kanban>
+					<templates>
+                                                <field name="address"/>
+                                                <field name="sid"/>
+                                                <field name="username" />
+                                                <field name="password" />
+					</templates>
+                                        </kanban>
+                                </field>
+                        </record>
+	
+	       <record model="ir.actions.act_window" id="config_action">
+	            <field name="name">Configuration</field>
+	            <field name="res_model">apogee.config</field>
+	            <field name="view_type">form</field>
+	            <field name="view_mode">tree,form,kanban</field>
+	        </record>
+	        
+	
+	    	<menuitem id="apogee_menu" name="APOGEE Synchronization" parent="base.menu_administration"/>
+	    	<menuitem id="synch_menu" name="Configuration" parent="apogee_menu" action="config_action"/>
+
+    </data>
+</openerp>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+		<!--KPIs-->
+        <record  model="ir.ui.view" id="rh_kpi_IG36">
+            <field name="name">rh.kpi.IG36</field>
+            <field name="model">rh.kpi</field>
+            <field name="type">form</field>
+			<field name="arch" type="xml">
+				<form string="IG36">
+					<field name="IG36" widget="progressbar" />
+				</form>
+            </field>
+        </record>
+		<record model="ir.actions.act_window" id="board_rh_kpi_IG36_act">
+            <field name="name">IG36</field>
+            <field name="res_model">rh.kpi</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="rh_kpi_IG36"/>
+        </record>
+		<!-- Board  -->
+		<record id="board_rh_form" model="ir.ui.view">
+            <field name="name">board.rh.form</field>
+            <field name="model">board.board</field>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+                <form string="Rh Dashboards" version="7.0">
+                    <board style="1">
+					    <column>
+                            <action name="%(board_rh_kpi_IG36_act)d" string="IG36"/>
+                        </column>
+					</board>
+                </form>
+            </field>
+        </record>
+        <record id="open_board_rh_form" model="ir.actions.act_window">
+            <field name="name">Rh boards</field>
+            <field name="res_model">board.board</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+			<field name="view_id" ref="board_rh_form"/>
+        </record>
+
+       	<menuitem name="Dashboards" id="rh_dashboards_menu" parent="rh_menu"/>
+       	<menuitem name="Dashboards" id="menu_rh_dashboards" parent="rh_dashboards_menu" action="open_board_rh_form"/>
+
+    </data>
+</openerp>

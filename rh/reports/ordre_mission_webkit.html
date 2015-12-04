@@ -1,0 +1,69 @@
+<html>
+<head>
+    <style type="text/css">
+        ${css}
+    </style>
+</head>
+<body style="border:0; margin:400px 70 70px 100px;">
+	<%import datetime%>
+	<%def name="check_employe(obj)">
+		<%
+			s=""
+			for rec in obj:
+				s=s+rec.complete_name +", "
+			return s
+		%>
+	</%def>
+	<%def get_day():return time.strftime("%d/%m/%Y")%>
+	<%def conv_day(d):return datetime.datetime.strptime(d,"%Y-%m-%d").strftime("%d/%m/%Y")%>
+
+	%for om in objects :
+		<div style="align=center">
+			<div style="font-family: 'Free 3 of 9';font-size: 36pt;text-align:center">${om.doc_ref or "000000"}</div>
+			<div style="text-align:center">${om.doc_ref or "0000000"}</div>
+		</div>
+		<br/>
+		<table style="width:100%;font-size:20pt; font-family:'Times New Roman';">
+			<tr style="height:100px">
+				<td  style="width:25%">Personnel de la mission:</td>
+				<td style="text-align:center;">${check_employe(om.employe_ids) or ""}</td>
+				<td style="text-align:right;width:25%">:موظفي المهمة</td>
+			</tr>
+			<tr style="height:100px">
+				<td>Mission:</td>
+				<td style="text-align:center">${om.mission or ""}</td>
+				<td style="text-align:right">: المهمة</td>
+			</tr>
+			<tr style="height:100px">
+				<td>De se rendre à:</td>
+				<td style="text-align:center"> ${om.destination_id.name or ""}</td>
+				<td style="text-align:right">:سيتّجهون إلى</td>
+			</tr>
+			<tr style="height:100px">
+				<td>Date de départ:</td>
+				<td style="text-align:center">${conv_day(om.date_depart) or ""}</td>
+				<td style="text-align:right">: تاريخ الذهاب</td>
+			</tr>
+			<tr style="height:100px">
+				<td>Date de retour:</td>
+				<td style="text-align:center">${conv_day(om.date_retour) or ""}</td>
+				<td style="text-align:right">: تاريخ الإياب</td>
+			</tr>
+			<tr style="height:100px">
+				<td>Moyen de transport:</td>
+				<td style="text-align:center">${om.moyen_transport_id.name or ""}</td>
+				<td style="text-align:right">: وسيلة التنقل</td>
+			</tr>
+			<tr >
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		<br/><br/><br/>
+		<div style="font-size:16pt;text-align:center"><i>${company.partner_id.city or ""} le ${get_day()}</i></div>
+			
+		
+	%endfor
+</body>
+</html>

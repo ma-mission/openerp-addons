@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+
+        <record id="b_vbudget_view_form" model="ir.ui.view">
+            <field name="name">b.vbudget.view.form</field>
+            <field name="model">b.vbudget</field>
+            <field name="arch" type="xml">
+                <form string="Budget" version="7.0">
+                <header>
+         <button string="Valider" name="accepted" states="draft" type="workflow" groups="base.group_hr_manager"/>
+         <button string="Annuler" name="refused" states="draft" type="workflow" groups="base.group_hr_manager"/>
+         <field name="state" widget="statusbar" statusbar_visible="draft,accepted,expired,refuse" statusbar_colors='{"draft":"blue","accepted":"red","expired":"green"}'/>
+       			</header>
+                <sheet>
+                        <group>
+                    		<field name="version"/>
+                    		<field name="type"/>
+                    		<field name="exercice"/>
+                    		<field name="etab"/>
+                    		<field name="saxe_ids">
+                    		<tree editable="bottom"> 
+                    			 <field name="saxe_id"/> 
+                    			 <field name="montant"/>
+							</tree>
+							</field>
+                        </group>
+                </sheet>
+                </form>
+            </field>
+        </record>
+           
+            <record id="b_vbudgey_view_tree" model="ir.ui.view">
+            <field name="name">b.vbudget.view.tree</field>
+            <field name="model">b.vbudget</field>
+            <field name="arch" type="xml">
+                <tree string="Budgets">
+                    <field name="version"/>
+                    <field name="type"/>
+                    <field name="exercice"/>
+                    <field name="etab"/>
+                </tree>
+            </field>
+        </record>
+        
+       
+        <record id="action_b_vbudget" model="ir.actions.act_window">
+            <field name="name">Budget</field>
+            <field name="res_model">b.vbudget</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem action="action_b_vbudget" id="menu_credits" parent="budget_menu_finance" name="Budget" />
+
+    </data>
+</openerp>

@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+course_manager_access,mission.course,model_mission_course,group_manager,1,1,1,1
+session_manager_access,mission.session,model_mission_session,group_manager,1,1,1,1
+attendee_manager_access,mission.attendee,model_mission_attendee,group_manager,1,1,1,1

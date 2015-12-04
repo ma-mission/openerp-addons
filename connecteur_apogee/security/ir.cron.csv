@@ -1,0 +1,5 @@
+function,name,interval_type,active,interval_number,numbercall,model
+sync_etab_dip_fil,Cron synchronization Etab-Dip-Fil-Eff,minutes,TRUE,1,-1,apogee.synchronization
+sync_globalins,Cron synchronization Global-Ins,minutes,TRUE,5,-1,apogee.synchronization
+sync_newins,Cron synchronization New-Ins,minutes,TRUE,6,-1,apogee.synchronization
+

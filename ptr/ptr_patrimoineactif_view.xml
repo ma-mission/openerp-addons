@@ -1,0 +1,62 @@
+<openerp>
+	<data>
+		<record id="ptr_patrimoineactif_form_view" model="ir.ui.view">
+				<field name="name">ptr.patrimoineactif.form</field>
+				<field name="model">ptr.patrimoineactif</field>
+				<field name="arch" type="xml">
+					<form string="patrimoineactif" version="7.0">
+						<sheet>
+							<field name="image" widget="image" class="oe_left oe_avatar" />
+							<div class="oe_title">
+								<h2> 
+									<label for="code" class="oe_edit_only" />
+									<field name="code"/> 
+								</h2>
+							</div>
+							<group  col ="4">
+								<separator string ="Generale Info" colspan="4"/>
+										<field name="designation"/> 
+										<field name="valacqui" help="Valeur Acquisition"/> 
+										<field name="dateacqui" help="Date Acquisition"/> 
+										<field name="dateserv" help="Date de mise en service"/> 
+										<field name="nbc" help="Num bon de commande"/> 
+										<field name="nbl" help="Num bon de livraison"/> 
+										<field name="nfact" help="Num facture"/> 
+										<field name="sousfamille"/> 
+										<field name="marque"/> 
+										<field name="fournisseur"/> 
+							</group>
+						</sheet>     
+					</form>
+				</field>
+		</record>
+			
+		<record id="ptr_patrimoineactif_tree_view" model="ir.ui.view">
+            <field name="name">ptr.patrimoineactif.tree</field>
+            <field name="model">ptr.patrimoineactif</field>
+            <field name="arch" type="xml">
+                <tree string="Patrimoin Actif"  toolbar="1"  version="7.0">
+					<field name="code" /> 
+					<field name="designation"/> 
+					<field name="valacqui"/> 
+					<field name="dateacqui"/> 
+					<field name="dateserv"/> 
+					<field name="nbc"/> 
+					<field name="nbl"/> 
+					<field name="nfact"/> 
+					<field name="sousfamille"/> 
+					<field name="marque"/> 
+					<field name="fournisseur"/>
+                </tree>
+            </field>
+        </record>
+		<record model ="ir.actions.act_window" id="ptr_patrimoineactif_act">
+			<field name="name">Patrimoin Actif</field>
+			<field name="res_model">ptr.patrimoineactif</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree</field>
+		</record>
+		<menuitem id="ptr_patrimoineactif_menu" name="Patrimoine Actif" parent="ptr_recapitul_menu" action="ptr_patrimoineactif_act"/>
+
+	</data>
+</openerp>

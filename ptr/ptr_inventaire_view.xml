@@ -1,0 +1,77 @@
+<openerp>
+	<data>
+
+		<record id="ptr_inventaire_supplier_form" model="ir.ui.view">
+					<field name="name">ptr.inventaire.supplier.form</field>
+					<field name="model">ptr.inventaire</field>
+					<field name="arch" type="xml">
+						<form string="Inventaire" version="7.0">
+							<header>
+								<button name='validation' string='Validation Inv' states='saisie' type="workflow" class="oe_highlight"/>
+								<button name='cloture' string='Cloture' states='validation' type="workflow" class="oe_highlight"/>
+								<button name='res_inventaire' string='Resultat inventaire' states='cloture' type="workflow" class="oe_highlight"/>
+								<button name='rapport_inventaire' string='Rapport inventaire' states='res_inventaire' type="workflow" class="oe_highlight"/>
+								<button name='validation_rp' string='Validation RP' states='rapport_inventaire' type="workflow" class="oe_highlight"/>
+								<button name='cloture_globale' string='Cloture globale' states='validation_rp' type="workflow" class="oe_highlight"/>
+								<button name="RemplirLigneInventaire" string="importer" icon="gtk-execute" type="object" class="oe_highlight"/>
+								<button name="ViderListe" string="Vider Liste" icon="gtk-execute" type="object" class="oe_highlight"/>
+								<field name="state" widget='statusbar'  />
+							</header>
+
+								<group>
+									<div class="oe_title">
+										<h2> 
+											<label for="code" class="oe_edit_only" />
+											<field name="code"/> 
+										</h2>
+									</div>
+								</group>
+								<group>
+									<notebook >
+										<page string="Informations">
+											<group>
+												<field name="libelle"/> 
+												<field name="responsable"/>
+												<field name="unite" widget="selection"/>
+											</group>
+	
+										</page>
+										<page string="Liste des patrimoins actifs">
+											<field name="detailinventaire_ids" />
+										</page>
+									</notebook>
+								</group>    
+						</form>
+					</field>
+		</record>
+		
+		<record id="ptr_inventaire_tree_view" model="ir.ui.view">
+            <field name="name">ptr.inventaire.tree</field>
+            <field name="model">ptr.inventaire</field>
+            <field name="arch" type="xml">
+                <tree string="Inventaire" version="7.0" create="0">
+					<field name="code" /> 
+                    <field name="libelle"/> 
+					<field name="responsable"/> 
+					<field name="state"/> 
+                </tree>
+            </field>
+        </record>
+		
+		<record model ="ir.actions.act_window" id="ptr_inventaire_act">
+			<field name="name">Inventaire</field>
+			<field name="res_model">ptr.inventaire</field>
+			<field name="view_type">form</field>
+			<field name="view_mode">tree,form</field>
+			<field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to add a new record.
+              </p>
+            </field>
+		</record>
+		<menuitem id="ptr_inventaire_menu" name="Inventaire" parent="ptr_recapitul_menu" action="ptr_inventaire_act"/>
+			
+
+
+	</data>
+</openerp>

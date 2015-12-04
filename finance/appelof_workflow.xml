@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<openerp>
+<data>
+
+    <!-- Workflow definition 
+        1. draft->accepted (validate signal)
+        2. draft->refused (refuse signal)
+        
+        
+        1.Appel d'offre brouillon 
+        2.Appel d'offre -> accepted
+        3.Offre reçue 
+        4.Bon de commande confirmé
+
+    -->
+	
+	<record model="workflow" id="wkf_appelof">
+        <field name="name">b.wkf.appelof</field>
+        <field name="osv">b.appelof</field>
+        <field name="on_create">True</field>
+    </record>
+
+
+    <record model="workflow.activity" id="act_draft"> <!-- draft -->
+        <field name="wkf_id" ref="wkf_appelof" />
+        <field name="flow_start">True</field>
+        <field name="name">Bon de commande brouillon</field>
+    </record>
+    
+     <record model="workflow.activity" id="act_sent"> <!-- demande envoyée -->
+        <field name="wkf_id" ref="wkf_appelof" />
+        <field name="name">Demande envoyée</field>
+        <field name="kind">function</field>
+        <field name="action">ao_sent()</field>
+    </record>
+
+	 <record model="workflow.activity" id="act_received"> <!-- offre reçue -->
+        <field name="wkf_id" ref="wkf_appelof" />
+        <field name="name">Offre reçue</field>
+        <field name="kind">function</field>
+        <field name="action">ao_received()</field>
+    </record>
+    
+    <record model="workflow.activity" id="act_validate"> <!-- accepted -->
+        <field name="wkf_id" ref="wkf_appelof" />
+        <field name="name">Confirmé</field>
+        <field name="kind">function</field>
+        <field name="action">ao_validate()</field>
+    </record>
+
+    <record model="workflow.activity" id="act_refuse"> <!-- refused -->
+        <field name="wkf_id" ref="wkf_appelof" />
+        <field name="name">Annulé</field>
+        <field name="flow_stop">True</field>
+        <field name="kind">function</field>
+        <field name="action">ao_refuse()</field>
+    </record>
+
+    <!--
+        workflow transition
+
+	--> 
+	  
+    <record id="trans_draft_sent" model="workflow.transition">
+            <field name="act_from" ref="act_draft"/>
+            <field name="act_to" ref="act_sent"/>
+            <field name="signal">send_rfq</field>
+        </record> 
+
+    <record model="workflow.transition" id="holiday_received2validate"> <!-- 2. received->validate (validation signal) -->
+        <field name="act_from" ref="act_received" />
+        <field name="act_to" ref="act_validate" />
+        <field name="signal">received</field>
+        <field name="condition">True</field>
+    </record>
+
+    <record model="workflow.transition" id="holiday_draft2refuse"> <!-- 2. draft->refused (refuse signal) -->
+        <field name="act_from" ref="act_draft" />
+        <field name="act_to" ref="act_refuse" />
+        <field name="signal">refuse</field>
+        <field name="condition">True</field>
+    </record>
+    
+     <record model="workflow.transition" id="holiday_received2refuse"> <!-- 2. received->refused (refuse signal) -->
+        <field name="act_from" ref="act_received" />
+        <field name="act_to" ref="act_refuse" />
+        <field name="signal">refuse</field>
+        <field name="condition">True</field>
+    </record>
+    
+     <record model="workflow.transition" id="holiday_sent2refuse"> <!-- 2. sent->refused (refuse signal) -->
+        <field name="act_from" ref="act_sent" />
+        <field name="act_to" ref="act_refuse" />
+        <field name="signal">refuse</field>
+        <field name="condition">True</field>
+    </record>
+    
+    <record model="workflow.transition" id="holiday_sent2received"> <!-- 2. sent->received (received signal) -->
+        <field name="act_from" ref="act_sent" />
+        <field name="act_to" ref="act_received" />
+        <field name="signal">received</field>
+        <field name="condition">True</field>
+    </record>
+    
+    <record model="workflow.transition" id="holiday_received2validate"> <!-- 2. sent->received (received signal) -->
+        <field name="act_from" ref="act_received" />
+        <field name="act_to" ref="act_validate" />
+        <field name="signal">validate</field>
+        <field name="condition">True</field>
+    </record>
+    
+</data>
+</openerp>

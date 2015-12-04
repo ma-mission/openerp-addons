@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openerp>
+    <data>
+
+    
+			<!--											 -->
+    		<!-- 			Vue Formulaire / Form			 -->
+			<!--											 -->
+    
+	        
+	        <record model="ir.ui.view" id="globalins_tree_view">
+				<field name="name">globalins.tree</field>
+				<field name="model">apogee.globalins</field>
+				<field name="arch" type="xml">
+					<form string="Effectif global Tree">
+						<field name="annee" colspan="4" />
+						<field name="nbr" colspan="4" />
+						<field name="lic_tpd" colspan="4" />
+					</form>
+				</field>
+			</record>
+			
+			<record model="ir.ui.view" id="globalins_perdip_graph_view">
+				<field name="name">globalins.graph</field>
+				<field name="model">apogee.globalins</field>
+				<field name="arch" type="xml">
+					<graph string="Effectif Global des inscrits par Diplôme" type="pie">
+						<field name="lic_tpd" />
+						<field name="nbr" operator="+"/>
+					</graph>
+
+				</field>
+			</record>
+
+                        <record model="ir.ui.view" id="globalins_perfil_graph_view">
+                                <field name="name">globalins.graph</field>
+                                <field name="model">apogee.globalins</field>
+                                <field name="arch" type="xml">
+                                        <graph string="Effectif Global des inscrits Par filiére" type="pie">
+                                                <field name="lib_dip" />
+                                                <field name="nbr" operator="+"/>
+                                        </graph>
+
+                                </field>
+                        </record>
+
+                        <record model="ir.ui.view" id="globalins_perprov_graph_view">
+                                <field name="name">globalins.graph</field>
+                                <field name="model">apogee.globalins</field>
+                                <field name="arch" type="xml">
+                                        <graph string="Effectif Global des inscrits par Province" type="pie">
+                                                <field name="province" />
+                                                <field name="nbr" operator="+"/>
+                                        </graph>
+
+                                </field>
+                        </record>
+
+
+
+
+			<record id="globalins_search_view" model="ir.ui.view">
+            		<field name="name">globalins.search</field>
+				<field name="model">apogee.globalins</field>
+				<field name="arch" type="xml">
+		                	<search string="Search">
+						<field name="annee" string="Annee" />
+					</search>
+	            		</field>
+	        	</record>			
+	        
+	       <record model="ir.actions.act_window" id="globalins_perdip_action">
+	            <field name="name">Effectif Global de inscrits par diplome</field>
+	            <field name="res_model">apogee.globalins</field>
+	            <field name="view_type">form</field>
+	            <field name="view_mode">tree,graph</field>
+	            <field name="view_id" ref="globalins_perdip_graph_view" />
+	            <field name="context">{'search_default_instructor_filter':1}</field>
+	        </record>
+
+               <record model="ir.actions.act_window" id="globalins_perfil_action">
+                    <field name="name">Effectif Global de inscrits par filiere</field>
+                    <field name="res_model">apogee.globalins</field>
+                    <field name="view_type">form</field>
+                    <field name="view_mode">tree,graph</field>
+                    <field name="view_id" ref="globalins_perfil_graph_view" />
+                    <field name="context">{'search_default_instructor_filter':1}</field>
+                </record>
+
+               <record model="ir.actions.act_window" id="globalins_perprov_action">
+                    <field name="name">Effectif Global de inscrits par province</field>
+                    <field name="res_model">apogee.globalins</field>
+                    <field name="view_type">form</field>
+                    <field name="view_mode">tree,graph</field>
+                    <field name="view_id" ref="globalins_perprov_graph_view" />
+                    <field name="context">{'search_default_instructor_filter':1}</field>
+                </record>
+
+
+	    	<menuitem id="main_apogee_menu" name="APOGEE" />
+	    		<menuitem id="globalins_menu" name="Effectif Global des inscrits" parent="main_apogee_menu" sequence="1"/>
+			    	<menuitem id="globalins_dip_menu" name="Par diplôme" parent="globalins_menu" action="globalins_list_action" sequence="2"/>
+			    	<menuitem id="globalins_fil_menu" name="Par filière" parent="globalins_menu" action="globalins_list_action" sequence="2"/>
+			    	<menuitem id="globalins_prov_menu" name="Par province" parent="globalins_menu" action="globalins_prov_action" sequence="2"/>
+	    		
+			    	<!-- menuitem id="global_dip_menu" name="Par Diplôme" parent="global_menu" action="globaldipfiliere_dip_list_action" sequence="3"/>
+			    	<menuitem id="global_fil_menu" name="Par Filières" parent="global_menu" action="globaldipfiliere_perfil_action" sequence="4"/>
+			    	<menuitem id="global_pays_menu" name="Par Pays" parent="global_menu" action="globalpays_pays_list_action" sequence="4"/>
+			    	<menuitem id="global_prov_menu" name="Par Province" parent="global_menu" action="globalprov_prov_list_action" sequence="5"/-->
+
+    </data>
+</openerp>

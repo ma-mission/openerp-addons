@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+<data>
+	<record id="rh_salary_form_view" model="ir.ui.view">
+		<field name="name">rh.salary.form</field>
+		<field name="model">rh.salary</field>
+		<field name="arch" type="xml">
+			<form string="Salaries" version="7.0">
+				<sheet>
+					<div class="oe_title oe_left">
+						<h2>
+							<label for="employe_id" class="oe_edit_only" /><field name="employe_id" widget="selection"/>
+							
+						</h2>
+					</div>
+					<notebook>
+						<page string="Salary">
+							<group >
+								<field name="rubrique_id" required="1"/>
+								<field name="price" required="1"/>
+								<field name="mois" required="1"/>
+								<field name="annee" required="1"/>
+							</group>
+						</page>
+					</notebook>
+					
+				</sheet> 
+			</form>
+        </field>
+    </record> 
+   
+    <record id="rh_salary_tree_view" model="ir.ui.view" >
+        <field name="name">rh.salary.tree</field>
+        <field name="model">rh.salary</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Salaries" >
+				<field name="employe_id"/>
+				<field name="rubrique_id"/>
+				<field name="price"/>
+			</tree>
+        </field>
+    </record>
+	
+	
+    
+	<record id="rh_salary_act_view" model="ir.actions.act_window" >
+        <field name="name">Salaries</field>
+        <field name="res_model">rh.salary</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+		<field name="help" type="html"><p class="oe_view_nocontent_create"> Click to define a new record.</p></field>
+				
+    </record>
+    
+	<menuitem name="Salaries" id="salaries_menu"  parent="menu_base_donnee" action="rh_salary_act_view"/>
+
+        
+</data>
+</openerp>
