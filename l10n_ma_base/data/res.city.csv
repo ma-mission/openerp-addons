@@ -1,3 +1,76 @@
 "id","state_id:id","name"
-city_ma_set,state_ma_co,"Settat"
-city_ma_cas,state_ma_gc,"Casablanca"
+city_ma_ss_ai,state_ma_ss,Agadir Ida Ou Tanane
+city_ma_ms_ah,state_ma_ms,Al Haouz
+city_ma_tc_ah,state_ma_tc,Al Hoceima
+city_ma_ol_ao,state_ma_ol,Aousserd
+city_ma_gn_az,state_ma_gn,Assa-Zag
+city_ma_bk_az,state_ma_bk,Azilal
+city_ma_bk_bm,state_ma_bk,Béni Mellal
+city_ma_cs_bs,state_ma_cs,Ben Slimane
+city_ma_of_be,state_ma_of,Berkane
+city_ma_cs_br,state_ma_cs,Berrechid
+city_ma_ls_bo,state_ma_ls,Boujdour
+city_ma_fk_bo,state_ma_fk,Boulemane
+city_ma_cs_cb,state_ma_cs,Casablanca
+city_ma_tc_ch,state_ma_tc,Chefchaouen
+city_ma_ms_ch,state_ma_ms,Chichaoua
+city_ma_ss_ca,state_ma_ss,Chtouka Aït Baha
+city_ma_of_dr,state_ma_of,Driouch
+city_ma_fk_eh,state_ma_fk,El Hajeb
+city_ma_cs_ej,state_ma_cs,El Jadida
+city_ma_ms_ek,state_ma_ms,El Kelâa des Sraghna
+city_ma_dt_er,state_ma_dt,Errachidia
+city_ma_ms_es,state_ma_ms,Essaouira
+city_ma_ls_es,state_ma_ls,Es-Semara
+city_ma_tc_fb,state_ma_tc,Fahs-Anjra
+city_ma_fk_fs,state_ma_fk,Fès
+city_ma_of_fi,state_ma_of,Figuig
+city_ma_bk_fb,state_ma_bk,Fquih Ben Salah
+city_ma_gn_gu,state_ma_gn,Guelmim
+city_ma_of_gu,state_ma_of,Guercif
+city_ma_fk_if,state_ma_fk,Ifrane
+city_ma_ss_ia,state_ma_ss,Inezgane Aït Melloul
+city_ma_of_je,state_ma_of,Jerada
+city_ma_rk_ke,state_ma_rk,Kénitra
+city_ma_rk_kh,state_ma_rk,Khémisset
+city_ma_bk_kf,state_ma_bk,Khénifra
+city_ma_bk_kb,state_ma_bk,Khouribga
+city_ma_ls_la,state_ma_ls,Laâyoune
+city_ma_tc_la,state_ma_tc,Larache
+city_ma_ms_mr,state_ma_ms,Marrakech
+city_ma_tc_mf,state_ma_tc,M'diq Fnidq
+city_ma_cs_me,state_ma_cs,Médiouna
+city_ma_fk_me,state_ma_fk,Meknès
+city_ma_dt_mi,state_ma_dt,Midelt
+city_ma_cs_mh,state_ma_cs,Mohammedia
+city_ma_fk_zm,state_ma_fk,Moulay Yacoub
+city_ma_of_na,state_ma_of,Nador
+city_ma_cs_nc,state_ma_cs,Nouaceur
+city_ma_dt_ou,state_ma_dt,Ouarzazate
+city_ma_ol_oe,state_ma_ol,Oued Ed-Dahab
+city_ma_tc_ou,state_ma_tc,Ouezzane
+city_ma_of_oa,state_ma_of,Oujda Angad
+city_ma_rk_ra,state_ma_rk,Rabat
+city_ma_ms_re,state_ma_ms,Rehamna
+city_ma_ms_sa,state_ma_ms,Safi
+city_ma_rk_sa,state_ma_rk,Salé
+city_ma_fk_se,state_ma_fk,Sefrou
+city_ma_cs_se,state_ma_cs,Settat
+city_ma_cs_sb,state_ma_cs,Sidi Bennour
+city_ma_gn_si,state_ma_gn,Sidi Ifni
+city_ma_rk_sk,state_ma_rk,Sidi Kacem
+city_ma_rk_ss,state_ma_rk,Sidi Slimane
+city_ma_rk_st,state_ma_rk,Skhirate-Témara
+city_ma_tc_ta,state_ma_tc,Tanger-Assilah
+city_ma_gn_tn,state_ma_gn,Tan-Tan
+city_ma_fk_tn,state_ma_fk,Taounate
+city_ma_of_ta,state_ma_of,Taourirt
+city_ma_ls_ta,state_ma_ls,Tarfaya
+city_ma_ss_tr,state_ma_ss,Taroudannt
+city_ma_ss_tt,state_ma_ss,Tata
+city_ma_fk_tz,state_ma_fk,Taza
+city_ma_tc_te,state_ma_tc,Tétouan
+city_ma_dt_ti,state_ma_dt,Tinghir
+city_ma_ss_ti,state_ma_ss,Tiznit
+city_ma_ms_yo,state_ma_ms,Youssoufia
+city_ma_dt_za,state_ma_dt,Zagora

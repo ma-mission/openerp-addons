@@ -1,23 +1,4 @@
 # -*- encoding: utf-8 -*-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Copyright (c) 2010 kazacube (http://kazacube.com).
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
 
 {
     'name' : 'Maroc',
@@ -31,8 +12,9 @@ Localization Module - Maroc
     'website': 'http://www.uh1.ac.ma',
     'depends' : ['base'],
     'data' : [
-        'data/res.country.state.csv',
-        'data/res.city.csv',
+        'security/ir.model.access.csv',
+        'data/res.country.state.csv',  # http://www.statoids.com/uma.html
+        'data/res.city.csv',  # http://www.statoids.com/yma.html
     ],
     'demo' : [],
     'auto_install': False,
