@@ -9,31 +9,44 @@
             <field name="inherit_id" ref="hr.view_employee_form"/>
             <field name="arch" type="xml">
                 <data>
+                    <label for="name" position="replace"></label>
                     <field name="name" position="replace">
-                        <field name="name"/>
+                        <field name="name" class="oe_read_only"/>
                     </field>
-                    <notebook position="before">
-                        <group>
-                            <group>
-                                <!--label for="givenname" string="Prénom Ar" class="oe_edit_only"/-->
-                                <field name="givenname" on_change="compute_name(givenname, surname)"/>
-                                <!--label for="surname" string="Nom Ar" class="oe_edit_only"/-->
-                                <field name="surname" on_change="compute_name(givenname, surname)"/>
-                            </group>
-                            <group>
-                                <field name="givenname_latin"/>
-                                <field name="surname_latin"/>
-                            </group>
-                        </group>
-                    </notebook>
-                    <page string="Public Information" position="before">
-                        <page string="Basic Information">
-                            <group string="Basic Info">
+		    <h1 position="after">
+			<table class="oe_form_group">
+                            <tr class="oe_edit_only">
+                                <td><label for="surname_latin" class="oe_form_label oe_bold"/></td>
+                                <td><label for="givenname_latin" class="oe_form_label oe_bold"/></td>
+                            </tr>
+                            <tr class="oe_edit_only">
+                                <td>
+                                    <field name="surname_latin" nolabel="1" on_change="compute_name(givenname_latin, surname_latin)"/>
+                                </td>
+                                <td>
+                                    <field name="givenname_latin" nolabel="1" on_change="compute_name(givenname_latin, surname_latin)"/>
+                                </td>
+                            </tr>
+                            <tr class="oe_edit_only">
+                                <td><label for="surname" class="oe_form_label oe_bold"/></td>
+                                <td><label for="givenname" class="oe_form_label oe_bold"/></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <field name="surname"/>
+                                </td>
+                                <td>
+                                    <field name="givenname"/>
+                                </td>
+                            </tr>
+                        </table>
+		    </h1>
+                    <page string="Personal Information" position="inside">
+                            <group string="Administrative Information">
                                 <field name="employee_id"/>
                                 <field name="public_employment_date"/>
                                 <field name="job_start_date"/>
                             </group>
-                        </page>
                     </page>
 		    <field name="birthday" position="after">
                         <field name="birthplace"/>
@@ -64,9 +77,16 @@
             <field name="inherit_id" ref="hr.view_employee_filter"/>
             <field name="arch" type="xml">
                 <data>
-                    <group string="Group By..." position="inside">
+                    <filter string="Manager" position="before">
                         <filter string="Gender" domain="[]" context="{'group_by':'gender'}"/>
-                    </group>
+                    </filter>
+		    <field name="name" position="replace">
+		        <field name="name" string="Employees"
+			 filter_domain="[self &lt; 'a' and
+				('employee_id','=',self) or
+				('name','ilike',self)
+			]"/>
+                    </field>
                 </data>
             </field>
         </record>

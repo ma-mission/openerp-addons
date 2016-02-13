@@ -5,60 +5,68 @@
     </style>
 </head>
 <body>
-    %for emp in objects :
+%for emp in objects :
     <!-- % setLang(inv.partner_id.lang) % -->
-    <% setLang('ar_SY') %>
-    <h1 style="text-align:center">
-شهادة العمل<br/>
-ATTESTATION DE TRAVAIL 
+    <!-- % setLang('ar_SY') % -->
+
+    <h1>
+        <span dir="rtl">شهادة العمل</span><br/>
+        <span style="font-size:smaller;">ATTESTATION DE TRAVAIL</span>
     </h1>
 
-<div dir="rtl">يشهد رئيس جامعة الحسن الأول بسطات أن السيد(ة)</div><br/>
-Le Président de l'Université Hassan 1er de Settat atteste que Mr/Mme:
+    <p dir="rtl">يشهد رئيس جامعة الحسن الأول بسطات أن السيد(ة)</p>
+    <p>Le Président de l'Université Hassan 1er de Settat atteste que Mr/Mme</p>
 
-    <table width="100%">
+    <p>&nbsp;</p>
+
+    <table class="spaced" width="100%">
       <tr>
          <td>Nom</td>
          <td>${emp.surname_latin or ''}</td>
-         <td align="right">${emp.surname or ''}</td>
-         <td align="right">الاسم العائلي</td>
+         <td dir="rtl">${emp.surname or ''}</td>
+         <td dir="rtl">الاسم العائلي</td>
       </tr>
       <tr>
          <td>Prénom</td>
          <td>${emp.givenname_latin or ''}</td>
-         <td align="right">${emp.givenname or ''}</td>
-         <td align="right">الاسم الشخصي</td>
+         <td dir="rtl">${emp.givenname or ''}</td>
+         <td dir="rtl">الاسم الشخصي</td>
       </tr>
       <tr>
          <td>N° CIN</td>
-         <td colspan="2" align="center">${emp.identification_id}</td>
-         <td align="right">رقم ب.ت.و</td>
+         <td colspan="2" align="center">${emp.identification_id or ''}</td>
+         <td dir="rtl">رقم ب ت و</td>
       </tr>
       <tr>
          <td>N° PPR</td>
-         <td colspan="2" align="center">${emp.employee_id}</td>
-         <td align="right">رقم التأجير</td>
+         <td colspan="2" align="center">${emp.employee_id or ''}</td>
+         <td dir="rtl">رقم التأجير</td>
       </tr>
       <tr>
          <td>Grade</td>
-         <td>${emp.current_grade_id.grade_id.name}</td>
-         <td align="right"></td>
-         <td align="right">الإطار</td>
+         <td colspan="2" align="center">${emp.current_grade_id and emp.current_grade_id.grade_id and emp.current_grade_id.grade_id.name or ''}</td>
+         <td dir="rtl">الإطار</td>
       </tr>
       <tr>
          <td>Lieu de Travail</td>
-         <td>${emp.work_location}</td>
-         <td align="right"></td>
-         <td align="right">مقر العمل</td>
+         <td colspan="2" align="center">${emp.work_location or ''}</td>
+         <td dir="rtl">مقر العمل</td>
       </tr>
       <tr>
          <td colspan="2">Date d'affection dans l'administration publique</td>
-         <td align="center">${emp.public_employment_date}</td>
-         <td align="right">تاريخ ولوج الوظيفة العمومية</td>
+         <td align="center">${emp.public_employment_date or ''}</td>
+         <td dir="rtl">تاريخ ولوج الوظيفة العمومية</td>
       </tr>
     </table>
 
-    <p style="page-break-after:always"></p>
-    %endfor
+    <p>&nbsp;</p>
+    <p dir="rtl">سلمت هذه الشهادة للمعني(ة) بالأمر بطلب منه(ها) للإدلاء بها واستعمالها على الوجه المشروع</p>
+    <p>La présente attestation est délivrée à la demande de l'intéressé(e) pour servir et valoir ce que de droit</p>
+
+    <p>&nbsp;</p>
+    <div style="text-align:center;">Settat, le: &nbsp; ${time.strftime("%Y/%m/%d")} &nbsp; :حرر بسطات في</div>
+
+    <p class="page-break"></p>
+%endfor
 </body>
 </html>

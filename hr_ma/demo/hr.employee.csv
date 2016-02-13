@@ -1,0 +1,23 @@
+id,name,givenname_latin,surname_latin,givenname,surname,work_location,work_email,employee_id
+hr.employee_fp,Mohammed Li,Mohamed,Li,محمد,李,Présidence,fp@uhp.ac.ma,1653996
+hr.employee_al,Antoine Langlais,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_mit,John Smith,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_niv,Michael Hawkins,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_stw,Liam Nelson,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_chs,David Samson,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_qdp,Gilles Gravie,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_fme,Jack Macklin,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_fpi,Martin Lawrence,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_jth,Jimmy Kosikin,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_ngh,Famke Jenssens,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_vad,Ashley Presley,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_han,Hans Anders,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_jve,Jan Van Eyck,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_jep,Jean-Pierre Carnaud,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_jod,John Doe,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_jog,João Gomer,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_jgo,Juan Gomez,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_lur,Luigi Rondi,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_hne,Николай Петра,,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_djj,佐藤さくら (demo_ja_JP),,,,,Présidence,contact@uhp.ac.ma,0
+hr.employee_dzc,趙生 (demo_zh_CN),,,,,Présidence,contact@uhp.ac.ma,0
