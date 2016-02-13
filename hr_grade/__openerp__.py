@@ -36,10 +36,10 @@ Add grade information on the employee.
     'depends': ['hr'],
     'data': [
         'hr_grade_view.xml',
+        'hr_employee_view.xml',
+        'hr_paygrade_view.xml',
         'security/ir.model.access.csv',
-        'data/hr.grade.csv',
     ],
-    'demo': [],
     'test': [],
     'installable': True,
     'auto_install': False,
