@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_employee_inherit_grade_form" model="ir.ui.view">
+            <field name="name">hr.employee.inherit.grade.form</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="groups_id" eval="[(4, ref('base.group_hr_user'))]"/>
+            <field name="arch" type="xml">
+                    <xpath expr="//notebook/page[3]" position="before">
+                        <page string="Career Information">
+                                <field name="employee_grade_ids">
+                                    <form version="7.0">
+                                        <header>
+                                            <button type="object" name="grade_validate" string="Validate" states="draft,proposal" class="oe_highlight"/>
+					</header>
+                                        <group>
+                                            <group>
+                                                <field name="grade_id"/>
+                                                <field name="echelon"/>
+                                                <field name="state"/>
+                                            </group>
+                                            <group>
+                                                <field name="date_start"/>
+                                                <field name="date_end"/>
+                                            </group>
+                                        </group>
+                                    </form>
+                                </field>
+                        </page>
+                    </xpath>
+            </field>
+        </record>
+
+        <record id="view_employee_tree" model="ir.ui.view">
+            <field name="name">hr.employee.tree_grade</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_tree"/>
+            <field name="groups_id" eval="[(4, ref('base.group_hr_user'))]"/>
+            <field name="arch" type="xml">
+                <data>
+                    <field name="name" position="after">
+                        <field name="grade_id"/>
+                    </field>
+                </data>
+            </field>
+        </record>
+
+        <record id="view_employee_filter" model="ir.ui.view">
+            <field name="name">hr.employee.filter_grade</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_filter"/>
+            <field name="groups_id" eval="[(4, ref('base.group_hr_user'))]"/>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="(//group/filter)[1]" position="before">
+                        <filter string="Grade" domain="[]" context="{'group_by':'grade_id'}"/>
+                    </xpath>
+                </data>
+            </field>
+        </record>
+
+    </data>
+</openerp>

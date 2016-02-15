@@ -1,0 +1,13 @@
+"id","country_id:id","name","code"
+state_ma_bk,base.ma,Béni Mellal-Khénifra,BK
+state_ma_cs,base.ma,Casablanca-Settat,CS
+state_ma_ol,base.ma,Dakhla-Oued Ed-Dahab,OL
+state_ma_dt,base.ma,Drâa-Tafilalet,DT
+state_ma_fk,base.ma,Fès-Meknès,FK
+state_ma_gn,base.ma,Guelmim-Oued Noun,GN
+state_ma_ls,base.ma,Laâyoune-Sakia al Hamra,LS
+state_ma_of,base.ma,L'oriental,OF
+state_ma_ms,base.ma,Marrakech-Safi,MS
+state_ma_rk,base.ma,Rabat-Salé-Kénitra,RK
+state_ma_ss,base.ma,Souss-Massa,SS
+state_ma_tc,base.ma,Tanger-Tétouan-Al Hoceima,TC

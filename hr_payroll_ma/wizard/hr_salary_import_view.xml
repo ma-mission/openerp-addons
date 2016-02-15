@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_hr_salary_import_start" model="ir.ui.view">
+            <field name="name">Import Wizard</field>
+            <field name="model">hr.salary.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Salary Import" version="7.0">
+                    <group col="4" colspan="6">
+                        <field name="one_liner"/>
+                        <field name="create_new"/>
+                        <newline/>
+			<field name="date" attrs="{'invisible': [('one_liner','=',True)]}"/>
+                        <newline/>
+                        <field name="employee_data"/>
+                        <newline/>
+			<field name="salary_data" attrs="{'invisible': [('one_liner','=',True)], 'required': [('one_liner','=',False)]}"/>
+                    </group>
+                    <footer>
+                        <button string="Import" class="oe_highlight" name="import_salaries" type="object" />
+                        or
+                        <button string="Cancel" class="oe_link" special="cancel" />
+                    </footer>
+
+                </form>
+            </field>
+        </record>
+
+        <record id="view_hr_salary_import_result" model="ir.ui.view">
+            <field name="name">Import Wizard Result</field>
+            <field name="model">hr.salary.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Salary Import Result" version="7.0">
+                    <field name="employee_messages" nolabel="1" readonly="1"/> 
+                    <field name="salary_messages" nolabel="1" readonly="1"/> 
+                    <field name="employee_ids" string="New" readonly="1"> <!-- domain="[('new','=',True)]" -->
+                        <tree string="New employees">
+                            <field name="employee_name"/>
+                            <field name="employment_date"/>
+                            <field name="grade_id"/>
+                            <field name="new"/>
+                        </tree>
+                    </field>
+                    <footer>
+                        <button string="Close" class="oe_highlight" special="cancel" />
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_hr_salary_import_wizard" model="ir.actions.act_window">
+            <field name="name">Import Payslips</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">hr.salary.wizard</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_hr_salary_import_start" />
+            <field name="target">new</field>
+        </record>
+
+
+        <menuitem action="action_hr_salary_import_wizard" id="hr_menu_import" parent="hr.menu_hr_configuration" groups="base.group_no_one"/>
+
+    </data>
+</openerp>

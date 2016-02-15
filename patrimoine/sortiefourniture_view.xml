@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <record id="sortiefourniture_view_form" model="ir.ui.view">
+            <field name="name">patrimoine.sortiefourniture.view.form</field>
+            <field name="model">patrimoine.sortiefourniture</field>
+            <field name="arch" type="xml">
+                <form string="sortiefourniture" version="7.0">
+                <header>
+                <button type="object" name="valider" string="Valider" states="draft" class="oe_highlight"/>
+                <field name="state" widget="statusbar"/>
+                </header>
+                <group>
+                	<group>
+                    <field name="employee_id"/>
+                    <field name="date"/>
+                    <field name="decharge"/>
+                    </group>
+                     
+                </group>
+                <group colspan="4" string="Fourniture">
+                <field name="ligne_ids" nolabel="1">
+                    	<tree editable="bottom">
+                    		<field name="fourniture_id"/>
+                    		<field name="qte"/>
+                    	</tree>
+                    </field>
+                    </group>
+                </form>
+            </field>
+        </record>
+        
+        
+        
+        
+        <record id="sortiefourniture_view_tree" model="ir.ui.view">
+            <field name="name">patrimoine.sortiefourniture.view.tree</field>
+            <field name="model">patrimoine.sortiefourniture</field>
+            <field name="arch" type="xml">
+                <tree string="sortiefourniture">
+                    <field name="employee_id"/>
+                    <field name="date"/>
+                    <field name="state"/>
+                </tree>
+            </field>
+        </record>
+        
+        
+        
+        
+        <record id="action_sortiefourniture" model="ir.actions.act_window">
+            <field name="name">sortiefourniture</field>
+            <field name="res_model">patrimoine.sortiefourniture</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+
+         <menuitem id="menu_sortiefourniture" parent="menu_fournitures" name="sortie fourniture" action="action_sortiefourniture"/>
+    
+      
+        
+     </data>
+</openerp>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <record id="site_view_form" model="ir.ui.view">
+            <field name="name">patrimoine.site.view.form</field>
+            <field name="model">patrimoine.site</field>
+            <field name="arch" type="xml">
+                <form string="site">
+                
+            
+                <group>
+                	<group>
+                    <field name="name"/>
+                    <field name="adresse"/>
+                    </group>
+                    <group>
+                    <field name="ville_id"/>
+                    <field name="image"/>
+                    </group>
+                </group>
+                
+                </form>
+            </field>
+        </record>
+        
+        <record id="action_site" model="ir.actions.act_window">
+            <field name="name">Site</field>
+            <field name="res_model">patrimoine.site</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+         <menuitem id="menu_site" parent="menu_patrimoine_geo" name="Site" action="action_site"/>
+    
+        
+     </data>
+</openerp>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report auto="False" id="report_hr_work_certificate" model="hr.employee"
+            name="hr_ma.report_work_certificate" string="Work certificate"
+            report_type="webkit" file="hr_ma/report/at.mako" />
+    </data>
+</openerp>

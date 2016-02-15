@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report auto="False" id="report_decharge" model="patrimoine.sortie" 
+        name="report.decharge" file="patrimoine/reports/decharge.mako" 
+        string="Décharge" report_type="webkit"/>
+
+        <report auto="False" id="report_piece" model="patrimoine.piece" 
+        name="report.piece" file="patrimoine/reports/piece_info.mako" 
+        string="Informations" report_type="webkit"/>
+   
+   		<report auto="False" id="report_dechargefourniture" model="patrimoine.sortiefourniture" 
+        name="report.dechargefourniture" file="patrimoine/reports/dechargefourniture.mako" 
+        string="Décharge fourniture" report_type="webkit"/>
+   
+    </data>
+</openerp>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="action_hr_paygrade" model="ir.actions.act_window">
+            <field name="res_model">hr.paygrade</field>
+            <field name="view_type">form</field>
+            <field name="name">Paygrades</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="view_paygrade_tree" model="ir.ui.view">
+            <field name="name">hr.paygrade.tree</field>
+            <field name="model">hr.paygrade</field>
+            <field name="arch" type="xml">
+		<tree string="Payrades">
+                    <field name="sequence"/>
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_paygrade_form" model="ir.ui.view">
+            <field name="name">hr.paygrade.form</field>
+            <field name="model">hr.paygrade</field>
+            <field name="arch" type="xml">
+                <form string="Paygrades">
+                    <group>
+                            <field name="name"/>
+                            <field name="sequence"/>
+                    </group>
+                    <group string="Echelons" colspan="4">
+			<field name="echelon_ids">
+			    <tree editable="bottom">
+                            	<field name="sequence"/>
+                            	<field name="name"/>
+                            	<field name="index"/>
+			    </tree>
+			</field>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <menuitem action="action_hr_paygrade" id="hr_menu_paygrade" name="Paygrades" parent="hr.menu_hr_configuration" groups="base.group_no_one"/>
+
+    </data>
+</openerp>

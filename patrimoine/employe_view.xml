@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <record id="employe_view_form" model="ir.ui.view">
+            <field name="name">hr.employee.articles.form</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="groups_id" eval="[(4, ref('group_patrimoine_user'))]"/>
+            <field name="arch" type="xml">
+                    <page string="HR Settings" position="before">
+	                    <page string="Articles">
+ 	                       <group colspan="4">
+                                <field name="article_ids" nolabel="1">
+                                	<tree>
+                                		<field name="name"/>
+                                		<field name="num_inv"/>
+                                		<field name="num_serie"/>
+                                	</tree>
+                                </field>
+    	                    </group>
+                        </page>
+                    </page>
+            </field>
+        </record>
+                
+     </data>
+</openerp>

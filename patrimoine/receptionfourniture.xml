@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <record id="receptionfourniture_view_form" model="ir.ui.view">
+            <field name="name">patrimoine.receptionfourniture.view.form</field>
+            <field name="model">patrimoine.receptionfourniture</field>
+            <field name="arch" type="xml">
+                <form string="Réception fourniture">
+                    <field name="partner_id"/>
+                    <field name="bon_livraison"/>
+                    <field name="date_livraison"/>
+                    <group colspan="4" string="Fournitures">
+                    <field name="ligne_ids" nolabel="1">
+                    	<tree editable="bottom">
+                    		<field name="fourniture_id"/>
+                    		<field name="qte"/>
+                    	</tree>
+                    </field>
+                    </group>
+                </form>
+            </field>
+        </record>
+        
+        
+        <record id="receptionfourniture_view_tree" model="ir.ui.view">
+            <field name="name">patrimoine.receptionfourniture.view.tree</field>
+            <field name="model">patrimoine.receptionfourniture</field>
+            <field name="arch" type="xml">
+                <tree string="Réception">
+                    <field name="partner_id"/>
+                    <field name="bon_livraison"/>
+                    <field name="date_livraison"/>  
+                </tree>
+            </field>
+        </record>
+        
+        <record id="action_receptionfourniture" model="ir.actions.act_window">
+            <field name="name">Réception</field>
+            <field name="res_model">patrimoine.receptionfourniture</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="menu_receptionfourniture" parent="menu_fournitures" name="Réception Fourniture" action="action_receptionfourniture"/>
+    
+        
+    
+        
+     </data>
+</openerp>

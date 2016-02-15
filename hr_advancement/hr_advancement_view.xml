@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+
+    <record id="view_hr_advancement_ruleset_tree" model="ir.ui.view">
+        <field name="name">hr.advancement.ruleset.tree</field>
+        <field name="model">hr.advancement.ruleset</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+	    <tree string="Advancement rule sets">
+                <field name="name"/>
+                <field name="date"/>
+            </tree>
+        </field>
+    </record>
+ 
+    <record id="view_hr_advancement_ruleset_form" model="ir.ui.view">
+        <field name="name">hr.advancement.ruleset.form</field>
+        <field name="model">hr.advancement.ruleset</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Advancement rule sets">
+                <group colspan="4">
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </group>
+                <notebook>
+                    <page string="Grades">
+                        <field name="grade_ids" nolabel="1">
+                        </field>
+                    </page>
+                    <page string="Echelon rules">
+                        <field name="echelon_rule_ids" nolabel="1">
+                            <tree editable="bottom">
+                                <field name="echelon"/>
+                                <field name="months"/>
+                                <field name="months_medium"/>
+                                <field name="months_fast"/>
+                            </tree>
+                        </field>
+                    </page>
+                </notebook>
+            </form>
+        </field>
+    </record>
+    
+    <record model="ir.actions.act_window" id="act_open_hr_advancement_ruleset_view">
+        <field name="name">Advancement rule sets</field>
+        <field name="res_model">hr.advancement.ruleset</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+
+    <record id="view_hr_advancement_proposal_search" model="ir.ui.view">
+        <field name="name">hr.advancement.proposal.search</field>
+        <field name="model">hr.advancement.proposal</field>
+        <field name="type">search</field>
+        <field name="arch" type="xml">
+	    <search string="Advancement proposals">
+                <field name="year"/>
+            </search>
+        </field>
+    </record>
+ 
+    <record id="view_hr_advancement_proposal_tree" model="ir.ui.view">
+        <field name="name">hr.advancement.proposal.tree</field>
+        <field name="model">hr.advancement.proposal</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+	    <tree string="Advancement proposals">
+                <field name="year"/>
+                <field name="grade_id"/>
+            </tree>
+        </field>
+    </record>
+ 
+    <record id="view_hr_advancement_proposal_form" model="ir.ui.view">
+        <field name="name">hr.advancement.proposal.form</field>
+        <field name="model">hr.advancement.proposal</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Advancement proposals">
+                <group colspan="4">
+                    <group>
+                        <field name="year"/>
+                        <field name="grade_id"/>
+                    </group>
+                </group>
+                <notebook>
+                    <page string="Employees">
+                        <field name="employee_advancement_ids" nolabel="1">
+                            <tree>
+                                <field name="employee_id"/>
+                                <field name="grade_id"/>
+                                <field name="echelon"/>
+                                <field name="index"/>
+                            </tree>
+                        </field>
+                    </page>
+                </notebook>
+            </form>
+        </field>
+    </record>
+    
+    <record model="ir.actions.act_window" id="act_open_hr_advancement_proposal_view">
+        <field name="name">Advancement proposals</field>
+        <field name="res_model">hr.advancement.proposal</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+	<field name="search_view_id" ref="view_hr_advancement_proposal_search"/>
+    </record>
+
+    <menuitem id="menu_hr_advancement_ruleset" parent="hr.menu_hr_configuration" action="act_open_hr_advancement_ruleset_view"/>
+    <menuitem id="menu_hr_advancement_proposal" parent="hr.menu_hr_main" action="act_open_hr_advancement_proposal_view"/>
+
+    </data>
+</openerp>

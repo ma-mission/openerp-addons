@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <record id="view_hr_payslip_search" model="ir.ui.view">
+            <field name="name">Payslip</field>
+            <field name="model">hr.payslip</field>
+            <field name="arch" type="xml">
+                <search string="Payslip">
+                    <field name="employee_id"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="view_hr_payslip_tree" model="ir.ui.view">
+            <field name="name">Payslip</field>
+            <field name="model">hr.payslip</field>
+            <field name="arch" type="xml">
+                <tree string="Payslip">
+                    <field name="employee_id"/>
+                    <field name="date_start"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_hr_payslip_form" model="ir.ui.view">
+            <field name="name">Payslip</field>
+            <field name="model">hr.payslip</field>
+            <field name="arch" type="xml">
+                <form string="Payslip" version="7.0">
+                    <group>
+                        <field name="employee_id"/>
+                        <field name="date_start"/>
+                    </group>
+                    <field name="line_ids">
+                        <tree editable="bottom">
+                            <field name="salary_rule_id"/>
+                            <field name="amount"/>
+                        </tree>
+                    </field>
+                </form>
+            </field>
+        </record>
+
+        <!-- Shortcuts -->
+        <record id="action_hr_employee_payslip" model="ir.actions.act_window">
+            <field name="name">Payslips</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">hr.payslip</field>
+            <field name="src_model">hr.employee</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{'search_default_employee_id': [active_id], 'default_employee_id': active_id}</field>
+            <field name="view_id" eval="view_hr_payslip_tree"/>
+        </record>
+
+        <!-- Hr employee inherit Payslips -->
+        <record id="view_employee_form_payslip_inherit" model="ir.ui.view">
+            <field name="name">hr.employee.payslip.form.inherit</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@name='button_box']" position="inside">
+                    <button name="%(action_hr_employee_payslip)d" string="Payslips" type="action" groups="base.group_hr_manager"/>
+                </xpath>
+            </field>
+        </record>
+
+        
+        <record id="action_hr_payslip" model="ir.actions.act_window">
+            <field name="res_model">hr.payslip</field>
+            <field name="view_type">form</field>
+            <field name="name">Payslips</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="view_hr_payslip_search"/>
+        </record>
+
+        <record id="action_hr_salary_rule" model="ir.actions.act_window">
+            <field name="res_model">hr.salary.rule</field>
+            <field name="view_type">form</field>
+            <field name="name">Salary Rules</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+
+        <menuitem action="action_hr_payslip" id="hr_menu_payslip" parent="hr.menu_hr_main" groups="base.group_hr_manager"/>
+        <menuitem action="action_hr_salary_rule" id="hr_menu_salary_rule" parent="hr.menu_hr_configuration" groups="base.group_hr_manager"/>
+
+    </data>
+</openerp>

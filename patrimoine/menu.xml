@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    
+	<menuitem id="menu_patrimoine" name="Patrimoine"/>
+    <menuitem id="menu_stock" parent="menu_patrimoine" name="Stock"/>
+    <menuitem id="menu_materiel" parent="menu_stock" name="Matériel"/>
+    <menuitem id="menu_fournitures" parent="menu_stock" name="Fourniture"/>
+    
+    
+    
+    <menuitem id="menu_patrimoine_geo" parent="menu_patrimoine" name="Patrimoine géographique"/>
+    <menuitem id="menu_configuration" parent="menu_patrimoine" name="Configuration"/>
+    
+    
+    
+    </data>
+</openerp>

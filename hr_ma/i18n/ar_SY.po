@@ -1,0 +1,212 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* hr_ma
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.saas~6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-19 16:29+0000\n"
+"PO-Revision-Date: 2016-01-19 16:29+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "ATTESTATION DE TRAVAIL"
+msgstr "ATTESTATION DE TRAVAIL"
+
+#. module: hr_ma
+#: view:hr.employee:hr_ma.view_employee_form
+msgid "Administrative Information"
+msgstr "المعلومات الإدارية"
+
+#. module: hr_ma
+#: field:hr.employee,birthplace:0
+msgid "Birth place"
+msgstr "مكان الازدياد"
+
+#. module: hr_ma
+#: field:hr.employee,children:0
+msgid "Children"
+msgstr "عدد الأطفال"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "Date d'affection dans l'administration publique"
+msgstr "Date d'affection dans l'administration publique"
+
+#. module: hr_ma
+#: model:hr.job,name:hr_ma.job_driver
+msgid "Driver"
+msgstr "Driver"
+
+#. module: hr_ma
+#: model:ir.model,name:hr_ma.model_hr_employee
+msgid "Employee"
+msgstr "الموظف"
+
+#. module: hr_ma
+#: field:hr.employee,employee_id:0
+msgid "Employee ID"
+msgstr "رقم التأجير"
+
+#. module: hr_ma
+#: view:hr.employee:hr_ma.view_employee_filter
+msgid "Employees"
+msgstr "الموظفون"
+
+#. module: hr_ma
+#: field:hr.employee,public_employment_date:0
+msgid "Employment Date"
+msgstr "تاريخ التوظيف"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "Fait le"
+msgstr "Fait le"
+
+#. module: hr_ma
+#: view:hr.employee:hr_ma.view_employee_filter
+msgid "Gender"
+msgstr "Gender"
+
+#. module: hr_ma
+#: field:hr.employee,givenname:0
+msgid "Given Name"
+msgstr "الإسم"
+
+#. module: hr_ma
+#: field:hr.employee,givenname_latin:0
+msgid "Given Name Lat"
+msgstr "الإسم بالحروف اللاتينية"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "Grade"
+msgstr "Grade"
+
+#. module: hr_ma
+#: model:ir.model,name:hr_ma.model_hr_job
+msgid "Job Position"
+msgstr "Job Position"
+
+#. module: hr_ma
+#: field:hr.employee,job_start_date:0
+msgid "Job Start Date"
+msgstr "Job Start Date"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "Le Président de l'Université Hassan 1er de Settat atteste que Mr/Mme:"
+msgstr "Le Président de l'Université Hassan 1er de Settat atteste que Mr/Mme:"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "Lieu de Travail"
+msgstr "Lieu de Travail"
+
+#. module: hr_ma
+#: view:hr.employee:hr_ma.view_employee_filter
+msgid "Manager"
+msgstr "المدير"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "Nom"
+msgstr "Nom"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "N° CIN"
+msgstr "N° CIN"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "N° PPR"
+msgstr "N° PPR"
+
+#. module: hr_ma
+#: view:hr.employee:hr_ma.view_employee_form
+msgid "Personal Information"
+msgstr "المعلومات الشخصية"
+
+#. module: hr_ma
+#: model:hr.job,name:hr_ma.job_president
+msgid "President"
+msgstr "President"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "Prénom"
+msgstr "Prénom"
+
+#. module: hr_ma
+#: field:hr.employee,surname:0
+msgid "Surname"
+msgstr "النسب"
+
+#. module: hr_ma
+#: field:hr.employee,surname_latin:0
+msgid "Surname Lat"
+msgstr "النسب بالحروف اللاتينية"
+
+#. module: hr_ma
+#: model:hr.job,name:hr_ma.job_vice_president
+msgid "Vice President"
+msgstr "Vice President"
+
+#. module: hr_ma
+#: model:ir.actions.report.xml,name:hr_ma.report_hr_work_certificate
+msgid "Work certificate"
+msgstr "Work certificate"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "الإطار"
+msgstr "الإطار"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "الاسم الشخصي"
+msgstr "الاسم الشخصي"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "الاسم العائلي"
+msgstr "الاسم العائلي"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "تاريخ ولوج الوظيفة العمومية"
+msgstr "تاريخ ولوج الوظيفة العمومية"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "رقم التأجير"
+msgstr "رقم التأجير"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "رقم ب.ت.و"
+msgstr "رقم ب.ت.و"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "شهادة العمل"
+msgstr "شهادة العمل"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "مقر العمل"
+msgstr "مقر العمل"
+
+#. module: hr_ma
+#: view:website:hr_ma.report_work_certificate
+msgid "يشهد رئيس جامعة الحسن الأول بسطات أن السيد(ة)"
+msgstr "يشهد رئيس جامعة الحسن الأول بسطات أن السيد(ة)"
+

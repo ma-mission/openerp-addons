@@ -1,0 +1,153 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* hr_mission
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-03 09:02+0000\n"
+"PO-Revision-Date: 2016-02-03 09:02+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_mission
+#: selection:hr.mission,transport:0
+msgid "Personal car"
+msgstr "Voiture personelle"
+
+#. module: hr_mission
+#: field:hr.mission,car_immatriculation:0
+msgid "Immatriculation"
+msgstr "Matricule"
+
+#. module: hr_mission
+#: field:hr.mission,city_to:0
+msgid "Destination"
+msgstr ""
+
+#. module: hr_mission
+#: view:hr.mission:0
+msgid "State"
+msgstr ""
+
+#. module: hr_mission
+#: selection:hr.mission,state:0
+msgid "Draft"
+msgstr "Brouillon"
+
+#. module: hr_mission
+#: field:hr.mission,state:0
+msgid "Status"
+msgstr "Statut"
+
+#. module: hr_mission
+#: view:hr.mission:0
+msgid "Contracts"
+msgstr ""
+
+#. module: hr_mission
+#: selection:hr.mission,transport:0
+msgid "Train"
+msgstr ""
+
+#. module: hr_mission
+#: field:hr.mission,object:0
+msgid "Object"
+msgstr "Objet"
+
+#. module: hr_mission
+#: field:hr.mission,driver_id:0
+msgid "Driver"
+msgstr "Chauffeur"
+
+#. module: hr_mission
+#: selection:hr.mission,state:0
+msgid "Refused"
+msgstr "Refusé"
+
+#. module: hr_mission
+#: selection:hr.mission,transport:0
+msgid "Plane"
+msgstr "Avion"
+
+#. module: hr_mission
+#: field:hr.mission,date_end:0
+msgid "Return Date"
+msgstr "Date de retour"
+
+#. module: hr_mission
+#: view:hr.mission:0
+msgid "Validate"
+msgstr "Valider"
+
+#. module: hr_mission
+#: selection:hr.mission,state:0
+msgid "Approved"
+msgstr "Approuvé"
+
+#. module: hr_mission
+#: view:hr.mission:0
+msgid "Refuse"
+msgstr "Refuser"
+
+#. module: hr_mission
+#: model:ir.actions.act_window,name:hr_mission.action_hr_mission
+#: model:ir.ui.menu,name:hr_mission.hr_menu_mission
+msgid "Missions"
+msgstr ""
+
+#. module: hr_mission
+#: field:hr.mission,employee_ids:0
+msgid "Employees"
+msgstr "Employés"
+
+#. module: hr_mission
+#: field:hr.mission,city_from:0
+msgid "Departure"
+msgstr "Ville de départ"
+
+#. module: hr_mission
+#: selection:hr.mission,transport:0
+msgid "Company car"
+msgstr "Voiture de service"
+
+#. module: hr_mission
+#: sql_constraint:hr.mission:0
+msgid "The start date must be anterior to the end date."
+msgstr "La date de départ doit être inférieure à la date d'arrivée."
+
+#. module: hr_mission
+#: model:ir.model,name:hr_mission.model_hr_mission
+msgid "hr.mission"
+msgstr ""
+
+#. module: hr_mission
+#: view:hr.mission:0
+msgid "Mission"
+msgstr ""
+
+#. module: hr_mission
+#: field:hr.mission,horsepower:0
+msgid "Horsepower"
+msgstr "Puissance fiscale"
+
+#. module: hr_mission
+#: field:hr.mission,date_start:0
+msgid "Depart Date"
+msgstr "Date de départ"
+
+#. module: hr_mission
+#: model:ir.actions.report.xml,name:hr_mission.report_hr_mission
+msgid "Mission Order"
+msgstr "Ordre de mission"
+
+#. module: hr_mission
+#: field:hr.mission,transport:0
+msgid "Transport"
+msgstr ""
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        
+<!-- Contracts Button on Employee Form -->
+
+        <record id="act_hr_employee_2_hr_evaluation" model="ir.actions.act_window">
+            <field name="res_model">hr.evaluation</field>
+            <field name="view_type">form</field>
+            <field name="name">Evaluations</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{'search_default_employee_id': [active_id], 'default_employee_id': active_id}</field>
+        </record>
+        
+        <record id="hr_hr_employee_evaluation_view_form" model="ir.ui.view">
+            <field name="name">hr.hr.employee.evaluation.view.form</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="//div[@name='button_box']" position="inside">
+                        <button name="%(act_hr_employee_2_hr_evaluation)d" string="Evaluations" type="action" groups="base.group_hr_user"/>
+                    </xpath>
+                </data>
+            </field>
+        </record>
+
+        <record id="hr_employee_grade_evaluation_tree" model="ir.ui.view">
+            <field name="name">hr.employee.grade.evaluation.tree</field>
+            <field name="model">hr.employee.grade</field>
+            <field name="inherit_id" ref="hr_grade.view_employee_grade_tree"/>
+            <field name="arch" type="xml">
+                <field name="date_end" position="after">
+                    <field name="evaluation_avg"/>
+                    <field name="advancement_pace"/>
+                </field>
+            </field>
+        </record>
+
+        <record id="hr_evaluation_view_search" model="ir.ui.view">
+            <field name="name">hr.evaluation.view.search</field>
+            <field name="model">hr.evaluation</field>
+            <field name="arch" type="xml">
+                <search string="Search Evaluation">
+                   <field name="employee_id"/>
+                   <field name="year"/>
+                   <group expand="0" string="Group By...">
+                       <filter string="Employee" icon="terp-personal" domain="[]" context="{'group_by':'employee_id'}"/>
+                       <filter string="Year" icon="terp-go-week" domain="[]" context="{'group_by':'year'}"/>
+                       <filter string="Evaluation" icon="terp-gtk-select-all" domain="[]" context="{'group_by':'sum'}"/>
+                   </group>
+               </search>
+            </field>
+        </record>
+
+        <record id="hr_evaluation_view_form" model="ir.ui.view">
+            <field name="name">hr.evaluation.view.form</field>
+            <field name="model">hr.evaluation</field>
+            <field name="arch" type="xml">
+                <form string="Evaluations" version="7.0">
+                    <sheet>
+                    <group>
+                        <group>
+                            <field name="employee_id"/>
+                            <field name="year"/>
+                        </group>
+                        <group>
+                            <field name="work_eval"/>
+                            <field name="productivity_eval"/>
+                            <field name="organization_eval"/>
+                            <field name="conduct_eval"/>
+                            <field name="innovation_eval"/>
+                        </group>
+                    </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="hr_evaluation_view_tree" model="ir.ui.view">
+            <field name="name">hr.evaluation.view.tree</field>
+            <field name="model">hr.evaluation</field>
+            <field name="arch" type="xml">
+                <tree string="Evaluations">
+                    <field name="year"/>
+                    <field name="employee_id"/>
+                    <field name="sum"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_hr_evaluation" model="ir.actions.act_window">
+            <field name="name">Evaluations</field>
+            <field name="res_model">hr.evaluation</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[]</field>
+            <field name="context">{'search_default_current':1}</field>
+            <field name="search_view_id" ref="hr_evaluation_view_search"/>
+        </record>
+
+        <menuitem action="action_hr_evaluation" id="hr_menu_evaluation" parent="hr.menu_hr_main" name="Evaluations" groups="base.group_hr_user"/>
+
+    </data>
+</openerp>
