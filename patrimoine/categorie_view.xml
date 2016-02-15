@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <record id="categorie_view_form" model="ir.ui.view">
+            <field name="name">patrimoine.categorie.view.form</field>
+            <field name="model">patrimoine.categorie</field>
+            <field name="arch" type="xml">
+                <form string="categorie">
+                    <field name="name"/>
+                </form>
+            </field>
+        </record>
+        
+        <record id="action_categorie" model="ir.actions.act_window">
+            <field name="name">Catégorie</field>
+            <field name="res_model">patrimoine.categorie</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+         <menuitem id="menu_categorie" parent="menu_configuration" name="Catégorie" action="action_categorie"/>
+    
+        
+     </data>
+</openerp>

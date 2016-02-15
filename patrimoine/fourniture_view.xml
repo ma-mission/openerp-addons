@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <record id="fourniture_view_form" model="ir.ui.view">
+            <field name="name">patrimoine.fourniture.view.form</field>
+            <field name="model">patrimoine.fourniture</field>
+            <field name="arch" type="xml">
+            <form string="Sous famille" version="7.0">
+                <sheet>
+                    <field name="image" widget="image" class="oe_avatar oe_left"/>
+                <group>
+                	<group>
+                    <field name="name"/>
+                    <field name="qtm"/>
+                    </group>
+                    <group>
+                    <field name="qte"/>
+                    </group>
+                </group>
+                </sheet>
+                </form>
+                
+               
+            </field>
+        </record>
+        
+        <record id="fourniture_view_tree" model="ir.ui.view">
+            <field name="name">patrimoine.fourniture.view.tree</field>
+            <field name="model">patrimoine.fourniture</field>
+            <field name="arch" type="xml">
+                <tree string="fourniture">
+                
+                	
+                    <field name="name"/>
+                    <field name="qte"/>
+                    <field name="qtm"/>
+                    
+                </tree>
+            </field>
+        </record>
+        
+        
+        <record id="action_fourniture" model="ir.actions.act_window">
+            <field name="name">fourniture</field>
+            <field name="res_model">patrimoine.fourniture</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+         <menuitem id="menu_fourniture" parent="menu_configuration" name="Fourniture" action="action_fourniture"/>
+    
+        
+     </data>
+</openerp>

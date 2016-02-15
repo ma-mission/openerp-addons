@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <record id="piece_view_form" model="ir.ui.view">
+            <field name="name">patrimoine.piece.view.form</field>
+            <field name="model">patrimoine.piece</field>
+            <field name="arch" type="xml">
+                <form string="piece">
+                
+            
+                <group>
+                	<group>
+                    <field name="name"/>
+                    <field name="superficie"/>
+                    <field name="type"/>
+                    </group>
+                    <group>
+                    <field name="batiment_id"/>
+                    <field name="etage"/>
+                    </group>
+                     
+                </group>
+                <group colspan="4" string="Les employés">
+                    <field name="employee_ids" nolabel="1" widget="many2many">
+                    	<tree>
+                    		<field name="name"/>
+                    	</tree>
+                    </field>
+                </group>
+                </form>
+            </field>
+        </record>
+        
+        <record id="action_piece" model="ir.actions.act_window">
+            <field name="name">Pièce</field>
+            <field name="res_model">patrimoine.piece</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+         <menuitem id="menu_piece" parent="menu_patrimoine_geo" name="Pièce" action="action_piece"/>
+    
+      
+        
+     </data>
+</openerp>

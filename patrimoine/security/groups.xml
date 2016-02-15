@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <record id="group_patrimoine_user" model="res.groups">
+            <field name="name">User</field>
+            <field name="category_id" ref="base.module_category_patrimoine"/>
+            <field name="comment">l'utilisateur peut gérer le patrimoine</field>
+        </record>
+        
+     </data>
+</openerp>

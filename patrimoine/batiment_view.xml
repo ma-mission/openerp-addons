@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <record id="batiment_view_form" model="ir.ui.view">
+            <field name="name">patrimoine.batiment.view.form</field>
+            <field name="model">patrimoine.batiment</field>
+            <field name="arch" type="xml">
+                <form string="batiment">
+                
+            
+                <group>
+                	<group>
+                    <field name="name"/>
+                    <field name="adresse"/>
+                    <field name="nombre"/>
+                    </group>
+                    <group>
+                    <field name="company_id"/>
+                    <field name="croqui"/>
+                    <field name="image"/>
+                    </group>
+                </group>
+                <group colspan="4" string="Les pièces">
+                    <field name="piece_ids" nolabel="1">
+                    	<tree editable="buttom">
+                    		<field name="name"/>
+                    		<field name="superficie"/>
+                    		<field name="type"/>
+                    		<field name="etage"/>
+                    	</tree>
+                    </field>
+                </group>
+                
+                </form>
+            </field>
+        </record>
+        
+        <record id="action_batiment" model="ir.actions.act_window">
+            <field name="name">Batiment</field>
+            <field name="res_model">patrimoine.batiment</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+         <menuitem id="menu_batiment" parent="menu_patrimoine_geo" name="Bâtiment" action="action_batiment"/>
+    
+        
+     </data>
+</openerp>
