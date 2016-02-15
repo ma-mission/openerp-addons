@@ -1,27 +1,8 @@
 # -*- coding: utf-8 -*-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Copyright (C) 2004-2010 Tiny SPRL (<http://tiny.be>).
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
 
-from osv import fields, osv
+from openerp.osv import fields, osv
 
-class mission(osv.osv):
+class mission(osv.Model):
     _name = "hr.mission"
     _description = ""
 
@@ -32,24 +13,35 @@ class mission(osv.osv):
         },
     }
 
+    _TRANSPORTS = [
+            ('train', 'Train'),
+            ('fleet', 'Company car'),
+            ('personal', 'Personal car'),
+            ('plane', 'Plane')
+    ]
+
+    def get_transport(self, cr, uid, ids, transport, context=None):  # For reports
+        lang = context and 'lang' in context and context['lang']
+        for mean in self._TRANSPORTS:
+            if mean[0] == transport:
+                name = mean[1]
+                return self.pool.get('ir.translation')._get_source(cr, uid, None, 'selection', lang, name)
+
     _columns = {
-        'employee_id': fields.many2one('hr.employee','Employee'),
-        'object': fields.char('Object', size=80),
-        #'transport_id': fields.many2one('hr.employee','Transport'),
-        'transport': fields.char('Transport', size=50),
-        'date_start': fields.date('Depart Date'),
-        'date_end': fields.date('Return Date'),
+        #'employee_id': fields.many2one('hr.employee','Employee'),
+        'employee_ids': fields.many2many('hr.employee', 'hr_mission_employees', 'mission_id', 'employee_id', 'Employees', readonly=True, states={'draft':[('readonly',False)]}),
+        'object': fields.char('Object', size=80, readonly=True, states={'draft':[('readonly',False)]}),
+        'date_start': fields.date('Depart Date', readonly=True, states={'draft':[('readonly',False)]}),
+        'date_end': fields.date('Return Date', readonly=True, states={'draft':[('readonly',False)]}),
         #'international': fields.boolean('International'),
-        #'country_id': fields.many2one('res.country', 'Country'),
-        #'city': fields.char('City', size=30),
-        'city_from': fields.many2one('res.city', 'Departure'),
-        'city_to': fields.many2one('res.city', 'Destination'),
-        'transport': fields.selection([('train', 'Train'),
-                                       ('car', 'Car'),
-                                       ('plane', 'Plane')], 'Transport'),
-        'driver_id': fields.many2one('hr.employee', 'Driver', domain=[('job_id','=','Driver')]),
-        #'': fields.many2one('.',''),
-        'state': fields.selection([('draft', 'Draft'), ('refuse', 'Refused'), ('validate', 'Approved')], 'Status', readonly=True, track_visibility='onchange'),
+        #'country_to': fields.many2one('res.country', 'Country'),
+        'city_from': fields.many2one('res.city', 'Departure', readonly=True, states={'draft':[('readonly',False)]}),
+        'city_to': fields.many2one('res.city', 'Destination', readonly=True, states={'draft':[('readonly',False)]}),
+        'transport': fields.selection(_TRANSPORTS, 'Transport', readonly=True, states={'draft':[('readonly',False)]}),
+        'driver_id': fields.many2one('hr.employee', 'Driver', domain=[('job_id','=','Driver')], readonly=True, states={'draft':[('readonly',False)]}),
+        'car_immatriculation': fields.char('Immatriculation', size=32, readonly=True, states={'draft':[('readonly',False)]}),
+        'horsepower': fields.integer('Horsepower', readonly=True, states={'draft':[('readonly',False)]}),
+        'state': fields.selection([('draft', 'Draft'), ('validate', 'Approved'), ('refuse', 'Refused')], 'Status', readonly=True, track_visibility='onchange'),
     }
 
     _defaults = {

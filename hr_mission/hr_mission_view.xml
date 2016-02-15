@@ -7,7 +7,7 @@
             <field name="model">hr.mission</field>
             <field name="arch" type="xml">
                 <search string="Mission">
-                    <field name="employee_id"/>
+                    <field name="employee_ids"/>
                     <group string="State">
                         <filter name="Draft" domain="[('state','=','draft')]"/>
                         <filter name="Validated" domain="[('state','=','validate')]"/>
@@ -22,23 +22,27 @@
             <field name="arch" type="xml">
                 <form string="Mission" version="7.0">
                 <header>
-                    <button string="Validate" name="validate" states="draft" type="workflow" groups="base.group_hr_manager" class="oe_highlight"/>
-                    <button string="Refuse" name="refuse" states="draft,validate" type="workflow" groups="base.group_hr_manager"/>
-                    <field name="state" widget="statusbar" statusbar_visible="draft,validate" statusbar_colors='{"validate":"blue","refuse":"red"}'/>
+                    <button string="Validate" name="validate" states="draft" type="workflow" groups="base.group_hr_user" class="oe_highlight"/>
+                    <button string="Refuse" name="refuse" states="draft,validate" type="workflow" groups="base.group_hr_user"/>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,validate"/>
                 </header>
                 <sheet>
                     <group>
+                            <field name="employee_ids" widget="many2many_tags" options="{'no_create': True}"/>
+                    </group>
+                    <group>
                         <group>
                             <field name="object"/>
-                            <field name="employee_id"/>
-                        </group>
-                        <group>
                             <field name="date_start"/>
                             <field name="date_end"/>
+                        </group>
+                        <group>
                             <field name="city_from"/>
                             <field name="city_to"/>
                             <field name="transport"/>
-			    <field name="driver_id" attrs="{'invisible':[('transport','&lt;&gt;','car')]}"/>
+			    <field name="driver_id" attrs="{'invisible':[('transport','&lt;&gt;','fleet')]}"/>
+			    <field name="car_immatriculation" attrs="{'invisible':[('transport','&lt;&gt;','personal')]}"/>
+			    <field name="horsepower" attrs="{'invisible':[('transport','&lt;&gt;','personal')]}"/>
                         </group>
                     </group>
                 </sheet>
@@ -51,9 +55,10 @@
             <field name="model">hr.mission</field>
             <field name="arch" type="xml">
                 <tree string="Contracts">
-                    <field name="employee_id"/>
                     <field name="object"/>
+                    <field name="employee_ids"/>
                     <field name="date_start"/>
+                    <field name="state"/>
                 </tree>
             </field>
         </record>
@@ -65,7 +70,7 @@
             <field name="view_mode">tree,form</field>
         </record>
 
-        <menuitem action="action_hr_mission" id="hr_menu_mission" parent="hr.menu_hr_main" name="Missions" groups="base.group_hr_manager"/>
+        <menuitem action="action_hr_mission" id="hr_menu_mission" parent="hr.menu_hr_main" name="Missions" groups="base.group_hr_user"/>
 
     </data>
 </openerp>
