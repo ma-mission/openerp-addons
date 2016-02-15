@@ -18,35 +18,38 @@
         <tr>
                 <td  style="width:25%">Personnel de la mission:</td>
                 <td style="text-align:center;">${', '.join(mission.employee_ids.name) or ""}</td>
+                <td>${', '.join(mission.employee_ids.fullname)}</td>
                 <td dir="rtl" style="width:25%">موظفو المهمة:</td>
         </tr>
         <tr>
                 <td>Mission:</td>
-                <td style="text-align:center">${mission.object or ""}</td>
+                <td colspan="2" style="text-align:center">${mission.object or ""}</td>
                 <td dir="rtl">المهمة:</td>
         </tr>
         <tr>
                 <td>De se rendre à:</td>
-                <td style="text-align:center"> ${mission.city_to.name or ""}</td>
+                <td colspan="2" style="text-align:center"> ${mission.city_to.name or ""}</td>
                 <td dir="rtl">سيتجهون إلى:</td>
         </tr>
         <tr>
                 <td>Date de départ:</td>
-                <td style="text-align:center">${mission.date_start or ""}</td>
+                <td colspan="2" style="text-align:center">${mission.date_start or ""}</td>
                 <td dir="rtl">تاريخ الذهاب:</td>
         </tr>
         <tr>
                 <td>Date de retour:</td>
-                <td style="text-align:center">${mission.date_end or ""}</td>
+                <td colspan="2" style="text-align:center">${mission.date_end or ""}</td>
                 <td dir="rtl">تاريخ الإياب:</td>
         </tr>
         <tr>
                 <td>Moyen de transport:</td>
-                <td style="text-align:center">
+                <td colspan="2" style="text-align:center">
+                    ${setLang('fr_FR') or ""}
                     ${mission.get_transport(mission.transport) or ""}
                     % if mission.transport in  ('fleet', 'personal'):
                         - ${mission.car_immatriculation or ""} -
                     % endif
+                    ${setLang('ar_SY') or mission.get_transport(mission.transport) or ""}
                 </td>
                 <td dir="rtl">وسيلة التنقل:</td>
         </tr>
@@ -54,6 +57,7 @@
         <tr>
                 <td>Chaffeur:</td>
                 <td style="text-align:center">${mission.driver_id.name or ""}</td>
+                <td>${mission.driver_id.fullname or ""}</td>
                 <td dir="rtl">السائق:</td>
         </tr>
         % endif
