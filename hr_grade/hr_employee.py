@@ -3,7 +3,8 @@
 import time
 
 from openerp.osv import osv, fields
-
+import logging
+_logger = logging.getLogger(__name__)
 
 class employee(osv.Model):
     _inherit = "hr.employee"
@@ -19,6 +20,12 @@ class employee(osv.Model):
             res[id] = cur_grade_ids and cur_grade_ids[0] or None
         return res
 
+    def _get_employees(self, cr, uid, ids, context=None):
+        res = {}
+        for employee_grade in self.browse(cr, uid, ids):  # self is hr.employee.grade
+            res[employee_grade.employee_id.id] = True
+        return res.keys()
+
     _columns = {
         'employee_grade_ids': fields.one2many('hr.employee.grade', 'employee_id', 'Employee Grades'),
         'current_grade_id': fields.function(
@@ -29,7 +36,9 @@ class employee(osv.Model):
             readonly=True,
             string='Employee Grade'),
         'grade_id': fields.related('current_grade_id', 'grade_id', type='many2one',
-                                    relation='hr.grade', string='Grade', readonly=True, store=True),
+                                    relation='hr.grade', string='Grade', readonly=True,
+                                    store={_name: (lambda self,cr,uid,ids,c={}: ids, None, 10),
+                                           'hr.employee.grade': (_get_employees, None, 10),})
     }
 
 

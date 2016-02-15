@@ -52,6 +52,7 @@ class paygrade_echelon(osv.Model):
 class employee_grade(osv.Model):
     _name = "hr.employee.grade"
     _description = ""
+    _order = "date_start desc"
 
     _columns = {
         'employee_id': fields.many2one('hr.employee','Employee'),
@@ -76,7 +77,8 @@ class employee_grade(osv.Model):
         # Only one employee_grade is current: deprecate current grades first
         for employee_grade in employee_grades:
             current_grade = employee_grade.employee_id.current_grade_id
-            current_grade.grade_deprecate()
+            if current_grade:
+                current_grade.grade_deprecate()
         return self.write(cr, uid, ids, {'state':'current'})
 
     def grade_deprecate(self, cr, uid, ids, context=None):
