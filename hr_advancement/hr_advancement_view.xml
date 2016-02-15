@@ -9,7 +9,7 @@
         <field name="arch" type="xml">
 	    <tree string="Advancement rule sets">
                 <field name="name"/>
-                <field name="reference"/>
+                <field name="date"/>
             </tree>
         </field>
     </record>
@@ -23,19 +23,20 @@
                 <group colspan="4">
                     <group>
                         <field name="name"/>
-                        <field name="reference"/>
                     </group>
                 </group>
                 <notebook>
+                    <page string="Grades">
+                        <field name="grade_ids" nolabel="1">
+                        </field>
+                    </page>
                     <page string="Echelon rules">
                         <field name="echelon_rule_ids" nolabel="1">
                             <tree editable="bottom">
-                                <field name="grade_id"/>
                                 <field name="echelon"/>
                                 <field name="months"/>
                                 <field name="months_medium"/>
                                 <field name="months_fast"/>
-                                <field name="state"/>
                             </tree>
                         </field>
                     </page>

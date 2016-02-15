@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hr_advancement_echelon_rule,advancement_echelon_rule,model_hr_advancement_echelon_rule,base.group_hr_manager,1,1,1,1
+access_hr_advancement_ruleset,advancement_ruleset,model_hr_advancement_ruleset,base.group_hr_manager,1,1,1,1
+access_hr_advancement_proposal_employee,advancement_proposal_employee,model_hr_advancement_proposal_employee,base.group_hr_user,1,1,1,1
+access_hr_advancement_proposal,advancement_proposal,model_hr_advancement_proposal,base.group_hr_user,1,1,1,1
+

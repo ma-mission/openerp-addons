@@ -1,24 +1,6 @@
 # -*- coding: utf-8 -*-
-##############################################################################
-#
-#    Copyright (C) 2013 me!
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
 
-from openerp.osv import fields, osv
+from openerp.osv import osv, fields
 
 from datetime import date, datetime
 import logging
@@ -27,7 +9,7 @@ import logging
 _logger = logging.getLogger('adv_wiz')
 
 
-class advancementWizard(osv.osv_memory):
+class advancementWizard(osv.TransientModel):
     _name = 'hr.advancement.wizard'
     _description = 'Advancement wizard'
 
@@ -36,7 +18,7 @@ class advancementWizard(osv.osv_memory):
     }
 
     _defaults = {
-        'year': 2013,  # lambda a: date.today().year
+        'year': lambda *a: date.today().year
     }
 
 
@@ -51,6 +33,7 @@ class advancementWizard(osv.osv_memory):
         unknown = 0
         year = self.browse(cr, uid, ids[0]).year
         target_year = year + 1
+        rulesetpool = self.pool.get('hr.advancement.ruleset')
         rulepool = self.pool.get('hr.advancement.echelon.rule')
         proposal_pool = self.pool.get('hr.advancement.proposal')
         employee_advancement_pool = self.pool.get('hr.advancement.proposal.employee')
@@ -58,9 +41,13 @@ class advancementWizard(osv.osv_memory):
         employee_grade_ids = employee_grade_pool.search(cr, uid, [('state', '=', 'current')])
         employee_grades = employee_grade_pool.browse(cr, uid, employee_grade_ids)
         for employee_grade in list(employee_grades):
-            rule_ids = rulepool.search(cr, uid, [('state', '=', 'active'),
-                                                ('grade_id', '=', employee_grade.grade_id.id),
-                                                ('echelon', '=', employee_grade.echelon),])
+            ruleset_ids = rulesetpool.search(cr, uid, [('grade_ids', '=', employee_grade.grade_id.id),])
+            if not ruleset_ids:
+                unknown += 1
+                continue
+            rule_ids = rulepool.search(cr, uid, [('ruleset_id', '=', ruleset_ids[0]),
+                                                 ('echelon', '=', employee_grade.echelon),])
+                                                # TODO: order by effect date, limit 1
             if not rule_ids:
                 unknown += 1
                 continue
@@ -75,9 +62,9 @@ class advancementWizard(osv.osv_memory):
             advancement_date = self._add_months(employee_grade.date_start, months)
             if advancement_date.year < target_year:
                 # Get or create advancement proposal
-                proposal_ids = proposal_pool.search(cr, uid, [('year', '=', year), ('grade_id', '=', rule.grade_id.id)])
+                proposal_ids = proposal_pool.search(cr, uid, [('year', '=', year), ('grade_id', '=', employee_grade.grade_id.id)])
                 proposal_id = (proposal_ids and proposal_ids[0] or
-                               proposal_pool.create(cr, uid, {'year': year, 'grade_id': rule.grade_id.id}))
+                               proposal_pool.create(cr, uid, {'year': year, 'grade_id': employee_grade.grade_id.id}))
                 # add employee proposal
                 employee_advancement_proposal = {
                     'proposal_id': proposal_id,
@@ -103,8 +90,6 @@ class advancementWizard(osv.osv_memory):
             'domain': [('year', '=', year)],
         }
         return action
-
-advancementWizard()
 
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

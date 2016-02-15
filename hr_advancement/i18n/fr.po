@@ -1,0 +1,157 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* hr_advancement
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.saas~3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-20 12:17+0000\n"
+"PO-Revision-Date: 2016-01-20 12:17+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_advancement
+#: field:hr.advancement.proposal,employee_advancement_ids:0
+msgid "Employee Advancements"
+msgstr "Employee Advancements"
+
+#. module: hr_advancement
+#: field:hr.advancement.echelon.rule,months_fast:0
+msgid "Months Fast"
+msgstr "Mois Rapide"
+
+#. module: hr_advancement
+#: model:ir.model,name:hr_advancement.model_hr_advancement_proposal_employee
+msgid "Employee advancement proposal"
+msgstr "Employee advancement proposal"
+
+#. module: hr_advancement
+#: field:hr.advancement.proposal.employee,proposal_id:0
+msgid "Advancement Proposal"
+msgstr "Advancement Proposal"
+
+#. module: hr_advancement
+#: view:hr.advancement.ruleset:0
+#: field:hr.advancement.ruleset,grade_ids:0
+msgid "Grades"
+msgstr "Grades"
+
+#. module: hr_advancement
+#: view:hr.advancement.ruleset:0
+#: field:hr.advancement.ruleset,echelon_rule_ids:0
+msgid "Echelon rules"
+msgstr "Règles d'échelon"
+
+#. module: hr_advancement
+#: view:hr.advancement.ruleset:0
+#: model:ir.actions.act_window,name:hr_advancement.act_open_hr_advancement_ruleset_view
+#: model:ir.ui.menu,name:hr_advancement.menu_hr_advancement_ruleset
+msgid "Advancement rule sets"
+msgstr "Règles d'avancement"
+
+#. module: hr_advancement
+#: field:hr.advancement.echelon.rule,months_medium:0
+msgid "Months Medium"
+msgstr "Mois Moyen"
+
+#. module: hr_advancement
+#: view:hr.advancement.wizard:0
+msgid "Compute"
+msgstr "Calculer"
+
+#. module: hr_advancement
+#: field:hr.advancement.ruleset,name:0
+msgid "Name"
+msgstr "Nom"
+
+#. module: hr_advancement
+#: field:hr.advancement.echelon.rule,ruleset_id:0
+msgid "Rule set"
+msgstr "Règle"
+
+#. module: hr_advancement
+#: model:ir.model,name:hr_advancement.model_hr_advancement_proposal
+msgid "Advancement proposal"
+msgstr "Proposition d'avancement"
+
+#. module: hr_advancement
+#: view:hr.advancement.wizard:0
+#: model:ir.actions.act_window,name:hr_advancement.action_hr_salary_advancement_wizard
+#: model:ir.model,name:hr_advancement.model_hr_advancement_wizard
+#: model:ir.ui.menu,name:hr_advancement.hr_menu_advancement_wizard
+msgid "Advancement wizard"
+msgstr "Assistant d'avancement"
+
+#. module: hr_advancement
+#: view:hr.advancement.proposal:0
+msgid "Employees"
+msgstr "Employés"
+
+#. module: hr_advancement
+#: field:hr.advancement.echelon.rule,months:0
+msgid "Months"
+msgstr "Mois"
+
+#. module: hr_advancement
+#: field:hr.advancement.proposal,rule_id:0
+msgid "Rule"
+msgstr "Règle"
+
+#. module: hr_advancement
+#: model:ir.model,name:hr_advancement.model_hr_advancement_echelon_rule
+msgid "Echelon advancement rule"
+msgstr "Règle d'avancement en échelon"
+
+#. module: hr_advancement
+#: field:hr.advancement.proposal.employee,employee_grade_id:0
+msgid "Employee grade"
+msgstr "Employee grade"
+
+#. module: hr_advancement
+#: field:hr.advancement.ruleset,date:0
+msgid "Effect date"
+msgstr "Date d'effet"
+
+#. module: hr_advancement
+#: model:ir.model,name:hr_advancement.model_hr_advancement_ruleset
+msgid "Advancement ruleset"
+msgstr "Advancement ruleset"
+
+#. module: hr_advancement
+#: field:hr.advancement.proposal,grade_id:0
+msgid "Grade"
+msgstr "Grade"
+
+#. module: hr_advancement
+#: field:hr.advancement.echelon.rule,echelon:0
+msgid "Echelon"
+msgstr "Echelon"
+
+#. module: hr_advancement
+#: view:hr.advancement.proposal:0
+#: model:ir.actions.act_window,name:hr_advancement.act_open_hr_advancement_proposal_view
+#: model:ir.ui.menu,name:hr_advancement.menu_hr_advancement_proposal
+msgid "Advancement proposals"
+msgstr "Propositions d'avancement"
+
+#. module: hr_advancement
+#: field:hr.advancement.proposal,year:0
+#: field:hr.advancement.wizard,year:0
+msgid "Year"
+msgstr "Année"
+
+#. module: hr_advancement
+#: view:hr.advancement.wizard:0
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: hr_advancement
+#: view:hr.advancement.wizard:0
+msgid "or"
+msgstr "ou"
+
