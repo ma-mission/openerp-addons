@@ -27,10 +27,20 @@ class employee(osv.osv):
             ids = self.search(cr, uid, [('name', operator, name)] + args, context=context, limit=limit)
         return self.name_get(cr, uid, ids, context=context)
 
+    def _get_fullname(self, cr, uid, ids, field_name, arg, context=None):
+        res = {}
+        for employee in self.browse(cr, uid, ids, context):
+            res[employee.id] = ' '.join((
+                    employee.givenname or '',
+                    employee.surname or ''))
+        return res
 
     _columns = {
         'givenname': fields.char('Given Name', size=40),
         'surname': fields.char('Surname', size=40),
+        'fullname': fields.function(
+                _get_fullname, type='char', string='Full Name',
+                size=80, method=True, readonly=True, store=True),
         'givenname_latin': fields.char('Given Name Lat', size=40),
         'surname_latin': fields.char('Surname Lat', size=40),
         'employee_id': fields.integer('Employee ID', required=True),
