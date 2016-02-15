@@ -61,7 +61,7 @@
             <field name="inherit_id" ref="hr.view_employee_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//div[@name='button_box']" position="inside">
-                    <button name="%(action_hr_employee_payslip)d" string="Payslips" type="action" groups="base.group_hr_manager"/>
+                    <button name="%(action_hr_employee_payslip)d" string="Payslips" type="action" groups="base.group_hr_user"/>
                 </xpath>
             </field>
         </record>
@@ -83,7 +83,7 @@
         </record>
         
 
-        <menuitem action="action_hr_payslip" id="hr_menu_payslip" parent="hr.menu_hr_main" groups="base.group_hr_manager"/>
+        <menuitem action="action_hr_payslip" id="hr_menu_payslip" parent="hr.menu_hr_main"/>
         <menuitem action="action_hr_salary_rule" id="hr_menu_salary_rule" parent="hr.menu_hr_configuration" groups="base.group_hr_manager"/>
 
     </data>

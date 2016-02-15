@@ -20,7 +20,7 @@
 ##############################################################################
 import time
 
-from osv import fields, osv
+from openerp.osv import fields, osv
 
 class salary_rule(osv.osv):
     _name = "hr.salary.rule"
@@ -82,6 +82,7 @@ class payslip(osv.osv):
 
     _columns = {
         'employee_id': fields.many2one('hr.employee','Employee'),
+        'employee_grade_id': fields.many2one('hr.employee.grade','Employee Grade', ondelete='restrict'),
         'line_ids': fields.one2many('hr.payslip.line', 'payslip_id', 'Lines'),
         'date_start': fields.date('Start Date'),
         'date_end': fields.date('End date'),
@@ -94,6 +95,7 @@ class payslip(osv.osv):
         'total_deductions': fields.float('Deductions'),
         'net_annual': fields.float('Net'),
         'net_monthly': fields.float('Monthly'),
+        'nationality': fields.char('Nationality', size=2),  # should not change but uses non standard codes
         #'_id': fields.many2one('hr.',''),
     }
 

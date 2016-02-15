@@ -1,1 +1,6 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hr_payslip,payslip group_hr_user,model_hr_payslip,base.group_hr_user,1,0,0,0
+access_hr_payslip_line,payslip_line group_hr_user,model_hr_payslip_line,base.group_hr_user,1,0,0,0
+access_hr_salary_rule,salary_rule group_hr_user,model_hr_salary_rule,base.group_hr_user,1,0,0,0
+access_hr_salary_residence,salary_residence group_hr_user,model_hr_salary_residence,base.group_hr_user,1,0,0,0
+access_hr_salary_chapter,salary_chapter group_hr_user,model_hr_salary_chapter,base.group_hr_user,1,0,0,0

@@ -4,21 +4,21 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenERP Server 7.0\n"
+"Project-Id-Version: OpenERP Server 7.saas~3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-03 08:47+0000\n"
-"PO-Revision-Date: 2013-06-03 09:58-0000\n"
-"Last-Translator: Zakaria ELIKLIL <zakaria.eliklil@gmail.com>\n"
+"POT-Creation-Date: 2016-02-09 16:30+0000\n"
+"PO-Revision-Date: 2016-02-09 16:30+0000\n"
+"Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
 #. module: hr_payroll_ma
 #: field:hr.payslip,total_allowances:0
 msgid "Gross"
-msgstr ""
+msgstr "Gross"
 
 #. module: hr_payroll_ma
 #: model:ir.actions.act_window,name:hr_payroll_ma.action_hr_salary_import_wizard
@@ -29,34 +29,39 @@ msgstr "Importer Salaires"
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard.employee,zone:0
 msgid "Zone"
-msgstr ""
+msgstr "Zone"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard.employee,index:0
 msgid "Index"
-msgstr ""
+msgstr "Index"
 
 #. module: hr_payroll_ma
 #: field:hr.payslip,net_monthly:0
 msgid "Monthly"
-msgstr ""
+msgstr "Monthly"
 
 #. module: hr_payroll_ma
 #: selection:hr.payslip,marital_status:0
 #: selection:hr.salary.wizard.employee,marital_status:0
 msgid "Divorce"
-msgstr ""
+msgstr "Divorce"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard.employee,wizard_id:0
 #: field:hr.salary.wizard.salary.line,wizard_id:0
 msgid "Wizard"
-msgstr ""
+msgstr "Wizard"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard,salary_data:0
 msgid "Salaries"
 msgstr "Salaires"
+
+#. module: hr_payroll_ma
+#: view:hr.salary.wizard:0
+msgid "New"
+msgstr "Nouveau"
 
 #. module: hr_payroll_ma
 #: field:hr.payslip,employee_id:0
@@ -67,33 +72,43 @@ msgstr "Personnel"
 #. module: hr_payroll_ma
 #: view:hr.salary.wizard:0
 msgid "Import"
-msgstr ""
+msgstr "Importer"
 
 #. module: hr_payroll_ma
-#: field:hr.payslip,net_annual:0
-msgid "Net"
-msgstr ""
+#: field:hr.salary.wizard,employee_messages:0
+msgid "Messages"
+msgstr "Messages"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard,month:0
 msgid "Month"
-msgstr ""
+msgstr "Month"
+
+#. module: hr_payroll_ma
+#: field:hr.payslip,net_annual:0
+msgid "Net"
+msgstr "Net"
+
+#. module: hr_payroll_ma
+#: field:hr.salary.wizard.employee,new:0
+msgid "New employee"
+msgstr "Nouveau employé"
 
 #. module: hr_payroll_ma
 #: field:hr.payslip,deduction_rate:0
 #: field:hr.salary.wizard.employee,deduction_rate:0
 msgid "Deduction Rate"
-msgstr ""
+msgstr "Deduction Rate"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard.employee,function:0
 msgid "Function"
-msgstr ""
+msgstr "Function"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard.employee,echelle:0
 msgid "Echelle"
-msgstr ""
+msgstr "Echelle"
 
 #. module: hr_payroll_ma
 #: view:hr.employee:0
@@ -106,17 +121,22 @@ msgstr "Salaires"
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard.employee,employee_id:0
 msgid "Employee id"
-msgstr ""
+msgstr "Employee id"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard.employee,employment_date:0
 msgid "Employment Date"
-msgstr ""
+msgstr "Employment Date"
 
 #. module: hr_payroll_ma
 #: model:ir.model,name:hr_payroll_ma.model_hr_salary_rule
 msgid "Salary rule"
-msgstr ""
+msgstr "Rubrique de salaire"
+
+#. module: hr_payroll_ma
+#: field:hr.salary.wizard,salary_messages:0
+msgid "unknown"
+msgstr "unknown"
 
 #. module: hr_payroll_ma
 #: model:ir.actions.act_window,name:hr_payroll_ma.action_hr_salary_rule
@@ -128,58 +148,63 @@ msgstr "Règles de Salaire"
 #: field:hr.payslip,marital_status:0
 #: field:hr.salary.wizard.employee,marital_status:0
 msgid "Marital Status"
-msgstr ""
+msgstr "Marital Status"
 
 #. module: hr_payroll_ma
 #: field:hr.payslip,total_deductions:0
 msgid "Deductions"
-msgstr ""
+msgstr "Deductions"
 
 #. module: hr_payroll_ma
 #: field:hr.payslip.line,salary_rule_id:0
 #: field:hr.salary.wizard.salary.line,salary_rule_id:0
 msgid "Rule"
-msgstr ""
+msgstr "Rubrique"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.rule,positive:0
 msgid "Positive"
-msgstr ""
+msgstr "Positive"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard,date:0
-#: field:hr.salary.wizard.employee,date_start:0
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #. module: hr_payroll_ma
+#: field:hr.payslip,nationality:0
 #: field:hr.salary.wizard.employee,nationality:0
 msgid "Nationality"
-msgstr ""
+msgstr "Nationality"
 
 #. module: hr_payroll_ma
 #: selection:hr.payslip,marital_status:0
 #: selection:hr.salary.wizard.employee,marital_status:0
 msgid "Marie"
-msgstr ""
+msgstr "Marie"
 
 #. module: hr_payroll_ma
-#: model:ir.model,name:hr_payroll_ma.model_hr_payslip_line
-msgid "Payslip Line"
-msgstr ""
+#: field:hr.salary.wizard,create_new:0
+msgid "Create new employees"
+msgstr "Create new employees"
+
+#. module: hr_payroll_ma
+#: view:hr.salary.wizard:0
+msgid "Salary Import Result"
+msgstr "Salary Import Result"
 
 #. module: hr_payroll_ma
 #: field:hr.payslip,chapter_id:0
 #: field:hr.salary.wizard.employee,chapter_id:0
 msgid "Chapter"
-msgstr ""
+msgstr "Chapter"
 
 #. module: hr_payroll_ma
 #: field:hr.payslip,residence_id:0
 #: field:hr.salary.wizard.employee,residence_id:0
 #: model:ir.model,name:hr_payroll_ma.model_hr_salary_residence
 msgid "Residence"
-msgstr ""
+msgstr "Residence"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.chapter,name:0
@@ -187,18 +212,23 @@ msgstr ""
 #: field:hr.salary.rule,name:0
 #: field:hr.salary.wizard.employee,employee_name:0
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #. module: hr_payroll_ma
 #: field:hr.payslip,children_number:0
 #: field:hr.salary.wizard.employee,children_number:0
 msgid "# Children"
-msgstr ""
+msgstr "# Children"
+
+#. module: hr_payroll_ma
+#: view:hr.salary.wizard:0
+msgid "New employees"
+msgstr "New employees"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard.employee,gender:0
 msgid "Gender"
-msgstr ""
+msgstr "Gender"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard,employee_data:0
@@ -208,15 +238,28 @@ msgstr "Personnel"
 
 #. module: hr_payroll_ma
 #: field:hr.payslip,line_ids:0
+#: field:hr.salary.wizard.employee,line10_ids:0
+#: field:hr.salary.wizard.employee,line11_ids:0
+#: field:hr.salary.wizard.employee,line12_ids:0
+#: field:hr.salary.wizard.employee,line13_ids:0
+#: field:hr.salary.wizard.employee,line1_ids:0
+#: field:hr.salary.wizard.employee,line2_ids:0
+#: field:hr.salary.wizard.employee,line3_ids:0
+#: field:hr.salary.wizard.employee,line4_ids:0
+#: field:hr.salary.wizard.employee,line5_ids:0
+#: field:hr.salary.wizard.employee,line6_ids:0
+#: field:hr.salary.wizard.employee,line7_ids:0
+#: field:hr.salary.wizard.employee,line8_ids:0
+#: field:hr.salary.wizard.employee,line9_ids:0
 #: field:hr.salary.wizard.employee,line_ids:0
 msgid "Lines"
-msgstr ""
+msgstr "Lignes"
 
 #. module: hr_payroll_ma
 #: model:ir.model,name:hr_payroll_ma.model_hr_salary_wizard_employee
 #: model:ir.model,name:hr_payroll_ma.model_hr_salary_wizard_salary_line
 msgid "Import wizard employee"
-msgstr ""
+msgstr "Import wizard employee"
 
 #. module: hr_payroll_ma
 #: view:hr.payslip:0
@@ -224,96 +267,132 @@ msgstr ""
 #: model:ir.actions.report.xml,name:hr_payroll_ma.report_hr_payslip
 #: model:ir.model,name:hr_payroll_ma.model_hr_payslip
 msgid "Payslip"
-msgstr ""
+msgstr "Attestation de Salaire"
+
+#. module: hr_payroll_ma
+#: field:hr.salary.wizard.employee,date_start:0
+msgid "Start date"
+msgstr "Start date"
 
 #. module: hr_payroll_ma
 #: field:hr.payslip.line,amount:0
 #: field:hr.salary.wizard.salary.line,amount:0
 msgid "Amount"
-msgstr ""
+msgstr "Amount"
 
 #. module: hr_payroll_ma
 #: model:ir.model,name:hr_payroll_ma.model_hr_salary_wizard
 msgid "Import wizard"
-msgstr ""
+msgstr "Import wizard"
 
 #. module: hr_payroll_ma
-#: model:ir.model,name:hr_payroll_ma.model_hr_salary_chapter
-msgid "Residence chapter"
-msgstr ""
+#: model:ir.model,name:hr_payroll_ma.model_hr_payslip_line
+msgid "Payslip Line"
+msgstr "Payslip Line"
 
 #. module: hr_payroll_ma
 #: selection:hr.payslip,marital_status:0
 #: selection:hr.salary.wizard.employee,marital_status:0
 msgid "Celibataire"
-msgstr ""
+msgstr "Celibataire"
+
+#. module: hr_payroll_ma
+#: field:hr.payslip,date_start:0
+msgid "Start Date"
+msgstr "Start Date"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard.employee,national_id:0
 msgid "National id"
-msgstr ""
+msgstr "National id"
+
+#. module: hr_payroll_ma
+#: field:hr.salary.wizard,one_liner:0
+msgid "History"
+msgstr "Historique"
 
 #. module: hr_payroll_ma
 #: field:hr.payslip,date_end:0
+#: field:hr.salary.wizard.employee,date_end:0
 msgid "End date"
-msgstr ""
+msgstr "End date"
 
 #. module: hr_payroll_ma
 #: selection:hr.payslip,marital_status:0
 #: selection:hr.salary.wizard.employee,marital_status:0
 msgid "Veuf"
-msgstr ""
+msgstr "Veuf"
 
 #. module: hr_payroll_ma
 #: view:hr.salary.wizard:0
 msgid "Salary Import"
-msgstr ""
+msgstr "Salary Import"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.chapter,ref:0
 #: field:hr.salary.residence,ref:0
 #: field:hr.salary.rule,ref:0
 msgid "Reference"
-msgstr ""
+msgstr "Reference"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard.employee,grade_id:0
 msgid "Grade"
-msgstr ""
+msgstr "Grade"
+
+#. module: hr_payroll_ma
+#: model:ir.model,name:hr_payroll_ma.model_hr_salary_chapter
+msgid "Residence chapter"
+msgstr "Residence chapter"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard.employee,echelon:0
 msgid "Echelon"
-msgstr ""
+msgstr "Echelon"
 
 #. module: hr_payroll_ma
 #: selection:hr.payslip,marital_status:0
 #: selection:hr.salary.wizard.employee,marital_status:0
 msgid "Autre"
-msgstr ""
+msgstr "Autre"
+
+#. module: hr_payroll_ma
+#: field:hr.payslip,employee_grade_id:0
+msgid "Employee Grade"
+msgstr "Employee Grade"
+
+#. module: hr_payroll_ma
+#: field:hr.salary.wizard.salary.line,employee_number:0
+msgid "Employee N"
+msgstr "Employee N"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard,year:0
 msgid "Year"
-msgstr ""
+msgstr "Year"
 
 #. module: hr_payroll_ma
 #: view:hr.salary.wizard:0
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel"
 
 #. module: hr_payroll_ma
-#: field:hr.payslip,date_start:0
-msgid "Start Date"
-msgstr ""
+#: view:hr.salary.wizard:0
+msgid "Close"
+msgstr "Close"
+
+#. module: hr_payroll_ma
+#: field:hr.salary.wizard.employee,date_start_echelon:0
+msgid "Echelon start date"
+msgstr "Echelon start date"
 
 #. module: hr_payroll_ma
 #: view:hr.salary.wizard:0
 msgid "or"
-msgstr ""
+msgstr "or"
 
 #. module: hr_payroll_ma
 #: field:hr.salary.wizard.employee,birth_date:0
 msgid "Birth Date"
-msgstr ""
+msgstr "Birth Date"
 
