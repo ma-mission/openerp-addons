@@ -41,7 +41,7 @@
                             <field name="city_to"/>
                             <field name="transport"/>
 			    <field name="driver_id" attrs="{'invisible':[('transport','&lt;&gt;','fleet')]}"/>
-			    <field name="car_immatriculation" attrs="{'invisible':[('transport','&lt;&gt;','personal')]}"/>
+			    <field name="car_immatriculation" attrs="{'invisible':[('transport','not in',('personal','fleet'))]}"/>
 			    <field name="horsepower" attrs="{'invisible':[('transport','&lt;&gt;','personal')]}"/>
                         </group>
                     </group>

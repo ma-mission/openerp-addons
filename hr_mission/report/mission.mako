@@ -11,7 +11,7 @@
 
     <h1>
         <span dir="rtl">تكليف بمهمة</span><br/>
-        <span style="font-size:smaller;">Ordre de mission</span>
+        <span style="font-size:smaller;">Ordre de Mission</span>
     </h1>
 
     <table class="mission">
@@ -42,7 +42,12 @@
         </tr>
         <tr>
                 <td>Moyen de transport:</td>
-                <td style="text-align:center">${mission.get_transport(mission.transport) or ""}</td>
+                <td style="text-align:center">
+                    ${mission.get_transport(mission.transport) or ""}
+                    % if mission.transport in  ('fleet', 'personal'):
+                        - ${mission.car_immatriculation or ""} -
+                    % endif
+                </td>
                 <td dir="rtl">وسيلة التنقل:</td>
         </tr>
         % if mission.transport == 'fleet':
@@ -50,13 +55,6 @@
                 <td>Chaffeur:</td>
                 <td style="text-align:center">${mission.driver_id.name or ""}</td>
                 <td dir="rtl">السائق:</td>
-        </tr>
-        % endif
-        % if mission.transport == 'personal':
-        <tr>
-                <td>Matricule:</td>
-                <td style="text-align:center">${mission.car_immatriculation or ""}</td>
-                <td dir="rtl">رقم السيارة:</td>
         </tr>
         % endif
     </table>
