@@ -20,7 +20,7 @@
             <field name="arch" type="xml">
                 <data>
                     <xpath expr="//div[@name='button_box']" position="inside">
-                        <button name="%(act_hr_employee_2_hr_evaluation)d" string="Evaluations" type="action" groups="base.group_hr_manager"/>
+                        <button name="%(act_hr_employee_2_hr_evaluation)d" string="Evaluations" type="action" groups="base.group_hr_user"/>
                     </xpath>
                 </data>
             </field>
@@ -100,7 +100,7 @@
             <field name="search_view_id" ref="hr_evaluation_view_search"/>
         </record>
 
-        <menuitem action="action_hr_evaluation" id="hr_menu_evaluation" parent="hr.menu_hr_main" name="Evaluations" groups="base.group_hr_manager"/>
+        <menuitem action="action_hr_evaluation" id="hr_menu_evaluation" parent="hr.menu_hr_main" name="Evaluations" groups="base.group_hr_user"/>
 
     </data>
 </openerp>

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <style type="text/css">
@@ -24,13 +25,16 @@
 	margin-left: 3px;
 	margin-right: 3px;
 	}
+	body{
+	width: 960px;
+	}
     </style>
 </head>
 <body>
     %for eval in objects :
-    <% emp = eval.employee_id %>
-    <% setLang('ar_SY') %>
-    <h1 style="text-align:center">
+    <!-- % emp = eval.employee_id % -->
+    <!-- % setLang('ar_SY') % -->
+    <h1 style="text-align:center" dir="rtl">
 بطاقة التنقيط الفردية ${eval.year}<br/>
     </h1>
 <!-- p>
@@ -40,7 +44,7 @@
  ${_("")}
 </p -->
 
-<%
+<!-- %
   import logging
   logger = logging.getLogger('Report')
   def getSelection(record, field):
@@ -50,43 +54,53 @@
       selection = model.fields_get(record._cr, record._uid, context=record._context)[field]['selection']
       key = record.__getattr__(field)
       return dict(selection)[key]
-%>
+#% -->
 
 <h2 dir="rtl">هوية الموظف<h2>
 
     <table width="100%" dir="rtl">
       <tr>
          <td align="right">الاسم العائلي</td>
-         <td align="right">${emp.surname or ''}</td>
+         <td align="right">${eval.employee_id.surname or ''}</td>
          <td align="right">رقـم التأجيـر</td>
-         <td align="right">${emp.employee_id or ''}</td>
+         <td align="right">${eval.employee_id.employee_id or ''}</td>
       </tr>
       <tr>
          <td align="right">الاسم الشخصي</td>
-         <td align="right">${emp.givenname or ''}</td>
+         <td align="right">${eval.employee_id.givenname or ''}</td>
          <td align="right">رقم ب.ت.و</td>
-         <td align="right">${emp.identification_id}</td>
+         <td align="right">${eval.employee_id.identification_id}</td>
       </tr>
       <tr>
          <td align="right">تاريخ الازديـاد</td>
-         <td align="right">${emp.birthday}</td>
+         <td align="right">${eval.employee_id.birthday}</td>
          <td align="right">مكان الازديـاد</td>
-         <td align="right">${emp.birthplace}</td>
+         <td align="right">${eval.employee_id.birthplace}</td>
       </tr>
       <tr>
          <td align="right">العنــــوان</td>
-         <td align="right">${emp.address_home_id.street} , ${emp.address_home_id.city}</td>
+         <td align="right">${eval.employee_id.address_home_id.street} , ${eval.employee_id.address_home_id.city}</td>
       </tr>
       <tr>
          <td align="right">الحالـة العائليـــة</td>
-         <td align="right">${getSelection(emp, 'marital')}</td>
+         <td align="right"><!-- get translated value of the selection field -->
+             % for selection in helper.pool['hr.employee'].fields_get(
+                     helper.cursor, helper.uid,
+                     allfields=['marital'],
+                     context={'lang':lang}
+                     )['marital']['selection']:
+                 % if selection[0] == eval.employee_id.marital:
+                     ${selection[1]}
+                 % endif
+             % endfor
+         </td>
          <td align="right">عـدد الأطفال</td>
-         <td align="right">${emp.children}</td>
+         <td align="right">${eval.employee_id.children}</td>
       </tr>
       <tr>
          <td align="right">الدرجة ومقـر التعيين</td>
          <td>${eval.grade_id.grade_id.name}</td>
-         <td align="right" colspan="2">بــ${emp.work_location}</td>
+         <td align="right" colspan="2">بــ${eval.employee_id.work_location}</td>
       </tr>
       <tr>
          <td align="right">تاريخ التعيين في الدرجة</td>
@@ -100,13 +114,13 @@
       </tr>
       <tr>
          <td align="right">تاريـخ ولـوج الإدارة</td>
-         <td align="right">${emp.public_employment_date}</td>
+         <td align="right">${eval.employee_id.public_employment_date}</td>
       </tr>
       <tr>
          <td align="right">الوظيفة المزاولة حاليا</td>
-         <td align="right">${emp.job_id.name}</td>
+         <td align="right">${eval.employee_id.job_id.name}</td>
          <td align="right">منذ</td>
-         <td align="right">${emp.job_start_date}</td>
+         <td align="right">${eval.employee_id.job_start_date}</td>
       </tr>
     </table>
 
@@ -191,11 +205,11 @@
 
     <table width="100%" dir="rtl">
         <tr>
-	    <td width="20%"><span class="box">${eval.mark == 'E' and 'X' or '&nbsp;'}</span>ممتاز</td>
-	    <td width="20%"><span class="box">${eval.mark == 'V' and 'X' or '&nbsp;'}</span>جيد جدا</td>
-	    <td width="20%"><span class="box">${eval.mark == 'G' and 'X' or '&nbsp;'}</span>جيد</td>
-	    <td width="20%"><span class="box">${eval.mark == 'A' and 'X' or '&nbsp;'}</span>متوسط</td>
-	    <td width="20%"><span class="box">${eval.mark == 'W' and 'X' or '&nbsp;'}</span>ضعيف</td>
+	    <td width="20%"><span class="box">${eval.mark == 'E' and 'X' or ' '}</span>ممتاز</td>
+	    <td width="20%"><span class="box">${eval.mark == 'V' and 'X' or ' '}</span>جيد جدا</td>
+	    <td width="20%"><span class="box">${eval.mark == 'G' and 'X' or ' '}</span>جيد</td>
+	    <td width="20%"><span class="box">${eval.mark == 'A' and 'X' or ' '}</span>متوسط</td>
+	    <td width="20%"><span class="box">${eval.mark == 'W' and 'X' or ' '}</span>ضعيف</td>
 	</tr>
 	<tr>
 	    <td>18-20</td>
@@ -210,9 +224,9 @@
 
     <table width="100%" dir="rtl">
         <tr>
-	    <td width="33%"><span class="box">${eval.grade_id.advancement_pace == 'F' and 'X' or '&nbsp;'}</span>سريع</td>
-	    <td width="33%"><span class="box">${eval.grade_id.advancement_pace == 'M' and 'X' or '&nbsp;'}</span>متوسط</td>
-	    <td width="33%"><span class="box">${eval.grade_id.advancement_pace == 'S' and 'X' or '&nbsp;'}</span>بطيء</td>
+	    <td width="33%"><span class="box">${eval.grade_id.advancement_pace == 'F' and 'X' or ' '}</span>سريع</td>
+	    <td width="33%"><span class="box">${eval.grade_id.advancement_pace == 'M' and 'X' or ' '}</span>متوسط</td>
+	    <td width="33%"><span class="box">${eval.grade_id.advancement_pace == 'S' and 'X' or ' '}</span>بطيء</td>
 	</tr>
 	<tr>
 	    <td>16-20</td>
@@ -224,7 +238,7 @@
 <div dir="rtl">
 </div><br/>
 
-    <p style="page-break-after:always"></p>
+    <p class="page-break"></p>
     %endfor
 </body>
 </html>

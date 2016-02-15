@@ -20,7 +20,7 @@
 ##############################################################################
 import datetime
 
-from osv import fields, osv
+from openerp.osv import fields, osv
 import logging
 
 class evaluation(osv.osv):
@@ -65,11 +65,11 @@ class evaluation(osv.osv):
             ev = evaluation.sum
             if ev >= 18:
                 mark = 'E'
-            elif avg >= 16:
+            elif ev >= 16:
                 mark = 'V'
-            elif avg >= 14:
+            elif ev >= 14:
                 mark = 'G'
-            elif avg >= 10:
+            elif ev >= 10:
                 mark = 'A'
             else:
                 mark = 'W'
@@ -130,7 +130,7 @@ class employee_grade(osv.osv):
     _name = "hr.employee.grade"
     _inherit = "hr.employee.grade"
 
-    def _get_avg(self, cr, uid, ids, field_name, arg, context=None):
+    def _get_avg_pace(self, cr, uid, ids, field_name, arg, context=None):
         res = {}
         for employee_grade in self.browse(cr, uid, ids):
             year_min = datetime.datetime.strptime(employee_grade.date_start, '%Y-%m-%d').year
@@ -142,32 +142,36 @@ class employee_grade(osv.osv):
             evals = self.pool.get('hr.evaluation').browse(cr, uid, eval_ids)
             sum_ = sum([eval_.sum for eval_ in evals])
             avg = len(evals) and float(sum_) / len(evals)
-            res[employee_grade.id] = avg
-        return res
-
-    def _get_pace(self, cr, uid, ids, field_name, arg, context=None):
-        res = {}
-        for employee_grade in self.browse(cr, uid, ids):
-            avg = employee_grade.evaluation_avg
             if avg >= 16:
                 pace = 'F'
             elif avg >= 10:
                 pace = 'M'
             else:
                 pace = 'S'
-            res[employee_grade.id] = pace
+            if len(evals) == 0:  # Not using evaluations?
+                pace = 'F'
+            res[employee_grade.id] = {
+                'evaluation_avg': avg,
+                'advancement_pace': pace
+            }
         return res
-        
-    def _search_by_pace(self, cr, uid, obj, name, args, context):
-        pass
+
+    def _get_employee_grade_from_evaluation(self, cr, uid, ids, context={}):
+        res = set()
+        for evaluation in self.pool['hr.evaluation'].browse(cr, uid, ids, context=context):
+            date = datetime.datetime(evaluation.year+1, 1, 1)
+            employee_grade_ids = self.pool['hr.employee.grade'].search(cr, uid, [('date_start', '<', date)], context=context)
+            res.update(employee_grade_ids)
+        return res
 
     _columns = {
-        'evaluation_avg': fields.function(_get_avg, string='Evaluation average', type='float'),
-        'advancement_pace': fields.function(_get_pace, string='Advancement pace', type='selection',
+        'evaluation_avg': fields.function(_get_avg_pace, multi='avg_pace', string='Evaluation average', type='float'),
+        'advancement_pace': fields.function(_get_avg_pace, multi='avg_pace', string='Advancement pace', type='selection',
                                 selection=[('F', 'Fast'),
                                            ('M', 'Medium'),
                                            ('S', 'Slow'),], 
-                                store=True,  # for search
+                                store={_name: (lambda self,cr,uid,ids,c={}: ids, None, 10),
+                                    'hr.evaluation': (_get_employee_grade_from_evaluation, None, 10),},
                                 readOnly=True),
     }
 
