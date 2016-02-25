@@ -1,4 +1,0 @@
-import ptr_configuration_lists
-import ptr_etablissement
-import ptr_patrimoinegeo
-

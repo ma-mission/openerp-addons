@@ -165,7 +165,7 @@
                     <group>
                 <field name="type_id"/>
                 <field name="active"/>
-                <field name="chercheurs_id1"/>
+                <field name="chercheurs_ids"/>
                 <field name="equipment_ids"/>
                     </group>
                     </group>

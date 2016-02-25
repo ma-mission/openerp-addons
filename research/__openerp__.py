@@ -3,7 +3,6 @@
 'sequence': '1',
 'application': True,
 'description':' ',
-'depends':['base', 'rh'],
+'depends':['base', 'hr'],
 'data':['view.xml'],
-
 }
