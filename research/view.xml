@@ -391,15 +391,9 @@
                 <field name="registre_date"/>
                 <field name="reference"/>
                 <field name="expiration_date"/>
-                <field name="these"/>
-                <field name="these_title" />
                 <field name="doctorant"/>
                 <field name="encadrant"/>
-                 <field name="co_encadron"/>
-                <field name="ced"/>
                  <field name="signup_date"/>
-                <field name="link"/>
-                 <field name="active"/>
                 <field name="chercheurs_id"/>
                 </tree>
             </field>
@@ -466,12 +460,12 @@
 <!--        Menus-->
         <menuitem name="Recherche scientifique" id='structures_menu'/>
         <menuitem name="Recherche scientifique" id="structures_inner" parent="structures_menu"/>
+        <menuitem name="Configuration" id="menu_configuration" parent="structures_menu"/>
         <menuitem name="Structures" id="structures_act" parent="structures_inner" action="structures_action"/>
         <menuitem name="Chercheur" id="menu_chercheur" parent="structures_inner" action="chercheurs_action"/>
-        <menuitem name="Etablissement" id="establishment_act" parent="structures_inner" action="establishment_action"/>
-        <menuitem name="Type de structure " id="type_act" parent="structures_inner" action="type_action"/>
+        <menuitem name="Type de structure " id="type_act" parent="menu_configuration" action="type_action"/>
         <menuitem name="Publication" id="publication_act" parent="structures_inner" action="publication_action"/>
-        <menuitem name="Publication type" id="publicationtype_act" parent="structures_inner" action="publicationtype_action"/>
+        <menuitem name="Publication type" id="publicationtype_act" parent="menu_configuration" action="publicationtype_action"/>
         <menuitem name="brevets" id="brevets_act" parent="structures_inner" action="brevets_action"/>
         <menuitem name="paretenariat" id="paretenariat_act" parent="structures_inner" action="paretenariat_action"/>
         <menuitem name="equipment" id="equipment_act" parent="structures_inner" action="equipment_action"/>
