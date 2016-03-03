@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+    <record model="ir.header_webkit" id="header_card">
+        <field name="name">Card</field>
+        <field name="format">B8</field>
+        <field name="orientation">Landscape</field>
+        <field name="margin_top">0.01</field>
+        <field name="margin_bottom">0.01</field>
+        <field name="margin_left">0.01</field>
+        <field name="margin_right">0.01</field>
+	<field name="css">
+body{
+  font-family: 'arabswell_1', 'KacstBook';
+  font-size: 8pt;
+  background-image: url(${'data:image/{1};base64,{0}'.format(*helper.get_logo_by_name('Card BG'))});
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+p.page-break{
+  page-break-after: always;
+}
+p.page-break:last-child{
+  page-break-after: avoid;
+}
+	</field>
+        <field name="html" type="xml">
+            <html></html>
+        </field>
+        <field name="footer_html" type="xml">
+            <html></html>
+        </field>
+    </record>
+
+    <record model="ir.header_img" id="img_card_background">
+        <field name="name">Card BG</field>
+        <field name="type">jpeg</field>
+    </record>
+
+    <report auto="False" id="report_hr_employee_card" model="hr.employee"
+            name="hr_ma.report_employee_card" string="Employee Card"
+            report_type="webkit" webkit_header="header_card" file="hr_ma/report/card.mako" />
+</data>
+</openerp>
