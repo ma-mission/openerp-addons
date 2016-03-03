@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_human_resources_configuration_ma" model="ir.ui.view">
+            <field name="name">hr settings ma</field>
+            <field name="model">hr.config.settings</field>
+            <field name="inherit_id" ref="hr.view_human_resources_configuration"/>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="//div[field/@name='module_hr_evaluation']" position="replace">
+                    </xpath>
+                    <xpath expr="//div[field/@name='module_hr_payroll']" position="replace">
+                    </xpath>
+                    <group name="recruitment_grp" position="before">
+                        <group name="hr_ma">
+                            <label for="id" string="Tempus Mission"/>
+                            <div>
+                                <div>
+                                    <field name="module_hr_mission" class="oe_inline"/>
+                                    <label for="module_hr_mission"/>
+                                </div>
+                                <div>
+                                    <field name="module_hr_evaluation_ma" class="oe_inline"
+                                           on_change="onchange_hr_evaluation_ma(module_hr_evaluation_ma)"/>
+                                    <label for="module_hr_evaluation_ma"/>
+                                </div>
+                                <div>
+                                    <field name="module_hr_advancement" class="oe_inline"
+                                           on_change="onchange_hr_advancement(module_hr_advancement)"/>
+                                    <label for="module_hr_advancement"/>
+                                </div>
+                                <div>
+                                    <field name="module_hr_payroll_ma" class="oe_inline"/>
+                                    <label for="module_hr_payroll_ma"/>
+                                </div>
+                                <!--
+                                -->
+                            </div>
+                        </group>
+                    </group>
+                </data>
+            </field>
+        </record>
+
+    </data>
+</openerp>

@@ -19,6 +19,7 @@ HR Localization
         'hr_view.xml',
         'data/hr.job.csv',
         'data/hr.grade.csv',
+        'res_config_view.xml',
     ],
     'css': ['static/src/css/style.css'],
     'demo': [
