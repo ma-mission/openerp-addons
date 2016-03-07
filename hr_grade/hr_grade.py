@@ -4,6 +4,15 @@ import time
 
 from openerp.osv import osv, fields
 
+
+class grade_category(osv.Model):
+    _name = "hr.grade.category"
+
+    _columns = {
+        'name': fields.char('Name', size=128),
+        'ref': fields.integer('Reference', select=True),
+    }
+
 class grade(osv.Model):
     _name = "hr.grade"
     _description = ""
@@ -12,6 +21,7 @@ class grade(osv.Model):
         'name': fields.char('Name', size=50, translate=True),
         'ref': fields.integer('Reference', select=True),
         'paygrade_id': fields.many2one('hr.paygrade', 'Paygrade'),
+        'category_id': fields.many2one('hr.grade.category', 'Category'),
         'echelon_offset': fields.integer('Echelon offset'),
     }
 

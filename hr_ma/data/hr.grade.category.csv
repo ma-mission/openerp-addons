@@ -1,0 +1,42 @@
+id,ref,name
+grade_category_03,03,Chambre des Représentants
+grade_category_04,04,Membres du Gouvernement et Premier Ministère
+grade_category_05,05,Personnel du premier ministre - Cour des comptes
+grade_category_06,06,Personnel du Ministère de la justice
+grade_category_07,07,Personnel du Ministère des affaires étrangères et de la coopération
+grade_category_08,08,Personnel du Ministère de l'intérieur et de l'information - Intérieur
+grade_category_09,09,Personnel du Ministère de l'intérieur et de l'information - Information
+grade_category_10,10,Personnel du Ministère de l'éducation nationale - Enseignement supérieur
+grade_category_11,11,Personnel du Ministère de l'éducation nationale - Enseignement primaire et secondaire
+grade_category_12,12,Personnel du Ministère de la santé publique
+grade_category_13,13,Personnel du Ministère des finances
+grade_category_14,14,Personnel du Ministère du tourisme
+grade_category_15,15,Personnel du Ministère des pêches maritimes et de la marine marchande
+grade_category_16,16,Secrétariat Général du Gouvernement
+grade_category_17,17,Personnel du Ministère des travaux publics, de la formation professionnelle et de la formation des cadres
+grade_category_18,18,Personnel du Ministère des transports
+grade_category_19,19,Personnel du Ministère des postes et des télécommunications
+grade_category_20,20,Personnel du Ministère de l'agriculture et de la réforme agraire
+grade_category_21,21,Personnel du Ministère de la jeunesse et des sports
+grade_category_22,22,Personnel du Ministère délégué auprès du premier ministre chargé des affaires économiques
+grade_category_23,23,Personnel du Ministére des habous et des affaires islamiques
+grade_category_24,24,Personnel du Ministère délégué auprès du premier Ministre chargé du développement des provinces sahariennes
+grade_category_25,25,Personnel du Ministére délégué auprès du premier Ministre chargé du plan
+grade_category_26,26,Personnel du Ministère de l'artisanat et des affaires sociales
+grade_category_27,27,Personnel du Ministère de l'énérgie et des mines
+grade_category_28,28,Personnel du Ministère du commerce et de l'industrie
+grade_category_29,29,Personnel du Ministère des affaires culturelles
+grade_category_30,30,Personnel du Ministère de l'habitat
+grade_category_31,31,Personnel du Ministère de l'emploi
+grade_category_32,32,Personnel du Ministère chargé des relations avec le parlement
+grade_category_33,33,Personnel du Ministère délégué auprès du premier Ministre chargé des affaires administratives
+grade_category_34,34,Personnel de l'Administration de la défense Nationale
+grade_category_35,35,Personnel du Haut Commissariat aux anciens résistants et anciens membres de l'armée de libération
+grade_category_39,39,Personnel du Haut Commissariat aux Personnes Handicapées
+grade_category_42,42,Personnel du Haut Commissariat au Plan
+grade_category_45,45,Personnel du Haut Commissariat aux Eaux et Forets et à la Lutte contre la Desertification
+grade_category_51,51,Personnel de l'Administration pénitentiaire et de la réinsertion
+grade_category_96,96,Fonction supérieure de chargé d'études
+grade_category_97,97,Fonctions supérieures propres aux départements ministériels
+grade_category_98,98,Personnel commun aux administrations publiques
+grade_category_99,99,Personnel interministèriel

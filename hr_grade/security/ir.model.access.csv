@@ -4,4 +4,6 @@ access_hr_grade_emp,hr.grade emp,model_hr_grade,base.group_user,1,0,0,0
 access_hr_employee_grade_user,hr.employee.grade user,model_hr_employee_grade,base.group_hr_user,1,1,1,1
 access_hr_paygrade,paygrade,model_hr_paygrade,base.group_hr_manager,1,1,1,1
 access_hr_paygrade_echelon,paygrade_echelon,model_hr_paygrade_echelon,base.group_hr_manager,1,1,1,1
+access_hr_grade_category_user,hr.grade.category user,model_hr_grade_category,base.group_hr_manager,1,1,1,1
+access_hr_grade_category_emp,hr.grade.category emp,model_hr_grade_category,base.group_user,1,0,0,0
 

@@ -38,7 +38,10 @@ class employee(osv.Model):
         'grade_id': fields.related('current_grade_id', 'grade_id', type='many2one',
                                     relation='hr.grade', string='Grade', readonly=True,
                                     store={_name: (lambda self,cr,uid,ids,c={}: ids, None, 10),
-                                           'hr.employee.grade': (_get_employees, None, 10),})
+                                           'hr.employee.grade': (_get_employees, None, 10),}),
+        'grade_category_id': fields.related('grade_id', 'category_id', type='many2one',
+                                            relation='hr.grade.category', string='Grade Category',
+                                            readonly=True),
     }
 
 

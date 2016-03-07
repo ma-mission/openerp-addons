@@ -18,6 +18,7 @@ HR Localization
         'hr_report.xml',
         'hr_view.xml',
         'data/hr.job.csv',
+        'data/hr.grade.category.csv',
         'data/hr.grade.csv',
         'report/card.xml',
         'res_config_view.xml',
