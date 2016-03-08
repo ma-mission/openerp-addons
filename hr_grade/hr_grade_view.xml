@@ -14,7 +14,7 @@
             <field name="model">hr.employee.grade</field>
             <field name="arch" type="xml">
                 <tree string="Employee Grades"
-		      colors="blue:state=='draft';green:state=='proposal';gray:state=='old'">
+		      colors="blue:state=='draft';green:state=='proposal';gray:state in ('confirmed','old')">
                     <field name="grade_id"/>
                     <field name="echelon"/>
                     <field name="date_start"/>

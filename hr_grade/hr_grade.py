@@ -72,6 +72,7 @@ class employee_grade(osv.Model):
         'date_start': fields.date('Start date'),
         'date_end': fields.date('End date'),
         'state': fields.selection([('draft', 'Draft'),
+                                   ('confirmed', 'Confirmed'),
                                    ('proposal', 'Proposal'),
                                    ('current', 'Current'),
                                    ('old', 'Old')], 'State'),
@@ -81,6 +82,9 @@ class employee_grade(osv.Model):
         'state': 'draft',
         'date_start': lambda *a: time.strftime("%Y-%m-01"), # first day of month
     }
+
+    def grade_confirm(self, cr, uid, ids, context=None):
+        return self.write(cr, uid, ids, {'state':'confirmed'})
 
     def grade_validate(self, cr, uid, ids, context=None):
         employee_grades = self.browse(cr, uid, ids)

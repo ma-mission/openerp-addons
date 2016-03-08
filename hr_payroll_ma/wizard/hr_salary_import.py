@@ -164,6 +164,7 @@ class salary_import(osv.osv_memory):
                     'grade_id': employee.grade_id.id,
                     'echelon': employee.echelon,
                     'index': employee.index,
+                    'state': 'confirmed',  # not draft and not necessarily current
             }
             employee_grade_id = self.pool.get('hr.employee.grade').create(cr, uid, val)
 

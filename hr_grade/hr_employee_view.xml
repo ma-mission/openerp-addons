@@ -13,7 +13,8 @@
                                 <field name="employee_grade_ids">
                                     <form version="7.0">
                                         <header>
-                                            <button type="object" name="grade_validate" string="Validate" states="draft,proposal" class="oe_highlight"/>
+                                            <button type="object" name="grade_confirm" string="Confirm" states="draft" class="oe_highlight"/>
+                                            <button type="object" name="grade_validate" string="Validate" states="confirmed,proposal" class="oe_highlight"/>
 					</header>
                                         <group>
                                             <group>
