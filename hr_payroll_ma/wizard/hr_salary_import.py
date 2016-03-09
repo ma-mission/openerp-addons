@@ -152,10 +152,16 @@ class salary_import(osv.osv_memory):
                     ('employee_id', '=', employee_id),
                     ('grade_id', '=', employee.grade_id.id),
                     ('echelon', '=', employee.echelon),
-                    ('index', '=', employee.index)])
+                    '|', ('index', '=', employee.index),
+                         ('index', '=', None),
+                ])
         if employee_grade_ids:
             # use existing grade info
             employee_grade_id = employee_grade_ids[0] 
+            # update index if not set
+            employee_grade = self.pool.get('hr.employee.grade').browse(cr, uid, employee_grade_id)
+            if not employee_grade.index:
+                self.pool.get('hr.employee.grade').write(cr, uid, employee_grade_id, {'index': employee.index})
         else:
             # create new
             val = {
