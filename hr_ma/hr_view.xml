@@ -82,7 +82,7 @@
                     </filter>
 		    <field name="name" position="replace">
 		        <field name="name" string="Employees"
-			 filter_domain="[self &lt; 'a' and
+			 filter_domain="[self &lt; 'A' and
 				('employee_id','=',self) or
 				('name','ilike',self)
 			]"/>
