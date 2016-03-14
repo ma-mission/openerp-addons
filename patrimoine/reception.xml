@@ -10,6 +10,7 @@
                     <field name="partner_id"/>
                     <field name="bon_livraison"/>
                     <field name="date_livraison"/>
+                    <field name="engagement"/>
                     <group colspan="4" string="Sous Familles">
                     <field name="reception_article_ids" nolabel="1">
                     	<tree>

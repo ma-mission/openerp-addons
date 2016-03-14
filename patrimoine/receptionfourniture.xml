@@ -10,6 +10,7 @@
                     <field name="partner_id"/>
                     <field name="bon_livraison"/>
                     <field name="date_livraison"/>
+                    <field name="engagement"/>
                     <group colspan="4" string="Fournitures">
                     <field name="ligne_ids" nolabel="1">
                     	<tree editable="bottom">

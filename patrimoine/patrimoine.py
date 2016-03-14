@@ -86,6 +86,7 @@ class reception(osv.Model):
               'bon_livraison':fields.binary('Bon de livraison',filters='*.png,*.gif,*.jpg,*.pdf'),
               'date_livraison':fields.date('Date de livraison'),
               'reception_article_ids' : fields.one2many('patrimoine.reception.article','reception_id','Articles'),
+              'engagement':fields.char('N° d\'engagement',size=64,required=True),
               }
     
 class site(osv.Model):
@@ -200,6 +201,7 @@ class receptionfourniture(osv.Model):
               'bon_livraison':fields.binary('Bon de livraison',filters='*.png,*.gif,*.jpg,*.pdf'),
               'date_livraison':fields.date('Date de livraison'),
               'ligne_ids' : fields.one2many('patrimoine.receptionfourniture.ligne','receptionfourniture_id','Fournitures'),
+              'engagement':fields.char('N° d\'engagement',size=64,required=True),
               }
 class receptionfourniture_ligne(osv.Model):
     _name='patrimoine.receptionfourniture.ligne'
