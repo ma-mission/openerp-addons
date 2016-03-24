@@ -24,7 +24,7 @@
 ##############################################################################
 from openerp import pooler
 from openerp import tools
-from tools.translate import _
+from openerp.tools.translate import _
 from openerp.osv import osv,fields
 import cx_Oracle
 import os
