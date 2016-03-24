@@ -102,6 +102,15 @@ class employee(osv.osv_memory):
         'line11_ids': fields.one2many('hr.salary.wizard.salary.line', 'employee_id', 'Lines'),
         'line12_ids': fields.one2many('hr.salary.wizard.salary.line', 'employee_id', 'Lines'),
         'line13_ids': fields.one2many('hr.salary.wizard.salary.line', 'employee_id', 'Lines'),
+        'line14_ids': fields.one2many('hr.salary.wizard.salary.line', 'employee_id', 'Lines'),
+        'line15_ids': fields.one2many('hr.salary.wizard.salary.line', 'employee_id', 'Lines'),
+        'line16_ids': fields.one2many('hr.salary.wizard.salary.line', 'employee_id', 'Lines'),
+        'line17_ids': fields.one2many('hr.salary.wizard.salary.line', 'employee_id', 'Lines'),
+        'line18_ids': fields.one2many('hr.salary.wizard.salary.line', 'employee_id', 'Lines'),
+        'line19_ids': fields.one2many('hr.salary.wizard.salary.line', 'employee_id', 'Lines'),
+        'line20_ids': fields.one2many('hr.salary.wizard.salary.line', 'employee_id', 'Lines'),
+        'line21_ids': fields.one2many('hr.salary.wizard.salary.line', 'employee_id', 'Lines'),
+        'line22_ids': fields.one2many('hr.salary.wizard.salary.line', 'employee_id', 'Lines'),
     }
 
     _defaults = {
@@ -364,6 +373,24 @@ class salary_import(osv.osv_memory):
             'line12_ids/amount',
             'line13_ids/salary_rule_id',
             'line13_ids/amount',
+            'line14_ids/salary_rule_id',
+            'line14_ids/amount',
+            'line15_ids/salary_rule_id',
+            'line15_ids/amount',
+            'line16_ids/salary_rule_id',
+            'line16_ids/amount',
+            'line17_ids/salary_rule_id',
+            'line17_ids/amount',
+            'line18_ids/salary_rule_id',
+            'line18_ids/amount',
+            'line19_ids/salary_rule_id',
+            'line19_ids/amount',
+            'line20_ids/salary_rule_id',
+            'line20_ids/amount',
+            'line21_ids/salary_rule_id',
+            'line21_ids/amount',
+            'line22_ids/salary_rule_id',
+            'line22_ids/amount',
         ]
     def import_salaries(self, cr, uid, ids, context=None):
         if context is None:

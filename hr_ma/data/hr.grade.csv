@@ -1,264 +1,967 @@
 id,category_id:id,ref,name
-grade_00000000,,"00000000","SANS GRADE OU GRADE INCONNU"
-grade_04000003,grade_category_04,"04000003","MINISTRE"
-grade_04000005,grade_category_04,"04000005","MINISTRE DELEGUE"
-grade_04000006,grade_category_04,"04000006","SECRETAIRE D'ETAT CHARGE DE LA RECHERCHE SCIENT"
-grade_06010102,grade_category_06,"06010102","COMMISSAIRE JUDICIAIRE DIVISIONNAIRE"
-grade_06040102,grade_category_06,"06040102","COMMISSAIRES JUDICIAIRE 1ER GRADE"
-grade_06040103,grade_category_06,"06040103","COMMISSAIRE JUDICIAIRE 2eme GRADE"
-grade_08010201,grade_category_08,"08010201","ADMINISTRATEUR PRINCIPAL DU MIN DE L'INTERIEUR"
-grade_08010304,grade_category_08,"08010304","ADMINISTRATEUR DU MINISTERE DE L'INTERIEUR"
-grade_08020201,grade_category_08,"08020201","ADJUDANT"
-grade_10000101,grade_category_10,"10000101","PROFESSEUR DE L'ENSEIGNEMENT SUPERIEUR GRADE B"
-grade_10000102,grade_category_10,"10000102","PROFESSEUR DE L'ENSEIGNEMENT SUPERIEUR GRADE A"
-grade_10000201,grade_category_10,"10000201","MAITRE DE CONFERENCES"
-grade_10000301,grade_category_10,"10000301","MAITRE ASSISTANT GRADE C"
-grade_10000302,grade_category_10,"10000302","MAITRE ASSISTANT GRADE B"
-grade_10000303,grade_category_10,"10000303","MAITRE ASSISTANT GRADE A"
-grade_10000401,grade_category_10,"10000401","ASSISTANT A LA FACULTE GRADE B"
-grade_10000402,grade_category_10,"10000402","ASSISTANT A LA FACULTE GRADE A"
-grade_10010101,grade_category_10,"10010101","PROFESSEUR DE MED. DE PHA. OU DE MED.DENT. 2G."
-grade_10010102,grade_category_10,"10010102","PROFESSEUR DE MED. DE PHA. OU DE MED.DENT. 1G."
-grade_10010201,grade_category_10,"10010201","PROFESSEUR AGREGE DE MED. DE PHA. OU DE MED.DENT."
-grade_10010301,grade_category_10,"10010301","M.A DE MED. DE PHA. OU DE MED.DENT. 3EME GRADE"
-grade_10010302,grade_category_10,"10010302","M.A DE MED. DE PHA. OU DE MED.DENT. 2EME GRADE"
-grade_10010303,grade_category_10,"10010303","M.A DE MED. DE PHA. OU DE MED.DENT. 1ER  GRADE"
-grade_10020101,grade_category_10,"10020101","PROFESSEUR DE L'ENSEIGNEMENT SUPERIEUR GRADE C"
-grade_10020102,grade_category_10,"10020102","PROFESSEUR DE L'ENSEIGNEMENT SUPERIEUR GRADE B"
-grade_10020103,grade_category_10,"10020103","PROFESSEUR DE L'ENSEIGNEMENT SUPERIEUR GRADE A"
-grade_10020201,grade_category_10,"10020201","PROFESSEUR HABILITE GRADE C"
-grade_10020202,grade_category_10,"10020202","PROFESSEUR HABILITE GRADE B"
-grade_10020203,grade_category_10,"10020203","PROFESSEUR HABILITE GRADE A"
-grade_10020301,grade_category_10,"10020301","PROF, ENS, SUP, ASSIST GRADE D"
-grade_10020302,grade_category_10,"10020302","PROF, ENS, SUP, ASSIST GRADE C"
-grade_10020303,grade_category_10,"10020303","PROF, ENS, SUP, ASSIST GRADE B"
-grade_10020304,grade_category_10,"10020304","PROF, ENS, SUP, ASSIST GRADE A"
-grade_10030101,grade_category_10,"10030101","PROFESSEUR DE L'ENSEIGNEMENT SUPER GRADE C (MED)"
-grade_10030102,grade_category_10,"10030102","PROFESSEUR DE L'ENSEIGNEMENT SUPER GRADE B (MED)"
-grade_10030103,grade_category_10,"10030103","PROFESSEUR DE L'ENSEIGNEMENT SUPER GRADE A (MED)"
-grade_10030201,grade_category_10,"10030201","PROFESSEUR AGREGE GRADE C"
-grade_10030202,grade_category_10,"10030202","PROFESSEUR AGREGE GRADE B"
-grade_10030203,grade_category_10,"10030203","PROFESSEUR AGREGE GRADE A"
-grade_10030301,grade_category_10,"10030301","PROFESSEUR DE L'ENSEIGN SUP ASSISTANT GRADE D(MED)"
-grade_10030302,grade_category_10,"10030302","PROFESSEUR DE L'ENSEIGN SUP ASSISTANT GRADE C(MED)"
-grade_10030303,grade_category_10,"10030303","PROFESSEUR DE L'ENSEIGN SUP ASSISTANT GRADE B(MED)"
-grade_10030304,grade_category_10,"10030304","PROFESSEUR DE L'ENSEIGN SUP ASSISTANT GRADE A(MED)"
-grade_11010101,grade_category_11,"11010101","INSPECTEUR PRINCIPAL"
-grade_11010201,grade_category_11,"11010201","INSPECTEUR ENSEIGNEMENT SECONDAIRE"
-grade_11020101,grade_category_11,"11020101","PROFESSEUR 2EME CYCLE GRADE PRINCIPAL"
-grade_11020102,grade_category_11,"11020102","PROFESSEUR 2EME CYCLE GRADE 1"
-grade_11020103,grade_category_11,"11020103","PROFESSEUR 2EME CYCLE GRADE 2"
-grade_11020201,grade_category_11,"11020201","PROFESSEUR 1ER CYCLE GRADE 1"
-grade_11020202,grade_category_11,"11020202","PROFESSEUR 1ER CYCLE GRADE 2"
-grade_11020203,grade_category_11,"11020203","PROFESSEUR 1ER CYCLE GRADE 3"
-grade_11020301,grade_category_11,"11020301","INSTITUTEUR GRADE 1"
-grade_11020302,grade_category_11,"11020302","INSTITUTEUR GRADE 2"
-grade_11020303,grade_category_11,"11020303","INSTITUTEUR GRADE 3"
-grade_11020304,grade_category_11,"11020304","INSTITUTEUR GRADE 4"
-grade_11020402,grade_category_11,"11020402","MONITEUR"
-grade_11030101,grade_category_11,"11030101","INSPECTEUR PRINCIPAL DES SERVICES ECONOMIQUES"
-grade_11030102,grade_category_11,"11030102","INSPECTEUR DES SERVICES ECONOMIQUES"
-grade_11030201,grade_category_11,"11030201","INTENDANT"
-grade_11030301,grade_category_11,"11030301","ECONOME PRINCIPAL"
-grade_11030302,grade_category_11,"11030302","ECONOME"
-grade_11030401,grade_category_11,"11030401","ADJOINT DES SERVICES ECONOMIQUES"
-grade_11030501,grade_category_11,"11030501","SECRETAIRE PRINCIPAL DES SERVICES ECONOMIQUES"
-grade_11030502,grade_category_11,"11030502","SECRETAIRE DES SERVICES ECONOMIQUES"
-grade_11040101,grade_category_11,"11040101","INSPECTEUR PRINCIPAL EN PLANIFICATION"
-grade_11040102,grade_category_11,"11040102","INSPECTEUR EN ORIENTATION ET PLANIFICATION EDUCAT."
-grade_11040201,grade_category_11,"11040201","CONSEILLER EN ORIENTATION ET PLANIFI. DE L'EDUCATI"
-grade_11040301,grade_category_11,"11040301","ADJOINT SPECIALISE EN ORIENT. ET PLANIF. EDUCAT."
-grade_11050101,grade_category_11,"11050101","CONSERVATEUR PRINCIPAL DE BIBIOL"
-grade_11050102,grade_category_11,"11050102","CONSERVATEUR DES BIBLIOTHEQUES ET ARCHIVES"
-grade_11050201,grade_category_11,"11050201","CONSERVATEUR BIBILOTHECAIRE"
-grade_11050301,grade_category_11,"11050301","DOCUMENTALISTE PRINCIPAL"
-grade_11050302,grade_category_11,"11050302","DOCUMENTALISTE"
-grade_11050303,grade_category_11,"11050303","DOCUMENTALISTE ADJOINT"
-grade_11060100,grade_category_11,"11060100","SURVEILLANTS D'EXTERNAT ET D'INTERNAT"
-grade_11060102,grade_category_11,"11060102","SURVEILLANT D'EXTERNAT 2EME GRADE"
-grade_11060103,grade_category_11,"11060103","SURVEILLANT D'EXTERNAT 3EME GRADE"
-grade_11060104,grade_category_11,"11060104","SURVEILLANT D'EXTERNAT 4EME GRADE"
-grade_11070100,grade_category_11,"11070100","PREPARATEURS DES LABORATOIRES SCOL. ET UNIVERS."
-grade_11070101,grade_category_11,"11070101","PREPARATEUR DU PREMIER GRADE"
-grade_11070102,grade_category_11,"11070102","PREPARATEUR DE 2 EME GRADE"
-grade_11070103,grade_category_11,"11070103","PREPARATEUR DU 3 EME GRADE"
-grade_11070104,grade_category_11,"11070104","PREPARATEUR DU 4 EME GRADE"
-grade_11080101,grade_category_11,"11080101","INSPECT PEDAGOGIQUE DE L'ENS PRIMAIRE GR PRINCIPAL"
-grade_11080102,grade_category_11,"11080102","INSPECT PEDAGOGIQUE DE L'ENS PRIMAIRE 1ER GRADE"
-grade_11080201,grade_category_11,"11080201","INSPECT PEDAGOGIQUE DE L'ENS SECOND GR PRINCIPAL"
-grade_11080202,grade_category_11,"11080202","INSPECT PEDAGOGIQUE DE L'ENS SECOND 1ER GRADE"
-grade_11090101,grade_category_11,"11090101","PROFESSEUR DE L'ENS PRIMAIRE 1ER GRADE"
-grade_11090102,grade_category_11,"11090102","PROFESSEUR DE L'ENS PRIMAIRE 2EME GRADE"
-grade_11090103,grade_category_11,"11090103","PROFESSEUR DE L'ENS PRIMAIRE 3EME GRADE"
-grade_11090201,grade_category_11,"11090201","PROFESSEUR DE L'ENS SECOND COLLEGIAL 1ER GRADE"
-grade_11090202,grade_category_11,"11090202","PROFESSUER DE L'ENS SECOND COLLEGIAL 2EME GRADE"
-grade_11090203,grade_category_11,"11090203","PROFESSEUR DE L'ENS SECOND COLLEGIAL 3EME GARDE"
-grade_11090301,grade_category_11,"11090301","PROFESSEUR DE L'ENS SECOND QUALIF GRADE PRINCIPAL"
-grade_11090302,grade_category_11,"11090302","PROFESSEUR DE L'ENS SECOND QUALIF 1ER GRADE"
-grade_11090303,grade_category_11,"11090303","PROFESSEUR DE L'ENS SECOND QUALIF 2EME GRADE"
-grade_11090401,grade_category_11,"11090401","PROF AGREGE DE L'ENS SECOND QUALIF GRADE PRINCIPAL"
-grade_11090402,grade_category_11,"11090402","PROF AGREGE DE L'ENS SECOND QUALIF 1ER GRADE"
-grade_11100101,grade_category_11,"11100101","INTENDANT GRADE PRINCIPAL"
-grade_11100102,grade_category_11,"11100102","INTENDANT 1ER GRADE"
-grade_11100103,grade_category_11,"11100103","INTENDANT 2EME GRADE"
-grade_11100201,grade_category_11,"11100201","INSPECT DES SERV MATERIELS ET FINANC GR PRINCIPAL"
-grade_11100202,grade_category_11,"11100202","INSPECT DES SERV MATERIELS ET FINANCIERS 1ER GRADE"
-grade_11110101,grade_category_11,"11110101","CONSEILLERS EN ORIENTAT DE L'EDUCAT GR PRINCIPAL"
-grade_11110102,grade_category_11,"11110102","CONSEILLERS EN ORIENTAT DE L'EDUCAT 1 ER GRADE"
-grade_11110103,grade_category_11,"11110103","CONSEILLERS EN ORIENTAT DE L'EDUCAT 2EME GRADE"
-grade_11110201,grade_category_11,"11110201","INSPECT EN ORIENTATION DE L'EDUCAT GR PRINCIPAL"
-grade_11110202,grade_category_11,"11110202","INSPECT EN ORIENTATION DE L'EDUCAT 1ER GRADE"
-grade_11110301,grade_category_11,"11110301","CONSEILLERS EN PLANIFICAT DE L'EDUCAT GR PRINCIPAL"
-grade_11110302,grade_category_11,"11110302","CONSEILLERS EN PLANIFICAT DE L'EDUCAT 1ER GRADE"
-grade_11110303,grade_category_11,"11110303","CONSEILLERS EN PLANIFICAT DE L'EDUCAT 2EME GRADE"
-grade_11110401,grade_category_11,"11110401","INSPECT EN PLANIFICAT DE L'EDUCAT GR PRINCIPAL"
-grade_11110402,grade_category_11,"11110402","INSPECT EN PLANIFICAT DE L'EDUCAT 1ER GRADE"
-grade_11120101,grade_category_11,"11120101","ATTACHE PEDAGOGIQUE 1ER GRADE"
-grade_11120102,grade_category_11,"11120102","ATTACHE PEDAGOGIQUE 2EME GRADE"
-grade_11120103,grade_category_11,"11120103","ATTACHE PEDAGOGIQUE 3EME GRADE"
-grade_11120201,grade_category_11,"11120201","ATTACHE D'ECONOMIE ET D'ADMINISTRATION 1ER GRADE"
-grade_11120202,grade_category_11,"11120202","ATTACHE D'ECONOMIE ET D'ADMINISTRATION 2EME GRADE"
-grade_11120203,grade_category_11,"11120203","ATTACHE D'ECONOMIE ET D'ADMINISTRATION 3EME GRADE"
-grade_11120301,grade_category_11,"11120301","ATTACHE SOCIAL 1ER GRADE"
-grade_11120302,grade_category_11,"11120302","ATTACHE SOCIAL 2EME GRADE"
-grade_11120303,grade_category_11,"11120303","ATTACHE SOCIAL 3EME GRADE"
-grade_12010102,grade_category_12,"12010102","MEDECIN HORS GRADE"
-grade_12010103,grade_category_12,"12010103","MEDECIN GRADE EXCEPTIONNEL"
-grade_12010104,grade_category_12,"12010104","MEDECIN GRADE PRINCIPAL"
-grade_12010105,grade_category_12,"12010105","MEDECIN 1ER GRADE"
-grade_12010204,grade_category_12,"12010204","PHARMACIEN PREMIER GRADE"
-grade_12020201,grade_category_12,"12020201","ADMINISTRATEUR DIVISIONNAIRE PRINCIPAL"
-grade_12020202,grade_category_12,"12020202","ADMINISTRATEUR DIVISIONNAIRE"
-grade_12020401,grade_category_12,"12020401","PSYCHOLOGUE"
-grade_12060302,grade_category_12,"12060302","ADJOINT MEDICAL"
-grade_13020101,grade_category_13,"13020101","INSPECTEUR DIVISIONNAIRE EN CHEF"
-grade_13020102,grade_category_13,"13020102","INSPECTEUR DIVISIONNAIRE"
-grade_29020102,grade_category_29,"29020102","CONSERVATEURS DES MONUMENTS ET SITES HISTORIQUES"
-grade_29030203,grade_category_29,"29030203","PROFESSEUR D ENSEIGNEMENT ARTISTIQUE  1 GR"
-grade_29040202,grade_category_29,"29040202","CONSERVATEUR DE MUSEE"
-grade_89860304,,"89860304","CADRE ECHELLE 20"
-grade_89970003,,"89970003","GRADE ASSIMILE MINISTRE"
-grade_96000001,grade_category_96,"96000001","CHARGE D'ETUDES"
-grade_97000001,grade_category_97,"97000001","SECRETAIRE GENERAL"
-grade_97000003,grade_category_97,"97000003","DIRECTEUR ADMINISTRATIF"
-grade_97000004,grade_category_97,"97000004","INSPECTEUR  GENERAL"
-grade_98000101,grade_category_98,"98000101","ADMINISTRATEUR PRINCIPAL"
-grade_98000102,grade_category_98,"98000102","ADMINISTRATEUR"
-grade_98000201,grade_category_98,"98000201","ADMINISTRATEUR-ADJOINT"
-grade_98000301,grade_category_98,"98000301","REDACTEUR PRINCIPAL"
-grade_98000302,grade_category_98,"98000302","REDACTEUR"
-grade_98000401,grade_category_98,"98000401","SECRETAIRE PRINCIPAL"
-grade_98000402,grade_category_98,"98000402","SECRETAIRE"
-grade_98000501,grade_category_98,"98000501","AGENT D'EXECUTION PRINCIPAL"
-grade_98000502,grade_category_98,"98000502","AGENT D EXECUTION"
-grade_98000601,grade_category_98,"98000601","AGENT DE SERVICE PRINCIPAL"
-grade_98000602,grade_category_98,"98000602","AGENT DE SERVICE"
-grade_98010101,grade_category_98,"98010101","ADJOINT TECHNIQUE HORS CATEGORIE"
-grade_98010102,grade_category_98,"98010102","ADJOINT TECHNIQUE DE 1 ERE CATEGORIE"
-grade_98010103,grade_category_98,"98010103","ADJOINT TECHNIQUE DE 2 EME CATEGORIE"
-grade_98010104,grade_category_98,"98010104","ADJOINT TECHNIQUE DE 3 EME CATEGORIE"
-grade_98010105,grade_category_98,"98010105","ADJOINT TECHNIQUE DE 4 EME CATEGORIE"
-grade_98010106,grade_category_98,"98010106","ADJOINT TECHNIQUE HORS CATEGORIE PRINCIPAL"
-grade_99010102,grade_category_99,"99010102","PROF. ETAB ENS.SUP ET DE FORMATION GRADE B"
-grade_99010201,grade_category_99,"99010201","INGENIEUR EN CHEF"
-grade_99010301,grade_category_99,"99010301","INGENIEUR D'ETAT GRADE PRINCIPAL"
-grade_99010302,grade_category_99,"99010302","INGENIEUR D'ETAT 1ER GRADE"
-grade_99010401,grade_category_99,"99010401","INGENIEUR D'APPLICATION GRADE PRINCIPAL"
-grade_99010402,grade_category_99,"99010402","INGENIEUR D'APPLICATION 1 ER GRADE"
-grade_99010701,grade_category_99,"99010701","ARCHITECTE GRADE PRINCIPAL"
-grade_99010702,grade_category_99,"99010702","ARCHITECTE 1ER GRADE"
-grade_99020102,grade_category_99,"99020102","ANALYSTE CONCEPTEUR PRINCIPAL"
-grade_99020103,grade_category_99,"99020103","ANALYSTE CONCEPTEUR"
-grade_99020201,grade_category_99,"99020201","ANALYSTE"
-grade_99020301,grade_category_99,"99020301","PROGRAMMEUR PRINCIPAL"
-grade_99020302,grade_category_99,"99020302","PROGRAMMEUR"
-grade_99020303,grade_category_99,"99020303","PROGRAMMEUR ANALYSTE"
-grade_99020401,grade_category_99,"99020401","MONITEUR"
-grade_99020501,grade_category_99,"99020501","OPERATEUR PRINCIPAL"
-grade_99020502,grade_category_99,"99020502","OPERATEUR"
-grade_99030101,grade_category_99,"99030101","INFORMATISTE PRINCIPAL"
-grade_99030102,grade_category_99,"99030102","INFORMATISTE SPECIALISE"
-grade_99030103,grade_category_99,"99030103","INFORMATISTE"
-grade_99040001,grade_category_99,"99040001","TECHNICIEN GRADE PRINCIPAL (ANC)"
-grade_99040002,grade_category_99,"99040002","TECHNICIEN PREMIER GRADE(ANC)"
-grade_99040003,grade_category_99,"99040003","TECHNICIEN DE 2 EME GRADE (ANC)"
-grade_99040004,grade_category_99,"99040004","ADJOINT TECHNIQUE SPECIALISE"
-grade_99040005,grade_category_99,"99040005","ADJOINT TECHNIQUE"
-grade_99040006,grade_category_99,"99040006","TECHNICIEN PREMIER GRADE"
-grade_99040007,grade_category_99,"99040007","TECHNICIEN DE 2 EME GRADE"
-grade_99040008,grade_category_99,"99040008","TECHNICIEN DE 3 EME GRADE"
-grade_99040009,grade_category_99,"99040009","TECHNICIEN DE 4 EME GRADE"
-grade_99050101,grade_category_99,"99050101","PROFESSEUR DES ETAB DE FOR DES CADRES GRADE B"
-grade_99050102,grade_category_99,"99050102","PROFESSEUR DES ETAB DE FOR DES CADRES GRADE A"
-grade_99050201,grade_category_99,"99050201","MAITRE CONFE DES ETAB DE FOR DES CADRES"
-grade_99050301,grade_category_99,"99050301","MAITRE ASSISTANT DES ETAB DE FOR DES CADRES C"
-grade_99050302,grade_category_99,"99050302","MAITRE ASSISTANT DES ETAB DE FOR DES CADRES B"
-grade_99050303,grade_category_99,"99050303","MAITRE ASSISTANT DES ETAB DE FOR DES CADRES A"
-grade_99050401,grade_category_99,"99050401","ASSISTANT DES ETAB DE FORMATION DES CADRES B"
-grade_99050402,grade_category_99,"99050402","ASSISTANT DES ETAB DE FORMATION DES CADRES A"
-grade_99060101,grade_category_99,"99060101","DIRECTEUR DE CABINET"
-grade_99060102,grade_category_99,"99060102","CHEF DE CABINET"
-grade_99060103,grade_category_99,"99060103","CONSEILLER TECHNIQUE"
-grade_99060104,grade_category_99,"99060104","ATTACHE DE CABINET"
-grade_99060105,grade_category_99,"99060105","CHEF DE MISSION"
-grade_99060106,grade_category_99,"99060106","CHEF DE SECRETARIAT PARTICULIER"
-grade_99060107,grade_category_99,"99060107","CONSEILLER JURIDIQUE"
-grade_99060108,grade_category_99,"99060108","CONSEILLER AUX AFFAIRES PARLEMENTAIRES"
-grade_99060109,grade_category_99,"99060109","CONSEILLER A LA COMMUNICATION"
-grade_99060201,grade_category_99,"99060201","SECRETAIRE PRINCIPAL (CAB)"
-grade_99060202,grade_category_99,"99060202","SECRETAIRE (CAB)"
-grade_99060203,grade_category_99,"99060203","AGENT D'EXECUSION (CAB)"
-grade_99060204,grade_category_99,"99060204","ADJOINT TECHNIQUE DE 3EME CATEGORIE (CABINET)"
-grade_99060205,grade_category_99,"99060205","AGENT DE SERVICE (CAB)"
-grade_99060301,grade_category_99,"99060301","ADJOINT TECHNIQUE DE 1ERE CATEGORIE (CAB)"
-grade_99060302,grade_category_99,"99060302","ADJOINT TECHNIQUE DE 2EME CATEGORIE (CAB)"
-grade_99060303,grade_category_99,"99060303","ADJOINT TECHNIQUE DE 4EME CATEGORIE (CAB)"
-grade_99070101,grade_category_99,"99070101","CIVILISTE ECHELLE 11"
-grade_99070102,grade_category_99,"99070102","CIVILISTE ECHELLE (10)"
-grade_99070103,grade_category_99,"99070103","CIVILISTE (ECHELLE 8)"
-grade_99070201,grade_category_99,"99070201","AGENT A CONTRAT"
-grade_99080101,grade_category_99,"99080101","TEMPORAIRE"
-grade_99090301,grade_category_99,"99090301","PROFESSEUR 1er GRADE"
-grade_99090302,grade_category_99,"99090302","PROFESSEUR 2ème GRADE"
-grade_99100101,grade_category_99,"99100101","PROFESSEUR DE L'ENSEIGNEMENT SUP GRADE C(N.S)"
-grade_99100102,grade_category_99,"99100102","PROFESSEUR DE L'ENSEIGNEMENT SUP GRADE B (N.S)"
-grade_99100103,grade_category_99,"99100103","PROFESSEUR DE L'ENSEIGNEMENT SUP GRADE A (N.S)"
-grade_99100201,grade_category_99,"99100201","PROFESSEUR HABILITE GRADE C (N.S)"
-grade_99100202,grade_category_99,"99100202","PROFESSEUR HABILITE GRADE B (N.S)"
-grade_99100203,grade_category_99,"99100203","PROFESSEUR HABILITE GRADE A (N.S)"
-grade_99100301,grade_category_99,"99100301","PROF DE L'ENSEIGNEMENT SUP ASSISTANT GRADE D (N.S)"
-grade_99100302,grade_category_99,"99100302","PROF DE L'ENSEIGNEMENT SUP ASSISTANT GRADE C (N.S)"
-grade_99100303,grade_category_99,"99100303","PROF DE L'ENSEIGNEMENT SUP ASSISTANT GRADE B (N.S)"
-grade_99100304,grade_category_99,"99100304","PROF DE L'ENSEIGNEMENT SUP ASSISTANT GRADE A (N.S)"
-grade_99110101,grade_category_99,"99110101","MEDECIN HORS GRADE (N.S)"
-grade_99110102,grade_category_99,"99110102","MEDECIN GRADE EXCEPTIONNEL(N.S)"
-grade_99110103,grade_category_99,"99110103","MEDECIN GRADE PRINCIPAL (N.S)"
-grade_99110104,grade_category_99,"99110104","MEDECIN PREMIER GRADE"
-grade_99110201,grade_category_99,"99110201","PHARMACIEN HORS GRADE"
-grade_99110202,grade_category_99,"99110202","PHARMACIEN GRADE EXCEPTIONNEL"
-grade_99110203,grade_category_99,"99110203","PHARMACIEN GRADE PRINCIPAL"
-grade_99110204,grade_category_99,"99110204","PHARMACIEN PREMIER GRADE"
-grade_99110301,grade_category_99,"99110301","CHIRUREGIEN DENTISTE HORS GRADE"
-grade_99110302,grade_category_99,"99110302","CHIRUREGIEN DENTISTE GRADE EXCEPTIONNEL"
-grade_99110303,grade_category_99,"99110303","CHIRUREGIEN DENTISTE GRADE PRINCIPAL"
-grade_99110304,grade_category_99,"99110304","CHIRUREGIEN DENTISTE 1ER GRADE"
-grade_99120104,grade_category_99,"99120104","MEDECIN VETERINAIRE PREMIER GRADE"
-grade_99130201,grade_category_99,"99130201","ADMINISTRATEUR PREMIER GRADE"
-grade_99130202,grade_category_99,"99130202","ADMINISTRATEUR DEUXIEME GRADE"
-grade_99130203,grade_category_99,"99130203","ADMINISTRATEUR TROISIEME GRADE"
-grade_99140101,grade_category_99,"99140101","REDACTEUR 1ER GRADE(11)"
-grade_99140102,grade_category_99,"99140102","REDACTEUR 2EME GRADE(10)"
-grade_99140103,grade_category_99,"99140103","REDACTEUR 3EME GRADE(9)"
-grade_99140104,grade_category_99,"99140104","REDACTEUR 4EME GRADE(8)"
-grade_99150101,grade_category_99,"99150101","ADJOINT TECHNIQUE 1ER GRADE"
-grade_99150102,grade_category_99,"99150102","ADJOINT TECHNIQUE 2EME GRADE"
-grade_99150103,grade_category_99,"99150103","ADJOINT TECHNIQUE 3EME GRADE"
-grade_99150104,grade_category_99,"99150104","ADJOINT TECHNIQUE 4EME GRADE"
-grade_99160101,grade_category_99,"99160101","ADJOINT ADMINISTRATIF 1ER GRADE"
-grade_99160102,grade_category_99,"99160102","ADJOINT ADMINISTRATIF 2EME GRADE"
-grade_99160103,grade_category_99,"99160103","ADJOINT ADMINISTRATIF 3EME GRADE"
-grade_99160104,grade_category_99,"99160104","ADJOINT ADMINISTRATIF 4EME GRADE"
-grade_99170201,grade_category_99,"99170201","INGENIEUR EN CHEF GRADE PRINCIPAL"
-grade_99170202,grade_category_99,"99170202","INGENIEUR EN CHEF 1ER GRADE"
-grade_99170301,grade_category_99,"99170301","INGENIEUR D'ETAT GRADE PRINCIPAL"
-grade_99170302,grade_category_99,"99170302","INGENIEUR D'ETAT 1ER GRADE"
+grade_00000000,,00000000,Sans Grade ou Grade Inconnu
+grade_03000001,grade_category_03,03000001,Président de la Chambre des Représentants
+grade_03000002,grade_category_03,03000002,Membre de la Chambre des Représentants
+grade_03010001,grade_category_03,03010001,Conseiller
+grade_03010101,grade_category_03,03010101,Attachés administratif principal
+grade_03010102,grade_category_03,03010102,Attachés administratif
+grade_03010201,grade_category_03,03010201,Attaché administratif adjoint 2ème catégorie
+grade_03010202,grade_category_03,03010202,Attaché administratif adjoint 1°catégorie
+grade_03010301,grade_category_03,03010301,Secrétaire principal
+grade_03010302,grade_category_03,03010302,Secrétaire
+grade_03010401,grade_category_03,03010401,Agent principal
+grade_03010402,grade_category_03,03010402,Agent
+grade_03010501,grade_category_03,03010501,Agent spécialisé 1° catégorie
+grade_03010502,grade_category_03,03010502,Agent spécialisé 2° catégorie
+grade_03010503,grade_category_03,03010503,Agent spécialisé 3° catégorie
+grade_03010504,grade_category_03,03010504,Agent spécialisé 4° catégorie
+grade_03020001,grade_category_03,03020001,Président de la chambre des conseillers
+grade_03020002,grade_category_03,03020002,Membres de la chambre des conseillers
+grade_04000001,grade_category_04,04000001,Premier Ministre
+grade_04000002,grade_category_04,04000002,Ministre d'Etat
+grade_04000003,grade_category_04,04000003,Ministre
+grade_04000004,grade_category_04,04000004,Secrétaire général du gouvernement
+grade_04000005,grade_category_04,04000005,Ministre délégué
+grade_04000006,grade_category_04,04000006,Secrétaire d'Etat
+grade_04000007,grade_category_04,04000007,Sous secrétaire d'Etat
+grade_04010101,grade_category_04,04010101,Chargé d'études
+grade_04010102,grade_category_04,04010102,Chargé de mission
+grade_05000001,grade_category_05,05000001,Président de la cour des comptes
+grade_05000002,grade_category_05,05000002,Emploi de procureur général du Roi
+grade_05000101,grade_category_05,05000101,Magistrat hors grade
+grade_05000102,grade_category_05,05000102,Magistrat du grade exceptionnel
+grade_05000103,grade_category_05,05000103,Magistrat du premier grade
+grade_05000104,grade_category_05,05000104,Magistrat du 2ème grade
+grade_05000105,grade_category_05,05000105,Magistrat du 3ème grade
+grade_06010101,grade_category_06,06010101,Commissaire judiciaire divisionnaire en chef
+grade_06010102,grade_category_06,06010102,Commissaire judiciaire divisionnaire
+grade_06010201,grade_category_06,06010201,Commissaire judiciaire
+grade_06010301,grade_category_06,06010301,Rédacteur judiciaire principal
+grade_06010302,grade_category_06,06010302,Rédacteur judiciaire
+grade_06010401,grade_category_06,06010401,Secrétaire greffier principal
+grade_06010402,grade_category_06,06010402,Secrétaire greffier
+grade_06010501,grade_category_06,06010501,Agent de bureau principal
+grade_06010502,grade_category_06,06010502,Agent de bureau
+grade_06010601,grade_category_06,06010601,Huissier principal
+grade_06010602,grade_category_06,06010602,Huissier
+grade_06020001,grade_category_06,06020001,Magistrat hors grade
+grade_06020002,grade_category_06,06020002,Magistrat de grade exceptionnel
+grade_06020003,grade_category_06,06020003,Magistrat de 1er grade
+grade_06020004,grade_category_06,06020004,Magistrat de 2ème grade
+grade_06020005,grade_category_06,06020005,Magistrat de 3ème grade
+grade_06030101,grade_category_06,06030101,Contrôleur général
+grade_06030201,grade_category_06,06030201,Directeur hors classe
+grade_06030301,grade_category_06,06030301,Directeur d'établissement de 1ère classe
+grade_06030302,grade_category_06,06030302,Directeur d'établissement de 2ème classe
+grade_06030303,grade_category_06,06030303,Directeur d'établissement de 3ème classe
+grade_06030401,grade_category_06,06030401,Surveillant chef
+grade_06030402,grade_category_06,06030402,Surveillant chef adjoint
+grade_06030501,grade_category_06,06030501,Surveillant éducateur
+grade_06030601,grade_category_06,06030601,Surveillant
+grade_06040101,grade_category_06,06040101,Commissaire Judiciaire de grade principal
+grade_06040102,grade_category_06,06040102,Commissaire Judiciaire de 1er grade
+grade_06040103,grade_category_06,06040103,Commissaire Judiciaire de 2ème grade
+grade_06040104,grade_category_06,06040104,Commissaire Judiciaire de 3ème grade
+grade_06040201,grade_category_06,06040201,Rédacteur Judiciaire de 1er grade
+grade_06040202,grade_category_06,06040202,Rédacteur Judiciaire de 2ème grade
+grade_06040203,grade_category_06,06040203,Rédacteur Judiciaire de 3ème grade
+grade_06040204,grade_category_06,06040204,Rédacteur Judiciaire de 4ème grade
+grade_06040301,grade_category_06,06040301,Secrétaire Greffier de 1er grade
+grade_06040302,grade_category_06,06040302,Secrétaire Greffier de 2ème grade
+grade_06040303,grade_category_06,06040303,Secrétaire Greffier de 3ème grade
+grade_06040304,grade_category_06,06040304,Secrétaire Greffier de grade principal
+grade_07000101,grade_category_07,07000101,Emploi d'ambassadeur
+grade_07000102,grade_category_07,07000102,Emploi d'Ambassadeur Itinérant
+grade_07000201,grade_category_07,07000201,Ministre plénipotentiaire
+grade_07000202,grade_category_07,07000202,Conseiller des affaires étrangères
+grade_07000203,grade_category_07,07000203,Conseiller des affaires étrangères
+grade_07000204,grade_category_07,07000204,Premier secretaire des affaires étrangères
+grade_07000205,grade_category_07,07000205,Ministre plénipotentiaire
+grade_07000301,grade_category_07,07000301,Conseiller économique
+grade_07000401,grade_category_07,07000401,Secrétaire des affaires étrangères
+grade_07000402,grade_category_07,07000402,Deuxième secrétaire
+grade_07000403,grade_category_07,07000403,Troisième secrétaire
+grade_07000501,grade_category_07,07000501,Attaché principal des affaires étrangères
+grade_07000502,grade_category_07,07000502,Attaché des affaires étrangères
+grade_07000503,grade_category_07,07000503,Premier Attaché
+grade_07000504,grade_category_07,07000504,Deuxième Attaché
+grade_07000505,grade_category_07,07000505,Troisième Attaché
+grade_07000601,grade_category_07,07000601,Chancelier principal
+grade_07000602,grade_category_07,07000602,Chancelier
+grade_07000603,grade_category_07,07000603,Premier chancelier
+grade_07000604,grade_category_07,07000604,Deuxieme chancelier
+grade_07000605,grade_category_07,07000605,Troisieme chancelier
+grade_07000701,grade_category_07,07000701,Agent local
+grade_07000801,grade_category_07,07000801,Ministre plénipotentiaire Général
+grade_07000802,grade_category_07,07000802,Ministre plénipotentiaire
+grade_07000901,grade_category_07,07000901,Conseiller des affaires étrangères
+grade_07001001,grade_category_07,07001001,Secrétaire des affaires étrangères
+grade_07001101,grade_category_07,07001101,Premier Attaché
+grade_07001102,grade_category_07,07001102,Deuxième Attaché
+grade_07001103,grade_category_07,07001103,Troisième Attaché
+grade_07001104,grade_category_07,07001104,Quatrième Attaché
+grade_07001201,grade_category_07,07001201,Premier chancelier
+grade_07001202,grade_category_07,07001202,Deuxieme chancelier
+grade_07001203,grade_category_07,07001203,Troisieme chancelier
+grade_07001204,grade_category_07,07001204,Quatrième chancelier
+grade_08000101,grade_category_08,08000101,Déssinateur projeteur
+grade_08000102,grade_category_08,08000102,Déssinateur
+grade_08000201,grade_category_08,08000201,Conducteur de travaux principal
+grade_08000202,grade_category_08,08000202,Conducteur de travaux
+grade_08010101,grade_category_08,08010101,Gouverneur ou wali (Fonction)
+grade_08010201,grade_category_08,08010201,Emploi d'administrateur principal
+grade_08010301,grade_category_08,08010301,Administrateur classe exceptionnelle
+grade_08010302,grade_category_08,08010302,Administrateur 1ère classe
+grade_08010303,grade_category_08,08010303,Administrateur 2ème classe
+grade_08010304,grade_category_08,08010304,Administrateur du Ministère de l'Interieur
+grade_08010401,grade_category_08,08010401,Administrateur adjoint classe exceptionnelle
+grade_08010402,grade_category_08,08010402,Administrateur adjoint 1ère classe
+grade_08010403,grade_category_08,08010403,Administrateur adjoint 2ème classe
+grade_08010404,grade_category_08,08010404,Administrateur adjoint du Ministère de l'Interieur
+grade_08010501,grade_category_08,08010501,Auxiliaire d'autorité
+grade_08020101,grade_category_08,08020101,Emploi supérieur d'inspecteur en chef
+grade_08020102,grade_category_08,08020102,Emploi supérieur d'inspecteur
+grade_08020201,grade_category_08,08020201,Commandant
+grade_08020202,grade_category_08,08020202,Capitaine
+grade_08020203,grade_category_08,08020203,Lieutenant
+grade_08020204,grade_category_08,08020204,Lieutenant Colonel
+grade_08020301,grade_category_08,08020301,Adjudant chef
+grade_08020302,grade_category_08,08020302,Adjudant
+grade_08020303,grade_category_08,08020303,Sergent chef
+grade_08020304,grade_category_08,08020304,Sergent
+grade_08020401,grade_category_08,08020401,Caporal chef
+grade_08020402,grade_category_08,08020402,Caporal
+grade_08020403,grade_category_08,08020403,Sapeur pompier de 1ère classe
+grade_08020404,grade_category_08,08020404,Sapeur pompier de 2ème classe
+grade_08020501,grade_category_08,08020501,Animateurs principal en affaires sociales des sapeurs pompiers
+grade_08020502,grade_category_08,08020502,Animateurs en affaires sociales des sapurs pompiers
+grade_08030101,grade_category_08,08030101,Contrôleur divisionnaire en chef des prix
+grade_08030102,grade_category_08,08030102,Contrôleur divisionnaire des prix
+grade_08030201,grade_category_08,08030201,Contrôleur des prix
+grade_08030301,grade_category_08,08030301,Contrôleur adjoint des prix
+grade_08030302,grade_category_08,08030302,Contrôleur adjoint principal des prix
+grade_08040101,grade_category_08,08040101,Mohtasseb 1ère catégorie
+grade_08040102,grade_category_08,08040102,Mohtasseb 2ème catégorie
+grade_08050101,grade_category_08,08050101,Inspecteur divisionnaire des transmissions en chef
+grade_08050102,grade_category_08,08050102,Inspecteur divisionnaire des transmissions
+grade_08050201,grade_category_08,08050201,Inspecteur des transmissions
+grade_08050301,grade_category_08,08050301,Inspecteur-adjoint principal des transmissions
+grade_08050302,grade_category_08,08050302,Inspecteur-adjoint des transmissions
+grade_08050401,grade_category_08,08050401,Contrôleur principal des transmissions
+grade_08050402,grade_category_08,08050402,Contrôleur des transmissions
+grade_08050501,grade_category_08,08050501,Agent de transmission
+grade_08060101,grade_category_08,08060101,Inspecteur général
+grade_08060102,grade_category_08,08060102,Inspecteur général adjoint
+grade_08060103,grade_category_08,08060103,Inspecteur principal de 1ère classe
+grade_08060104,grade_category_08,08060104,Inspecteur principal de 2ème classe
+grade_08060105,grade_category_08,08060105,Inspecteur principal de 3ème classe
+grade_08060201,grade_category_08,08060201,Inspecteur de 1ère classe
+grade_08060202,grade_category_08,08060202,Inspecteur de 2ème classe
+grade_08060203,grade_category_08,08060203,Inspecteur de 3ème classe
+grade_08060301,grade_category_08,08060301,Moussaid de 1ère classe
+grade_08060302,grade_category_08,08060302,Moussaid de 2ème classe
+grade_08060303,grade_category_08,08060303,Moussaid de 3ème classe
+grade_08060304,grade_category_08,08060304,Moussaid de 4ème classe
+grade_08070101,grade_category_08,08070101,Mokhazeni
+grade_08070201,grade_category_08,08070201,Brigadier
+grade_08070301,grade_category_08,08070301,Brigadier chef
+grade_08080101,grade_category_08,08080101,Emploi de prefet de police
+grade_08080201,grade_category_08,08080201,Contrôleur général
+grade_08080301,grade_category_08,08080301,Commissaire divisionnaire
+grade_08080302,grade_category_08,08080302,Commissaire de police principal
+grade_08080303,grade_category_08,08080303,Commissaire de police
+grade_08080401,grade_category_08,08080401,Commandant de groupement
+grade_08080402,grade_category_08,08080402,Commandant principal des gardiens de la paix
+grade_08080403,grade_category_08,08080403,Commandant des gardiens de la paix
+grade_08080404,grade_category_08,08080404,Commandant de groupement de 1ere catégorie
+grade_08080405,grade_category_08,08080405,Commandant de groupement de 2eme catégorie
+grade_08080501,grade_category_08,08080501,Officier de police principal
+grade_08080502,grade_category_08,08080502,Officier de police
+grade_08080601,grade_category_08,08080601,Officier de paix principal
+grade_08080602,grade_category_08,08080602,Officier de paix
+grade_08080701,grade_category_08,08080701,Auxiliaire de police principale
+grade_08080702,grade_category_08,08080702,Auxiliaire de police
+grade_08080801,grade_category_08,08080801,Assistante de police principale
+grade_08080802,grade_category_08,08080802,Assistante de police
+grade_08080901,grade_category_08,08080901,Inspecteur de police principal
+grade_08080902,grade_category_08,08080902,Inspecteur de police
+grade_08081001,grade_category_08,08081001,Brigadier chef
+grade_08081002,grade_category_08,08081002,Brigadier
+grade_08081003,grade_category_08,08081003,Sous brigadier
+grade_08081004,grade_category_08,08081004,Gardien de la paix
+grade_08081005,grade_category_08,08081005,Gardien de la paix (echelle 5)
+grade_08090101,grade_category_08,08090101,Khalifa Urbain
+grade_08090102,grade_category_08,08090102,Khalifa Rural
+grade_08100101,grade_category_08,08100101,Inspecteur général
+grade_08100102,grade_category_08,08100102,Inspecteur de grade exceptionnel
+grade_08100103,grade_category_08,08100103,Inspecteur-chef de mission
+grade_08100104,grade_category_08,08100104,Inspecteur
+grade_08110101,grade_category_08,08110101,Caporal de la protection civile
+grade_08110201,grade_category_08,08110201,Sergent
+grade_08110202,grade_category_08,08110202,Sergent chef
+grade_08110203,grade_category_08,08110203,Adjudant
+grade_08110204,grade_category_08,08110204,Adjudant chef
+grade_08110205,grade_category_08,08110205,Adjudant chef major
+grade_08110301,grade_category_08,08110301,Lieutenant
+grade_08110302,grade_category_08,08110302,Capitaine
+grade_08110401,grade_category_08,08110401,Commandant
+grade_08110402,grade_category_08,08110402,Lieutenant Colonel
+grade_08110403,grade_category_08,08110403,Colonel
+grade_08110501,grade_category_08,08110501,Animateur en affaires sociales
+grade_08110502,grade_category_08,08110502,Animateur en affaires sociales principal
+grade_08120101,grade_category_08,08120101,Directeur de centres régional d'investissement
+grade_08130101,grade_category_08,08130101,Brigadier chef
+grade_08130102,grade_category_08,08130102,Brigadier
+grade_08130103,grade_category_08,08130103,Gardien de la paix
+grade_08130201,grade_category_08,08130201,Officier de paix principal
+grade_08130202,grade_category_08,08130202,Officier de paix
+grade_08130301,grade_category_08,08130301,Inspecteur de police principal
+grade_08130302,grade_category_08,08130302,Inspecteur de police
+grade_08130401,grade_category_08,08130401,Officier de police principal
+grade_08130402,grade_category_08,08130402,Officier de police
+grade_08130501,grade_category_08,08130501,Commandant de groupement de 1ere catégorie
+grade_08130502,grade_category_08,08130502,Commandant de groupement de 2eme catégorie
+grade_08130503,grade_category_08,08130503,Commandant principal des gardiens de la paix
+grade_08130504,grade_category_08,08130504,Commandant des gardiens de la paix
+grade_08130601,grade_category_08,08130601,Commissaire divisionnaire
+grade_08130602,grade_category_08,08130602,Commissaire de police principal
+grade_08130603,grade_category_08,08130603,Commissaire de police
+grade_08130701,grade_category_08,08130701,Controleur géneral
+grade_08130801,grade_category_08,08130801,Prefet de police
+grade_08140101,grade_category_08,08140101,Gouverneur principal
+grade_08140102,grade_category_08,08140102,Gouverneur
+grade_08140201,grade_category_08,08140201,Pacha principal
+grade_08140202,grade_category_08,08140202,Pacha
+grade_08140301,grade_category_08,08140301,Caïd principal
+grade_08140302,grade_category_08,08140302,Caïd
+grade_08140401,grade_category_08,08140401,Khalifa de Caïd principal
+grade_08140402,grade_category_08,08140402,Khalifa de Caïd de 1er Grade
+grade_08140403,grade_category_08,08140403,Khalifa de Caïd de 2ème Grade
+grade_08150101,grade_category_08,08150101,PREFET DE POLICE (N.S)
+grade_08150102,grade_category_08,08150102,CONTROLEUR GENERAL (N.S)
+grade_08150201,grade_category_08,08150201,COMMISSAIRE DE POLICE DIVISIONNAIRE (N.S)
+grade_08150202,grade_category_08,08150202,COMMISSAIRE DE POLICE PRINCIPAL (N.S)
+grade_08150203,grade_category_08,08150203,COMMISSAIRE DE POLICE (N.S)
+grade_08150301,grade_category_08,08150301,OFFICIER DE POLICE PRINCIPAL (N.S)
+grade_08150302,grade_category_08,08150302,OFFICIER DE POLICE (N.S)
+grade_08150401,grade_category_08,08150401,INSPECTEUR DE POLICE PRINCIPAL (N.S)
+grade_08150402,grade_category_08,08150402,INSPECTEUR DE POLICE (N.S)
+grade_08150501,grade_category_08,08150501,COLONEL DE POLICE (N.S)
+grade_08150502,grade_category_08,08150502,LIEUTENANT-COLONEL DE POLICE (N.S)
+grade_08150503,grade_category_08,08150503,COMMANDANT DE POLICE (N.S)
+grade_08150601,grade_category_08,08150601,CAPITAINE DE POLICE (N.S)
+grade_08150602,grade_category_08,08150602,LIEUTENANT DE POLICE (N.S)
+grade_08150701,grade_category_08,08150701,OFFICIER DE PAIX PRINCIPAL (N.S)
+grade_08150702,grade_category_08,08150702,OFFICIER DE PAIX (N.S)
+grade_08150801,grade_category_08,08150801,BRIGADIER CHEF (N.S)
+grade_08150802,grade_category_08,08150802,BRIGADIER (N.S)
+grade_08150803,grade_category_08,08150803,GARDIEN DE LA PAIX (N.S)
+grade_09000101,grade_category_09,09000101,Rédacteur en chef principal
+grade_09000201,grade_category_09,09000201,Rédacteur en chef grade principal
+grade_09000202,grade_category_09,09000202,Rédacteur en chef premier grade
+grade_09000301,grade_category_09,09000301,Chef de rubrique grade principal
+grade_09000302,grade_category_09,09000302,chef de rubrique premier grade
+grade_09010001,grade_category_09,09010001,Opérateur en chef
+grade_09010002,grade_category_09,09010002,Opérateur principal
+grade_09010003,grade_category_09,09010003,Opérateur
+grade_09010004,grade_category_09,09010004,Opérateur assistant
+grade_09010101,grade_category_09,09010101,Rédacteur en chef de la RTM
+grade_09010102,grade_category_09,09010102,Chef de rubrique de la RTM
+grade_09010103,grade_category_09,09010103,Rédacteur de la RTM
+grade_09010201,grade_category_09,09010201,Réalisateur de 1ère catégorie
+grade_09010202,grade_category_09,09010202,Réalisateur de 2ème catégorie
+grade_09010301,grade_category_09,09010301,Soliste
+grade_09010302,grade_category_09,09010302,Instrumentiste
+grade_09010401,grade_category_09,09010401,Comédien et speaker de 1ère catégorie
+grade_09010402,grade_category_09,09010402,Comédien et speaker de 2ème catégorie
+grade_09010501,grade_category_09,09010501,Agent technique
+grade_09010502,grade_category_09,09010502,Agent technique adjoint
+grade_09020101,grade_category_09,09020101,Rédacteur en chef
+grade_09020102,grade_category_09,09020102,Chef de rubrique de la RTM
+grade_09020103,grade_category_09,09020103,Rédacteur de la RTM
+grade_09020104,grade_category_09,09020104,Rédacteur en chef principal
+grade_09020105,grade_category_09,09020105,Rédacteur en chef adjoint
+grade_09020106,grade_category_09,09020106,Rédacteur principal de la R.T.M
+grade_09020201,grade_category_09,09020201,Réalisateur de 1ère catégorie
+grade_09020202,grade_category_09,09020202,Réalisateur de 2ème catégorie
+grade_09020203,grade_category_09,09020203,Réalisateur principal
+grade_09020301,grade_category_09,09020301,Soliste
+grade_09020302,grade_category_09,09020302,Instrumentiste
+grade_09020303,grade_category_09,09020303,Soliste principal
+grade_09020401,grade_category_09,09020401,Comédien et speaker de 1ère catégorie
+grade_09020402,grade_category_09,09020402,Comédien et speaker de 2ème catégorie
+grade_09020403,grade_category_09,09020403,Comédien et speaker principal
+grade_09020501,grade_category_09,09020501,Agent technique
+grade_09020502,grade_category_09,09020502,agent technique adjoint
+grade_09030101,grade_category_09,09030101,Rédacteur en chef principal
+grade_09030102,grade_category_09,09030102,Rédacteur en chef
+grade_09030201,grade_category_09,09030201,Chef de rubrique
+grade_09040101,grade_category_09,09040101,Rédacteur
+grade_09040102,grade_category_09,09040102,rédacteur principal
+grade_09040201,grade_category_09,09040201,Rédacteur en chef principal
+grade_09040202,grade_category_09,09040202,Rédacteur en chef
+grade_09040203,grade_category_09,09040203,Rédacteur en chef adjoint
+grade_09050101,grade_category_09,09050101,Instrumentiste principal
+grade_09050102,grade_category_09,09050102,Instrumentiste de 1er grade
+grade_09050103,grade_category_09,09050103,Instrumentiste de 2ème grade
+grade_09050201,grade_category_09,09050201,Soliste principal
+grade_09050202,grade_category_09,09050202,Soliste de 1er grade
+grade_09050203,grade_category_09,09050203,Soliste de 2ème grade
+grade_09050301,grade_category_09,09050301,Présentateur principal
+grade_09050302,grade_category_09,09050302,Présentateur de 1er grade
+grade_09050303,grade_category_09,09050303,Présentateur de 2ème grade
+grade_09050401,grade_category_09,09050401,Animateur principal
+grade_09050402,grade_category_09,09050402,Animateur de 1er grade
+grade_09050403,grade_category_09,09050403,Animateur de 2ème grade
+grade_09050501,grade_category_09,09050501,Comédien principal
+grade_09050502,grade_category_09,09050502,Comédien de 1er grade
+grade_09050503,grade_category_09,09050503,Comédien de 2ème grade
+grade_09050601,grade_category_09,09050601,Acteur principal
+grade_09050602,grade_category_09,09050602,Acteur de 1er grade
+grade_09050603,grade_category_09,09050603,Acteur de 2ème grade
+grade_09060101,grade_category_09,09060101,Assistant de production principal
+grade_09060102,grade_category_09,09060102,1er assistant de production
+grade_09060103,grade_category_09,09060103,2ème assistant de production
+grade_09060201,grade_category_09,09060201,Producteur principal
+grade_09060202,grade_category_09,09060202,Producteur
+grade_09060203,grade_category_09,09060203,Producteur adjoint
+grade_09060301,grade_category_09,09060301,Assistant opérateur principal
+grade_09060302,grade_category_09,09060302,Assistant opérateur
+grade_09060401,grade_category_09,09060401,Opérateur principal
+grade_09060402,grade_category_09,09060402,Opérateur qualifié
+grade_09060403,grade_category_09,09060403,Opérateur
+grade_09060501,grade_category_09,09060501,Chef opérateur principal
+grade_09060502,grade_category_09,09060502,Chef opérateur
+grade_09060503,grade_category_09,09060503,Chef opérateur adjoint
+grade_09060601,grade_category_09,09060601,Réalisateur principal
+grade_09060602,grade_category_09,09060602,Réalisateur
+grade_09060603,grade_category_09,09060603,Assistant réalisateur
+grade_10000101,grade_category_10,10000101,Professeur de l'enseignement supérieur du grade B
+grade_10000102,grade_category_10,10000102,Professeur de l'enseignement supérieur du grade A
+grade_10000201,grade_category_10,10000201,Maître de conférences
+grade_10000301,grade_category_10,10000301,Maître assistant du grade C
+grade_10000302,grade_category_10,10000302,Maître assistant du grade B
+grade_10000303,grade_category_10,10000303,Maître assistant du grade A
+grade_10000401,grade_category_10,10000401,Assistant du grade B
+grade_10000402,grade_category_10,10000402,Assistant du grade A
+grade_10010101,grade_category_10,10010101,"Professeur de médecine, de pharmacie, ou de médecine dentaire 2è grade"
+grade_10010102,grade_category_10,10010102,"Professeur de médecine, de pharmacie, ou de médecine dentaire 1er grade"
+grade_10010201,grade_category_10,10010201,"Professeur agrégé de médecine, de pharmacie ou de médecine dentaire"
+grade_10010301,grade_category_10,10010301,"Maître assistant de médecine, de pharmacie ou de médecine dentaire du 3è grade"
+grade_10010302,grade_category_10,10010302,"Maître assistant de médecine, de pharmacie ou de médecine dentaire 2è grade"
+grade_10010303,grade_category_10,10010303,"Maître assistant de médecine, de pharmacie ou de médecine dentaire 1er grade"
+grade_10020101,grade_category_10,10020101,Professeur de l'Enseignement Supérieur grade C
+grade_10020102,grade_category_10,10020102,Professeur de l'Enseignement Supérieur Grade B
+grade_10020103,grade_category_10,10020103,Professeur de l'Enseignement Supérieur Grade A
+grade_10020201,grade_category_10,10020201,Professeur Habilité de l'Enseignement Supérieur Grade C
+grade_10020202,grade_category_10,10020202,Professeur Habilité de l'Enseignement Supérieur Grade B
+grade_10020203,grade_category_10,10020203,Professeur Habilité de l'Enseignement Supérieur Grade A
+grade_10020301,grade_category_10,10020301,Professeur Assistant Grade D
+grade_10020302,grade_category_10,10020302,Professeur Assistant Grade C
+grade_10020303,grade_category_10,10020303,Professeur Assistant Grade B
+grade_10020304,grade_category_10,10020304,Professeur Assistant Grade A
+grade_10030101,grade_category_10,10030101,Professeur de l'enseignement supérieur du grade C
+grade_10030102,grade_category_10,10030102,Professeur de l'enseignement superieur du grade B
+grade_10030103,grade_category_10,10030103,Professeur de l'enseignement supérieur du grade A
+grade_10030201,grade_category_10,10030201,Professeurs Agrégés du grade C
+grade_10030202,grade_category_10,10030202,Professeurs agrégés du grade B
+grade_10030203,grade_category_10,10030203,Professeur Agrégés du grade A
+grade_10030301,grade_category_10,10030301,Professeurs Assistants du grade D
+grade_10030302,grade_category_10,10030302,Professeurs assistants du grade C
+grade_10030303,grade_category_10,10030303,Professeurs Assistants du grade B
+grade_10030304,grade_category_10,10030304,Professeurs Assistants du grade A
+grade_11010101,grade_category_11,11010101,Inspecteur principal
+grade_11010201,grade_category_11,11010201,Inspecteur de l'enseignement secondaire
+grade_11010301,grade_category_11,11010301,Inspecteur adjoint de l'enseignement du 1er degré
+grade_11010401,grade_category_11,11010401,Inspecteur en chef de l'enseignement primaire
+grade_11010402,grade_category_11,11010402,Inspecteur de l'enseignement primaire
+grade_11020101,grade_category_11,11020101,Professeur du second cycle du grade principal
+grade_11020102,grade_category_11,11020102,Professeur du second cycle du 1er grade
+grade_11020103,grade_category_11,11020103,Professeur du second cycle du 2ème grade
+grade_11020201,grade_category_11,11020201,Professeur du premier cycle du 1er grade
+grade_11020202,grade_category_11,11020202,Professeur du premier cycle du 2ème grade
+grade_11020203,grade_category_11,11020203,Professeur du premier cycle du 3ème grade
+grade_11020301,grade_category_11,11020301,Instituteur du 1er grade
+grade_11020302,grade_category_11,11020302,Instituteur du 2ème grade
+grade_11020303,grade_category_11,11020303,Instituteur du 3ème grade
+grade_11020304,grade_category_11,11020304,Instituteur du 4ème grade
+grade_11020401,grade_category_11,11020401,Conseiller du premier degré
+grade_11020402,grade_category_11,11020402,Moniteur
+grade_11030101,grade_category_11,11030101,Inspecteur principal des services économiques
+grade_11030102,grade_category_11,11030102,Inspecteur des services économiques
+grade_11030201,grade_category_11,11030201,Intendant
+grade_11030301,grade_category_11,11030301,Econome principal
+grade_11030302,grade_category_11,11030302,Econome
+grade_11030401,grade_category_11,11030401,Adjoint des services économiques
+grade_11030501,grade_category_11,11030501,Secrétaire d'économat principal
+grade_11030502,grade_category_11,11030502,Secrétaire d'économat
+grade_11040101,grade_category_11,11040101,Inspecteur principal en orientation ou en planification de l'éducation
+grade_11040102,grade_category_11,11040102,Inspecteur en orientation ou en planification de l'éducation
+grade_11040201,grade_category_11,11040201,Conseiller en orientation ou en planification de l'éducation
+grade_11040301,grade_category_11,11040301,Adjoint spécialisé en orientation et planification de l'éducation
+grade_11040302,grade_category_11,11040302,Adjoint en orientation et planification de l'éducation
+grade_11050101,grade_category_11,11050101,Conservateur principal des bibliothèques et archives
+grade_11050102,grade_category_11,11050102,Conservateur des bibliothèques et archives
+grade_11050201,grade_category_11,11050201,Conservateur adjoint des bibliothèques et archives
+grade_11050301,grade_category_11,11050301,Documentaliste principale
+grade_11050302,grade_category_11,11050302,Documentaliste
+grade_11050303,grade_category_11,11050303,Documentaliste adjoint
+grade_11060101,grade_category_11,11060101,Surveillant du 1er grade
+grade_11060102,grade_category_11,11060102,Surveillant du 2ème grade
+grade_11060103,grade_category_11,11060103,Surveillant du 3ème grade
+grade_11060104,grade_category_11,11060104,Surveillant du 4ème grade
+grade_11070101,grade_category_11,11070101,Préparateur du 1èr grade
+grade_11070102,grade_category_11,11070102,Préparateur du 2ème grade
+grade_11070103,grade_category_11,11070103,Préparateur du 3ème grade
+grade_11070104,grade_category_11,11070104,Préparateur du 4ème grade
+grade_11080101,grade_category_11,11080101,Inspecteur pédagogique de l'enseignement primaire grade principal
+grade_11080102,grade_category_11,11080102,Inspecteur pédagogique de l'enseignement primaire 1er grade
+grade_11080201,grade_category_11,11080201,Inspecteur pédagogique de l'enseignement secondaire grade principal
+grade_11080202,grade_category_11,11080202,Inspecteur pédagogique de l'enseignement secondaire 1er grade
+grade_11090101,grade_category_11,11090101,Professeur de l'enseignement primaire 1er grade
+grade_11090102,grade_category_11,11090102,Professeur de l'enseignement primaire 2eme grade
+grade_11090103,grade_category_11,11090103,Professeur de l'enseignement primaire 3eme grade
+grade_11090201,grade_category_11,11090201,Professeur de l'enseignement secondaire collégial 1er grade
+grade_11090202,grade_category_11,11090202,Professeur de l'enseignement secondaire collégial 2eme grade
+grade_11090203,grade_category_11,11090203,Professeur de l'enseignement secondaire collégial 3eme grade
+grade_11090301,grade_category_11,11090301,Professeur de l'enseignement secondaire qualifié grade principal
+grade_11090302,grade_category_11,11090302,Professeur de l'enseignement secondaire qualifié 1er grade
+grade_11090303,grade_category_11,11090303,Professeur de l'enseignement secondaire qualifié 2eme grade
+grade_11090401,grade_category_11,11090401,Professeur agrégé de l'enseignement secondaire qualifié grade principal
+grade_11090402,grade_category_11,11090402,Professeur agrégé de l'enseignement secondaire qualifié 1er grade
+grade_11100101,grade_category_11,11100101,Intendant grade principal
+grade_11100102,grade_category_11,11100102,Intendant 1er grade
+grade_11100103,grade_category_11,11100103,Intendant 2 eme grade
+grade_11100201,grade_category_11,11100201,Inspecteur des services matériels et financiers grade pricipal
+grade_11100202,grade_category_11,11100202,Inspecteur des services matériels et financiers 1er grade
+grade_11110101,grade_category_11,11110101,Conseillers en orientation de l'education grade principal
+grade_11110102,grade_category_11,11110102,Conseillers en orientation de l'education 1er grade
+grade_11110103,grade_category_11,11110103,Conseillers en orientation de l'education 2eme grade
+grade_11110201,grade_category_11,11110201,Inspecteur en orientation de l'éducation grade principal
+grade_11110202,grade_category_11,11110202,Inspecteur en orientation de l'éducation 1er grade
+grade_11110301,grade_category_11,11110301,Conseiller en planification de l'éducation grade principal
+grade_11110302,grade_category_11,11110302,Conseiller en planification de l'éducation 1er grade
+grade_11110303,grade_category_11,11110303,Conseiller en planification de l'éducation 2eme grade
+grade_11110401,grade_category_11,11110401,Inspecteur en planification de l'éducation grade principal
+grade_11110402,grade_category_11,11110402,Inspecteur en planification de l'éducation 1er grade
+grade_11120101,grade_category_11,11120101,Attaché pédagogique 1er grade
+grade_11120102,grade_category_11,11120102,Attaché pédagogique 2eme grade
+grade_11120103,grade_category_11,11120103,Attaché pédagogique 3eme grade
+grade_11120201,grade_category_11,11120201,Attaché d'economie et administration 1er grade
+grade_11120202,grade_category_11,11120202,Attaché d'economie et administration 2eme grade
+grade_11120203,grade_category_11,11120203,Attaché d'economie et administration 3eme grade
+grade_11120301,grade_category_11,11120301,Attaché social 1er grade
+grade_11120302,grade_category_11,11120302,Attaché social 2eme grade
+grade_11120303,grade_category_11,11120303,Attaché social 3eme grade
+grade_12010101,grade_category_12,12010101,Emploi supérieur de médecin inspecteur général
+grade_12010102,grade_category_12,12010102,Médecin hors grade
+grade_12010103,grade_category_12,12010103,Médecin grade exceptionnel
+grade_12010104,grade_category_12,12010104,Médecin grade principal
+grade_12010105,grade_category_12,12010105,Médecin premier grade
+grade_12010201,grade_category_12,12010201,Pharmacien hors grade
+grade_12010202,grade_category_12,12010202,Pharmacien grade exceptionnel
+grade_12010203,grade_category_12,12010203,Pharmacien grade principal
+grade_12010204,grade_category_12,12010204,Pharmacien premier grade
+grade_12010301,grade_category_12,12010301,Chirurgien dentiste hors grade
+grade_12010302,grade_category_12,12010302,Chirurgien dentiste grade exceptionnel
+grade_12010303,grade_category_12,12010303,Chirurgien dentiste grade principal
+grade_12010304,grade_category_12,12010304,Chirurgien dentiste premier grade
+grade_12020201,grade_category_12,12020201,Administrateur divisionnaire principal
+grade_12020202,grade_category_12,12020202,Administrateur divisionnaire
+grade_12020301,grade_category_12,12020301,Administrateur économe
+grade_12020401,grade_category_12,12020401,Psychologue
+grade_12020402,grade_category_12,12020402,Psychologue assistant
+grade_12020403,grade_category_12,12020403,Psychologue Principal
+grade_12020501,grade_category_12,12020501,A.S.D.E spécialiste principal
+grade_12020502,grade_category_12,12020502,A.S.D.E spécialiste
+grade_12020601,grade_category_12,12020601,Econome principal
+grade_12020602,grade_category_12,12020602,Econome
+grade_12020701,grade_category_12,12020701,Adjoint de santé diplômé d'Etat
+grade_12020801,grade_category_12,12020801,Adjoint de santé breveté principal
+grade_12020802,grade_category_12,12020802,Adjoint de santé breveté
+grade_12020901,grade_category_12,12020901,Sous économe principal
+grade_12020902,grade_category_12,12020902,Sous économe
+grade_12021001,grade_category_12,12021001,Aide sanitaire
+grade_12021002,grade_category_12,12021002,Infirmière
+grade_12021003,grade_category_12,12021003,Aide sanitaire principal
+grade_12030101,grade_category_12,12030101,Etudiant medecin interne
+grade_12030102,grade_category_12,12030102,Etudiant medecin externe
+grade_12040101,grade_category_12,12040101,Infirmière religieuse
+grade_12050101,grade_category_12,12050101,"Médecin, pharmacien, chirurgien, ingénieur conseil chargé de service"
+grade_12060101,grade_category_12,12060101,Infirmier auxiliaire de grade principal
+grade_12060102,grade_category_12,12060102,Infirmier auxiliaire de 1er grade
+grade_12060103,grade_category_12,12060103,Infirmier auxiliaire de 2ème grade
+grade_12060104,grade_category_12,12060104,INFIRMIER AUXILIAIRE DE GRADE EXCEPTIONNEL
+grade_12060201,grade_category_12,12060201,Infirmier diplômé d'etat de grade principal
+grade_12060202,grade_category_12,12060202,Infirmier diplômé d'Etat de 1er grade
+grade_12060203,grade_category_12,12060203,Infirmier diplômé d'Etat de 2ème grade
+grade_12060204,grade_category_12,12060204,INFIRMIER DIPLOME D'ETAT GRADE PRINCIPAL (N.S)
+grade_12060301,grade_category_12,12060301,Assistant médical principal
+grade_12060302,grade_category_12,12060302,Assistant médical
+grade_12070101,grade_category_12,12070101,"Médecin, chirurgien, biologiste, pharmacien et chirurgien dentiste des hôpitaux du grade C"
+grade_12070102,grade_category_12,12070102,"Médecin, chirurgien, biologiste, pharmacien et chirurgien dentiste des hôpitaux du grade B"
+grade_12070103,grade_category_12,12070103,"Médecin, chirurgien, biologiste, pharmacien et chirurgien dentiste des hôpitaux du grade A"
+grade_13000001,grade_category_13,13000001,Trésorier Général du Royaume
+grade_13000002,grade_category_13,13000002,Contrôleur Général des engagements de dépenses
+grade_13010101,grade_category_13,13010101,Emploi supérieur d'inspecteur général des Finances
+grade_13010102,grade_category_13,13010102,Inspecteur des Finances chef de mission
+grade_13010103,grade_category_13,13010103,Inspecteur des Finances
+grade_13020101,grade_category_13,13020101,Inspecteur divisionnaire en chef
+grade_13020102,grade_category_13,13020102,Inspecteur divisionnaire
+grade_13020201,grade_category_13,13020201,Inspecteur
+grade_13020301,grade_category_13,13020301,Inspecteur adjoint principal
+grade_13020302,grade_category_13,13020302,Inspecteur adjoint
+grade_13020401,grade_category_13,13020401,Agent technique principal
+grade_13020402,grade_category_13,13020402,Agent technique
+grade_13020501,grade_category_13,13020501,Brigadier chef et chef patron
+grade_13020502,grade_category_13,13020502,Brigadier et/ou patron
+grade_13020601,grade_category_13,13020601,Préposé et/ou matelot
+grade_13030101,grade_category_13,13030101,Emploi Supérieur d'Inspecteur Général des Finances
+grade_13030102,grade_category_13,13030102,Inspecteur des Finances de Grade Exceptionnel
+grade_13030103,grade_category_13,13030103,Inspecteur des Finances Chef de mission
+grade_13030104,grade_category_13,13030104,Inspecteur des Finances
+grade_14000101,grade_category_14,14000101,Inspecteur divisionnaire en chef du Tourisme
+grade_14000102,grade_category_14,14000102,Inspecteur divisionnaire du Tourisme
+grade_14000201,grade_category_14,14000201,Inspecteur du tourisme
+grade_14000301,grade_category_14,14000301,Contrôleur d'hôtellerie
+grade_14000401,grade_category_14,14000401,Animateur
+grade_14000402,grade_category_14,14000402,Agent d'acceuil
+grade_15000101,grade_category_15,15000101,Administrateur principal des affaires Maritimes
+grade_15000102,grade_category_15,15000102,Administrateur des affaires maritimes
+grade_15000201,grade_category_15,15000201,Inspecteur de la marine marchande et des pêches maritimes
+grade_15000301,grade_category_15,15000301,Inspecteur adjoint de la marine marchande et des pêches maritimes
+grade_15000302,grade_category_15,15000302,Inspecteur adjoint principal de la marine marchande et des pêches maritimes
+grade_15000401,grade_category_15,15000401,Contrôleur de la marine marchande et des pêches maritimes
+grade_15000501,grade_category_15,15000501,Surveillant maritime principal
+grade_15000502,grade_category_15,15000502,Surveillant maritime
+grade_15000601,grade_category_15,15000601,Garde maritime principal
+grade_15000602,grade_category_15,15000602,Garde maritime
+grade_16000101,grade_category_16,16000101,Chef d'atelier
+grade_16000102,grade_category_16,16000102,Chef d'atelier Principal
+grade_16000201,grade_category_16,16000201,Contremaître
+grade_16000202,grade_category_16,16000202,Agent de maîtrise
+grade_16000301,grade_category_16,16000301,Agent spécialisé
+grade_16000401,grade_category_16,16000401,Aide imprimeur
+grade_16000501,grade_category_16,16000501,Agent de manutention
+grade_16010101,grade_category_16,16010101,Conseiller juridique de grade exceptionnel
+grade_16010102,grade_category_16,16010102,Conseiller juridique du premier grade
+grade_16010103,grade_category_16,16010103,Conseiller juridique du deuxième grade
+grade_17000101,grade_category_17,17000101,Commandant de port en chef
+grade_17000102,grade_category_17,17000102,Commandant de port
+grade_17000201,grade_category_17,17000201,Capitaine de port
+grade_17000301,grade_category_17,17000301,lieutenant de port
+grade_17000302,grade_category_17,17000302,Sous-lieutenant de port
+grade_17000401,grade_category_17,17000401,Agent technique
+grade_17000501,grade_category_17,17000501,Adjudant maritime principal
+grade_17000502,grade_category_17,17000502,Adjudant maritime
+grade_17000601,grade_category_17,17000601,Conducteur de chantier principal
+grade_17000602,grade_category_17,17000602,Conducteur de chantier
+grade_17000701,grade_category_17,17000701,Gardien maritime principal
+grade_17000702,grade_category_17,17000702,Gardien maritime
+grade_17000801,grade_category_17,17000801,Chef de bureau
+grade_17000901,grade_category_17,17000901,Contrôleur maritime
+grade_18000101,grade_category_18,18000101,Contrôleur principal de la circulation aérienne
+grade_18000102,grade_category_18,18000102,Contrôleur de la circulation aérienne 1ère classe
+grade_18000103,grade_category_18,18000103,Contrôleur de la circulation aérienne 2ème classe
+grade_18000201,grade_category_18,18000201,Contrôleur principal des transports et de la circulation routiére
+grade_18000202,grade_category_18,18000202,Contrôleur des transports et de la circulation routière
+grade_18000301,grade_category_18,18000301,Agent technique
+grade_18000401,grade_category_18,18000401,Conducteur de chantier principal
+grade_18000402,grade_category_18,18000402,Conducteur de chantier
+grade_19000101,grade_category_19,19000101,Chef de centres techniques hors catégorie
+grade_19000102,grade_category_19,19000102,Chef de centres techniques 1° catégorie
+grade_19000103,grade_category_19,19000103,Chef de centres techniques 2° catégorie
+grade_19000104,grade_category_19,19000104,Chef de centres techniques 3° catégorie
+grade_19000105,grade_category_19,19000105,Chef de centres techniques 4° catégorie
+grade_19000201,grade_category_19,19000201,Receveur hors catégorie
+grade_19000202,grade_category_19,19000202,Receveur 1° catégorie
+grade_19000203,grade_category_19,19000203,Receveur 2° catégorie
+grade_19000204,grade_category_19,19000204,Receveur 3° catégorie
+grade_19000205,grade_category_19,19000205,Receveur 4° catégorie
+grade_19000206,grade_category_19,19000206,Receveur 5° catégorie
+grade_19000207,grade_category_19,19000207,Receveur 6° catégorie
+grade_19000301,grade_category_19,19000301,Emploi supérieur d'ingénieur général des transmissions
+grade_19000302,grade_category_19,19000302,Ingénieur en chef des transmissions
+grade_19000303,grade_category_19,19000303,Ingénieur des transmissions
+grade_19000401,grade_category_19,19000401,Inspecteur principal en chef des transmissions
+grade_19000402,grade_category_19,19000402,Inspecteur principal des transmissions
+grade_19000403,grade_category_19,19000403,Inspecteur des transmissions
+grade_19000501,grade_category_19,19000501,Administrateur principal des postes et télécommunications
+grade_19000502,grade_category_19,19000502,Administrateur des postes et télécommunications
+grade_19000601,grade_category_19,19000601,Inspecteur principal en chef des postes et télécommunications
+grade_19000602,grade_category_19,19000602,Inspecteur principal des postes et télécommunications
+grade_19000603,grade_category_19,19000603,Inspecteur des postes et télécommunications
+grade_19000604,grade_category_19,19000604,Inspecteur Principal en Chef
+grade_19000605,grade_category_19,19000605,Inspecteur Principal
+grade_19000606,grade_category_19,19000606,Inspecteurs
+grade_19000701,grade_category_19,19000701,Contrôleur principal
+grade_19000702,grade_category_19,19000702,Contrôleur
+grade_19000801,grade_category_19,19000801,Agent de contrôle
+grade_19000802,grade_category_19,19000802,Agent principal d'exploitation
+grade_19000803,grade_category_19,19000803,Agent d'exploitation
+grade_19000804,grade_category_19,19000804,Agent principal d'exploitation
+grade_19000901,grade_category_19,19000901,Agent d'exécution principal des postes et télécommunications
+grade_19000902,grade_category_19,19000902,Agent d'exécution des postes et télécommunications
+grade_19001001,grade_category_19,19001001,Contrôleur principal
+grade_19001002,grade_category_19,19001002,Contrôleur
+grade_19001003,grade_category_19,19001003,Contrôleur adjoint
+grade_19001101,grade_category_19,19001101,Agent technique principal
+grade_19001102,grade_category_19,19001102,Agent technique
+grade_19001103,grade_category_19,19001103,Agent technique-adjoint
+grade_19001201,grade_category_19,19001201,Chef de secteur principal
+grade_19001202,grade_category_19,19001202,Chef de secteur
+grade_19001203,grade_category_19,19001203,Chef d'équipe principal
+grade_19001204,grade_category_19,19001204,Chef d'équipe
+grade_19001301,grade_category_19,19001301,Agent principal des lignes
+grade_19001302,grade_category_19,19001302,Agent des lignes
+grade_19001401,grade_category_19,19001401,Vérificateur principal
+grade_19001402,grade_category_19,19001402,Vérificateur
+grade_19001403,grade_category_19,19001403,Agent de surveillance principal
+grade_19001404,grade_category_19,19001404,Agent de surveillance
+grade_19001501,grade_category_19,19001501,Facteur principal
+grade_19001502,grade_category_19,19001502,Facteur
+grade_19001601,grade_category_19,19001601,Contremaître principal
+grade_19001602,grade_category_19,19001602,Contremaître
+grade_19001701,grade_category_19,19001701,Maître ouvrier principal
+grade_19001702,grade_category_19,19001702,Maître ouvrier
+grade_19001801,grade_category_19,19001801,Ouvrier principal
+grade_19001802,grade_category_19,19001802,Ouvrier
+grade_19001901,grade_category_19,19001901,Agent de manutention pincipal
+grade_19001902,grade_category_19,19001902,Agent de manutention
+grade_20000101,grade_category_20,20000101,Conservateur principal de la propriété foncière et des hypothèques
+grade_20000102,grade_category_20,20000102,Conservateur de la propriété foncière et des hypothèques
+grade_20000201,grade_category_20,20000201,Contrôleur de la propriété foncière
+grade_20000301,grade_category_20,20000301,Contrôleur adjoint principal de la propriété foncière
+grade_20000302,grade_category_20,20000302,Contrôleur adjoint de la propriété foncière
+grade_20000401,grade_category_20,20000401,Préparateur de laboratoire principal
+grade_20000402,grade_category_20,20000402,Préparateur de laboratoire
+grade_20000501,grade_category_20,20000501,Agent technique principal
+grade_20000502,grade_category_20,20000502,Agent technique
+grade_20000601,grade_category_20,20000601,Infirmier vétérinaire principal
+grade_20000602,grade_category_20,20000602,Infirmier vétérinaire
+grade_20000701,grade_category_20,20000701,Cavalier principal des Eaux et Forêts
+grade_20000702,grade_category_20,20000702,Cavalier des Eaux et Forêts
+grade_20000703,grade_category_20,20000703,Cavaliers des Eaux et Forêts de 2ème classe
+grade_20000704,grade_category_20,20000704,Cavaliers des Eaux et Forêts de 1ère classe
+grade_20000705,grade_category_20,20000705,Cavalier principal des Eaux et Forêts de 2ème classe
+grade_20000706,grade_category_20,20000706,Cavalier principal des Eaux et Forêts de 1ère classe
+grade_20000801,grade_category_20,20000801,Préposé des Eaux et Forêts de 2ème grade
+grade_20000802,grade_category_20,20000802,Préposé des Eaux et Forêts de 1er grade
+grade_20000803,grade_category_20,20000803,Préposé principal des Eaux et Forêts
+grade_20000901,grade_category_20,20000901,Assistant scientifique des Eaux et Forêts
+grade_20000902,grade_category_20,20000902,Assistant scientifique principal des Eaux et Forêts
+grade_20001001,grade_category_20,20001001,Infirmier vetérinaire spécialisé
+grade_20010001,grade_category_20,20010001,Emploi de vétérinaire inspecteur général
+grade_20010101,grade_category_20,20010101,Vétérinaire inspecteur hors grade
+grade_20010102,grade_category_20,20010102,Vétérinaire inspecteur grade exceptionnel
+grade_20010103,grade_category_20,20010103,Vétérinaire inspecteur grade principal
+grade_20010104,grade_category_20,20010104,Vétérinaire inspecteur 1er grade
+grade_21000101,grade_category_21,21000101,Inspecteur divisionnaire en chef
+grade_21000102,grade_category_21,21000102,Inspecteur divisionnaire
+grade_21000201,grade_category_21,21000201,Inspecteur
+grade_21000301,grade_category_21,21000301,Educateur chef
+grade_21000302,grade_category_21,21000302,Educateur
+grade_21000401,grade_category_21,21000401,Instructeur
+grade_21000501,grade_category_21,21000501,Agent à contrat
+grade_23000001,grade_category_23,23000001,Délegué Régional des Affaires Islamiques
+grade_26000101,grade_category_26,26000101,Inspecteur divisionnaire en chef de l'Artisanat
+grade_26000102,grade_category_26,26000102,Inspecteur divisionnaire de l'Artisanat
+grade_26000201,grade_category_26,26000201,Inspecteur de l'Artisanat
+grade_26000301,grade_category_26,26000301,Inspecteur adjoint principal de l'Artisanat
+grade_26000302,grade_category_26,26000302,Inspecteur adjoint de l'Artisanat
+grade_26000401,grade_category_26,26000401,Animateur principal des affaires sociales
+grade_26000402,grade_category_26,26000402,Animateur en affaires sociales
+grade_26000403,grade_category_26,26000403,Assistance sociale
+grade_26000501,grade_category_26,26000501,Contrôleur de l'Artisanat
+grade_26000601,grade_category_26,26000601,Agent technique
+grade_26000701,grade_category_26,26000701,Maâlem
+grade_27000101,grade_category_27,27000101,Inspecteur divisionnaire en chef
+grade_27000102,grade_category_27,27000102,Inspecteur divisionnaire
+grade_27000201,grade_category_27,27000201,Inspecteur de l'Energie et des Mines
+grade_27000301,grade_category_27,27000301,Inspecteur adjoint principal de l'Energie et des Mines
+grade_27000302,grade_category_27,27000302,Inspecteur adjoint de l'Energie et des Mines
+grade_27000401,grade_category_27,27000401,Cartographe
+grade_27000402,grade_category_27,27000402,Cartographe principal
+grade_27000501,grade_category_27,27000501,Préparateur de laboratoire
+grade_27000502,grade_category_27,27000502,Préparateur principal de laboratoire
+grade_27000601,grade_category_27,27000601,Agent technique
+grade_28000101,grade_category_28,28000101,Inspecteur en chef
+grade_28000102,grade_category_28,28000102,Inspecteur divisionnaire du commerce
+grade_28000201,grade_category_28,28000201,Inspecteur du commerce
+grade_28000301,grade_category_28,28000301,Inspecteur adjoint du commerce principal
+grade_28000302,grade_category_28,28000302,Inspecteur adjoint du commerce
+grade_28000401,grade_category_28,28000401,Agent technique
+grade_29010101,grade_category_29,29010101,Maître de recherche en chef
+grade_29010102,grade_category_29,29010102,Maître de recherche en chef de grade B
+grade_29010103,grade_category_29,29010103,Maître de recherche en chef de grade A
+grade_29010201,grade_category_29,29010201,Maître de recherche
+grade_29010301,grade_category_29,29010301,Chargé de recherche
+grade_29010302,grade_category_29,29010302,Chargé de recherche de grade C
+grade_29010303,grade_category_29,29010303,Chargé de recherche de grade B
+grade_29010304,grade_category_29,29010304,Chargé de recherche de grade A
+grade_29010401,grade_category_29,29010401,Attaché de recherche
+grade_29010402,grade_category_29,29010402,Attaché de recherche de grade B
+grade_29010403,grade_category_29,29010403,Attaché de recherche de grade A
+grade_29020101,grade_category_29,29020101,Conservateur principal des Monuments et Sites
+grade_29020102,grade_category_29,29020102,Conservateurs des Monuments et Sites
+grade_29020103,grade_category_29,29020103,Conservateurs adjoints de Monuments et Sites
+grade_29020201,grade_category_29,29020201,Inspecteur principal des monuments historiques
+grade_29020202,grade_category_29,29020202,Inspecteur des monuments historiques
+grade_29030101,grade_category_29,29030101,Inspecteur de l'enseignement Artistique
+grade_29030102,grade_category_29,29030102,Inspecteur principal de l'enseignement artistique
+grade_29030201,grade_category_29,29030201,Professeur de l'enseignement artistique
+grade_29030202,grade_category_29,29030202,Professeur de l'enseignement artistique de grade principal
+grade_29030203,grade_category_29,29030203,Professeur de l'enseignement artistique de 1er Grade
+grade_29030204,grade_category_29,29030204,Professeur de l'enseignement artistique de 2ème Grade
+grade_29030301,grade_category_29,29030301,Professeur adjoint de l'enseignement Artistique
+grade_29030302,grade_category_29,29030302,Professeur adjoint de l'enseignement artistique de 1er Grade
+grade_29030303,grade_category_29,29030303,Professeur adjoint de l'enseignement artistique de 2ème Grade
+grade_29030304,grade_category_29,29030304,Professeur adjoint de l'enseignement artistique de 3ème Grade
+grade_29030401,grade_category_29,29030401,Animateur
+grade_29030402,grade_category_29,29030402,Animateur de 1er grade
+grade_29030403,grade_category_29,29030403,Animateur de 2ème grade
+grade_29030404,grade_category_29,29030404,Animateur de 3ème grade
+grade_29030501,grade_category_29,29030501,Maître de l'enseignement artistique de 1er grade
+grade_29030502,grade_category_29,29030502,Maître de l'enseignement artistique de 2ème grade
+grade_29030503,grade_category_29,29030503,Maître de l'enseignement artistique de 3ème grade
+grade_29030504,grade_category_29,29030504,Maître de l'enseignement artistique de 4ème grade
+grade_29030505,grade_category_29,29030505,Animateur
+grade_29040101,grade_category_29,29040101,Assistant principal de Musée
+grade_29040102,grade_category_29,29040102,Assistant de Musée
+grade_29040201,grade_category_29,29040201,Conservateur principal de Musée
+grade_29040202,grade_category_29,29040202,Conservateur de Musée
+grade_29040203,grade_category_29,29040203,Conservateur-adjoint de Musée
+grade_29050101,grade_category_29,29050101,Conservateur principal de bibliothèque et archive
+grade_29050102,grade_category_29,29050102,Conservateur de bibliothèques et archives
+grade_29050103,grade_category_29,29050103,Conservateur adjoint de bibliothèques et archives
+grade_29050104,grade_category_29,29050104,Conservateur de la Bibliothèque générale et archives
+grade_29060101,grade_category_29,29060101,Gardien principal
+grade_29060102,grade_category_29,29060102,Gardien de 1er grade
+grade_29060103,grade_category_29,29060103,Gardien de 2eme grade
+grade_29060104,grade_category_29,29060104,Gardien de 3eme grade
+grade_31000101,grade_category_31,31000101,Inspecteur divisionnaire en chef
+grade_31000102,grade_category_31,31000102,Inspecteur divisionnaire du travail
+grade_31000201,grade_category_31,31000201,Inspecteur du travail
+grade_31000301,grade_category_31,31000301,Inspecteur adjoint principal
+grade_31000302,grade_category_31,31000302,Inspecteur adjoint du travail
+grade_31000401,grade_category_31,31000401,Contrôleur principal
+grade_31000402,grade_category_31,31000402,Contrôleur
+grade_31000501,grade_category_31,31000501,Inspecteur général du travail
+grade_31000502,grade_category_31,31000502,Inspecteur du travail 1er grade
+grade_31000503,grade_category_31,31000503,Inspecteur du travail de 2ème grade
+grade_31000504,grade_category_31,31000504,Inspecteur du travail de 3 ème grade
+grade_31000601,grade_category_31,31000601,Inspecteur adjoint du travail de 1er grade
+grade_31000602,grade_category_31,31000602,Inspecteur adjoint du travail de 2ème grade
+grade_31000603,grade_category_31,31000603,Inspecteur adjoint du travail de 3ème grade
+grade_31000604,grade_category_31,31000604,Inspecteur adjoint du travail de 4ème grade
+grade_34000101,grade_category_34,34000101,Général d'armeé
+grade_34000102,grade_category_34,34000102,Général de corps d'armée
+grade_34000103,grade_category_34,34000103,Général de division
+grade_34000104,grade_category_34,34000104,Général de Brigade
+grade_34000201,grade_category_34,34000201,Colonel major
+grade_34000202,grade_category_34,34000202,Colonel
+grade_34000203,grade_category_34,34000203,Lieutenant colonel
+grade_34000204,grade_category_34,34000204,Commandant
+grade_34000301,grade_category_34,34000301,Capitaine
+grade_34000302,grade_category_34,34000302,Lieutenant
+grade_34000303,grade_category_34,34000303,Sous-lieutenant
+grade_34000401,grade_category_34,34000401,Aspirant
+grade_34000402,grade_category_34,34000402,Adjudant chef
+grade_34000403,grade_category_34,34000403,Adjudant
+grade_34000404,grade_category_34,34000404,Sergent major
+grade_34000405,grade_category_34,34000405,Sergent chef
+grade_34000406,grade_category_34,34000406,Sergent
+grade_34000407,grade_category_34,34000407,Maréchal des logis chef
+grade_34000408,grade_category_34,34000408,Gendarme
+grade_34000501,grade_category_34,34000501,Caporal chef
+grade_34000601,grade_category_34,34000601,Caporal
+grade_34000602,grade_category_34,34000602,Soldat de 1ère classe
+grade_34000603,grade_category_34,34000603,Soldat de 2ème classe
+grade_34000604,grade_category_34,34000604,Elève Gendarme
+grade_34000701,grade_category_34,34000701,Appeles et rappeles
+grade_34000702,grade_category_34,34000702,Réservistes rappelés
+grade_34010101,grade_category_34,34010101,Officier général
+grade_34010201,grade_category_34,34010201,Colonel major
+grade_34010202,grade_category_34,34010202,Colonel
+grade_34010203,grade_category_34,34010203,Lieutenant colonel
+grade_34010204,grade_category_34,34010204,Commandant
+grade_34010301,grade_category_34,34010301,Capitaine
+grade_34010302,grade_category_34,34010302,Lieutenant
+grade_34010303,grade_category_34,34010303,Sous-lieutenant
+grade_35000001,grade_category_35,35000001,Haut commissaire aux anciens résistants et anciens membres de l'armée de libération
+grade_39000001,grade_category_39,39000001,Haut Commissaire aux Personnes Handicapées
+grade_42000001,grade_category_42,42000001,Haut Commissaire au Plan
+grade_45000001,grade_category_45,45000001,Haut Commissaire aux Eaux et Forets et à la Lutte contre la désertification
+grade_51010101,grade_category_51,51010101,Commandant Général de Prison
+grade_51010102,grade_category_51,51010102,Commandant Divisionnaire de Prison
+grade_51010103,grade_category_51,51010103,Commandant Principal de Prison
+grade_51010104,grade_category_51,51010104,Commandant de Prison
+grade_51010201,grade_category_51,51010201,Surveillant 1ère classe de Prison
+grade_51010202,grade_category_51,51010202,Surveillant 2ème classe de Prison
+grade_51010203,grade_category_51,51010203,Surveillant 3ème classe de Prison
+grade_51010204,grade_category_51,51010204,Surveillant 4ème classe de Prison
+grade_51010301,grade_category_51,51010301,Surveillant éducateur
+grade_96000001,grade_category_96,96000001,Chargé d'études
+grade_97000001,grade_category_97,97000001,Secrétaire général
+grade_97000002,grade_category_97,97000002,Directeur général
+grade_97000003,grade_category_97,97000003,Directeur d'administration centrale
+grade_97000004,grade_category_97,97000004,Inspecteur général
+grade_97000005,grade_category_97,97000005,Directeur d'académie de l'éducation nationale
+grade_97000006,grade_category_97,97000006,"Inspecteur régional de l'urbanisme, de l'architecture et de l'aménagement du territoire"
+grade_97000007,grade_category_97,97000007,Secrétaire général du conseil supérieur des oulemas
+grade_97000008,grade_category_97,97000008,Directeur de l'Institut Royal pour la recherche sur l'histoire du Maroc
+grade_97000009,grade_category_97,97000009,Directeur de l'Institut Dar El Hadith EL HASSANIA
+grade_98000101,grade_category_98,98000101,Administrateur principal
+grade_98000102,grade_category_98,98000102,Administrateur
+grade_98000201,grade_category_98,98000201,Administrateur adjoint
+grade_98000301,grade_category_98,98000301,Rédacteur principal
+grade_98000302,grade_category_98,98000302,Rédacteur
+grade_98000401,grade_category_98,98000401,Secrétaire principal
+grade_98000402,grade_category_98,98000402,Secrétaire
+grade_98000501,grade_category_98,98000501,Agent d'exécution principal
+grade_98000502,grade_category_98,98000502,Agent d'exécution
+grade_98000601,grade_category_98,98000601,Agent de service principal
+grade_98000602,grade_category_98,98000602,Agent de service
+grade_98010101,grade_category_98,98010101,Adjoint technique hors catégorie
+grade_98010102,grade_category_98,98010102,Adjoint technique de 1ère catégorie
+grade_98010103,grade_category_98,98010103,Adjoint technique de 2ème catégorie
+grade_98010104,grade_category_98,98010104,Adjoint technique de 3ème catégorie
+grade_98010105,grade_category_98,98010105,Adjoint technique de 4ème catégorie
+grade_98010106,grade_category_98,98010106,Adjoint technique Hors Catégorie Principal
+grade_98020101,grade_category_98,98020101,Chef d'atelier
+grade_98020201,grade_category_98,98020201,Contremaître
+grade_98020202,grade_category_98,98020202,Agent de maîtrise
+grade_98020301,grade_category_98,98020301,Agent spécialisé
+grade_98020401,grade_category_98,98020401,Aides imprimeurs
+grade_98020501,grade_category_98,98020501,Agents de manutention
+grade_99010101,grade_category_99,99010101,Emploi supérieur d'ingénieur général
+grade_99010201,grade_category_99,99010201,Ingénieur en chef
+grade_99010301,grade_category_99,99010301,Ingénieur d'Etat grade principal
+grade_99010302,grade_category_99,99010302,Ingénieur d'Etat 1er grade
+grade_99010401,grade_category_99,99010401,Ingénieur d'application grade principal
+grade_99010402,grade_category_99,99010402,Ingénieur d'application 1er grade
+grade_99010501,grade_category_99,99010501,Emploi supérieur d'architecte général
+grade_99010601,grade_category_99,99010601,Architecte en chef
+grade_99010701,grade_category_99,99010701,Architecte grade principal
+grade_99010702,grade_category_99,99010702,Architecte premier grade
+grade_99020101,grade_category_99,99020101,Emploi supérieur d'analyste concepteur général
+grade_99020102,grade_category_99,99020102,Analyste concepteur principal
+grade_99020103,grade_category_99,99020103,Analyste concepteur
+grade_99020201,grade_category_99,99020201,Analyste
+grade_99020301,grade_category_99,99020301,Programmeur principal
+grade_99020302,grade_category_99,99020302,Programmeur
+grade_99020303,grade_category_99,99020303,Programmeur analyste
+grade_99020401,grade_category_99,99020401,Moniteur
+grade_99020501,grade_category_99,99020501,Opérateur principal
+grade_99020502,grade_category_99,99020502,Opérateur
+grade_99030101,grade_category_99,99030101,Informatiste principal
+grade_99030102,grade_category_99,99030102,Informatiste spécialisé
+grade_99030103,grade_category_99,99030103,Informatiste
+grade_99040001,grade_category_99,99040001,Technicien principal
+grade_99040002,grade_category_99,99040002,Technicien de 1er grade
+grade_99040003,grade_category_99,99040003,Technicien de 2ème grade
+grade_99040004,grade_category_99,99040004,Adjoint technique spécialisé
+grade_99040005,grade_category_99,99040005,Adjoint technique
+grade_99040006,grade_category_99,99040006,Technicien de 1er grade
+grade_99040007,grade_category_99,99040007,Technicien de 2ème grade
+grade_99040008,grade_category_99,99040008,Technicien de 3ème grade
+grade_99040009,grade_category_99,99040009,Technicien de 4ème grade
+grade_99050101,grade_category_99,99050101,Professeur des Etablissements de formation des cadres du grade B
+grade_99050102,grade_category_99,99050102,Professeur des Etablissements de formation des cadres du grade A
+grade_99050201,grade_category_99,99050201,Maître de conférence des Etablissements de formation des cadres
+grade_99050301,grade_category_99,99050301,Maître assistant des Etablissements de formation des cadres du grade C
+grade_99050302,grade_category_99,99050302,Maître assistant des Etablissements de formation des cadres du grade B
+grade_99050303,grade_category_99,99050303,Maître assistant des Etablissements de formation des cadres du grade A
+grade_99050401,grade_category_99,99050401,Assistant des Etablissements de formation des cadres du grade B
+grade_99050402,grade_category_99,99050402,Assistant des Etablissements de formation des cadres du grade A
+grade_99060101,grade_category_99,99060101,Directeur de cabinet
+grade_99060102,grade_category_99,99060102,Chef de cabinet
+grade_99060103,grade_category_99,99060103,Conseiller technique
+grade_99060104,grade_category_99,99060104,Attaché de cabinet
+grade_99060105,grade_category_99,99060105,Chargé de mission
+grade_99060106,grade_category_99,99060106,Chef de secrétariat particulier
+grade_99060107,grade_category_99,99060107,Conseiller Juridique
+grade_99060108,grade_category_99,99060108,Conseiller aux affaires parlementaires
+grade_99060109,grade_category_99,99060109,Conseiller à la communication
+grade_99060110,grade_category_99,99060110,Attaché de presse
+grade_99060201,grade_category_99,99060201,Secrétaire principal
+grade_99060202,grade_category_99,99060202,Secrétaire
+grade_99060203,grade_category_99,99060203,Agent d'exécution
+grade_99060204,grade_category_99,99060204,Adjoint technique de 3ème catégorie
+grade_99060205,grade_category_99,99060205,Agent de service
+grade_99060301,grade_category_99,99060301,Adjoint technique de 1ère catégorie
+grade_99060302,grade_category_99,99060302,Adjoint technique de 2ème catégorie
+grade_99060303,grade_category_99,99060303,Adjoint technique de 4ème catégorie
+grade_99070101,grade_category_99,99070101,Civiliste ( echelle 11)
+grade_99070102,grade_category_99,99070102,Civiliste ( echelle 10)
+grade_99070103,grade_category_99,99070103,Civiliste ( echelle 8)
+grade_99070201,grade_category_99,99070201,Agent à contrat
+grade_99080101,grade_category_99,99080101,Agent permanent
+grade_99080102,grade_category_99,99080102,Agent permanent personnel technique et de maîtrise
+grade_99080103,grade_category_99,99080103,Personnel ouvrier permanent
+grade_99090101,grade_category_99,99090101,Inspecteur 1er grade
+grade_99090102,grade_category_99,99090102,Inspecteur 2ème grade
+grade_99090103,grade_category_99,99090103,Inspecteur 3ème grade
+grade_99090201,grade_category_99,99090201,Conseiller en orientation et en planification professionnelle
+grade_99090301,grade_category_99,99090301,Professeur du 1er grade
+grade_99090302,grade_category_99,99090302,Professeur du 2ème grade
+grade_99090303,grade_category_99,99090303,Professeur du 3ème grade
+grade_99090401,grade_category_99,99090401,Chef de travaux de 1er grade
+grade_99090402,grade_category_99,99090402,Chef de travaux de 2ème grade
+grade_99090403,grade_category_99,99090403,Chef de travaux de 3ème grade
+grade_99100101,grade_category_99,99100101,Professeur de l'Enseignement Supérieur grade C
+grade_99100102,grade_category_99,99100102,Professeur de l'Enseignement Supérieur grade B
+grade_99100103,grade_category_99,99100103,Professeur de l'Enseignement Supérieur grade A
+grade_99100201,grade_category_99,99100201,Professeur Habilité grade C
+grade_99100202,grade_category_99,99100202,Professeur Habilité grade B
+grade_99100203,grade_category_99,99100203,Professeur Habilité grade A
+grade_99100301,grade_category_99,99100301,Professeur Assistant grade D
+grade_99100302,grade_category_99,99100302,Professeur Assistant grade C
+grade_99100303,grade_category_99,99100303,Professeur Assistant grade B
+grade_99100304,grade_category_99,99100304,Professeur Assistant grade A
+grade_99110001,grade_category_99,99110001,Emploi supérieur de médecin général
+grade_99110002,grade_category_99,99110002,Emploi supérieur de pharmacien général
+grade_99110003,grade_category_99,99110003,Emploi supérieur de chirurgien dentiste général
+grade_99110101,grade_category_99,99110101,Medecins hors grade
+grade_99110102,grade_category_99,99110102,Medecins grade exceptionnel
+grade_99110103,grade_category_99,99110103,Medecins grade principal
+grade_99110104,grade_category_99,99110104,Medecins premier grade
+grade_99110201,grade_category_99,99110201,Pharmacien hors grade
+grade_99110202,grade_category_99,99110202,Pharmacien grade exceptionnel
+grade_99110203,grade_category_99,99110203,Pharmacien grade principal
+grade_99110204,grade_category_99,99110204,Pharmacien premier grade
+grade_99110301,grade_category_99,99110301,Chirurgien dentiste hors grade
+grade_99110302,grade_category_99,99110302,Chirurgien dentiste grade exceptionnel
+grade_99110303,grade_category_99,99110303,Chirurgien dentiste grade principal
+grade_99110304,grade_category_99,99110304,Chirurgien dentiste premier grade
+grade_99120001,grade_category_99,99120001,Emploi supérieur de médecin vétérinaire général
+grade_99120101,grade_category_99,99120101,Medecins veterinaires hors grade
+grade_99120102,grade_category_99,99120102,Medecins veterinaires grade exceptionnel
+grade_99120103,grade_category_99,99120103,Medecins veterinaires grade principal
+grade_99120104,grade_category_99,99120104,Medecins veterinaires premier grade
+grade_99130101,grade_category_99,99130101,Emploi supérieur d'administrateur général
+grade_99130201,grade_category_99,99130201,Administrateur premier grade
+grade_99130202,grade_category_99,99130202,Administrateur deuxième grade
+grade_99130203,grade_category_99,99130203,Administrateur troisième grade
+grade_99140101,grade_category_99,99140101,Rédacteur premier grade
+grade_99140102,grade_category_99,99140102,Rédacteur deuxième grade
+grade_99140103,grade_category_99,99140103,Rédacteur troisième grade
+grade_99140104,grade_category_99,99140104,Rédacteur quatrième grade
+grade_99150101,grade_category_99,99150101,Adjoint technique premier grade
+grade_99150102,grade_category_99,99150102,Adjoint technique deuxième grade
+grade_99150103,grade_category_99,99150103,Adjoint technique troisième grade
+grade_99150104,grade_category_99,99150104,Adjoint technique quatrième grade
+grade_99160101,grade_category_99,99160101,Adjoint administratif premier grade
+grade_99160102,grade_category_99,99160102,Adjoint administratif deuxième grade
+grade_99160103,grade_category_99,99160103,Adjoint administratif troisième grade
+grade_99160104,grade_category_99,99160104,Adjoint administratif quatrième grade
+grade_99170101,grade_category_99,99170101,Emploi supérieur d'ingénieur général
+grade_99170201,grade_category_99,99170201,Ingénieur en chef grade principal
+grade_99170202,grade_category_99,99170202,Ingénieur en chef premier grade
+grade_99170301,grade_category_99,99170301,Ingénieur d'Etat grade principal
+grade_99170302,grade_category_99,99170302,Ingénieur d'Etat premier grade
+grade_99170401,grade_category_99,99170401,Emploi supérieur d'architecte général
+grade_99170501,grade_category_99,99170501,Architecte en chef grade principal
+grade_99170502,grade_category_99,99170502,Architecte en chef premier grade
+grade_99170601,grade_category_99,99170601,Architecte grade principal
+grade_99170602,grade_category_99,99170602,Architecte premier grade

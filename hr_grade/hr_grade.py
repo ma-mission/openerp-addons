@@ -18,7 +18,7 @@ class grade(osv.Model):
     _description = ""
 
     _columns = {
-        'name': fields.char('Name', size=50, translate=True),
+        'name': fields.char('Name', size=128, translate=True),
         'ref': fields.integer('Reference', select=True),
         'paygrade_id': fields.many2one('hr.paygrade', 'Paygrade'),
         'category_id': fields.many2one('hr.grade.category', 'Category'),
